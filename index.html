@@ -2,8 +2,31 @@
 layout: default
 description: The Praxis Program at the Scholar's Lab
 ---
+
+<p>
+  The Praxis Program realigns graduate methodological training with the needs of the humanities in the digital age.
+</p> 
+<p>
+Our goal is to produce knowledge workers well-equipped for new faculty
+positions or alternative academic careers. Praxis Program students are scholars
+who are as comfortable writing code as they are managing teams and budgets.
+</p> 
+
+<div id="topics">
+  <h1>Topics</h1>
+   <ul>
+    {% for page in site.html_pages %}
+      {% if page.title %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
+
+
 <div id="posts">
-  <h2>Blog Posts</h2>
+  <h1>Posts</h1>
   <ul>
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -11,13 +34,3 @@ description: The Praxis Program at the Scholar's Lab
   </ul>
 </div>
 
-<div id="pages">
-  <h2>Pages</h2>
-  <ul>
-    {% for page in site.html_pages %}
-      {% if page.title %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
