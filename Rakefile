@@ -27,6 +27,27 @@ task :deploy => :build do
   sh "#{command.to_s}"
 end
 
+desc "Begin a new post"
+task :new_post, :title do |t, args|
+  require './plugins/titlecase.rb'
+  args.with_defaults(:title => 'new-post')
+  title = args.title
+  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+  puts "Creating new post #{filename}"
+
+  open(filename, 'w') do |post|
+    system "mkdir -p _posts"
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;').titlecase}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "comments: true"
+    post.puts "categories: "
+    post.puts "---"
+  end
+end
+
+
 desc 'Check links for site already running on localhost:4000'
 task :check_links do
   begin
