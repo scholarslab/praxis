@@ -6,7 +6,7 @@ task :clean do
 end
 
 desc "Build site with Jekyll"
-task :Build => :clean do
+task :build => :clean do
   compass
   jekyll
 end
