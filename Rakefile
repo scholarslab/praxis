@@ -47,6 +47,33 @@ task :new_post, :title do |t, args|
   end
 end
 
+desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
+task :new_page, :filename do |t, args|
+  require './plugins/titlecase.rb'
+  args.with_defaults(:filename => 'new-page')
+  page_dir = source_dir
+  if args.filename =~ /(^.+\/)?([\w_-]+)(\.)?(.+)?/
+    page_dir += $4 ? "/#{$1}" : "/#{$1}#{$2}/"
+    name = $4 ? $2 : "index"
+    extension = $4 || "#{new_page_ext}"
+    filename = "#{name}.#{extension}"
+    mkdir_p page_dir
+    file = page_dir + filename
+    puts "Creating new page: #{file}"
+    open(file, 'w') do |page|
+      page.puts "---"
+      page.puts "layout: page"
+      page.puts "title: \"#{$2.gsub(/[-_]/, ' ').titlecase}\""
+      page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+      page.puts "comments: true"
+      page.puts "sharing: true"
+      page.puts "footer: true"
+      page.puts "---"
+    end
+  else
+    puts "Syntax error: #{args.filename} contains unsupported characters"
+  end
+end
 
 desc 'Check links for site already running on localhost:4000'
 task :check_links do
