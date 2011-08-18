@@ -6,5 +6,5 @@ javascripts_dir = "javascripts"
 # output_style  = :expanded
 output_style  = :compressed
 line_comments = false
-http_fonts_path = "http://static.scholarslab.org/fonts/MuseoSlab/museoslab_100/"
+http_fonts_path = "http://static.scholarslab.org/fonts/MuseoSlab/"
 
