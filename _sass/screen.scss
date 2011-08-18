@@ -1,7 +1,12 @@
 @import "mixins/syntax";
 @import "compass";
 
-@include font-face("MuseoSlab100", font-files("Museo_Slab_100-webfont.woff", woff, "Museo_Slab_100-webfont.ttf", truetype), "Museo_Slab_100-webfont.eot");
+@include font-face("MuseoSlab100",
+font-files(
+  "Museo_Slab_100-webfont.woff", woff,
+  "Museo_Slab_100-webfont.ttf", truetype, 
+  "Museo_Slab_100-webfont.svg", svg
+), "Museo_Slab_100-webfont.eot");
 
 @mixin rounded($side, $radius: 10px) {
   border-#{side}-radius: $radius;
