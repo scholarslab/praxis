@@ -12,13 +12,15 @@ title: The Praxis Program
 author: Scholars' Lab
 email: 
 
+pages_dir: _pages/
+
 # configuration for ehancements, uncomment to enable
 
 # feedburner:
 # id: feedburnerid
 
 # google_analytics:
-# account: UA-XXXXX-X
+account: UA-XXXXX-X
 
 # github:
 # username: ghusername

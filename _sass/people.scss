@@ -1,0 +1,9 @@
+@mixin duration($duration){
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.isotope, .isotope .isotope-item {
+  @include duration(0.8s);
+}
