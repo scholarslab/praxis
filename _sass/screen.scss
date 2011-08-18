@@ -1,3 +1,20 @@
-@import "mixins/syntax"
+@import "mixins/syntax";
+@import "compass";
 
-// add your styles, see http://compass-style.org/
+@include font-face("MuseoSlab100", font-files("Museo_Slab_100-webfont.woff", woff, "Museo_Slab_100-webfont.ttf", truetype), "Museo_Slab_100-webfont.eot");
+
+@mixin rounded($side, $radius: 10px) {
+  border-#{side}-radius: $radius;
+  -moz-border-radius-#{side}: $radius;
+  -webkit-border-#{side}-radious: $radius;
+}
+
+h1 {
+  font-family:"MuseoSlab100";
+}
+
+footer {
+  @include rounded(top, 15px);
+  background: #ccc;
+  height: 45px;
+}
