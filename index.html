@@ -16,7 +16,11 @@ who are as comfortable writing code as they are managing teams and budgets.
   <a name="topics"></a>
   <h1>Topics</h1>
 
-  <p>{{ site.pages_dir }}</p>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
    <ul>
     {% for page in site.html_pages %}
@@ -29,12 +33,5 @@ who are as comfortable writing code as they are managing teams and budgets.
 </div>
 
 
-<div id="posts">
-  <h1>Posts</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+
 

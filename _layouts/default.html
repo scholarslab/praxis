@@ -11,28 +11,27 @@
       <link rel="stylesheet" href="{{ css }}" type="text/css" />
     {% endfor %}
     <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    <script src="/javascripts/modernizr-2.0.6.min.js"></script> 
+    <script src="http://static.scholarslab.org/javascripts/modernizr-2.0.6.min.js"></script> 
   </head>
   <body>
     <div id="container" class="two-column">
       <header id="header">
         <h1><a href="/"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a></h1>
-      </header>
+        </header>
+        <aside>
+          <nav>
+           <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="/#topics">Topics</a></li>
+            <li><a href="people.html">People</a></li>
+          </ul>
+          </nav>
+      </aside>
       <div id="main" role="main">
-         <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="/#topics">Topics</a></li>
-          <li><a href="people.html">People</a></li>
-        </ul>
         <div id="content">
           {{ content }}
         </div><!-- #content -->
       </div><!-- #main -->
-      <aside>
-        <h1>Aside</h1>
-      </aside>
-
-
       <footer id="footer">
        <p>Footer</p>
       </footer>

@@ -39,10 +39,10 @@ $ninesixty-columns: 24;
     @include grid(24);
   }
   aside {
-    @include grid(8);
+    @include grid(4);
   }
   #main {
-    @include grid(16);
+    @include grid(20);
   }
 }
 
