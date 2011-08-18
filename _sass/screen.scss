@@ -1,5 +1,6 @@
-@import "mixins/syntax";
+// @import "mixins/syntax";
 @import "compass";
+@import "960/grid";
 
 @include font-face("MuseoSlab100",
 font-files(
@@ -30,6 +31,21 @@ font-files(
   -webkit-border-#{side}-radious: $radius;
 }
 
+$ninesixty-columns: 24;
+
+.two-column {
+  @include grid-container;
+  #header, #footer {
+    @include grid(24);
+  }
+  aside {
+    @include grid(8);
+  }
+  #main {
+    @include grid(16);
+  }
+}
+
 body {
   font-family: "MuseoSlab100";
 }
@@ -38,7 +54,7 @@ h1 {
   font-family: "MuseoSlab500";
 }
 
-footer {
+#footer {
   @include rounded(top, 15px);
   background: #ccc;
   height: 45px;
