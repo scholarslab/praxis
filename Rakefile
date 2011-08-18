@@ -47,15 +47,15 @@ task :new_post, :title do |t, args|
   end
 end
 
-desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
+desc "Create a new page in (filename)/index.md"
 task :new_page, :filename do |t, args|
   require './plugins/titlecase.rb'
   args.with_defaults(:filename => 'new-page')
-  page_dir = source_dir
+  page_dir = '_pages'
   if args.filename =~ /(^.+\/)?([\w_-]+)(\.)?(.+)?/
     page_dir += $4 ? "/#{$1}" : "/#{$1}#{$2}/"
     name = $4 ? $2 : "index"
-    extension = $4 || "#{new_page_ext}"
+    extension = $4 || "md"
     filename = "#{name}.#{extension}"
     mkdir_p page_dir
     file = page_dir + filename
@@ -65,7 +65,7 @@ task :new_page, :filename do |t, args|
       page.puts "layout: page"
       page.puts "title: \"#{$2.gsub(/[-_]/, ' ').titlecase}\""
       page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-      page.puts "comments: true"
+      page.puts "comments: false"
       page.puts "sharing: true"
       page.puts "footer: true"
       page.puts "---"
