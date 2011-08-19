@@ -1,4 +1,7 @@
 $('#people').isotope({
-  itemSelector: 'li'
+  // options
+  itemSelector : 'li',
   layoutMode : 'fitRows'
-)};
+});
+
+

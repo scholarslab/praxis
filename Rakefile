@@ -34,8 +34,18 @@ task :optipng do
   optipng_wrapper('_site/images')
 end
 
+desc "Optimize .jpg images using jpegtran (libjpeg)"
+task :optijpeg do
+  jpegtran_wrapper('_site/images')
+end
+
+desc 'Optimize .js files'
+task :jsminify do
+  jsminify_wrapper('_site/javascripts')
+end
+
 desc 'Build and deploy'
-task :deploy => [:build, :htmlcompressor, :optipng] do
+task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
 
   data = YAML.load(File.read('_settings.yml'))
   command = "rsync -rtzh -e 'ssh -p #{data['port']}' --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
@@ -141,6 +151,16 @@ def htmlcompressor_wrapper(directory, opts = "")
   end
 end
 
+def jpegtran_wrapper(directory, opts='')
+  command = "jpegtran -copy none -optimize -verbose "
+  command += " " + opts
+
+  Dir["#{directory}/*.jpg"].each do |file|
+    sh command + " -outfile " + file + " " + file
+  end
+end
+
+
 def optipng_wrapper(directory, opts ='')
   # fix for
   # http://sourceforge.net/tracker/?func=detail&aid=2671422&group_id=151404&atid=780916
@@ -154,3 +174,14 @@ def optipng_wrapper(directory, opts ='')
     sh command_base + image
   end
 end
+
+def jsminify_wrapper(directory, opts = '')
+  command = "java -jar tools/yuicompressor-2.4.5.jar --line-break 4000 " + opts
+
+  Dir["#{directory}/*.js"].each do |script|
+    sh command + " -o " + script + " " + script
+  end
+
+end
+
+
