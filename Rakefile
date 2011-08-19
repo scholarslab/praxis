@@ -19,8 +19,27 @@ task :server => :clean do
   jekyll('--server --auto')
 end
 
+desc 'Run htmlcompressor on the HTML'
+task :htmlcompressor do
+  puts "Running htmlcompressor on the HTML"
+  puts "- removing whitespace"
+  puts "- removing html comments"
+  puts "- compressing inline style/script tag contents"
+
+  htmlcompressor_wrapper('_site', '--remove-quotes --compress-js --compress-css')
+end
+
+def htmlcompressor_wrapper(directory, opts = "")
+  command = "java -jar tools/htmlcompressor-1.4.3.jar "
+  command += " " + opts
+  Dir["#{directory}/*.html"].each do |file|
+    sh ( command + " " + file + " -o " + file )
+  end
+end
+
 desc 'Build and deploy'
-task :deploy => :build do
+task :deploy => [:build, :htmlcompressor] do
+
   data = YAML.load(File.read('_settings.yml'))
   command = "rsync -rtzh -e 'ssh -p #{data['port']}' --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
 
