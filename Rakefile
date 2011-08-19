@@ -29,16 +29,13 @@ task :htmlcompressor do
   htmlcompressor_wrapper('_site', '--remove-quotes --compress-js --compress-css')
 end
 
-def htmlcompressor_wrapper(directory, opts = "")
-  command = "java -jar tools/htmlcompressor-1.4.3.jar "
-  command += " " + opts
-  Dir["#{directory}/*.html"].each do |file|
-    sh ( command + " " + file + " -o " + file )
-  end
+desc 'Optimize .png images using optipng'
+task :optipng do
+  optipng_wrapper('_site/images')
 end
 
 desc 'Build and deploy'
-task :deploy => [:build, :htmlcompressor] do
+task :deploy => [:build, :htmlcompressor, :optipng] do
 
   data = YAML.load(File.read('_settings.yml'))
   command = "rsync -rtzh -e 'ssh -p #{data['port']}' --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
@@ -136,3 +133,24 @@ def compass(opts = '')
   sh 'compass compile -c config.rb --force ' + opts
 end
 
+def htmlcompressor_wrapper(directory, opts = "")
+  command = "java -jar tools/htmlcompressor-1.4.3.jar "
+  command += " " + opts
+  Dir["#{directory}/*.html"].each do |file|
+    sh ( command + " " + file + " -o " + file )
+  end
+end
+
+def optipng_wrapper(directory, opts ='')
+  # fix for
+  # http://sourceforge.net/tracker/?func=detail&aid=2671422&group_id=151404&atid=780916
+  Dir["#{directory}/*.png"].each do |image|
+    FileUtils.rm(image)
+  end
+
+  command_base = "optipng -dir #{directory} -o7 -q "
+
+  Dir["images/*.png"].each do |image|
+    sh command_base + image
+  end
+end
