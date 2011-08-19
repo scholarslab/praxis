@@ -11,6 +11,7 @@ desc "Build site with Jekyll"
 task :build => :clean do
   compass
   jekyll
+  FileUtils.rm_rf('_site/tools')
 end
 
 desc 'Start server with --auto'
