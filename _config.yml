@@ -19,8 +19,8 @@ pages_dir: _pages/
 # feedburner:
 # id: feedburnerid
 
-# google_analytics:
-account: UA-XXXXX-X
+google_analytics:
+  account: UA-12081576-3
 
 # github:
 # username: ghusername
