@@ -65,6 +65,19 @@ task :jshint do
 
 end
 
+desc 'CSSLint'
+task :csslint do
+  opts = '' # http://csslint.net/about.html
+  command = "java -jar tools/rhino.jar tools/csslint-rhino.js " 
+
+  Dir["stylesheets/*.css"].each do |file|
+    sh command + file
+    puts "=" * 80
+  end
+
+  puts "CSSLint Done"
+end
+
 desc "Begin a new post"
 task :new_post, :title do |t, args|
   require './plugins/titlecase.rb'
