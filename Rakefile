@@ -53,6 +53,18 @@ task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
   sh "#{command.to_s}"
 end
 
+desc 'JSHint, "a fork of JSLint for the real world"'
+task :jshint do
+  opts = "maxerr=25,eqeqeq=true"
+  command = "java -jar tools/rhino.jar tools/fulljshint.js "
+
+  Dir["javascripts/*.js"].each do |file|
+    sh (command + file + " #{opts}")
+    puts "JSHint Successfull"
+  end
+
+end
+
 desc "Begin a new post"
 task :new_post, :title do |t, args|
   require './plugins/titlecase.rb'
