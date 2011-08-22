@@ -10,10 +10,11 @@ javascript:
 
 # People
 
-<ul id="people">
-  <li>Bethany Nowviskie</li>
-  <li>Jeremy Boggs</li>
-  <li>Wayne Graham</li>
-  <li>David McClure</li>
-  <li>Eric Rochestr</li>
-</ul>
+## 2011—2012 Praxis Fellows
+
+### Alex Gil
+### Brooke Lestock
+### Lindsay O'Connor
+### Sara Storti
+### Annie Swafford
+### Ed Triplett

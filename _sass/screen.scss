@@ -31,32 +31,103 @@ font-files(
   -webkit-border-#{side}-radious: $radius;
 }
 
-$ninesixty-columns: 24;
+$ninesixty_columns: 7;
+$ninesixty-gutter-width: 40px;
+$ninesixty-column-width: 100px;
+$ninesixty-grid-width: 900px;
 
 .two-column {
   @include grid-container;
-  #header, #footer {
-    @include grid(24);
+  
+  nav {
+    @include grid(1);
+    @include alpha;
+    ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
   }
-  aside {
-    @include grid(4);
+
+  #content {
+    @include grid(6);
+    @include omega;
+    #topics {
+        @include grid(3);
+        @include alpha;
+    }
+    #blog {
+        @include grid(3);
+        @include omega;
+    }
   }
-  #main {
-    @include grid(20);
+
+  footer {
+  @include grid(6);
+  @include omega;
   }
+}
+
+html {
+    border-top: 4px solid #bde;
+    padding-top: 30px;
 }
 
 body {
-  font-family: "MuseoSlab100";
+    color: #333;
+    font: 100%/1.5em "MuseoSlab300", monospace;
+    background: transparent url('http://static.scholarslab.org/images/gears-bg.png') 50% -5% no-repeat;
+}
+
+h1,
+h2,
+h3 {
+    font-weight:normal;
+    font-family: "MuseoSlab500";
 }
 
 h1 {
-  font-family: "MuseoSlab500";
+    color: #8ab;
 }
 
-#footer {
-  @include rounded(top, 15px);
-  background: #ccc;
-  height: 45px;
-  font-family: "MuseoSlab300"
+a:link,
+a:visited {color: #961B1E;}
+a:hover,
+a:active {color: #961B1E;}
+
+.linklist {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    line-height:2em;
+    
+    a {
+        display:block;
+        text-decoration:none;
+        border-bottom: 1px dotted #ddd;
+        padding: 0 10px;
+    }
+    
+    a:link {}
+    a:visited {}
+    a:hover {background: rgba(187,221,238,0.15)}
+    a:active {}
+
+    a:before {
+        margin:0;
+        content: counter(a, square);
+        padding-right: 8px;
+        color: #bde;
+    }
+
+    a:hover:before {
+        color: #8ab;
+    }
+}
+
+#pitch {
+    color: #88AABB;
+    font-size: 150%;
+    line-height: 1.5em;
+    font-family: "MuseoSlab500";
 }
