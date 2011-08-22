@@ -47,6 +47,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
+# task :deploy => [:build] do
 
   data = YAML.load(File.read('_settings.yml'))
   command = "rsync -rtzh -e 'ssh -p #{data['port']}' --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
