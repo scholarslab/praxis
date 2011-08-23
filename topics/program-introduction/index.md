@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: page
 title: "Program Introduction"
-date: 2011-08-18 15:54
-comments: true
-categories:
+date: 2011-08-23 12:42
+comments: false
+sharing: true
+footer: true
 ---
+
 
 # Program Introduction
 
