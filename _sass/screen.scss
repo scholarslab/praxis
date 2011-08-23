@@ -76,7 +76,7 @@ html {
 body {
     color: #333;
     font: 100%/1.5em "MuseoSlab300", monospace;
-    background: transparent url('http://static.scholarslab.org/images/gears-bg.png') 50% -5% no-repeat;
+    background: transparent url('http://static.scholarslab.org/images/gears-bg.png') 50% -100px no-repeat;
 }
 
 h1,
@@ -90,9 +90,13 @@ h1 {
     color: #8ab;
 }
 
+article h1 {
+    font-family: "MuseoSlab100";
+}
+
 a:link,
 a:visited {color: #961B1E;}
-a:hover,
+a:hover {color: #700; text-decoration:none;}
 a:active {color: #961B1E;}
 
 .linklist {
@@ -107,6 +111,7 @@ a:active {color: #961B1E;}
     
     li.nolink {
         padding: 0 10px;
+        color: #777;
     }
     
     li.nolink:before {
