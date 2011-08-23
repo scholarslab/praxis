@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Current Work in Digital Humanities"
-date: 2011-08-18 15:54
-comments: true
-categories: 
+date: 2011-08-23 13:03
+comments: false
+sharing: true
+footer: true
 ---
 
 # Current Work in Digital Humanities
