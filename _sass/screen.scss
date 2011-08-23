@@ -100,14 +100,28 @@ a:active {color: #961B1E;}
     margin-left:0;
     padding-left:0;
     line-height:2em;
-
+    
+    li {
+        border-bottom: 1px dotted #ddd;
+    }
+    
+    li.nolink {
+        padding: 0 10px;
+    }
+    
+    li.nolink:before {
+        margin:0;
+        content: counter(li, square);
+        padding-right: 10px;
+        color: #ccc;
+    }
+    
     a {
         display:block;
         text-decoration:none;
-        border-bottom: 1px dotted #ddd;
         padding: 0 10px;
     }
-
+    
     a:link {}
     a:visited {}
     a:hover {background: rgba(187,221,238,0.15)}
@@ -116,7 +130,7 @@ a:active {color: #961B1E;}
     a:before {
         margin:0;
         content: counter(a, square);
-        padding-right: 8px;
+        padding-right: 10px;
         color: #bde;
     }
 
