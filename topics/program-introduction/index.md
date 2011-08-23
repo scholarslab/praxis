@@ -1,18 +1,11 @@
 ---
 layout: page
 title: "Program Introduction"
-<<<<<<< HEAD
 date: 2011-08-23 12:42
 comments: false
 sharing: true
 footer: true
-=======
-date: 2011-09-24 15:54
-comments: true
-categories:
->>>>>>> 035cde5d7f497d11aaab034ed75b42f7129dcffa
 ---
-
 
 # Program Introduction
 
