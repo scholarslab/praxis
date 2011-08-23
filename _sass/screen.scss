@@ -16,6 +16,12 @@ font-files(
   "museoslab_300/Museo_Slab_300-webfont.svg", svg
 ), "museoslab_300/Museo_Slab_300-webfont.eot");
 
+@include font-face("MuseoSlab300Italic",
+font-files(
+  "museoslab_300italic/Museo_Slab_300italic-webfont.woff", woff,
+  "museoslab_300italic/Museo_Slab_300italic-webfont.ttf", truetype,
+  "museoslab_300italic/Museo_Slab_300italic-webfont.svg", svg
+), "museoslab_300italic/Museo_Slab_300italic-webfont.eot");
 
 @include font-face("MuseoSlab500",
 font-files(
@@ -61,16 +67,11 @@ $ninesixty-grid-width: 900px;
         @include omega;
     }
   }
-
-  footer {
-  @include grid(6);
-  @include omega;
-  }
 }
 
 html {
     border-top: 4px solid #bde;
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 body {
@@ -90,13 +91,17 @@ h1 {
     color: #8ab;
 }
 
+em {
+    font-family: "MuseoSlab300Italic", monospace;
+}
+
 article h1 {
     font-family: "MuseoSlab100";
 }
 
 a:link,
 a:visited {color: #961B1E;}
-a:hover {color: #700; text-decoration:none;}
+a:hover {color: #f00; text-decoration:none;}
 a:active {color: #961B1E;}
 
 .linklist {
@@ -149,4 +154,38 @@ a:active {color: #961B1E;}
     font-size: 150%;
     line-height: 1.5em;
     font-family: "MuseoSlab500";
+}
+
+footer {
+display:block;
+text-align:right;
+clear:both;
+margin-left: 130px;
+padding-top: 30px;
+}
+
+#slab-info {
+    float:right;
+    display:table;
+    ul {
+        display: table-cell;
+        list-style:none;
+        margin-left:0;
+        padding-left:0;
+        padding-right: 20px;
+        font-size:0.8em;
+        text-align:right;
+        line-height: 1.5em;
+        a {
+        text-decoration:none;
+        font-family: "MuseoSlab500";
+        }
+    }
+    
+    #slab-logo {
+       display:table-cell;
+       vertical-align:middle;
+       padding-left: 19px;
+       border-left: 1px dotted #ddd;
+    }
 }
