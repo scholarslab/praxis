@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "Program Introduction"
+title: "Toward a Project Charter"
 date: 2011-08-23 12:42
 comments: false
 sharing: true
 footer: true
 ---
 
-# Program Introduction
+# Toward a Project Charter
 
-1. What is the Praxis Program
-2. Expectations
+1. What is the Praxis Program?
+2. Expectations and opportunities
 3. **Discussion topic:** Attribution, and how project is cited and roles
    acknowledged
 
