@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Current Work in Digital Humanities"
+title: "Evaluating Digital Work"
 date: 2011-08-23 13:03
 comments: false
 sharing: true
 footer: true
 ---
 
-# Current Work in Digital Humanities
+# Evaluating Digital Work
 
 Goal is to look at a variety of projects, and discuss methods for evaluating and critiquing work in the digital humanities.
 
@@ -15,7 +15,7 @@ Goal is to look at a variety of projects, and discuss methods for evaluating and
 
 Choose one project from each group to review and discuss.
 
-### Group One:
+### Group One
 
 * [For Better for Verse][1]
 * [Valley of the Shadow][2]
