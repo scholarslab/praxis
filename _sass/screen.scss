@@ -107,6 +107,10 @@ a:visited {color: #961B1E;}
 a:hover {color: #f00; text-decoration:none;}
 a:active {color: #961B1E;}
 
+a img {
+    border:0;
+}
+
 .linklist {
     list-style:none;
     margin-left:0;
