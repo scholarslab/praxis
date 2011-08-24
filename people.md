@@ -13,6 +13,6 @@ Praxis Program instructors are drawn from the faculty and staff of the
 ### Alex Gil
 ### Brooke Lestock
 ### Lindsay O'Connor
-### Sara Storti
+### Sarah Storti
 ### Annie Swafford
 ### Ed Triplett
