@@ -1,19 +1,18 @@
 ---
 layout: default 
 title: People
-css:
-  - /stylesheets/people.css
-javascript:
-  - https://raw.github.com/desandro/isotope/master/jquery.isotope.min.js
-  - /javascripts/people.js
 ---
 
 # People
 
-<ul id="people">
-  <li>Bethany Nowviskie</li>
-  <li>Jeremy Boggs</li>
-  <li>Wayne Graham</li>
-  <li>David McClure</li>
-  <li>Eric Rochestr</li>
-</ul>
+Praxis Program instructors are drawn from the faculty and staff of the
+[Scholars' Lab](http://www2.lib.virginia.edu/scholarslab/consultation/index.html) and the University of Virginia Library.
+
+## 2011–2012 Praxis Fellows
+
+### Alex Gil
+### Brooke Lestock
+### Lindsay O'Connor
+### Sara Storti
+### Annie Swafford
+### Ed Triplett

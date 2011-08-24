@@ -3,35 +3,26 @@ layout: default
 description: The Praxis Program at the Scholar's Lab
 ---
 
-<p>
-  The Praxis Program realigns graduate methodological training with the needs of the humanities in the digital age.
-</p> 
-<p>
-Our goal is to produce knowledge workers well-equipped for new faculty
-positions or alternative academic careers. Praxis Program students are scholars
-who are as comfortable writing code as they are managing teams and budgets.
-</p> 
+<p id="pitch">The Praxis Program realigns graduate methodological training with the demands of the humanities in the digital age.</p>
 
-<div id="topics">
-  <a name="topics"></a>
-  <h1>Topics</h1>
+<p>Our goal is to equip knowledge workers for faculty positions or alternative academic careers at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who are as comfortable writing code as they are managing teams and budgets.</p>
 
-  <ul>
+<div id="topics" class="alpha">
+  <h2>Topics</h2>
+  <ul class="linklist">
+    <li><a href="/topics/toward-a-project-charter/">Toward a Project Charter</a></li>
+    <li><a href="/topics/evaluating-digital-work/">Evaluating Digital Work</a></li>
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="nolink">{{ post.title }}</li>
     {% endfor %}
   </ul>
-
-   <ul>
-    {% for page in site.html_pages %}
-      {% if page.title %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
 </div>
 
-
-
-
+<div id="blog" class="omega">
+  <h2>Posts</h2>
+  <article>
+  <h1><a
+ href="http://www.scholarslab.org/praxis-program/announcing-the-praxis-program/">Announcing the Praxis Program</a></h1>
+      <p>We've radically re-imagined the teaching and training we do in Scholars' Lab R&amp;D, and today are excited to launch the Praxis Program! This is a pilot, we hope, of big things to come, and it is meant to complement our work with Graduate Fellows in Digital Humanities, a program now entering its fifth year at UVa Library. <a href="http://www.scholarslab.org/praxis-program/announcing-the-praxis-program/">Continue reading&hellip;</a></p>
+  </article>
+</div>

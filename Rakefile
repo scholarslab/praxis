@@ -50,7 +50,7 @@ task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
 # task :deploy => [:build] do
 
   data = YAML.load(File.read('_settings.yml'))
-  command = "rsync -rtzh -e 'ssh -p #{data['port']}' --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
+  command = "rsync -rtzh -e 'ssh -p #{data['port']}' --group=slab --chmod=g+w --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
 
   sh "#{command.to_s}"
 end
@@ -104,7 +104,7 @@ desc "Create a new page in (filename)/index.md"
 task :new_page, :filename do |t, args|
   require './plugins/titlecase.rb'
   args.with_defaults(:filename => 'new-page')
-  page_dir = '_pages'
+  page_dir = 'topics'
   if args.filename =~ /(^.+\/)?([\w_-]+)(\.)?(.+)?/
     page_dir += $4 ? "/#{$1}" : "/#{$1}#{$2}/"
     name = $4 ? $2 : "index"

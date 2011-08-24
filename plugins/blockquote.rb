@@ -64,6 +64,7 @@ module Jekyll
         '<blockquote class="pullquote">' + output.join + '<br />' + @by + '</blockquote>'
       end
     end
+
   end
 end
 

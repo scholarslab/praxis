@@ -18,22 +18,28 @@
       <header id="header">
         <h1><a href="/"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a></h1>
         </header>
-        <aside>
           <nav>
-           <ul>
+           <ul class="linklist">
+            <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
-            <li><a href="/#topics">Topics</a></li>
             <li><a href="/people.html">People</a></li>
           </ul>
           </nav>
-      </aside>
-      <div id="main" role="main">
         <div id="content">
           {{ content }}
         </div><!-- #content -->
-      </div><!-- #main -->
       <footer id="footer">
-       <p>Footer</p>
+
+          <div id="slab-info">
+            <ul>
+                <li><a rel="license" class="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a></li>
+                <li><a href="http://www.scholarslab.org/category/praxis-program/feed/" class="feed">Subscribe to our Feed</a></li>
+                <li>
+                {% email %} praxis@collab.itc.virginia.edu {% endemail %}
+                </li>
+            </ul>
+            <a href="http://scholarslab.org" id="slab-logo"><img src="http://static.scholarslab.org/images/slab-logo-rgb-125px.png" title="Scholars' Lab" alt="Scholars' Lab" /></a>
+          </div>
       </footer>
     </div><!-- #container -->
 
