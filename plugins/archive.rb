@@ -21,7 +21,7 @@ module Jekyll
       collated_posts = {}
       site.posts.reverse.each do |post|
         y, m, d = post.date.year, post.date.month, post.date.day
-        
+
         collated_posts[ y ] = {} unless collated_posts.key? y
         collated_posts[ y ][ m ] = {} unless collated_posts[y].key? m
         collated_posts[ y ][ m ][ d ] = [] unless collated_posts[ y ][ m ].key? d
@@ -29,7 +29,6 @@ module Jekyll
       end
       return collated_posts
     end
-    
   end
 
   class ArchiveGenerator < Generator
@@ -62,7 +61,7 @@ module Jekyll
     def collate(site)
       site.posts.reverse.each do |post|
         y, m, d = post.date.year, post.date.month, post.date.day
-        
+
         self.collated_posts[ y ] = {} unless self.collated_posts.key? y
         self.collated_posts[ y ][ m ] = {} unless self.collated_posts[y].key? m
         self.collated_posts[ y ][ m ][ d ] = [] unless self.collated_posts[ y ][ m ].key? d

@@ -1,9 +1,8 @@
-require 'hpricot'
 require 'nokogiri'
 require 'rdiscount'
 
 module Liquid
-  
+
   module ExtendedFilters
 
     def date_to_month(input)
