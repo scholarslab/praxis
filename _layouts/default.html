@@ -19,15 +19,9 @@
         <h1><a href="/"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a></h1>
         </header>
           <nav>
-<<<<<<< HEAD
            <ul class="linklist">
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
-=======
-           <ul>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/#topics">Topics</a></li>
->>>>>>> d96a7747db2d23d3ade6edbdbb2c79e82795d6ad
             <li><a href="/people.html">People</a></li>
           </ul>
           </nav>
@@ -35,12 +29,14 @@
           {{ content }}
         </div><!-- #content -->
       <footer id="footer">
-          
+
           <div id="slab-info">
             <ul>
                 <li><a rel="license" class="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a></li>
                 <li><a href="http://www.scholarslab.org/category/praxis-program/feed/" class="feed">Subscribe to our Feed</a></li>
-                <li><a href="mailto:praxis@collab.itc.virginia.edu" class="email">Contact Us</a></li>
+                <li>
+                {% email %} praxis@collab.itc.virginia.edu {% endemail %}
+                </li>
             </ul>
             <a href="http://scholarslab.org" id="slab-logo"><img src="http://static.scholarslab.org/images/slab-logo-rgb-125px.png" title="Scholars' Lab" alt="Scholars' Lab" /></a>
           </div>
