@@ -5,8 +5,10 @@ module Jekyll
   #   tj@virginia.edu
   # {% endemail %}
   #
-  # <a href="mailto:">Thomas Jefferson</a>
-  #
+  # <a class="email" href="&#109;ailto:&#116;&#106;&#0064;&#118;&#105;&#114;&#103;&#105;&#110;&#105;&#97;.&#101;&#100;&#117;">
+  #   &#116;&#106;&#0064;&#118;&#105;&#114;&#103;&#105;&#110;&#105;&#97;.&#101;&#100;&#117;
+  # </a
+  # #
 
   class Email < Liquid::Block
     Syntax =  /([\w\s]+)/
@@ -14,7 +16,7 @@ module Jekyll
     def initialize(tag_name, markup, tokens)
       @name = nil
       if markup =~ Syntax
-        @name = 1
+        @name = $1
       end
       super
     end
