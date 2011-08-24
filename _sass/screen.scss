@@ -178,7 +178,9 @@ padding-top: 30px;
     ul {
         display: table-cell;
         list-style:none;
+        vertical-align:middle;
         margin-left:0;
+        margin-bottom:0;
         padding-left:0;
         padding-right: 20px;
         font-size:0.8em;
@@ -190,10 +192,16 @@ padding-top: 30px;
         }
     }
     
-    #slab-logo {
+    #slab-logo,
+    #uva-lib-logo {
        display:table-cell;
        vertical-align:middle;
        padding-left: 19px;
        border-left: 1px dotted #ddd;
     }
+    
+    #slab-logo {
+        padding-right: 20px;
+    }
+
 }
