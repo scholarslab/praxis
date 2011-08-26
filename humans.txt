@@ -3,18 +3,20 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Team: Scholars' Lab
+  Site: http://www.scholarslab.org/
+  Twitter: @scholarslab
+  Location: Charlottesville, Virginia, United States
 
 /* THANKS */
-  Names (& URL):
+  Jekyll: http://jekyllrb.com/
+  Compass: http://compass-style.org/
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: Jekyll
+  IDE: Vim, Photoshop
 
 
 

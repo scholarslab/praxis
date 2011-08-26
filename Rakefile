@@ -101,7 +101,7 @@ task :new_post, :title do |t, args|
 end
 
 desc "Create a new page in (filename)/index.md"
-task :new_page, :filename do |t, args|
+task :new_topic, :filename do |t, args|
   require './plugins/titlecase.rb'
   args.with_defaults(:filename => 'new-page')
   page_dir = '_pages'
