@@ -1,10 +1,30 @@
 ---
 layout: default
+javascript:
+  - http://static.scholarslab.org/javascripts/jquery.zrssfeed.min.js
 ---
 
 <div class="post">
 {{ content }}
 </div>
+
+{% if page.tags %}
+<h2>Posts</h1>
+<div id="posts"></div>
+<script>
+  $(document).ready(function () {
+    $('#posts').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
+      limit: 5,
+      header: false,
+      titletag: 'span',
+      date: false,
+      content: false,
+      snippet: false,
+      key: '{{ site.gapi_key }}'
+    });
+  }); 
+</script>
+{% endif %}
 
 {% if site.disqus %}
 <div id="comments">
@@ -22,4 +42,6 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 {% endif %}
+
+
 

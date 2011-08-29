@@ -5,6 +5,7 @@ date: 2011-08-23 13:03
 comments: false
 sharing: true
 footer: true
+tags: digital-work
 ---
 
 # Evaluating Digital Work

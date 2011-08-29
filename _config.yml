@@ -11,11 +11,12 @@ plugins: 'plugins'
 domain: praxis.scholarslab.org 
 title: The Praxis Program
 author: Scholars' Lab
-email: 
-
+email: praxis@collab.itc.virginia.edu
+basefeed: http://www.scholarslab.org
 pages_dir: _pages/
 
 # configuration for ehancements, uncomment to enable
+gapi_key: 'ABQIAAAAioVG4cScdJ2Csnny8hxlzRQ0k7LmwNWN1KPzdPryee6GpBC_0hRQjOPG8jfV_sgUu5ehe3wi4vZkdA'
 
 # feedburner:
 # id: feedburnerid
