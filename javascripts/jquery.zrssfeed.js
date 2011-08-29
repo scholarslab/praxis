@@ -148,20 +148,20 @@
       }
 
       // Add any media
-      if(xmlEntries.length > 0) {
-        var xmlMedia = xmlEntries[i].getElementsByTagName('enclosure');
-        if (xmlMedia.length > 0) {
-          html += '<div class="rssMedia"><div>Media files</div><ul>'
-          for (var m=0; m<xmlMedia.length; m++) {
-            var xmlUrl = xmlMedia[m].getAttribute("url");
-            var xmlType = xmlMedia[m].getAttribute("type");
-            var xmlSize = xmlMedia[m].getAttribute("length");
-            html += '<li><a href="'+ xmlUrl +'" title="Download this media">'+ xmlUrl.split('/').pop() +'</a> ('+ xmlType +', '+ formatFilesize(xmlSize) +')</li>';
-          }
-          html += '</ul></div>'
-        }
+      // if(xmlEntries.length > 0) {
+      //   var xmlMedia = xmlEntries[i].getElementsByTagName('enclosure');
+        //if (xmlMedia.length > 0) {
+          //html += '<div class="rssMedia"><div>Media files</div><ul>'
+          //for (var m=0; m<xmlMedia.length; m++) {
+            // var xmlUrl = xmlMedia[m].getAttribute("url");
+            // var xmlType = xmlMedia[m].getAttribute("type");
+            // var xmlSize = xmlMedia[m].getAttribute("length");
+            //html += '<li><a href="'+ xmlUrl +'" title="Download this media">'+ xmlUrl.split('/').pop() +'</a> ('+ xmlType +', '+ formatFilesize(xmlSize) +')</li>';
+          //}
+          //html += '</ul></div>'
+        //}
         //html += '</li>';
-      }
+      // }
 
       // Alternate row classes
       if (row == 'odd') {
