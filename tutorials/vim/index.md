@@ -6,7 +6,7 @@ date: 2011-08-24 10:16
 
 # Introducing Vim
 
-Developers preferences for interacting with code break down into two categories: text editors and integrated development environments (IDE), each of which has its own approach to handling text and code. The code editor of choice for the
+Developer preferences for interacting with code break down into two categories—text editors and integrated development environments (IDE)—each of which has its own approach to handling text and code. The code editor of choice for the
 R&D Team is vim. Vim was developed before there
 were mice, so the editor is optimized for efficient, mouseless
 interaction with your code. (You'll be surprised how much time you waste
