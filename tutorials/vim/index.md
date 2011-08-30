@@ -6,18 +6,15 @@ date: 2011-08-24 10:16
 
 # Introducing Vim
 
-Developers have their preferences for interacting with their code, and
-they basically break down in to two categories, text editors andintegrated development environments (IDE). 
-integrated development environments. Each of these has their own
-approaches to handling text and code. The code editor of choice for the
-R&D Team is vim. The code base for the editor was developed before there
+Developers preferences for interacting with code break down into two categories: text editors and integrated development environments (IDE), each of which has its own approach to handling text and code. The code editor of choice for the
+R&D Team is vim. Vim was developed before there
 were mice, so the editor is optimized for efficient, mouseless
-interaction with your code (you'll be surprised how much time you waste
-moving your hand to the mouse). There is a learning curve, but once you
+interaction with your code. (You'll be surprised how much time you waste
+moving your hand to the mouse.) There is a learning curve, but once you
 get used to a few simple commands and build up some muscle memory, it
 becomes quite natural.
 
-There is an excellent set of video tutorials on [Derk Wyatt's Blog][1].
+There is an excellent set of video tutorials on [Derek Wyatt's Blog][1].
 Install vim (there are pre-built binaries on the [vim download page][2].
 Once you get through those tutorials, these visual cheatsheets ([from
 ViEmu][3]) will help you with your movements.
