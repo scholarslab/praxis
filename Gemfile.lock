@@ -15,7 +15,7 @@ GEM
       sass (~> 3.1)
     compass-960-plugin (0.10.4)
       compass (>= 0.10.0)
-    directory_watcher (1.4.0)
+    directory_watcher (1.4.1)
     fast-stemmer (1.0.0)
     fssm (0.2.7)
     jekyll (0.11.0)
