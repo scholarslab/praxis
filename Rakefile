@@ -173,7 +173,10 @@ end
 def htmlcompressor_wrapper(directory, opts = "")
   command = "java -jar tools/htmlcompressor-1.4.3.jar "
   command += " " + opts
-  Dir["#{directory}/*.html"].each do |file|
+
+  htmlfiles = File.join("**", directory, "**", "*.html")
+
+  Dir.glob(htmlfiles).each do |file|
     sh ( command + " " + file + " -o " + file )
   end
 end
