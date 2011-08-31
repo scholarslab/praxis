@@ -13,9 +13,9 @@ source code management (SCM) system called git.
 to handle everything from small to very large projects with speed and efficiency."
 {% endblockquote %}
 
-We will be using git for the *Prism* project and you will be using git
-on a daily basis and these resources will help you get up to speed
-quickly. 
+We will be using git for the *Prism* project and you will be using it
+on a daily basis. These resources will help you get up to speed
+quickly, or if you "git" stuck. 
 
 ## Video Tutorials
 
