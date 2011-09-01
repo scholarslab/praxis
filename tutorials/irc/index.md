@@ -16,6 +16,8 @@ You can access [Freenode's Webclient][1] and get instant access without
 installing any software. Simply choose a nickname for yourself, and 
 connect to the '**#slab**' channel. 
 
+<iframe src="http://webchat.freenode.net?channels=slab&uio=d4" width="647" height="400"></iframe> 
+
 ## Windows
 1. Download and install [Pidgin][2].
 1. Add a new Account
