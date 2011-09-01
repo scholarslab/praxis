@@ -14,6 +14,9 @@ We'll begin discussing the requirements and [scope](http://en.wikipedia.org/wiki
 * Audience: Who are our target users? How would this tool help them or impact their work? How will we reach them?
 * Process: What tools, languages, and strategy will we use to build it? Dealing with [scope creep](http://en.wikipedia.org/wiki/Scope_creep).
 
-## Peer work
+## Resources
 
-* David McClure's [Public Poetics](http://publicpoetics.org) project.
+* David McClure, [Public Poetics](http://publicpoetics.org).
+* Julie Meloni, N-Dimensional Archives [blog post](http://www.academicsandbox.com/blog/?p=430) and [podcast with commentary](http://www.scholarslab.org/podcasts/julie-meloni-n-dimensional-archives/)
+
+
