@@ -112,16 +112,18 @@ task :new_topic, :filename do |t, args|
     filename = "#{name}.#{extension}"
     mkdir_p page_dir
     file = page_dir + filename
+    title = $2.gsub(/[-_]/, ' ').titlecase
     puts "Creating new page: #{file}"
     open(file, 'w') do |page|
       page.puts "---"
       page.puts "layout: page"
-      page.puts "title: \"#{$2.gsub(/[-_]/, ' ').titlecase}\""
+      page.puts "title: \"#{title}\""
       page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       page.puts "comments: false"
       page.puts "sharing: true"
       page.puts "footer: true"
       page.puts "---"
+      page.puts "# #{title}"
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
