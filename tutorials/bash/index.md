@@ -3,7 +3,7 @@ layout: default
 title: 'Command Line Bootcamp'
 ---
 
-# The Unix command line
+# The Command Line
 
 The transition to interacting with your computer on the command line can
 be a little jarring at first if you're accustomed to working in an
@@ -13,17 +13,18 @@ facades for functionality that can be achieved with more flexibility and
 speed by typing commands into the terminal. For a programmer, a day's
 work is dominated by a fairly small set of core activities - editing
 text files, creating and organizing directories, and traversing the file
-system to access different resources. Even though the content of these
-activities can be really complex - like, what gets typed into the text
-files - the suite of tasks that surrounds the core work of software
-development is highly suited to a command line mode of interaction.
+system to access different resources. Even though the _content_ of these
+activities can be really complex - like, the content of the code that gets
+typed into the text files - the suite of tasks that surrounds and
+supports the core work of software development is highly suited to a
+command line mode of interaction.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
 automatic transmissions exist, what's the point? Over time, though, you
 start to realize that the manual transmission gives you a more complete
 and robust level of control over the car. Instead of coaxing the car to
-do what you want, you order it, and it obeys. This is exhilarating, and
+do what you want, you order it. And it obeys. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
@@ -34,7 +35,7 @@ graphical interaface. I don't agree with that - I think that software
 design is pervaded by an aestheticism and a vision of interactive grace
 that can't be captured in the terminal, but it's definitely true
 that a fluency with a core set of commands results in huge productivity
-boost over the long term.
+gains when performing routine tasks.
 
 There are different flavors of console. The Windows console is different
 from the terminals on unix/linux, and on \*nix systems there are
@@ -47,24 +48,27 @@ starts, you'll see a little line of text with a "$" at the end. This is
 the prompt - you can type commands in and then hit enter, and the
 command will be executed.
 
-## pwd
+## <code>pwd</code>
 
-First, type "pwd". This stands for "present working directory."
+First, type <code>pwd</code>. This stands for "present working directory."
 Basically, this command tells you where you are in the file path. When
 you hit enter, you'll probably see something like "Users/yourname". This
 just means that you've stared out in the home directory for your user
 account. Don't worry too much about learning the whole Mac file
 structure from the start - you learn it organically over time. Think of
-"pwd" as a way to "get your bearings" - when I sit down at a terminal,
-this is usually the first thing I type.
+<code>pwd</code> as a way to "get your bearings" - when I sit down at a
+terminal, this is usually the first thing I type.
 
-## ls
+## <code>ls</code>
 
 Now that we know where we are on the computer, the next thing you'll
 usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
-path? To see, type "ls", which stands for "list". This just outputs the
-contents of the current directory. Simple and highly useful.
+path? As a once student of literature, I like to frame these things in
+terms of core existential questions that irritate into art. Where am I?
+What are the things that exist in my world? To see, type <code>ls</code>,
+which stands for "list". This just outputs the contents of the current
+directory. Simple and highly useful.
 
 ## cd
 
