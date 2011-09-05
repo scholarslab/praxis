@@ -32,16 +32,16 @@ So what can you do on the command line? Theoretically, just about
 anything. Some people would argue that the command line solution is almost always preferable to a
 graphical interaface. I don't agree with that - I think that software
 design is pervaded by an aestheticism and a vision of interactive grace
-that can't be captured in the terminal, but it's definitely true
+that can't be captured in the terminal. But it's definitely true
 that a fluency with a core set of commands results in huge productivity
 gains when performing routine tasks.
 
-There are different flavors of console. The Windows console is different
+There are different kinds of consoles. The Windows console is different
 from the terminals on unix/linux, and on \*nix systems there are
 various alternatives. This tutorial references a console called bash,
 which is the default on Mac and ubiquitous on unix-based platforms.
 
-Ok, to the commands. If you're on Mac, click on the little magnifying
+Anyway, on to the commands. If you're on Mac, click on the little magnifying
 glass at the top right of the screen and type "Terminal." Once bash
 starts, you'll see a little line of text with a "$" at the end. This is
 the prompt - you can type commands in and then hit enter, and the
@@ -53,10 +53,10 @@ First, type <code>pwd</code> . (Here and throughout the rest of the tutorial,
 always ignore trailing punctuation when commands are given inline - just type text in bold red). This stands for "present working directory."
 This command just tells you where you are in the file path. When
 you hit enter, you'll probably see something like "Users/yourname". This
-just means that you've started out in the home directory for your user
+means that you've started out in the home directory for your user
 account. Don't worry too much about learning the whole Mac file
 structure from the start - you learn it organically over time. Think of
-<code>pwd</code> as a way to get your bearings - when I sit down at a
+<code>pwd</code> as a way to get your bearings. When I sit down at a
 terminal, this is usually the first thing I type.
 
 ## <code>ls</code>
@@ -64,10 +64,10 @@ terminal, this is usually the first thing I type.
 Now that we know where we are on the computer, the next thing you'll
 usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
-path? As a once student of literature, I like to frame these things in
+path? As a lover of literature, I like to frame these things in
 terms of core existential questions that irritate into art. Where am I?
 What is the deep structure of my context? What are the things that exist
-in my world?\* To see, type <code>ls</code> , which stands for "list". This
+in my world? To see, type <code>ls</code> , which stands for "list". This
 just outputs the contents of the current directory. Simple and highly useful.
 
 ## <code>cd</code>
@@ -79,7 +79,7 @@ important piece of the puzzle is the <code>cd</code> command, which stands for
 "change directory". This does what you'd expect. Think of it as using
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
-exists inside of the user directory. You can do that by typing
+exists inside of the User directory. You can do that by typing
 <code>cd</code> , space, and then the name of the directory. As you start
 typing the name, hit the tab button after a few keystrokes, and bash will try
 to autocomplete the name. As you get faster with the commands, this
@@ -90,8 +90,8 @@ Desktop</code> .
 Now, type the <code>ls</code> command again to see the contents of the new
 directory. If the <code>cd</code> command worked, you should see different stuff
 now. You should be able to recognize the contents of the Desktop folder;
-it should be the stuff that appears as files and directories on the
-visual desktop. Now, let's go back to the user directory. To up
+there should be listings for the same files and directories on the
+visual desktop. Now, let's go back to your user directory. To move
 "upwards" on the filepath, type <code>cd ..</code> . The double period ".." stands
 for going up a single directory level. So, if you wanted to go up two levels,
 you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code> . Etc.
@@ -218,7 +218,7 @@ Now do this:
 1. Delete the original version of the directory with the three text
    files (careful here..).
 2. Recreate the directory by unpacking the tar file with this command -
-   <code>tar xvf anyname.tar</code> .
+   <code>tar xvf anyname.tar</code>
 3. List the directory contents to confirm that the directory was
    unpacked.
 
@@ -227,7 +227,7 @@ a bit cryptic, and you just have to remember them. Like <code>rm</code> and <cod
 <code>tar</code> has lots of options that you can configure. The string of letters
 specifies a particular combination of behaviors that define the
 functionality that you're trying to achieve. For example, "xvf" stands
-for eXpand, Verbose, and File - which translates to:
+for e**X**pand, **V**erbose, and **F**ile - which translates to:
 
 > _"I want to expand an existing tar file, as opposed to creating a new one.
 I want the tar utility to be "verbose" when it does its work, which means that it will
@@ -246,7 +246,7 @@ Next, do this:
 1. Delete the tar file that we created before.
 2. Create a new tar file from the testing directory that contains the
    three text files. This time, though, use this variation on the
-command: <code>tar czvf anyname.tgz</code> .
+command: <code>tar czvf anyname.tgz</code>
 
 The difference here is that the added "z" in the options tells tar to
 use a utility called "gzip" to compress the tar file. This means that
@@ -258,7 +258,7 @@ Now:
 
 1. Delete the directory with the text files so that the only thing in
    the current directory is the .tgz file that you just created.
-2. Unpack the compressed tar with this command: <code>tar xzvf anyname.tgz</code> .
+2. Unpack the compressed tar with this command: <code>tar xzvf anyname.tgz</code>
 
 <code>tar</code> is a really powerful and highly configurable utility -
 you can add files individually to a tar that already exists
@@ -282,7 +282,3 @@ around on it for a month or so. Short of reckless use of
 [2]: http://homepage.mac.com/rgriff/files/TerminalBasics.pdf
 [3]: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
 [4]: http://lenz.unl.edu/2011/04/09/life-on-the-command-line.html
-
-\* As humanists, it's our sacred and ancient charge to observe beauty in
-  everything. When a human gazes on the console prompt, it aggressively
-begins to imply.
