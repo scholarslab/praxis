@@ -15,9 +15,9 @@ work is dominated by a fairly small set of core activities - editing
 text files, creating and organizing directories, and traversing the file
 system to access different resources. Even though the _content_ of these
 activities can be really complex - like, the content of the code that gets
-typed into the text files - the suite of tasks that surrounds and
-supports the core work of software development is highly suited to a
-command line mode of interaction.
+typed into the text files - the suite of utility tasks that surround and
+support software development is highly suited to a command line mode of
+interaction.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
@@ -56,7 +56,7 @@ you hit enter, you'll probably see something like "Users/yourname". This
 just means that you've stared out in the home directory for your user
 account. Don't worry too much about learning the whole Mac file
 structure from the start - you learn it organically over time. Think of
-<code>pwd</code> as a way to "get your bearings" - when I sit down at a
+<code>pwd</code> as a way to _get your bearings_, as it were - when I sit down at a
 terminal, this is usually the first thing I type.
 
 ## <code>ls</code>
@@ -66,64 +66,64 @@ usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
 path? As a once student of literature, I like to frame these things in
 terms of core existential questions that irritate into art. Where am I?
-What are the things that exist in my world? To see, type <code>ls</code>,
-which stands for "list". This just outputs the contents of the current
-directory. Simple and highly useful.
+What is the deep structure of my context? What are the things that exist
+in my world?\* To see, type <code>ls</code>, which stands for "list". This
+just outputs the contents of the current directory. Simple and highly useful.
 
-## cd
+## <code>cd</code>
 
 Ok, now we can see where we are and what stuff exists in the current
 directory. You'll almost never be in a situation where all your work is
-in a single directory though (or the one you start in...), so a really
-important piece of the puzzle is the "cd" command, which stands for
+in a single directory, though (or the one you start in...), so a really
+important piece of the puzzle is the <code>cd</code> command, which stands for
 "change directory". This does what you'd expect. Think of it as using
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
-exists inside of the user directory. You can do that by typing "cd",
-space, and then the name of the directory. As you start typing the name,
-hit the tab button after a few keystrokes, and bash will try to
-autocomplete this name. As you get faster with the commands, this
+exists inside of the user directory. You can do that by typing
+<code>cd</code>, space, and then the name of the directory. As you start
+typing the name, hit the tab button after a few keystrokes, and bash will try
+to autocomplete the name. As you get faster with the commands, this
 becomes a useful way to speed things up. If you're on a standard Mac
-setup, go ahead and change into the "Desktop" directory with "cd
-Desktop".
+setup, go ahead and change into the "Desktop" directory with <code>cd
+Desktop</code>.
 
-Now, type the "ls" command again to see the contents of the new
-directory. If the "cd" command worked, you should see different stuff
+Now, type the <code>ls</code> command again to see the contents of the new
+directory. If the <code>cd</code> command worked, you should see different stuff
 now. You should be able to recognize the contents of the Desktop folder;
 it should be the stuff that appears as files and directories on the
 visual desktop. Now, let's go back to the user directory. To up
-"upwards" on the filepath, type "cd ..". The double period ".." stands
-for going up a single directory level. So, if you wanted to go up two
-levels, you'd type "cd ../..". Three, "cd ../../..". Etc.
+"upwards" on the filepath, type <code>cd ..</code>. The double period ".." stands
+for going up a single directory level. So, if you wanted to go up two levels,
+you'd type <code>cd ../..</code>. Three, <code>cd ../../..</code>. Etc.
 
-So, after typing "cd ..", you should be back in your users directory.
+So, after typing <code>cd ..</code>, you should be back in your users directory.
 
-## mkdir
+## <code>mkdir</code>
 
 Say you want to create a new directory ("folder" in Windows parlance). I
-put all of my work in a custom folder in my User directory called
-"Projects." Let's go ahead and create that folder by typing "mkdir
-Projects." "mkdir" stands for "make directory". It just creates a new
+put all of my work in a custom folder in my home Users directory called
+"Projects." Let's go ahead and create that folder by typing <code>mkdir
+Projects</code>. "mkdir" stands for "make directory". It just creates a new
 folder with nothing inside of it.
 
-Once you type "mkdir Projects", type "ls" again to confirm that the
-folder was created. Then change into the new folder with "cd Projects."
+Once you type <code>mkdir Projects</code>, type <code>ls</code> again to confirm that the
+folder was created. Then change into the new folder with <code>cd Projects</code>.
 Once you're in the new folder, go ahead and create another subdirectory
-inside of projects called whatever you want - say, "mkdir testdir".
-Then, change into the new testdir directory with "cd testdir".
+inside of projects called whatever you want - say, <code>mkdir
+testdir</code>. Then, change into the new testdir directory with <code>cd testdir</code>.
 
-## touch
+## <code>touch</code>
 
-"mkdir" creates directories, but directories are just buckets for actual
+<code>mkdir</code> creates directories, but directories are just buckets for actual
 data, which is contained in files. To create a new file in the current
-directory, use the "touch" command. I'm not sure why it's called touch.
-Type "touch textfile.txt". This will create a blank text file called
-textfile.txt. I often tend to type "ls" after any of these commands just
+directory, use the <code>touch</code> command. I'm not sure why it's called touch.
+Type <code>touch textfile.txt</code>. This will create a blank text file called
+textfile.txt. I often tend to type <code>ls</code> after any of these commands just
 to make sure that I typed the previous command correctly and that the
 new file exists.
 
-Now, create three more textfiles like this - "touch
-{textfile2.txt,textfile3.txt,textfile4.txt}". You can add as many new
+Now, create three more textfiles like this - <code>touch
+{textfile2.txt,textfile3.txt,textfile4.txt}</code>. You can add as many new
 files as you want to the comma-delimited list to create a bunch of files
 with one command. Now, there should be 4 blank text files in the
 directory "testdir", which sits inside of the "Projects" directory.
@@ -269,11 +269,14 @@ treat that like fire.
 
 
 ## Resources
-* [An A-Z Index of the Bash command line for Linux][1] (big dog daddy
-  reference. check out all the options you can slap onto "ls"...!)
-* [Mac OS X Terminal Basics][2] (a bit old, but still accurate)
+* [An A-Z Index of the Bash command line for Linux][1]
+* [Mac OS X Terminal Basics][2] (old, but still accurate)
 * [The Ultimate Tar Command Tutorial with 10 Practical Examples][3]
 
-[2]: http://ss64.com/bash/
+[1]: http://ss64.com/bash/
 [2]: http://homepage.mac.com/rgriff/files/TerminalBasics.pdf
 [3]: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
+
+\* As humanists, it's our sacred and ancient charge to observe beauty in
+  everything. When a human gazes on the console prompt, it becomes a
+thing of meaning.
