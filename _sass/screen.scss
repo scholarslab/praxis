@@ -164,11 +164,16 @@ a img {
 }
 
 footer {
-display:block;
-text-align:right;
-clear:both;
-margin-left: 130px;
-padding-top: 30px;
+    display:block;
+    text-align:right;
+    clear:both;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+code {
+    font-weight: bold;
+    color: #c1272d;
 }
 
 #slab-info {

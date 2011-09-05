@@ -50,13 +50,14 @@ command will be executed.
 
 ## <code>pwd</code>
 
-First, type <code>pwd</code> . This stands for "present working directory."
-Basically, this command tells you where you are in the file path. When
+First, type <code>pwd</code> . (Here and throughout the rest of the tutorial,
+always ignore trailing punctuation when commands are given inline - just type text in bold red). This stands for "present working directory."
+This command just tells you where you are in the file path. When
 you hit enter, you'll probably see something like "Users/yourname". This
-just means that you've stared out in the home directory for your user
+just means that you've started out in the home directory for your user
 account. Don't worry too much about learning the whole Mac file
 structure from the start - you learn it organically over time. Think of
-<code>pwd</code> as a way to _get your bearings_, as it were - when I sit down at a
+<code>pwd</code> as a way to get your bearings - when I sit down at a
 terminal, this is usually the first thing I type.
 
 ## <code>ls</code>
