@@ -9,7 +9,7 @@ The transition to interacting with your computer on the command line can
 be a little jarring at first if you're accustomed to working in an
 environment dominated by windows, cusrors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
-facades for functionality that can be achieved with more flexibility and
+façades for functionality that can be achieved with more flexibility and
 speed by typing commands into the terminal. For a programmer, a day's
 work is dominated by a fairly small set of core activities - editing
 text files, creating and organizing directories, and traversing the file
