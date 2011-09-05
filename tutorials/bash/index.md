@@ -128,29 +128,29 @@ files as you want to the comma-delimited list to create a bunch of files
 with one command. Now, there should be 4 blank text files in the
 directory "testdir", which sits inside of the "Projects" directory.
 
-## cp
+## <code>cp</code>
 
 Say we have a file that we want to copy. In Finder/Explorer, you would
 do this by clicking on the file, then hitting control (er, command, or
 whatever) + c, and then hitting control + v to paste it again. In bash,
-you can use the "cp" command. Let's copy "textfile4.txt" as a new file
-called "copiedfile.txt". Type "cp textfile4.txt copiedfile.txt". Then
-type "ls", and check to make sure that the copied file is there.
+you can use the <code>cp</code> command. Let's copy "textfile4.txt" as a new file
+called "copiedfile.txt". Type <code>cp textfile4.txt copiedfile.txt</code>. Then
+type <code>ls</code>, and check to make sure that the copied file is there.
 
 Often you want to copy entire directories. This is a little different.
-Type "cd .." to change up to the Projects directory, and then type "ls"
+Type <code>cd ..</code> to change up to the Projects directory, and then type <code>ls</code>
 to view the contents. There should just be the "testdir" directory.
 Imagine that you wanted to make a copy of that directory inside of
 another directory. Let's go ahead and create that second directory. Type
-"mkdir anotherdir". Now, to copy "testdir" (and all of its files)
-into "anotherdir", type "cp -r testdir anotherdir/". Now, change into
-another dir ("cd anotherdir") and type "ls" to confirm that the folder
+<code>mkdir anotherdir</code>. Now, to copy "testdir" (and all of its files)
+into "anotherdir", type <code>cp -r testdir anotherdir/</code>. Now, change into
+another dir (<code>cd anotherdir</code>) and type <code>ls</code> to confirm that the folder
 was copied. The "-r" is called a "flag" - a lot of commands have
 optional functionality that can be specified with flags. In this case,
-the "-r" stands for "recursive", which tells the "cp" utility to loop
+the "-r" stands for "recursive", which tells the <code>cp</code> utility to loop
 through and copy the contents of the directory.
 
-# rm
+## <code>rm</code>
 
 Often, you need to delete files. In Explorer or Finder, "deleting" is
 kind of a misnomer - you "move things to the trash bin," etc. What that
@@ -160,52 +160,52 @@ questions asked. Once a file (or a directory) has been removed, it is
 totally gone from the system and can never be recovered (short of some
 kind of insane hardware-level recovery, but even that's unlikely).
 
-Whenever you use rm, just make sure you're dialed in and not doing
+Whenever you use <code>rm</code>, just make sure you're dialed in and not doing
 something dopey. And make sure that the command is formed correctly; a
-mistake here could destroy massive swaths of your file structure.
+mistake here could destroy massive swaths of your file system.
 
 Let's delete a single file. Change into the testdir directory that we
 just copied. There should be the four text files in there. To remove a
-single file, type "rm textfile1.txt". Type "ls" to confirm that the file
-was deleted. Now, delete two files at once with "rm
-"{textfile2.txt,textfile3.txt}". Now, there should be just the last
-"textfile4.txt" file - confirm this with "ls".
+single file, type <code>rm textfile1.txt</code>. Type <code>ls</code> to confirm that the file
+was deleted. Now, delete two files at once with <code>rm
+{textfile2.txt,textfile3.txt}</code>. Now, there should be just the last
+"textfile4.txt" file - confirm this with <code>ls</code>.
 
 Now, the scary part - deleting entire directories. Change back up into
-the Projects directory ("cd ../.."). Again, type "ls" just to make sure
+the Projects directory (<code>cd ../..</code>). Again, type <code>ls</code> just to make sure
 that you are where you think you are - there should be the original
 "testdir" and the "anotherdir", which contains the (now mangled) copy of
-"testdir". Delete "anotherdir" with this command - "rm -rf anotherdir/".
+"testdir". Delete "anotherdir" with this command - <code>rm -rf anotherdir/</code>.
 
-Type "ls" - the directory should be gone. Here, the "-rf" flag is
+Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
-files". In other words, wipe out everythin in site.
+files". In other words, wipe out everythin in sight.
 
-To give a sense of how dangerous "rm" can be, consider this - the
-command "rm -rf /" will delete the entire file structure on the hard
+To give a sense of how dangerous <code>rm</code> can be, consider this - the
+command <code>rm -rf /</code> will delete the entire file structure on the hard
 drive. That's because unix interprets the "/" as meaning the
 highest-level directory on the system. So, the command goes through all
 of the files on your computer and drops all of them. Bad times.
 
-# tar
+## <code>tar</code>
 
-Last, we'll cover a compression utility called "tar". A "tar" file is
-essentially the same as a "zip" file - it's an archive that bundles
+Last, we'll cover a compression utility called <code>tar</code>. A .tar file is
+essentially the same as a .zip file - it's an archive that bundles
 together a lot of files or directories into a single unit. In this
 exercise, I won't spell out all of the traversal, listing, and
-add/removal commands that were covered above - see if you can figure
+add/removal commands that you'll need to use - see if you can figure
 them out.
 
 Make sure you're in the Projects directory, and do this:
 
 1. Create a new directory.
 2. Change into the new directory.
-3. Create three blank text files.
+3. Create three blank text files. Try to do this with a single command.
 4. Create a new subdirectory.
-5. Move the three files into the subdirectory. Try to do this with a
-   single command.
+5. Move the three files into the subdirectory. Again, try to use just
+   one command.
 
-Now, we have a folder with three files in it. Let's create a "tar" file
+Now, we have a folder with three files in it. Let's create a .tar file
 called "anyname.tar" out of that folder with this command - "tar cvf
 anyname.tar dir/", where the "dir" is the name of the directory that you
 created in step 4 above. Confirm that the file got created. The new file
@@ -278,5 +278,5 @@ treat that like fire.
 [3]: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
 
 \* As humanists, it's our sacred and ancient charge to observe beauty in
-  everything. When a human gazes on the console prompt, it becomes a
-thing of meaning.
+  everything. When a human gazes on the console prompt, it refuses to
+not become at least a quiet analogy.
