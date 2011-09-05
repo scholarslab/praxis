@@ -10,14 +10,14 @@ be a little jarring at first if you're accustomed to working in an
 environment dominated by windows, cusrors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
 façades for functionality that can be achieved with more flexibility and
-speed by typing commands into the terminal. For a programmer, a day's
+speed by typing commands directly into the terminal. For a programmer, a day's
 work is dominated by a fairly small set of core activities - editing
 text files, creating and organizing directories, and traversing the file
 system to access different resources. Even though the _content_ of these
-activities can be really complex - like, the content of the code that gets
+activities can be really complex - say, the content of the code that gets
 typed into the text files - the suite of utility tasks that surround and
 support software development is relatively simple, and highly suited to a
-command line mode of interaction.
+keyboard-centric mode of interaction.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
@@ -29,8 +29,7 @@ you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
 So what can you do on the command line? Theoretically, just about
-anything. Some people (notably, in the DH world, [Steve Ramsey][4]) would
-argue that the command line solution is almost always preferable to a
+anything. Some people would argue that the command line solution is almost always preferable to a
 graphical interaface. I don't agree with that - I think that software
 design is pervaded by an aestheticism and a vision of interactive grace
 that can't be captured in the terminal, but it's definitely true
@@ -40,7 +39,7 @@ gains when performing routine tasks.
 There are different flavors of console. The Windows console is different
 from the terminals on unix/linux, and on \*nix systems there are
 various alternatives. This tutorial references a console called bash,
-which is the default on Mac and ubiquitous on \*nix platforms.
+which is the default on Mac and ubiquitous on unix-based platforms.
 
 Ok, to the commands. If you're on Mac, click on the little magnifying
 glass at the top right of the screen and type "Terminal." Once bash
