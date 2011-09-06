@@ -41,7 +41,7 @@ at the top right of the screen, type "Terminal," and press Enter.
 Alternatively, you can secure shell into your blue.unix UVa webspace (if
 you're on Windows, you can do this with a program like [PuTTY][5]).
 Where "yourusername" is your eServices account name (like "dm4fn"), type
-<code>yourusername@blue.unix.virginia.edu</code>, and enter your normal
+<code>ssh yourusername@blue.unix.virginia.edu</code>, and enter your normal
 eServices password. If it prompts you to set a terminal font, just do as
 it suggests and type <code>vt100</code> and press Enter. Going forward,
 I'll assume that you're in your blue.unix account, but it should be easy
