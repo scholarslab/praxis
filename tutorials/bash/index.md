@@ -28,9 +28,7 @@ do what you want, you order it. And it obeys. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
-Think of the console as a thin layer of glue on top of the innards of
-the operating system that lets you type instructions in a direct,
-unmitigated context. There are different kinds of consoles. The Windows
+There are different kinds of consoles. The Windows
 console is different from console applications that exist for the
 Unix/Linux/Mac ecosystem, of which there are many. This tutorial
 references a shell application called "bash," which is the default on
