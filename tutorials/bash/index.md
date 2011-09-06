@@ -10,36 +10,24 @@ be a little jarring at first if you're accustomed to working in an
 environment dominated by windows, cursors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
 façades for functionality that can be achieved with more flexibility and
-speed by typing commands directly into the terminal. For a programmer, a day's
-work is dominated by a fairly small set of core activities - editing
-text files, creating and organizing directories, and traversing the file
-system to access different resources. Even though the _content_ of these
-activities can be really complex - say, the content of the code that gets
-typed into the text files - the suite of utility tasks that surround and
-support software development is relatively simple, and highly suited to a
-keyboard-centric mode of interaction.
+speed by typing commands directly into the terminal.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
 automatic transmissions exist, what's the point? Over time, though, you
 start to realize that the manual transmission gives you a more complete
 and robust level of control over the car. Instead of coaxing the car to
-do what you want, you order it. And it obeys. This is exhilarating, and
+do what you want, you order it. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
-There are different kinds of consoles. The Windows
-console is different from console applications that exist for the
-Unix/Linux/Mac ecosystem, of which there are many. This tutorial
-references a shell application called "bash," which is the default on
-Mac and ubiquitous on unix-based platforms.
-
-Anyway, on to the races. If you're on Mac, click on the magnifying glass
+This tutorial references a shell application called "bash," which is the default on
+Mac and ubiquitous on unix-based platforms. If you're on Mac, click on the magnifying glass
 at the top right of the screen, type "Terminal," and press Enter.
 Alternatively, you can secure shell into your blue.unix UVa webspace (if
 you're on Windows, you can do this with a program like [PuTTY][5]).
 Where "yourusername" is your eServices account name (like "dm4fn"), type
-<code>ssh yourusername@blue.unix.virginia.edu</code>, and enter your normal
+<code>ssh yourusername@blue.unix.virginia.edu</code> , and enter your normal
 eServices password. If it prompts you to set a terminal font, just do as
 it suggests and type <code>vt100</code> and press Enter. Going forward,
 I'll assume that you're in your blue.unix account, but it should be easy
@@ -60,10 +48,7 @@ down at a terminal, this is usually the first thing I type.
 Now that we know where we are on the computer, the next thing you'll
 usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
-path? As a lover of literature, I like to frame these things in
-terms of core existential questions that irritate into art. Where am I?
-How do I come to know the topographies of my environment? What are the things that exist
-in my world? To see, type <code>ls</code> , which stands for "list". This
+path? To see, type <code>ls</code> , which stands for "list". This
 just outputs the contents of the current directory.
 
 If your setup is like mine, you should see three folders - "myweb,"
@@ -78,11 +63,7 @@ in a single directory, so a really important piece of the puzzle is the <code>cd
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
 exists inside of your home user directory. You can do that by typing
-<code>cd</code> , space, and then the name of the directory. As you start
-typing the name, you can hit the tab button after a few keystrokes and bash will try
-to autocomplete the name based on the files and folders in the current
-directory. As you get faster with moving around the file system, this
-becomes a useful way to speed things up. Go ahead and change into the
+<code>cd</code> , space, and then the name of the directory. Go ahead and change into the
 "private" directory with <code>cd private</code> .
 
 Now, type the <code>ls</code> command again to see the contents of the new
@@ -111,11 +92,11 @@ testdir</code> . Then, change into the new testdir directory with <code>cd testd
 
 <code>mkdir</code> creates directories, but directories are just buckets for actual
 data, which is contained in files. To create a new file in the current
-directory, use the <code>touch</code> command. I'm not sure why it's called touch.
+directory, use the <code>touch</code> command.
 Type <code>touch textfile.txt</code> . This will create a blank text file called
-textfile.txt. I often tend to type <code>ls</code> after any of these commands just
-to make sure that I typed the previous command correctly and that the
-new file exists.
+textfile.txt. I often tend to type <code>ls</code> or <code>pwd</code> before or after important
+commands just to make sure that I'm in the right location and that the
+previous command did what I wanted it to.
 
 Now, create three more textfiles like this - <code>touch
 {textfile2.txt,textfile3.txt,textfile4.txt}</code> . You can add as many new
@@ -175,6 +156,27 @@ that you are where you think you are - there should be the original
 Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
+
+## <code>vim</code>
+
+Vim is build directly into bash, which can be incredibly useful.
+Normally, if you're doing heavy-duty development work that involves
+making edits to lots of files at once, you'll want to use a standalone
+version of the editor like macvim, which gives you extra
+functionality (tabs, etc.). But if you just need to make a quick edit to
+a file directly from the terminal - or if you're working exclusively in
+a single file for a long amount of time - it can be useful to just fire
+up the file in bash and edit away. This entire document, for
+example, was composed without ever leaving the terminal.
+
+You can create a new text file and open it in vim with a single command -
+<code>vim testfile.txt</code> . Once the file is open, use the default
+  vim movement and editing commands to change the file. Hit "i" to enter
+the insert mode, and type something into the file.
+
+To save, use the standard <code>:w</code> . Once you're finished with
+the file, close it and return to the bash command prompt with
+<code>:x</code> .
 
 ## <code>tar</code>
 
