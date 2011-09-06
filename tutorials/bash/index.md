@@ -81,7 +81,7 @@ in a single directory, so a really important piece of the puzzle is the <code>cd
 "change directory". This does what you'd expect. Think of it as using
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
-exists inside of the User directory. You can do that by typing
+exists inside of your home user directory. You can do that by typing
 <code>cd</code> , space, and then the name of the directory. As you start
 typing the name, you can hit the tab button after a few keystrokes and bash will try
 to autocomplete the name based on the files and folders in the current
