@@ -52,9 +52,7 @@ always ignore trailing punctuation when commands are given inline - just type te
 This command just tells you where you are in the file path. When
 you hit enter, you should see "home/yourusername". This
 means that you've started out in the home directory for your user
-account. Don't worry too much about understanding or remembering the
-whole unix file structure from the start - you learn it organically over
-time. Think of <code>pwd</code> as a way to get your bearings. When I sit
+account. Think of <code>pwd</code> as a way to get your bearings. When I sit
 down at a terminal, this is usually the first thing I type.
 
 ## <code>ls</code>
@@ -64,9 +62,9 @@ usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
 path? As a lover of literature, I like to frame these things in
 terms of core existential questions that irritate into art. Where am I?
-What is the deep structure of my context? What are the things that exist
+How do I come to know the topographies of my environment? What are the things that exist
 in my world? To see, type <code>ls</code> , which stands for "list". This
-just outputs the contents of the current directory. Simple and highly useful.
+just outputs the contents of the current directory.
 
 If your setup is like mine, you should see three folders - "myweb,"
 "private," and "public\_html."
@@ -85,7 +83,7 @@ typing the name, you can hit the tab button after a few keystrokes and bash will
 to autocomplete the name based on the files and folders in the current
 directory. As you get faster with moving around the file system, this
 becomes a useful way to speed things up. Go ahead and change into the
-"private" directory with <code> cd private</code> .
+"private" directory with <code>cd private</code> .
 
 Now, type the <code>ls</code> command again to see the contents of the new
 directory. If changed directories successfully, you should see just one
@@ -99,8 +97,7 @@ So, after typing <code>cd ..</code> , you should be back in your home user direc
 ## <code>mkdir</code>
 
 Say you want to create a new directory ("folder" in Windows parlance). I
-put all of my work in a folder called "Projects." Go ahead and change into the "private" folder with the command <code>cd private</code> , and then create a new folder called Projects
-(or name it anything you want) by typing <code>mkdir
+put all of my work in a folder called "Projects." Go ahead and change into the "private" folder with the command <code>cd private</code> , and then create a new folder called Projects by typing <code>mkdir
 Projects</code> . "mkdir" stands for "make directory". It just creates a new
 folder with nothing inside of it.
 
@@ -178,12 +175,6 @@ that you are where you think you are - there should be the original
 Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
-
-To give a sense of how dangerous <code>rm</code> can be, consider this - the
-command <code>rm -rf /</code> will delete the entire file structure on the hard
-drive. That's because unix interprets the "/" as meaning the
-highest-level directory on the system. So, the command goes through all
-of the files on your computer and drops all of them. Bad times.
 
 ## <code>tar</code>
 
