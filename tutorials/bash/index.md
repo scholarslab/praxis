@@ -7,102 +7,78 @@ title: 'Command Line Bootcamp'
 
 The transition to interacting with your computer on the command line can
 be a little jarring at first if you're accustomed to working in an
-environment dominated by windows, cusrors, buttons, and other GUI
+environment dominated by windows, cursors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
 façades for functionality that can be achieved with more flexibility and
-speed by typing commands directly into the terminal. For a programmer, a day's
-work is dominated by a fairly small set of core activities - editing
-text files, creating and organizing directories, and traversing the file
-system to access different resources. Even though the _content_ of these
-activities can be really complex - say, the content of the code that gets
-typed into the text files - the suite of utility tasks that surround and
-support software development is relatively simple, and highly suited to a
-keyboard-centric mode of interaction.
+speed by typing commands directly into the terminal.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
 automatic transmissions exist, what's the point? Over time, though, you
 start to realize that the manual transmission gives you a more complete
 and robust level of control over the car. Instead of coaxing the car to
-do what you want, you order it. And it obeys. This is exhilarating, and
+do what you want, you order it. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
-So what can you do on the command line? Theoretically, just about
-anything. Some people would argue that the command line solution is almost always preferable to a
-graphical interaface. I don't agree with that - I think that software
-design is pervaded by an aestheticism and a vision of interactive grace
-that can't be captured in the terminal. But it's definitely true
-that a fluency with a core set of commands results in huge productivity
-gains when performing routine tasks.
-
-There are different kinds of consoles. The Windows console is different
-from the terminals on unix/linux, and on \*nix systems there are
-various alternatives. This tutorial references a console called bash,
-which is the default on Mac and ubiquitous on unix-based platforms.
-
-Anyway, on to the commands. If you're on Mac, click on the little magnifying
-glass at the top right of the screen and type "Terminal." Once bash
-starts, you'll see a little line of text with a "$" at the end. This is
-the prompt - you can type commands in and then hit enter, and the
-command will be executed.
+This tutorial references a shell application called "bash," which is the default on
+Mac and ubiquitous on unix-based platforms. If you're on Mac, click on the magnifying glass
+at the top right of the screen, type "Terminal," and press Enter.
+Alternatively, you can secure shell into your blue.unix UVa webspace (if
+you're on Windows, you can do this with a program like [PuTTY][5]).
+Where "yourusername" is your eServices account name (like "dm4fn"), type
+<code>ssh yourusername@blue.unix.virginia.edu</code> , and enter your normal
+eServices password. If it prompts you to set a terminal font, just do as
+it suggests and type <code>vt100</code> and press Enter. Going forward,
+I'll assume that you're in your blue.unix account, but it should be easy
+to adjust the steps if you're working locally on a Mac.
 
 ## <code>pwd</code>
 
 First, type <code>pwd</code> . (Here and throughout the rest of the tutorial,
 always ignore trailing punctuation when commands are given inline - just type text in bold red). This stands for "present working directory."
 This command just tells you where you are in the file path. When
-you hit enter, you'll probably see something like "Users/yourname". This
+you hit enter, you should see "home/yourusername". This
 means that you've started out in the home directory for your user
-account. Don't worry too much about learning the whole Mac file
-structure from the start - you learn it organically over time. Think of
-<code>pwd</code> as a way to get your bearings. When I sit down at a
-terminal, this is usually the first thing I type.
+account. Think of <code>pwd</code> as a way to get your bearings. When I sit
+down at a terminal, this is usually the first thing I type.
 
 ## <code>ls</code>
 
 Now that we know where we are on the computer, the next thing you'll
 usually want to know is what's in the current directory - what are the
 files and folders that are accessible at this location on the system
-path? As a lover of literature, I like to frame these things in
-terms of core existential questions that irritate into art. Where am I?
-What is the deep structure of my context? What are the things that exist
-in my world? To see, type <code>ls</code> , which stands for "list". This
-just outputs the contents of the current directory. Simple and highly useful.
+path? To see, type <code>ls</code> , which stands for "list". This
+just outputs the contents of the current directory.
+
+If your setup is like mine, you should see three folders - "myweb,"
+"private," and "public\_html."
 
 ## <code>cd</code>
 
-Ok, now we can see where we are and what stuff exists in the current
-directory. You'll almost never be in a situation where all your work is
-in a single directory, though (or the one you start in...), so a really
-important piece of the puzzle is the <code>cd</code> command, which stands for
+Ok, now we can see (a) where we are and (b)  what stuff exists in the current
+directory. But you'll never be in a situation where all your work is
+in a single directory, so a really important piece of the puzzle is the <code>cd</code> command, which stands for
 "change directory". This does what you'd expect. Think of it as using
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
-exists inside of the User directory. You can do that by typing
-<code>cd</code> , space, and then the name of the directory. As you start
-typing the name, hit the tab button after a few keystrokes, and bash will try
-to autocomplete the name. As you get faster with the commands, this
-becomes a useful way to speed things up. If you're on a standard Mac
-setup, go ahead and change into the "Desktop" directory with <code>cd
-Desktop</code> .
+exists inside of your home user directory. You can do that by typing
+<code>cd</code> , space, and then the name of the directory. Go ahead and change into the
+"private" directory with <code>cd private</code> .
 
 Now, type the <code>ls</code> command again to see the contents of the new
-directory. If the <code>cd</code> command worked, you should see different stuff
-now. You should be able to recognize the contents of the Desktop folder;
-there should be listings for the same files and directories on the
-visual desktop. Now, let's go back to your user directory. To move
+directory. If changed directories successfully, you should see just one
+file called home.html. Now, let's go back to your user directory. To move
 "upwards" on the filepath, type <code>cd ..</code> . The double period ".." stands
 for going up a single directory level. So, if you wanted to go up two levels,
 you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code> . Etc.
 
-So, after typing <code>cd ..</code> , you should be back in your users directory.
+So, after typing <code>cd ..</code> , you should be back in your home user directory where you started.
 
 ## <code>mkdir</code>
 
 Say you want to create a new directory ("folder" in Windows parlance). I
-put all of my work in a custom folder in my home Users directory called
-"Projects." Let's go ahead and create that folder by typing <code>mkdir
+put all of my work in a folder called "Projects." Go ahead and change into the "private" folder with the command <code>cd private</code> , and then create a new folder called Projects by typing <code>mkdir
 Projects</code> . "mkdir" stands for "make directory". It just creates a new
 folder with nothing inside of it.
 
@@ -116,11 +92,11 @@ testdir</code> . Then, change into the new testdir directory with <code>cd testd
 
 <code>mkdir</code> creates directories, but directories are just buckets for actual
 data, which is contained in files. To create a new file in the current
-directory, use the <code>touch</code> command. I'm not sure why it's called touch.
+directory, use the <code>touch</code> command.
 Type <code>touch textfile.txt</code> . This will create a blank text file called
-textfile.txt. I often tend to type <code>ls</code> after any of these commands just
-to make sure that I typed the previous command correctly and that the
-new file exists.
+textfile.txt. I often tend to type <code>ls</code> or <code>pwd</code> before or after important
+commands just to make sure that I'm in the right location and that the
+previous command did what I wanted it to.
 
 Now, create three more textfiles like this - <code>touch
 {textfile2.txt,textfile3.txt,textfile4.txt}</code> . You can add as many new
@@ -181,11 +157,26 @@ Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
 
-To give a sense of how dangerous <code>rm</code> can be, consider this - the
-command <code>rm -rf /</code> will delete the entire file structure on the hard
-drive. That's because unix interprets the "/" as meaning the
-highest-level directory on the system. So, the command goes through all
-of the files on your computer and drops all of them. Bad times.
+## <code>vim</code>
+
+Vim is build directly into bash, which can be incredibly useful.
+Normally, if you're doing heavy-duty development work that involves
+making edits to lots of files at once, you'll want to use a standalone
+version of the editor like macvim, which gives you extra
+functionality (tabs, etc.). But if you just need to make a quick edit to
+a file directly from the terminal - or if you're working exclusively in
+a single file for a long amount of time - it can be useful to just fire
+up the file in bash and edit away. This entire document, for
+example, was composed without ever leaving the terminal.
+
+You can create a new text file and open it in vim with a single command -
+<code>vim testfile.txt</code> . Once the file is open, use the default
+  vim movement and editing commands to change the file. Hit "i" to enter
+the insert mode, and type something into the file.
+
+To save, use the standard <code>:w</code> . Once you're finished with
+the file, close it and return to the bash command prompt with
+<code>:x</code> .
 
 ## <code>tar</code>
 
@@ -282,3 +273,4 @@ around on it for a month or so. Short of reckless use of
 [2]: http://homepage.mac.com/rgriff/files/TerminalBasics.pdf
 [3]: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
 [4]: http://lenz.unl.edu/2011/04/09/life-on-the-command-line.html
+[5]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
