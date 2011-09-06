@@ -127,6 +127,7 @@ Now, create three more textfiles like this - <code>touch
 files as you want to the comma-delimited list to create a bunch of files
 with one command. Now, there should be 4 blank text files in the
 directory "testdir", which sits inside of the "Projects" directory.
+
 ## <code>cp</code>
 
 Say we have a file that we want to copy. In Finder/Explorer, you would
