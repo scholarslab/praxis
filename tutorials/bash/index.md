@@ -7,7 +7,7 @@ title: 'Command Line Bootcamp'
 
 The transition to interacting with your computer on the command line can
 be a little jarring at first if you're accustomed to working in an
-environment dominated by windows, cusrors, buttons, and other GUI
+environment dominated by windows, cursors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
 façades for functionality that can be achieved with more flexibility and
 speed by typing commands directly into the terminal. For a programmer, a day's
