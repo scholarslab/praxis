@@ -1,4 +1,4 @@
-require 'ninesixty' # 960 plugin
+require 'susy' #Susy framework
 
 http_path = "/"
 css_dir = "stylesheets"

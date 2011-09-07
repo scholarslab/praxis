@@ -6,7 +6,7 @@
     <meta name="description" content="{{ page.description }}" />
     {% endif %}
     <meta charset="utf-8">
-    <link rel="stylesheet" media="screen" href="/stylesheets/screen.css" type="text/css" />
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
     <link rel="author" type="text/plain" href="/humans.txt" />
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css }}" type="text/css" />
@@ -20,34 +20,31 @@
 
   </head>
   <body>
-    <div id="container" class="two-column">
-      <header id="header">
+    <div id="container">
+      <header role="banner">
         <h1><a href="/"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a></h1>
-        </header>
-          <nav>
-           <ul class="linklist">
+      </header>
+        <nav id="nav-primary">
+           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/people.html">People</a></li>
             <li><a href="/tutorials">Tutorials</a></li>
           </ul>
-          </nav>
-        <div id="content">
-          {{ content }}
-        </div><!-- #content -->
-      <footer id="footer">
-
-          <div id="slab-info">
-            <ul>
-                <li><a rel="license" class="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a></li>
-                <li><a href="http://www.scholarslab.org/category/praxis-program/feed/" class="feed">Subscribe to our Feed</a></li>
-                <li>
-                {% email %} praxis@collab.itc.virginia.edu {% endemail %}
-                </li>
-            </ul>
-            <a href="http://scholarslab.org" id="slab-logo"><img src="http://static.scholarslab.org/images/slab-logo-rgb-125px.png" title="Scholars' Lab" alt="Scholars' Lab" /></a>
-            <a href="http://lib.virginia.edu/" id="uva-lib-logo"><img src="http://static.scholarslab.org/images/uvalib.png" alt="University of Virginia Libraries" /></a>
-          </div>
+        </nav>
+      <div role="main">
+      {{ content }}
+      </div><!-- #content -->
+      <footer role="contentinfo">
+        <div id="slab-info">
+          <ul>
+            <li><a rel="license" class="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a></li>
+            <li><a href="http://www.scholarslab.org/category/praxis-program/feed/" class="feed">Subscribe to our Feed</a></li>
+            <li>{% email %} praxis@collab.itc.virginia.edu {% endemail %}</li>
+          </ul>
+          <a href="http://scholarslab.org" id="slab-logo"><img src="http://static.scholarslab.org/images/slab-logo-rgb-125px.png" title="Scholars' Lab" alt="Scholars' Lab" /></a>
+          <a href="http://lib.virginia.edu/" id="uva-lib-logo"><img src="http://static.scholarslab.org/images/uvalib.png" alt="University of Virginia Libraries" /></a>
+        </div>
       </footer>
     </div><!-- #container -->
 

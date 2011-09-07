@@ -1,0 +1,27 @@
+$total-cols: 5;
+$col-width: 100px;
+$gutter-width: 30px;
+$side-gutter-width: 0px;
+
+#container {
+  @include container;
+  @include susy-grid-background;
+}
+
+nav {
+  @include columns(1);
+  ul {
+    @include linklist;
+
+    li {
+      border-bottom:none;
+    }
+  }
+}
+
+[role="main"] {
+  @include columns(4);
+  @include omega;
+}
+
+

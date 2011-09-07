@@ -1,0 +1,26 @@
+$total-cols: 7;
+$col-width: 100px;
+$gutter-width: 30px;
+$side-gutter-width: 0px;
+
+#container {
+  @include container;
+  @include susy-grid-background;
+}
+
+nav {
+  @include columns(1);
+}
+
+[role="main"] {
+  @include columns(6);
+  @include omega;
+  #topics {
+    @include columns(3,6);
+  }
+  #blog {
+    @include columns(3, 6);
+    @include omega;
+  }
+}
+

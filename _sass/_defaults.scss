@@ -1,0 +1,139 @@
+// Imports -------------------------------------------------------------------
+@import "base";
+@import "normalize";
+@import "mixins";
+@import "fonts";
+
+$total-cols: 1;
+$col-width: 92%;
+$gutter-width: 4%;
+$side-gutter-width: 0;
+
+#container {
+  @include container;
+  @include susy-grid-background;
+}
+
+html {
+    border-top: 4px solid #bde;
+    padding: 30px 0;
+}
+
+body {
+    color: #333;
+    font: 100%/1.5 "MuseoSlab300", monospace;
+    background: transparent url('http://static.scholarslab.org/images/gears-bg.png') 50% -100px no-repeat;
+}
+
+h1,
+h2,
+h3 {
+    font-weight:normal;
+    font-family: "MuseoSlab500";
+}
+
+h1 {
+    color: #8ab;
+}
+
+em {
+    font-family: "MuseoSlab300Italic", monospace;
+}
+
+code {
+    font-weight: bold;
+    color: #c1272d;
+}
+
+article h1 {
+    font-family: "MuseoSlab100";
+    line-height:1.25;
+}
+
+a:link,
+a:visited {color: #961B1E;}
+a:hover {color: #f00; text-decoration:none;}
+a:active {color: #961B1E;}
+
+a img {
+    border:0;
+}
+
+img {
+  max-width:100%;
+}
+
+nav {
+  @include columns(1);
+  @include linklist;
+  margin-bottom: 30px;
+  
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:right;
+    li {
+      display:inline-block;
+      border-bottom:none;
+    }
+
+  }
+}
+
+[role="main"] {
+  @include columns(1);
+}
+
+
+#pitch {
+    margin-top:0;
+    color: #88AABB;
+    font-size: 145%;
+    line-height: 1.5em;
+    font-family: "MuseoSlab500";
+}
+
+#topics ul {
+  @include linklist;
+}
+
+footer[role="contentinfo"] {
+  display:block;
+  text-align:right;
+  clear:both;
+  padding-top: 30px;
+
+  #slab-info {
+    float:right;
+    display:table;
+    ul {
+        display: table-cell;
+        list-style:none;
+        vertical-align:middle;
+        margin-left:0;
+        margin-bottom:0;
+        padding-left:0;
+        padding-right: 20px;
+        font-size:0.8em;
+        text-align:right;
+        line-height: 1.5em;
+        a {
+        text-decoration:none;
+        font-family: "MuseoSlab500";
+        }
+    }
+  }
+    #slab-logo,
+    #uva-lib-logo {
+       display:table-cell;
+       vertical-align:middle;
+       padding-left: 19px;
+       border-left: 1px dotted #ddd;
+    }
+    
+    #slab-logo {
+        padding-right: 20px;
+    }
+}
+

@@ -1,0 +1,45 @@
+@mixin linklist {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+  line-height:2em;
+  text-align:left;
+
+  li {
+      border-bottom: 1px dotted #ddd;
+  }
+  
+  li.nolink {
+      padding: 0 10px;
+      color: #777;
+  }
+  
+  li.nolink:before {
+      margin:0;
+      content: counter(li, square);
+      padding-right: 10px;
+      color: #ccc;
+  }
+  
+  a {
+      display:block;
+      text-decoration:none;
+      padding: 0 10px;
+  }
+
+  a:link {}
+  a:visited {}
+  a:hover {background: rgba(187,221,238,0.15)}
+  a:active {}
+
+  a:before {
+      margin:0;
+      content: counter(a, square);
+      padding-right: 10px;
+      color: #bde;
+  }
+
+  a:hover:before {
+      color: #8ab;
+  }
+}

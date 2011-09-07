@@ -1,0 +1,29 @@
+/* Fonts
+************************************************************************/
+@include font-face("MuseoSlab100",
+font-files(
+  "museoslab_100/Museo_Slab_100-webfont.woff", woff,
+  "museoslab_100/Museo_Slab_100-webfont.ttf", truetype,
+  "museoslab_100/Museo_Slab_100-webfont.svg", svg
+), "museoslab_100/Museo_Slab_100-webfont.eot");
+
+@include font-face("MuseoSlab300",
+font-files(
+  "museoslab_300/Museo_Slab_300-webfont.woff", woff,
+  "museoslab_300/Museo_Slab_300-webfont.ttf", truetype,
+  "museoslab_300/Museo_Slab_300-webfont.svg", svg
+), "museoslab_300/Museo_Slab_300-webfont.eot");
+
+@include font-face("MuseoSlab300Italic",
+font-files(
+  "museoslab_300italic/Museo_Slab_300italic-webfont.woff", woff,
+  "museoslab_300italic/Museo_Slab_300italic-webfont.ttf", truetype,
+  "museoslab_300italic/Museo_Slab_300italic-webfont.svg", svg
+), "museoslab_300italic/Museo_Slab_300italic-webfont.eot");
+
+@include font-face("MuseoSlab500",
+font-files(
+  "museoslab_500/Museo_Slab_500-webfont.woff", woff,
+  "museoslab_500/Museo_Slab_500-webfont.ttf", truetype,
+  "museoslab_500/Museo_Slab_500-webfont.svg", svg
+), "museoslab_500/Museo_Slab_500-webfont.eot");
