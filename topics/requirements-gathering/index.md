@@ -5,6 +5,7 @@ date: 2011-09-01 09:08
 comments: false
 sharing: true
 footer: true
+tags: requirements-gathering
 ---
 # Requirements Gathering
 
