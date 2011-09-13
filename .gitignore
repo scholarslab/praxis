@@ -1,4 +1,6 @@
 .DS_Store
+log/
+_cache/
 _settings.yml
 _site
 _sass/.sass-cache
