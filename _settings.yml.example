@@ -1,4 +1,0 @@
-domain: example.com
-port: 22
-directory: /var/www
-username: me

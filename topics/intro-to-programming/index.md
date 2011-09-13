@@ -23,9 +23,11 @@ tags: "programming"
 * [Ruby Learning][5]
 * [Ruby Koans][3]
 
+<iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_161hphd6kfm"
+frameborder="0" width="410" height="342"></iframe>
+
 [1]: http://pine.fm/LearnToProgram/ 'Learn to Program'
 [2]: http://ruby.learncodethehardway.org/book/ 'Learn Ruby the Hard Way'
 [3]: http://rubykoans.com/ 'Ruby Koans'
 [4]: http://tryruby.org/ 'Try Ruby'
 [5]: http://rubylearning.com/ 'Ruby Learning'
-
