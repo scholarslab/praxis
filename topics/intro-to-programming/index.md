@@ -21,7 +21,7 @@ tags: "programming"
 * [Learn Ruby the Hard Way][2] (it's not really that hard)
 * [Try Ruby][4]
 * [Ruby Learning][5]
-* [Ruby Koans][5]
+* [Ruby Koans][3]
 
 [1]: http://pine.fm/LearnToProgram/ 'Learn to Program'
 [2]: http://ruby.learncodethehardway.org/book/ 'Learn Ruby the Hard Way'
