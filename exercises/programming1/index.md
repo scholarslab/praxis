@@ -1,0 +1,286 @@
+---
+layout: default
+javascript:
+  - /javascripts/hints.js
+---
+
+
+# Printing to the Screen
+Store your street address, city, state, and zip code in variables (or
+even better, a **hash**!), then print them in the usual format:
+
+Name<br/>
+Street<br/>
+City, State, Zip
+
+
+
+{% highlight ruby %}
+address = {
+  "name" => "Thomas Jefferson",
+  "street" => "931 Thomas Jefferson Parkway",
+  "state" => "Virginia",
+  "zip" => 22902
+}
+
+puts address['name']
+puts address['street']
+puts "#{address['state']} #{address['zip']}"
+{% endhighlight %}
+
+<hr/>
+
+# Calculations
+
+Write a program that converts seconds to years. Test your program with
+`600000000` seconds, `60` seconds, and `40000.33` seconds.
+
+{% highlight ruby %}
+
+test1 = 600000000
+# there are 60 seconds and minute
+in_minutes = test1 / 60
+# there are 60 minutes in an hour
+in_hours = in_minutes / 60
+# there are 24 hours in a day
+in_days = in_hours / 24
+# there are about 365 days in a year
+in_years = in_days / 365
+
+puts in_years
+
+{% endhighlight %}
+
+Does this make sense for all the inputs? We can get a bit more exact if
+we cast `test1` as a **float**.
+
+{% highlight ruby %}
+test1 = 600000000.to_f
+{% endhighlight %}
+
+<hr/>
+
+# Collections
+
+Create a collection of these authors and the year they passed away; print the
+collection in the following format:
+
+Charles Dickens passed away in 1870.
+
+Charles Dickens, 1870<br/>
+William Thackeray, 1863<br/>
+Anthony Trollope, 1882<br/>
+Gerard Manley Hopkins, 1889
+
+{% highlight ruby %}
+authors = {"Charles Dickens" => "1870", "William Thackeray" => "1863", "Anthony Trollope" => "1882", "Gerard Manley Hopkins" => "1889"}
+
+authors.each do |author, year|
+  puts author.to_s + " passed away in " + year.to_s
+end
+{% endhighlight %}
+
+# Branching
+
+A time traveller has suddenly appeared in your classroom!
+
+Create a variable representing the traveller's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020) or from the far future (beyond 2020).
+
+{% highlight ruby %}
+
+year = 1899
+# if you want to get really fancy, you can grab today's date from Ruby
+# see http://www.ruby-doc.org/core/classes/Time.html#M000368
+# e.g. year = Time.now.year
+
+
+if year <= 1900
+  puts "Welcome from the distant past!"
+elsif year > 1900 && year < 2020
+  puts "Welcome from the present!"
+elsif year >= 2020
+  puts "Welcome from the far future!"
+end
+
+{% endhighlight %}
+
+<hr/>
+
+# Pirate Test (easy)
+Write a program that tests whether someone is a pirate or not.  As we all know, no pirate can resist using the exclamation "**Arrr!**" constantly.  If a string contains "**Arrr!**", tell the pirate to go away.  Otherwise, welcome your non-pirate friend with open arms.
+
+## Tests:
+
+* **Arrr! How are ye?**
+* **Hellow, friend.**
+
+**Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in 
+`string_variable` and otherwise equals `nil`.
+
+{% highlight ruby %}
+answers = ["Arrr! How are ye?", "Hello, friend."]
+
+answers.each do |answer|
+  if answer['Arrr!']
+     puts "Go away, scurvy sea dog"
+  else
+     puts "Welcome!"
+  end
+end
+
+{% endhighlight %}
+
+<hr/>
+
+# Longest word (not too hard)
+Print out the longest word in "The quick brown fox jumped over the lazy dogs" and its length.
+
+##Hints 
+* `my_string.length` equals the length of a string.
+* `my_long_string.split(" ").each` will break the string up by spaces.
+
+What about "The quick brown fox jumps over the lazy dogs"?  How might we find all the longest words?
+
+{% highlight ruby %}
+sentence = "The quick brown fox jumped over the lazy dogs"
+
+longest = ""
+
+sentence.split(" ").each do |word|
+   if word.length > longest.length
+      longest = word
+   end
+end
+
+puts "The word '" + longest + "' is " + longest.length.to_s + " characters long."
+
+{% endhighlight %}
+
+<hr/>
+
+# Calculating Grades (ok, let me think about this one)
+
+Write a program that will average 3 numeric exam grades, return an average test score, a corresponding letter grade, and a message stating whether the student is passing.
+
+<table>
+<tr>
+<th>Average</th>
+<th>Grade</th>
+</tr>
+<tr>
+<th>90+</th>
+<th>A</th>
+</tr>
+<tr>
+<th>80-89</th>
+<th>B</th>
+</tr>
+<tr>
+<th>70-79</th>
+<th>C</th>
+</tr>
+<tr>
+<th>60-69</th>
+<th>D</th>
+</tr>
+<tr>
+<th>0-59</th>
+<th>F</th>
+</tr>
+</table>
+
+Exams: 89, 90, 90<br/>
+Average: 90<br/>
+Grade: A<br/>
+Student is passing.
+
+Exams: 50, 51, 0<br/>
+Average: 33<br/>
+Grade: F<br/>
+Student if fails.
+
+
+{% highlight ruby %}
+# option 1 to calculate the grade average
+e1 = 89
+e2 = 90
+e3 = 90
+
+avg = (e1 + e2 + e3) / 3
+
+# option 2 to calculate the grade average
+grades = [50, 51, 0]
+sum = 0
+grades.each do |g|
+  sum = sum + g
+end
+
+avg = sum / grades.length
+
+if avg >= 90
+  grade = "A"
+elsif avg >= 80 && avg < 90
+  grade = "B"
+elsif avg > 69 && avg < 80
+  grade = "C"
+elsif avg >= 69 && avg <= 69
+  grade = "D"
+else
+  grade = "F"
+end
+
+grades.each do |g|
+  puts "Exam: " + g.to_s
+end
+
+puts "Average: " + avg.to_s
+
+puts "Grade: " + grade
+
+if grade == "F"
+  puts "Student is failing"
+else
+  puts "Sudent is passing"
+end
+
+
+{% endhighlight %}
+
+<hr/>
+
+# Population Growth (Might need to ask somebody)
+
+The population of Fibonaccia has been shown to grow at an exponential rate with a really odd phenomenon: each year the total population is the sum of the population for the previous two years. With a starting population of 10, the population for the first five years would be:
+
+10, 20, 30, 50, 80
+
+Write a program that will calculate the population of Fibonaccia after 10 years, 20 years, 100 years.
+
+**Hint**: `population = [0,10]`
+
+{% highlight ruby %}
+years = 1000
+population = [0,10]
+
+years.times do |p|
+  population.push(population[-1] + population[-2])
+end
+
+puts population
+{% endhighlight %}
+
+<hr/>
+
+# Population Growth (Are you serious?)
+
+Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be:
+
+1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+
+Find the sum of all the even-valued terms in the sequence which do not exceed 4 million.
+
+
+
+
+
+
