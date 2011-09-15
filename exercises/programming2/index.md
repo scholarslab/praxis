@@ -34,7 +34,8 @@ puts greet "phybernightmare"
 
 # Smallest Number
 
-Write a program that evaluates two numbers and returns the smallest.
+Write a program that evaluates two numbers and returns the smallest. If the
+numbers are the same, it should return a message stating so.
 
 {% highlight ruby %}
 def smallest_number(x, y)
