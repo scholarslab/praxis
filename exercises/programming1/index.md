@@ -288,7 +288,7 @@ Find the sum of all the even-valued terms in the sequence which do not exceed 4 
 MAX = 4000000
 
 fib_seq = [1, 2]
-sum = 0
+sum = 2
 while fib_seq[-1] <= MAX
   next_fib = fib_seq[-1] + fib_seq[-2]
   fib_seq.push(next_fib)

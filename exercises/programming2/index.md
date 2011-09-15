@@ -72,4 +72,4 @@ puts reverse(test_string)
 
 {% endhighlight %}
 
-
+<hr/>
