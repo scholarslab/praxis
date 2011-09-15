@@ -4,7 +4,7 @@ javascript:
   - /javascripts/hints.js
 ---
 
-[Running your code in vim]('/tutorials/vim-code-execution/')
+[Running your code in vim](/tutorials/vim-code-execution/)
 
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or
@@ -20,13 +20,14 @@ City, State, Zip
 address = {
   "name" => "Thomas Jefferson",
   "street" => "931 Thomas Jefferson Parkway",
+  "city" => "Charlottesville",
   "state" => "Virginia",
   "zip" => 22902
 }
 
 puts address['name']
 puts address['street']
-puts "#{address['state']} #{address['zip']}"
+puts "#{address['city']}, #{address['state']} #{address['zip']}"
 {% endhighlight %}
 
 <hr/>
