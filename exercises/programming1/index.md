@@ -4,6 +4,7 @@ javascript:
   - /javascripts/hints.js
 ---
 
+[Running your code in vim]('/tutorials/vim-code-execution/')
 
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or

@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('div.highlight').hide();
 
-  $('hr').before($('<a class="show">Hint</a>'));
+  $('hr').before($('<a class="hint">Hint</a>'));
 
-  $('.show').click(function() {
+  $('.hint').click(function() {
     $(this).prev('.highlight').slideToggle('slow');
   });
 });
