@@ -73,3 +73,43 @@ puts reverse(test_string)
 {% endhighlight %}
 
 <hr/>
+
+# Loops
+
+## While Loop
+
+Write a program that implements a while loop to count from 1 to 1000 and
+print the result to the screen.
+
+{% highlight ruby %}
+def count(limit)
+  counter = 0
+  # note that do is optional with the while loop
+  while counter <= limit
+    puts counter
+    counter += 1
+  end
+end
+
+count(1000)
+
+{% endhighlight %}
+
+## Unless Loop
+
+
+## Until Loop
+
+## For Loop
+
+<hr/>
+
+## Time Loop
+
+<hr/>
+
+## Upto Loop
+
+<hr/>
+
+## Downto Loop
