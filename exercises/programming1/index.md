@@ -63,10 +63,10 @@ puts in_years
 
 # Collections
 
-Create a collection of these authors and the year they passed away; print the
+Create a collection of these authors and the year they died; print the
 collection in the following format:
 
-Charles Dickens passed away in 1870.
+Charles Dickens died in 1870.
 
 Charles Dickens, 1870<br/>
 William Thackeray, 1863<br/>
@@ -77,7 +77,7 @@ Gerard Manley Hopkins, 1889
 authors = {"Charles Dickens" => "1870", "William Thackeray" => "1863", "Anthony Trollope" => "1882", "Gerard Manley Hopkins" => "1889"}
 
 authors.each do |author, year|
-  puts author.to_s + " passed away in " + year.to_s
+  puts author.to_s + " died in " + year.to_s
 end
 {% endhighlight %}
 
