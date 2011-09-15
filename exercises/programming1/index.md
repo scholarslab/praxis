@@ -35,6 +35,11 @@ puts "#{address['state']} #{address['zip']}"
 Write a program that converts seconds to years. Test your program with
 `600000000` seconds, `60` seconds, and `40000.33` seconds.
 
+Does this make sense for all the inputs? We can get a bit more exact if
+we cast `test1` as a **float**.
+
+`test1 = 600000000.to_f`
+
 {% highlight ruby %}
 
 test1 = 600000000
@@ -51,14 +56,8 @@ puts in_years
 
 {% endhighlight %}
 
-Does this make sense for all the inputs? We can get a bit more exact if
-we cast `test1` as a **float**.
 
-{% highlight ruby %}
-test1 = 600000000.to_f
-{% endhighlight %}
-
-<hr/>
+<hr class="prepend"/>
 
 # Collections
 
@@ -79,6 +78,8 @@ authors.each do |author, year|
   puts author.to_s + " passed away in " + year.to_s
 end
 {% endhighlight %}
+
+<hr/>
 
 # Branching
 
