@@ -115,7 +115,7 @@
     // Add body
     // html += '<div class="rssBody">' +
     //   '<ul>';
-    html += '<h2>Posts</h2>'; 
+    html += '<h2>Recent Posts</h2>'; 
     html += '<article>';
 
     // Add feeds
