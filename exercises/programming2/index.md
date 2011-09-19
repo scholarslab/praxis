@@ -28,13 +28,14 @@ puts multiply(900, 32)
 <hr/>
 
 ## Divide (Easy, with a special case)
-Write a method that you can divide two numbers (x,y). Test with the
+
+Write a method that you can divide two numbers (x,y). If the denominator is
+zero, set it to the numerator (so that the method returns one). Test with the
 following examples:
 
 * 4, 2
 * 0, 4
 * 900, 32
-* 29999, 0
 
 {% highlight ruby %}
 def divide(x, y)
@@ -113,8 +114,9 @@ puts reverse(test_string)
 
 ## While Loop
 
-Write a method that implements a while loop to count from 1 to 1000 and
-print the result to the screen.
+Write a method that uses a `while` loop to count from 1 to 1000 and print the
+number of the current iteration to the screen. (That is, the first time
+through, the loop should print "1"; "2" the next time through; and so forth.)
 
 {% highlight ruby %}
 def count(limit)
@@ -129,56 +131,60 @@ end
 count(1000)
 
 {% endhighlight %}
+<hr/>
 
-## Unless Loop
+## Until Loop
 
-Write a method that implements an unless loop that counts from 0 to 10
-and prints the result to the screen.
+Write a method that uses an `until` loop to print each number from 0 to 5.
 
 {% highlight ruby %}
-
 def count(limit)
   counter = 0
-  unless counter <= limit
+  until counter > limit
     puts counter
     counter += 1
   end
 end
 
-count(10)
-
-{% endhighlight %}
-<hr/>
-
-## Until Loop
-{% highlight ruby %}
-counter = 0
-until counter == 5
-  puts counter
-  counter += 1
-end
+count(5)
 {% endhighlight %}
 <hr/>
 
 ## For Loop
+
+Write a method that uses a `for` loop to print each number from 1 to 10.
+
 {% highlight ruby %}
-counter = 0
-for counter in (1..10)
-  puts counter
+def count(limit)
+  counter = 0
+  for counter in (1..limit)
+    puts counter
+  end
 end
+
+count(10)
 {% endhighlight %}
 
 <hr/>
 
 ## Times Loop
-{% highlight ruby %}
-5.times {|block| puts "Ruby is fun"}
 
+Write a method that uses a `times` loop to print each number from 0 to 10.
+
+{% highlight ruby %}
+def count(limit)
+  limit.times do |counter|
+    puts counter
+  end
+end
+
+count(11)
 {% endhighlight %}
 
 <hr/>
 
 # Classes
+
 Write a simple class that defines a person with attributes of
 `first_name`, `last_name` and has a method signature of `to_s` which
 prints the object as "Jefferson, Thomas".
@@ -186,7 +192,7 @@ prints the object as "Jefferson, Thomas".
 {% highlight ruby %}
 class Person
 
-  def initalize(fname, lname)
+  def initialize(fname, lname)
     @first_name = fname
     @last_name = lname
   end
