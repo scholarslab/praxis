@@ -1,12 +1,11 @@
 rvm use 1.9.2
 
-bundle
+bundle install
 
 voices=( "Agnes" "Kathy" "Princess" "Vicki" "Victoria" "Bruce" "Fred"
 "Junior" "Ralph" "Albert" "Zarvox")
 
 key=$RANDOM
 let "key %= ${#voices[@]}"
-
 
 say -v ${voices[key]} 'Project now loaded. Please only edit with Vim'
