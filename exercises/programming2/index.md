@@ -3,7 +3,10 @@ layout: default
 javascript:
   - /javascripts/hints.js
 ---
-[Running your code in vim](tutorials/vim-code-execution/)
+
+* [Running your code in vim](/tutorials/vim-code-execution/)
+* [Ruby Cheat Sheet](/tutorials/ruby-cheatsheet/)
+* [Style Guide](/tutorials/ruby-style-guide/)
 
 # Basic Methods
 
@@ -206,3 +209,9 @@ tj = Person.new("Thomas", "Jefferson")
 puts tj # note, puts calls to_s if it is availabe
 {% endhighlight %}
 <hr/>
+
+# Can't Get Enough?
+Can't get enough? Work through the 
+[Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/book/) exercises
+and/or implement [last week's programming exercises](/exercises/programming1/)
+as Objects.
