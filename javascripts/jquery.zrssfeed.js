@@ -1,5 +1,7 @@
 /**
  *
+ * 9/21/11 - Added 'more' link
+ *
  * 8/29/11
  *
  * Updates to the plugin by Wayne Graham to fit the overall feel of the praxis 
