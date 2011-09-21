@@ -8,6 +8,16 @@ footer: true
 ---
 # Ruby Style Guide
 
+These styles are adapted from the excellent work Bozhidar Batsov posted
+on his [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+project.
+
+{% blockquote "Jerry Coffin" %}
+Nearly everybody is convinced that every style but their own is
+ugly and unreadable. Leave out the "but their own" and they're
+probably right...
+{% endblockquote %}
+
 ## Formatting
 
 * Use UTF-8 as the source file encoding
