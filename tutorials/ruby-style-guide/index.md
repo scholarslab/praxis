@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ruby Cheatsheet"
+title: "Ruby Style Guide"
 date: 2011-09-20 14:23
 comments: false
 sharing: true
@@ -8,7 +8,7 @@ footer: true
 ---
 # Ruby Style Guide
 
-# Formatting
+## Formatting
 
 * Use UTF-8 as the source file encoding
 * Use two-space indent (NO TABS)
@@ -17,7 +17,7 @@ footer: true
     Use `$git config --global core.autoclrf true` to ensure Window's
 style doesn't creep in
 
-* Use spaces around operators, and curly braces ('{', '}') after commas and semicolons
+* Use spaces around operators, and curly braces ('`{`', '`}`') after commas and semicolons
 
 {% highlight ruby %}
 sum = 1 + 2
@@ -26,7 +26,7 @@ a, b = 1, 2
 [1, 2, 3].each { |e| puts e }
 {% endhighlight %}
 
-* No spaces after '(', or between braces ('[', ']').
+* No spaces after '`(`', or between braces ('`[`', '`]`').
 
 {% highlight ruby %}
 some(arg).other
@@ -67,7 +67,7 @@ def do_something
 end
 {% endhighlight %}
 
-* Use RDoc and its conventions for documentation.
+* Use [RDoc](http://rdoc.sourceforge.net/) and its conventions for documentation ([SDoc](http://rubygems.org/gems/sdoc) may be used to generate more searchable documentation).
 * Use empty lines to break up a method in to logical paragraphs.
 * Keep lines to fewer than 80 characters.
 
@@ -154,7 +154,8 @@ document.saved? or document.save!
 {% endhighlight %}
 
 * Avoid multi-line ternary operations, use `if/unless` instead
-* Favor modifier `if/unless` usage when you have a single-line body. 
+* Favor modifier `if/unless` usage when you have a single-line body.
+ 
 {% highlight ruby %}
 # bad
 if some_condition
@@ -183,16 +184,13 @@ some_condition or do_something
 
 {% endhighlight %}
 
-below here
-
-
 * Suppress superfluous parentheses when calling methods, but keep them
   when calling "functions", i.e. when you use the return value in the
   same line.
 
 {% highlight ruby %}
-    x = Math.sin(y)
-    array.delete e
+x = Math.sin(y)
+array.delete e
 {% endhighlight %}
 
 * Prefer {...} over do...end for single-line blocks.  Avoid using {...} for
@@ -203,150 +201,44 @@ below here
 * Avoid `return` where not required.
 
 {% highlight ruby %}
-    # bad
-    def some_method(some_arr)
-      return some_arr.size
-    end
+# bad
+def some_method(some_arr)
+  return some_arr.size
+end
 
-    # good
-    def some_method(some_arr)
-      some_arr.size
-    end
+# good
+def some_method(some_arr)
+  some_arr.size
+end
 {% endhighlight %}
 
 * Avoid line continuation (\\) where not required. In practice, avoid using
   line continuations at all.
 
 {% highlight ruby %}
-    # bad
-    result = 1 - \
-             2
+# bad
+result = 1 - \
+         2
 
-    # good (but still ugly as hell)
-    result = 1 \
-             - 2
+# good (but still ugly as hell)
+result = 1 \
+         - 2
 {% endhighlight %}
 
 * Using the return value of = is ok.
 
 {% highlight ruby %}
-    if v = array.grep(/foo/) ...
+if v = array.grep(/foo/) ...
 {% endhighlight %}
 
 * Use ||= freely.
 
 {% highlight ruby %}
-    # set name to Bozhidar, only if it's nil or false
-    name ||= "Bozhidar"
+# set name to Bozhidar, only if it's nil or false
+name ||= "Bozhidar"
 {% endhighlight %}
 
 * Avoid using Perl-style special variables (like $0-9, $`, ...).
-
-* Out-dent `public`, `protected`, and `private` keywords by two spaces,
-  and leave one blank line above and below.
-
-{% highlight ruby %}
-    class SomeClass
-      def public_method
-        # ...
-      end
-
-    private
-
-      def private_method
-        # ...
-      end
-    end
-
-* Never put a space between a method name and the opening parenthesis.
-
-{% highlight ruby %}
-    # bad
-    f (3 + 2) + 1
-
-    # good
-    f(3 + 2) + 1
-{% endhighlight %}
-
-* If the first argument to a method begins with an open parenthesis,
-  always use parentheses in the method invocation. For example, write
-`f((3 + 2) + 1)`.
-
-* Always run the Ruby interpreter with the `-w` option so it will warn
-  you if you forget either of the rules above!
-
-## Naming
-
-* Use `snake_case` for methods and variables.
-* Use `CamelCase` for classes and modules.  (Keep acronyms like HTTP,
-  RFC, XML uppercase.)
-* Use `SCREAMING_SNAKE_CASE` for other constants.
-* The names of predicate methods (methods that return a boolean value)
-  should end in a question mark.
-  (i.e. `Array#empty?`).
-* The names of potentially "dangerous" methods (i.e. methods that modify `self` or the
-  arguments, `exit!`, etc.) should end with an exclamation mark.
-* The length of an identifier determines its scope.  Use one-letter variables
-  for short block/method parameters, according to this scheme:
-
-        a,b,c: any object
-        d: directory names
-        e: elements of an Enumerable
-        ex: rescued exceptions
-        f: files and file names
-        i,j: indexes
-        k: the key part of a hash entry
-        m: methods
-        o: any object
-        r: return values of short methods
-        s: strings
-        v: any value
-        v: the value part of a hash entry
-        x,y,z: numbers
-
-  And in general, the first letter of the class name if all objects are of
-  that type.
-
-* When using `inject` with short blocks, name the arguments `|a, e|`
-  (accumulator, element).
-* When defining binary operators, name the argument `other`.
-
-{% highlight ruby %}
-    def +(other)
-      # body omitted
-    end
-{% endhighlight %}
-
-* Prefer `map` over *collect*, `find` over *detect*, `select` over
-  *find_all*, `size` over *length*. This is not a hard requirement; if the
-  use of the alias enhances readability, it's ok to use it.
-
-## Comments
-
-* Write self-documenting code and ignore the rest of this section. _"Good
-  code is its own best documentation. As you're about to add a comment, ask
-  yourself, ‘How can I improve the code so that this comment isn't needed?’
-  Improve the code and then document it to make it even clearer."_ (Steve
-  McConnell)
-* Comments longer than a word are capitalized and use punctuation. Use [one
-  space](http://en.wikipedia.org/wiki/Sentence_spacing) after periods.
-* Avoid superfluous comments.
-
-{% highlight ruby %}
-    # bad
-    counter += 1 # increments counter by one
-{% endhighlight %}
-
-* Keep existing comments up-to-date. No comment is better than an outdated
-  comment.
-* Avoid writing comments to explain bad code. Try to refactor the code to
-  make it self-explanatory.
-
-## Annotations
-
-* Annotations should usually be written on the line immediately above
-  the relevant code.
-
 * The annotation keyword is followed by a colon and a space, then a note
   describing the problem.
 
@@ -354,11 +246,11 @@ below here
   lines should be indented two spaces after the `#`.
 
 {% highlight ruby %}
-    def bar
-      # FIXME: This has crashed occasionally since v3.2.1. It may
-      #   be related to the BarBazUtil upgrade.
-      baz(:quux)
-    end
+def bar
+  # FIXME: This has crashed occasionally since v3.2.1. It may
+  #   be related to the BarBazUtil upgrade.
+  baz(:quux)
+end
 {% endhighlight %}
 
 * In cases where the problem is so obvious that any documentation would
@@ -366,9 +258,9 @@ below here
   with no note. This usage should be the exception and not the rule.
 
 {% highlight ruby %}
-    def bar
-      sleep 100 # OPTIMIZE
-    end
+def bar
+  sleep 100 # OPTIMIZE
+end
 {% endhighlight %}
 
 * Use `TODO` to note missing features or functionality that should be
@@ -414,13 +306,13 @@ in *Ruby* now, not in *Python*.
 
 * Prefer string interpolation instead of string concatenation:
 
-	```Ruby
-	# bad
-	email_with_name = user.name + ' <' + user.email + '>'
+{% highlight ruby %}
+# bad
+email_with_name = user.name + ' <' + user.email + '>'
 
-	# good
-	email_with_name = "#{user.name} <#{user.email}>"
-	```
+# good
+email_with_name = "#{user.name} <#{user.email}>"
+{% endhighlight %}
 
 * Prefer single-quoted strings when you don't need string interpolation or
   special symbols such as `"\t"`, `"\n"`, etc.
@@ -428,55 +320,55 @@ in *Ruby* now, not in *Python*.
   Instead, use `String#<<`. Concatenation mutates the string instance in-place
   and is always faster than `String#+`, which creates a bunch of new string objects.
 
-	```Ruby
-	# good and also fast
-	html = ''
-	html << '<h1>Page title</h1>'
+{% highlight ruby %}
+# good and also fast
+html = ''
+html << '<h1>Page title</h1>'
 
-	paragraphs.each do |paragraph|
-	  html << "<p>#{paragraph}</p>"
-	end
-	```
+paragraphs.each do |paragraph|
+  html << "<p>#{paragraph}</p>"
+end
+{% endhighlight %}
 
 ## Percent Literals
 
 * Use `%w` freely.
 
 {% highlight ruby %}
-    STATES = %w(draft open closed)
+STATES = %w(draft open closed)
 {% endhighlight %}
 
 * Use `%()` for single-line strings which require both interpolation and embedded double-quotes. For multi-line strings, prefer heredocs.
 
 {% highlight ruby %}
-    # bad (no interpolation needed)
-    %(<div class="text">Some text</div>)
-    # should be '<div class="text">Some text</div>'
+# bad (no interpolation needed)
+%(<div class="text">Some text</div>)
+# should be '<div class="text">Some text</div>'
 
-    # bad (no double-quotes)
-    %(This is #{quality} style)
-    # should be "This is #{quality} style"
+# bad (no double-quotes)
+%(This is #{quality} style)
+# should be "This is #{quality} style"
 
-    # bad (multiple lines)
-    %(<div>\n<span class="big">#{exclamation}</span>\n</div>)
-    # should be a heredoc.
+# bad (multiple lines)
+%(<div>\n<span class="big">#{exclamation}</span>\n</div>)
+# should be a heredoc.
 
-    # good (requires interpolation, has quotes, single line)
-    %(<tr><td class="name">#{name}</td>)
+# good (requires interpolation, has quotes, single line)
+%(<tr><td class="name">#{name}</td>)
 {% endhighlight %}
 
 * Use `%r` only for regular expressions matching *more than* one '/' character.
 
 {% highlight ruby %}
-    # bad
-    %r(\s+)
+# bad
+%r(\s+)
 
-    # still bad
-    %r(^/(.*)$)
-    # should be /^\/(.*)$/
+# still bad
+%r(^/(.*)$)
+# should be /^\/(.*)$/
 
-    # good
-    %r(^/blog/2011/(.*)$)
+# good
+%r(^/blog/2011/(.*)$)
 {% endhighlight %}
 
 * Avoid `%q`, `%Q`, `%x`, `%s`, and `%W`.
@@ -545,13 +437,14 @@ Foo.bar = 1
     * Methods like `inject` now accept method names as arguments.
 
 {% highlight ruby %}
-      [1, 2, 3].inject(:+)
+  [1, 2, 3].inject(:+)
 {% endhighlight %}
 
 * Avoid needless metaprogramming.
 
 ## Design
 
+* Use common sense.
 * Code in a functional way, avoiding mutation when that makes sense.
 * Do not mutate arguments unless that is the purpose of the method.
 * Do not mess around in core classes when writing libraries. (Do not monkey
@@ -567,5 +460,4 @@ Foo.bar = 1
   possible, but no simpler than that. Poor initial design can lead to a lot
   of problems in the future.
 * Be consistent. In an ideal world, be consistent with these guidelines.
-* Use common sense.
 
