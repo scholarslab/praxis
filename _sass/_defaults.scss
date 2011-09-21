@@ -46,9 +46,16 @@ code {
     color: #c1272d;
 }
 
-article h1 {
+article{
+
+  .rss_more {
+    text-align: right;
+  }
+
+  h1 {
     font-family: "MuseoSlab100";
     line-height:1.25;
+  }
 }
 
 a:link,
@@ -69,7 +76,7 @@ nav {
   @include columns(1);
   @include linklist;
   margin-bottom: 30px;
-  
+
   ul {
     margin:0;
     padding:0;
@@ -133,7 +140,7 @@ footer[role="contentinfo"] {
        padding-left: 19px;
        border-left: 1px dotted #ddd;
     }
-    
+
     #slab-logo {
         padding-right: 20px;
     }

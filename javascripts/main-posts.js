@@ -5,6 +5,7 @@ $(document).ready(function () {
     titletag: 'h1',
     snipett: true,
     date: false,
+    more: true,
     header: false,
     key: API_KEY,
   });

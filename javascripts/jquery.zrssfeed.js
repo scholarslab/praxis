@@ -3,7 +3,7 @@
  * 8/29/11
  *
  * Updates to the plugin by Wayne Graham to fit the overall feel of the praxis 
- * website. 
+ * website.
  *
  * Plugin: jquery.zRSSFeed
  *
@@ -33,6 +33,7 @@
       limit: 10,
       header: true,
       titletag: 'h4',
+      more: false,
       date: true,
       content: true,
       snippet: true,
@@ -147,6 +148,7 @@
         html += '<p>'+ content + '</p>'
       }
 
+
             // Alternate row classes
       if (row == 'odd') {
         row = 'even';
@@ -154,6 +156,10 @@
         row = 'odd';
       }
     }
+
+    if (options.more) {
+        html += '<div class="rss_more"><a href="' + feeds.link + '">more posts &raquo;</a></div>';
+      }
 
     // '</div>'
     html += '</article>';
