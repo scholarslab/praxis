@@ -160,7 +160,7 @@
     }
 
     if (options.more) {
-        html += '<div class="rss_more"><a href="' + feeds.link + '">more posts &raquo;</a></div>';
+        html += '<div class="rss_more"><a href="' + feeds.link + '/praxis-program/">more posts &raquo;</a></div>';
       }
 
     // '</div>'
