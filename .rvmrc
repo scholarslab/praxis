@@ -1,6 +1,7 @@
 rvm use 1.9.2
 
 bundle install
+git pull
 
 voices=( "Agnes" "Kathy" "Princess" "Vicki" "Victoria" "Bruce" "Fred"
 "Junior" "Ralph" "Albert" "Zarvox")
