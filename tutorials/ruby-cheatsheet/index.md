@@ -16,10 +16,10 @@ Variable names use underscores between words for complex names
 number = 5
 my_number = 7
 
-@instance # <= Accessable to an instance of an object
-local     # <= Accessable only to the current context
+@instance # <= Accessible to an instance of an object
+local     # <= Accessible only to the current context
 CONSTANT  # <= Variable that once set, never changes
-$global   # <= Accessable just about anywhere
+$global   # <= Accessible just about anywhere
 @@class   # <= 
 
 person1 = person2     # <= both reference same object
@@ -69,7 +69,7 @@ or   # logical OR
 
 ## Method Calls
 
-Parathenses are optional, but makes method calls more readable.
+Parentheses are optional, but make method calls more readable.
 
 {% highlight ruby %}
 puts "Word"

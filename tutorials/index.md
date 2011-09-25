@@ -8,6 +8,7 @@ title: Tutorials
 * [Introduction to Vim](/tutorials/vim/)
 * [Command Line Bootcamp](/tutorials/bash/)
 * [IRC](/tutorials/irc/)
+* [Git](/tutorials/git/)
 
 # Resources
 

@@ -26,6 +26,9 @@ tags: "programming"
 <iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_161hphd6kfm"
 frameborder="0" width="410" height="342"></iframe>
 
+<iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_275hh88vhfr"
+frameborder="0" width="410" height="342"></iframe>
+
 [1]: http://pine.fm/LearnToProgram/ 'Learn to Program'
 [2]: http://ruby.learncodethehardway.org/book/ 'Learn Ruby the Hard Way'
 [3]: http://rubykoans.com/ 'Ruby Koans'

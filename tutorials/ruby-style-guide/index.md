@@ -461,7 +461,7 @@ Foo.bar = 1
   patch them.)
 * [Do not program
   defensively.](http://www.erlang.se/doc/programming_rules.shtml#HDR11)
-* Keep the code simple and subjective. Each method should have a single,
+* Keep the code simple (although this is subjective). Each method should have a single,
   well-defined responsibility.
 * Avoid more than three levels of block nesting.
 * Don't overdesign. Overly complex solutions tend to be brittle and hard to
