@@ -146,3 +146,7 @@ footer[role="contentinfo"] {
     }
 }
 
+/* Temporary bugfix on post lists */
+div.rssMedia {
+  display: none;
+}
