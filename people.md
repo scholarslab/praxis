@@ -22,9 +22,9 @@ Praxis Fellow and UVa English Department graduate student
 Web Applications Specialist, UVa Library Scholars' Lab
 ### Lindsay O'Connor
 Praxis Fellow and UVa English Department doctoral candidate
-### Bethany Nowviskie
+### Dr. Bethany Nowviskie
 Director, Digital Research & Scholarship, UVa Library
-### Eric Rochester
+### Dr. Eric Rochester
 Senior Developer, UVa Library Scholars' Lab
 ### Sarah Storti
 Praxis Fellow and UVa English Department doctoral candidate
