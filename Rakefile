@@ -50,7 +50,7 @@ task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
 # task :deploy => [:build] do
 
   data = YAML.load(File.read('_settings.yml'))
-  command = "rsync -rzh -e 'ssh -p #{data['port']}' --group=slab --chmod=a+rwx,g+s --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
+  command = "rsync -rzh --perms -e 'ssh -p #{data['port']}' --group=slab --chmod=a+rwx,g+s --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
 
   sh "#{command.to_s}"
 end
