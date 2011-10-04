@@ -68,6 +68,31 @@ a img {
     border:0;
 }
 
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  span.by {
+    font-weight: bolder;
+  }
+
+  span.by:before {
+    content: "\2014";
+  }
+}
+
+blockquote:before {
+  color: #ccc;
+  // content: open-quote;
+  font-size: 4em;
+  line-height: 1em;
+  // margin-right: 25em;
+  // vertical-align: -4em;
+}
+
 img {
   max-width:100%;
 }

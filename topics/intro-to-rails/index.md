@@ -8,6 +8,12 @@ footer: true
 ---
 # Intro to Rails
 
+{% blockquote "Tim OReilly" %}
+Ruby on Rails is a breakthrough in lowering the barriers of entry to programming.
+Powerful web applications that formerly might have taken weeks or months
+to develop can be produced in a matter of days.
+{% endblockquote %}
+
 ## Slides
 <iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_282rxmh2ngd" frameborder="0" width="410" height="342"></iframe>
 
