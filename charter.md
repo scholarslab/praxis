@@ -54,7 +54,7 @@ Until further agreements are made, the long-term steward for the project is the 
 
 ### Outcomes
 
-As stated above in “Prism as a tangible product,” the 2011-12 Praxis team aims to offer a set of project deliverables by the end of the school year. Group members will discuss and agree upon deadlines for progress throughout the year, recognizing that there is a learning curve and that steady progress is our main goal. Project phases will be organized so as not to require the completion of one phase before work before another can begin. 
+As stated above in “Prism as a tangible product,” the 2011-12 Praxis team aims to offer a set of project deliverables by the end of the school year. Group members will discuss and agree upon deadlines for progress throughout the year, recognizing that there is a learning curve and that steady progress is our main goal. Project phases will be organized so as not to require the completion of one phase before work on another can begin. 
 
 ### Licensing
 
