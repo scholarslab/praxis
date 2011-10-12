@@ -78,4 +78,9 @@ All Praxis team members will maintain and update a Google doc (or other collabor
 
 Praxis Program participants should seek opportunities to publicize work, including both formal and informal conference presentations and scholarly publications (see Equal Credit section for information on credit claims for project derivatives).
 
-In order to promote the spirit of collaboration between Praxis participants and the geographically distributed, though interested, community, participants should be open to suggestions for changes and new directions. Unless the team decides otherwise, participants have permission to publicize the Praxis Program at any step of the process through their professional and social networks. 
+In order to promote the spirit of collaboration between Praxis participants and the geographically distributed, though interested, community, participants should be open to suggestions for changes and new directions. Unless the team decides otherwise, participants have permission to publicize the Praxis Program at any step of the process through their professional and social networks.
+
+## Ratified
+
+This charter was ratified by all the members of the Prism team, October 12,
+2011.
