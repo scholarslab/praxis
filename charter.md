@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# 2011-12 Praxis Program Charter, version 1.0
+# 2011-12 Praxis Program Charter
 
 ## General Principles
 
