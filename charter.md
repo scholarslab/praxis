@@ -22,7 +22,7 @@ Learning, play, and creativity are intimately bound together. In the best spirit
 
 By the end of the academic year or the end of the program’s duration, all team members should have a basic command of humanities programming and current design techniques.
 
-### Improve And increase collaborative work
+### Improve and increase collaborative work
 
 The Praxis Program should strive to experiment with different forms of collaboration. An important part of the program is to devise new forms of academic collaboration and improve existing ones. This means collaboration not only amongst ourselves, but also with the larger scholarly community as well as the general public. We aim to recognize, respect, celebrate, and leverage the differences in our intellectual convictions, our academic backgrounds and experiences, and our talents and skills. 
 
@@ -46,7 +46,7 @@ All members of the Praxis Program team deserve equal credit for Prism. We unders
 
 ### Conflict Management
 
-When conflicts arise, they should be resolved with the help of a neutral third party. The mediator can come from within the Praxis Program as long as he or she is not directly involved in the dispute at hand. 
+If intractable conflicts arise, they should be resolved with the help of a neutral third party. The mediator can come from within the Praxis Program as long as he or she is not directly involved in the dispute at hand. 
 
 ### Maintenance
 
