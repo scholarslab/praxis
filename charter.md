@@ -1,6 +1,7 @@
 ---
-layout: default 
+layout: page
 title: 2011-12 Praxis Program Charter
+tags: charter
 ---
 
 # 2011-12 Praxis Program Charter
