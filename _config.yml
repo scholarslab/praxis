@@ -3,7 +3,7 @@
 permalink: date
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
-markdown: rdiscount
+markdown: redcarpet
 plugins: 'plugins'
 
 # configuration required for some pages
