@@ -17,7 +17,7 @@ gem "nokogiri", "~>1.5.0"
 gem "pygments.rb", "~>0.2.1"
 
 gem "rake", "~>0.9.2"
-gem "rdiscount", "~>1.6.0"
+gem "redcarpet", "~>1.17.2"
 
 
 gem "sass", "3.1.10"
