@@ -5,7 +5,7 @@ date: 2011-11-15 16:58
 comments: false
 sharing: true
 footer: true
-tags: "programming"
+tags: "testing"
 ---
 
 # Introduction to Testing
