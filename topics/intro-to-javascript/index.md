@@ -23,6 +23,7 @@ tags: "javascript"
   - Tutorials
       + [Smooth CoffeeScript][smooth]
       + [CoffeeScript Basics][basics]
+      + [Better JS with CoffeeScript][betterjs]
 * Resources and References on Things to Interact with
   - [Mozilla Developer Network (MDN)][mdn]
       + [Document Object Model][mdn-dom]
@@ -47,6 +48,7 @@ here][slides].
 [cs]: http://jashkenas.github.com/coffee-script/ 'CoffeeScript'
 [smooth]: http://autotelicum.github.com/Smooth-CoffeeScript/ 'Smooth CoffeeScript'
 [basics]: http://railscasts.com/episodes/267-coffeescript-basics 'CoffeeScript Basics'
+[betterjs]: http://vimeo.com/35258313 'Better JS with CoffeeScript'
 [mdn]: https://developer.mozilla.org/en-US/ 'Mozilla Developer Network'
 [mdn-dom]: https://developer.mozilla.org/en/DOM 'Document Object Model (MDN)'
 [mdn-html5]:  https://developer.mozilla.org/en/HTML/HTML5 'HTML 5 (MDN)'
