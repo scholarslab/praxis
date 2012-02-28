@@ -53,7 +53,7 @@ final result. The license was designed to help keep legal issues of
 mult-organizational collaborations out of the picture. Unlike the GPL
 which is designed to prevent the proprietary commercialization of Open
 Source code, the variants of the BSD license place minimal restrictions
-on what you are able to do with the software in the fugure.
+on what you are able to do with the software in the future.
 
 [BSD License][2]
 

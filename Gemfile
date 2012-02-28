@@ -18,7 +18,7 @@ gem "pygments.rb", "~>0.2.1"
 
 gem "rake", "~>0.9.2"
 gem "redcarpet", "~>1.17.2"
-
+gem "rdiscount"
 
 gem "sass", "3.1.10"
 gem "syntax", "1.0.0"
