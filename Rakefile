@@ -169,7 +169,7 @@ def jekyll(opts = '')
 end
 
 def compass(opts = '')
-  sh 'compass compile -c config.rb --force ' + opts
+  sh 'compass compile -c config.rb --force ' + opts + ' && compass watch &'
 end
 
 def htmlcompressor_wrapper(directory, opts = "")
