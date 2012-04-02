@@ -29,7 +29,10 @@
                   Modernizr.load('/javascripts/jquery.min.js');
             }
           }
-        }
+        },
+        {
+          load: '/javascripts/konami.js'
+        },
         {% for js in page.javascript %}
         ,{
           load: '{{ js }}'
