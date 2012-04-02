@@ -5,6 +5,7 @@ date: 2011-09-29 08:58
 comments: false
 sharing: true
 footer: true
+tags: rails
 ---
 # Intro to Rails
 
