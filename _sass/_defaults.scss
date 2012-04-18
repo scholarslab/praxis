@@ -128,6 +128,11 @@ nav {
     font-family: "MuseoSlab500";
 }
 
+#topics img {
+  background: #555;
+  padding: 50px;
+  text-align:center;
+}
 #topics ul {
   @include linklist;
 }

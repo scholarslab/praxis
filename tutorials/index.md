@@ -10,6 +10,11 @@ title: Tutorials
 * [IRC](/tutorials/irc/)
 * [Git](/tutorials/git/)
 
+# Exercises
+
+* [Exercise 1](/exercises/programming1/)
+* [Exercise 2](/exercises/programming2/)
+
 # Resources
 
 * [Ruby Cheat Sheet](/tutorials/ruby-cheatsheet/)
