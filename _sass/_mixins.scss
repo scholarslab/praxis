@@ -24,18 +24,12 @@
   a {
       display:block;
       text-decoration:none;
-      padding: 0 10px;
   }
-
-  a:link {}
-  a:visited {}
-  a:hover {background: rgba(187,221,238,0.15)}
-  a:active {}
 
   a:before {
       margin:0;
       content: counter(a, square);
-      padding-right: 10px;
+      padding-right: 5px;
       color: #bde;
   }
 
