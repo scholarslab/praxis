@@ -25,3 +25,10 @@ gem "syntax", "1.0.0"
 
 gem "foreman"
 
+gem "guard"
+gem "guard-livereload"
+gem "guard-compass"
+
+gem 'rb-fsevent', '~> 0.9.1'
+
+
