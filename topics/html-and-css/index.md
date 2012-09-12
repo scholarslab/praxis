@@ -9,25 +9,22 @@ tags: "HTML and CSS"
 ---
 # HTML and CSS
 
- * HTML and CSS as separation of structure and presentation
- * Introduction to HTML
+* HTML and CSS as separation of structure and presentation
+* Introduction to HTML
   * Structure and organization
   * Tags
   * Attributes
   * Attribute values
- 
- * Introduction to Cascading Style Sheets
+* Introduction to Cascading Style Sheets
   * Basic syntax of CSS
   * Selectors
-   * Selecting tags
-   * Selecting nodes with a specific ID value
-   * Selecting nodes with a specific class value
- 
- * Layout
+    * Selecting tags
+    * Selecting nodes with a specific ID value
+    * Selecting nodes with a specific class value
+* Layout
   * Centering a page
   * Creating columns; introduction to floats
- 
- * Advanced topics
+* Advanced topics
   * Media queries
   * Responsive web design
 
