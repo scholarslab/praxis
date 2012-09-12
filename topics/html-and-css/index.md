@@ -27,6 +27,7 @@ tags: "HTML and CSS"
 * Advanced topics
   * Media queries
   * Responsive web design
+  * CSS Preprocessors
 
 ## Resources
 
@@ -37,6 +38,9 @@ tags: "HTML and CSS"
  * [HTML5 Doctor][4]
  * [Learing CSS: Cascading Style Sheets articles and tutorials][5]
  * Ethan Marcotte, ["Responsive Web Design"][6], _A List Apart_
+ * [Sass][sass]
+ * [Compass][compass]
+ * [Susy][susy]
 
 [1]: http://www.w3.org/MarkUp/Guide/
 [2]: http://html5boilerplate.com/
@@ -44,3 +48,6 @@ tags: "HTML and CSS"
 [4]: http://html5doctor.com/
 [5]: http://www.w3.org/Style/CSS/learning
 [6]: http://www.alistapart.com/articles/responsive-web-design/
+[sass]: http://sass-lang.com/
+[compass]: http://compass-style.org/
+[susy]: http://susy.oddbird.net/
