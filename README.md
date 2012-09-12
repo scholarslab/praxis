@@ -13,6 +13,14 @@ directory, but for optimizing image assets, you will need to install the
 
     brew install libjpeg optipng
 
+## Development
+
+Open the code project and run it with `foreman`
+
+```
+foreman start
+```
+
 ## Deployment
 
      rake deploy
