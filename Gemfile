@@ -23,3 +23,5 @@ gem "rdiscount"
 gem "sass", "3.1.10"
 gem "syntax", "1.0.0"
 
+gem "foreman"
+
