@@ -27,6 +27,8 @@ tags: "git"
   - [Git Reference][5]
   - [Git, the Simple Guide][6]
 * Cheat Sheets (Check them all out and pick the one that works for you.)
+  - [git cheat sheet](http://rogerdudler.github.com/git-guide/files/git_cheat_sheet.pdf):
+    *This is the best cheat sheet.*
   - [Git Cheat Sheets][7]: List of cheat sheets with a few of it's own.
   - [Lorna Jane Mitchel's][8]: A cross between a tutorial and a cheatsheet.
     Probably not good to print out, but might be handy to review.
