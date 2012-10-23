@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2011-12 Praxis Program Charter
+title: 2012–2013 Praxis Program Charter
 tags: charter
 ---
 
