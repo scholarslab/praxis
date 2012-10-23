@@ -4,84 +4,87 @@ title: 2011-12 Praxis Program Charter
 tags: charter
 ---
 
-# 2011-12 Praxis Program Charter
+# 2012–13 Praxis Program Charter
 
-## General Principles
 
-* Open and Frequent Communication
-* When in Doubt, Ask (both inter-personal & training/help)
-* Stay Conscious of Interdisciplinarity
-* Collaboratively Review All Claims for Credit 
+## Shared Values
+
+### “Interdisciplinarity”
+
+We see the variety of disciplinary approaches represented by the team members as strengths. We encourage team members to bring disciplinary expertise and criticism to bear on the project at hand.
+
+While we embrace “Interdisciplinarity,” we also want to acknowledge the limitations of the framework.  Having multiple disciplines in the same room does not necessarily create an “interdisciplinary” space.  Rather it is through intentional dialogue and cross-disciplinary conversations that we seek to create a more “interdisciplinary” space.  While our group represents varied fields in the humanities there are many disciplines not represented in our cohort.  Given the limited time and resources of the Praxis Program we understand that our project will have limits and we hope that future Praxis cohorts will build on our work to make it more relevant to their disciplines.
+
+### Ethos
+
+* Enjoy Failure/Enjoy the Process
+* Learn from the past, but “don’t borrow troubles from the future.”
+* Go deep
+* Humor
+
+The team embraces the ethos of the digital humanities and Scholars’ Lab communities and believes cohesion and a positive attitude are integral parts of developing a productive work environment. Failures will be welcomed as opportunities for knowledge production and necessary steps in the process. Problems and conflicts will be viewed as occasions for reflecting and retooling. Potlucks and dancing. 
+ 
+We will strive to embrace all parts of the process, including false starts and failures.  We will take risks and not fear failure.
+
+The team will be wary of diffusing our attention among too many goals, platforms, or disciplines. They will do their best to focus on a smaller set of deliverables to be developed to completion.
+
+We will try not to lose our sense of humor.  Additionally we will all work to cultivate a reliable sense of humor that we can turn to in moments of difficulty.  We will laugh often at/with/for each other/ourselves.
+
 
 ## Goals
 
-### Enjoy and learn from the process
+### Developing Skills
 
-Learning, play, and creativity are intimately bound together. In the best spirit of the digital humanities at the University of Virginia, a healthy dose of play should guide our problem-solving strategies. Although this is a tool-building project, we expect that process of building the tool will also serve as a fun, educational opportunity for all members of the team. 
+By the end of the year all members will become familiar with the basic technical skills and digital techniques necessary to function in the digital humanities community.  In addition, we will educate ourselves about state of current issues relevant to the Digital Humanities. For example, we will prioritize learning about topics related to the project we hope to take on, like: crowdsourcing, genetic criticism, data-mining and reality-mining. Members will also become familiar with and take advantage of the many resources available at the Scholars’ Lab.  
 
-### Build programming & specific technical skills
+### A Tangible Product
 
-By the end of the academic year or the end of the program’s duration, all team members should have a basic command of humanities programming and current design techniques.
+The Praxis team will collaborate on a digital humanities project. By the end of the academic year, our team will produce a tangible product which can be used by the wider community. These deliverables will be conceived so as to be beneficial to the largest number of people and disciplines possible.
 
-### Improve and increase collaborative work
+### Document the Process
 
-The Praxis Program should strive to experiment with different forms of collaboration. An important part of the program is to devise new forms of academic collaboration and improve existing ones. This means collaboration not only amongst ourselves, but also with the larger scholarly community as well as the general public. We aim to recognize, respect, celebrate, and leverage the differences in our intellectual convictions, our academic backgrounds and experiences, and our talents and skills. 
+We will share the process of project development through platforms such as GitHub and the Praxis website.  This orientation toward documentation and sharing is motivated by several goals.  First, transparent documentation of process will help us to maintain open communication with other team members.  We will not only share our final products but also make sure to share the unfinished projects, failures, and messy notes from our experience.  Second, we want to leave records of our work for subsequent generations of the Praxis team.  Finally, we hope that sharing our process will provide inspiration for the wider Digital Humanities community.
 
-### Prism as a tangible project
+### Publicity and Publishing
 
-Our learning and collaboration will center around the creation of a digital humanities project called Prism. The specific design and functionality of Prism will be determined by the members of the 2011-2012 Praxis Program team. It is our goal to produce and share a publicly-accessible version of this tool by the end of the 2011-12 program.
+Members are committed to publicizing both the Praxis program and our final project.  We will make every effort to attend conferences, use social and online media, and co-author a paper.  These efforts may extend beyond the 2012-2013 academic year.
 
-### Preparations for future cohorts
+### Communication
 
-In order to allow the next Praxis Program team to start work right away on a project, we will make suggestions for that project before our tenure is over. 
+Members will maintain open and transparent communication lines with other team members.  Such transparency will be accomplished by using Github, Wikis, and emails on which the entire Praxis team is copied.  Our desire for transparency will not stop at our successes.  We will work hard to document and share our false starts.  In addition, members will aim to be physically present in the team lounge as much as possible. 
 
-### Presentations & Publications
+### Roles and Responsibilities
 
-One specific outcome we would like to see involves the entry of our shared work into the scholarly record.  Among other possibilities, we hope to write and submit a joint article to an appropriate formal publication venue, such as Digital Humanities Quarterly. The paper will be clearly marked as a collaborative effort, much in the same way that publications in the sciences are often co-signed by a team of researchers.
+We will strive to maintain a non-hierarchical structure that values a fluidity of roles.  Our fluid structure will not prevent a clear system of accountability where members can clearly articulate what is expected of them.  We will set basic milestones in the desire to offer a set of deliverables by the end of the year.
 
-## Charter Areas
+### Eupraxia
 
-### Equal Credit
+Be nice. Be professional/but not too professional. Be respectful. Listen.  Reach for Consensus.
 
-All members of the Praxis Program team deserve equal credit for Prism. We understand that we all have a vested interested in the success of the program, and each according to his or her skills will be an active participant, contributing time and creative direction. Therefore, we should all receive credit as equal partners in the program. That said, we posit two types of credit: credit attached to the project as a whole and credit claimed for individual contributions. Our shared web site should always list general credit in alphabetical order to emphasize the non-hierarchical ethos of the program. Whenever a member of the Praxis Program references the work to the outside community, the project as a whole should be credited to all members. Individual contributions may also be claimed wherever appropriate. 
+Relationship to Past and Future Cohorts
+The Praxis team plans to maintain Prism in its original form and keep it available to the public if possible. In our work, we will exercise respect toward the contribution of the past cohort.  We will make an effort to preserve their project either through version control, published articles, or other forms of documentation.   With regard to future cohorts, we will document potential ideas and possibilities for Prism even if they are not manifested in our own work.  We hope that future cohorts will continue to think about their relation to past and future Praxis teams with similar intent. 
 
-### Conflict Management
-
-If intractable conflicts arise, they should be resolved with the help of a neutral third party. The mediator can come from within the Praxis Program as long as he or she is not directly involved in the dispute at hand. 
-
-### Maintenance
-
-Until further agreements are made, the long-term steward for the project is the University of Virginia Library’s Scholars’ Lab.  In order to lengthen the life-cycle of the project, Prism should be designed using sustainable standards whenever possible.
-
-### Outcomes
-
-As stated above in “Prism as a tangible product,” the 2011-12 Praxis team aims to offer a set of project deliverables by the end of the school year. Group members will discuss and agree upon deadlines for progress throughout the year, recognizing that there is a learning curve and that steady progress is our main goal. Project phases will be organized so as not to require the completion of one phase before work on another can begin. 
+## Nuts and Bolts
 
 ### Licensing
 
-Prism will be produced in the spirit of open source, and the particular open source software and Creative Commons licenses involved in Prism and related products of the Praxis Program will be selected in accordance with that spirit.
+The digital tool will be produced in the spirit of open source, and the particular open source software and Creative Commons licenses involved in Prism and related products of the Praxis Program will be selected in accordance with that spirit.
 
-## Member Responsibilities
+### Equal Credit
 
-### Transparency 
+All members of the Praxis Program team deserve equal credit for our work. We understand that we all have a vested interested in the success of the program, and each according to his or her skills will be an active participant, contributing time and creative direction. Therefore, we should all receive credit as equal partners in the program. That said, we posit two types of credit: credit attached to the project as a whole and credit claimed for individual contributions. Our shared web site should always list general credit in alphabetical order to emphasize the non-hierarchical ethos of the program. Whenever a member of the Praxis Program references the work to the outside community, the project as a whole should be credited to all members. Individual contributions may also be claimed wherever appropriate.
 
-We will attempt to keep communications transparent, for example, by copying everyone involved in any given discussion, and by directly addressing with each other any questions or concerns that may arise.
+### Stewardship by SLab Faculty and Staff
 
-### Meetings
+Scholars’ Lab faculty and staff are equal participants in the Praxis Program, taking an active role in team decisions. They also act as teachers, coordinators, and (if need be) arbiters of conflict. All members of the Praxis team will work together to address disagreements in whatever way seems most in-line with the spirit of the charter.
 
-In the true spirit of collaboration, Praxis participants recognize the value of meeting regularly in person and working together in the same space, where other team members are available for consultation. The group will agree on regularly scheduled blocks of time in which at least two members can work in the Scholars’ Lab grad lounge to foster collaboration with the maximum number of Praxis team members.
+The Scholars’ Lab will help to maintain our final project after the fellowship is over. We will attempt to balance concerns of sustainability, experimentation, and innovation. The team will work together to realize the level of preservation that we want for our project (with the understanding that no digital tool can be kept standing in its current state forever).
 
-### Expectations
 
-All Praxis team members will maintain and update a Google doc (or other collaboratively editable working document) that lists agreed-upon weekly responsibilities and goals. 
+## Questions
 
-### Outreach
-
-Praxis Program participants should seek opportunities to publicize work, including both formal and informal conference presentations and scholarly publications (see Equal Credit section for information on credit claims for project derivatives).
-
-In order to promote the spirit of collaboration between Praxis participants and the geographically distributed, though interested, community, participants should be open to suggestions for changes and new directions. Unless the team decides otherwise, participants have permission to publicize the Praxis Program at any step of the process through their professional and social networks.
+This charter could not possibly account for all the challenges we will face or the questions we will encounter.  Therefore we thought it was important include questions that we are grappling with at this moment.  This section can be found on our Praxis wiki.  We anticipate that this list will change over time as our work takes on new and exciting challenges.
 
 ## Ratified
 
-This charter was ratified by all the members of the Prism team, October 12,
-2011.
+This charter was ratified by the members of the Prism team, October 16, 2012.
