@@ -83,8 +83,10 @@ The Scholars’ Lab will help to maintain our final project after the fellowship
 
 ## Questions
 
-This charter could not possibly account for all the challenges we will face or the questions we will encounter.  Therefore we thought it was important include questions that we are grappling with at this moment.  This section can be found on our Praxis wiki.  We anticipate that this list will change over time as our work takes on new and exciting challenges.
+This charter could not possibly account for all the challenges we will face or the questions we will encounter.  Therefore we thought it was important include questions that we are grappling with at this moment. This section can be found on our [Praxis wiki][praxis-wiki].  We anticipate that this list will change over time as our work takes on new and exciting challenges.
 
 ## Ratified
 
 This charter was ratified by the members of the Prism team, October 16, 2012.
+
+[praxis-wiki]: https://github.com/scholarslab/praxis/wiki
