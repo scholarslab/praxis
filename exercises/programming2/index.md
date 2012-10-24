@@ -210,6 +210,47 @@ puts tj # note, puts calls to_s if it is availabe
 {% endhighlight %}
 <hr/>
 
+# FizzBuzz
+
+Write a program that prints the numbers from 1 to 100. If a number is
+divisible by 3, print "Fizz" instead. If a number is divisible by 5,
+print "Buzz" instead. If a number is divisible by both 3 and 5, print
+"FizzBuzz" instead. 
+
+{% highlight ruby %}
+(1..100).each do |i|
+  output = ""
+
+
+  if( i % 3 == 0)
+    output =  "Fizz"
+  end
+
+  if ( i % 5 == 0)
+    output += "Buzz"
+  end
+
+  if (output == "")
+    output = i
+  end
+
+  puts output
+end
+
+# or more idiomatically
+
+(1..100).each do |i|
+  output = ''
+
+  output += 'Fizz' if i % 3 == 0
+  output += 'Buzz' if i % 5 == 0
+
+  puts(output.empty? ? i : output)
+end
+
+{% endhighlight %}
+
+
 # Can't Get Enough?
 Can't get enough? Work through the 
 [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/book/) exercises
