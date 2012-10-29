@@ -31,6 +31,9 @@ quickly, or if you "git" stuck.
 ### Branching and Merging
 <iframe src="http://blip.tv/play/AYKC7FwC.html" width="550" height="339" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#AYKC7FwC" style="display:none"></embed>
 
+### Github Secrets
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Foz9yvMkvlA" frameborder="0" allowfullscreen></iframe>
+
 
 ## Resources
 * [Git][1] (including binary installers)
