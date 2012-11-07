@@ -23,6 +23,12 @@ tags: "programming"
 * [Ruby Learning][5]
 * [Ruby Koans][3]
 
+
+## 2012
+<iframe src="https://docs.google.com/presentation/embed?id=1WMcwnDMkJyZe27dNQ06lMFrFHp9Q2tE3n4O63K-w-Uk&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="375" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+## 2011
 <iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_161hphd6kfm"
 frameborder="0" width="410" height="342"></iframe>
 
