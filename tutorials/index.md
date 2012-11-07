@@ -9,6 +9,7 @@ title: Tutorials
 * [Command Line Bootcamp](/tutorials/bash/)
 * [IRC](/tutorials/irc/)
 * [Git](/tutorials/git/)
+* [Forking on Github](http://www.scholarslab.org/dh-developer/forking-fetching-pushing-pulling/)
 
 # Exercises
 
