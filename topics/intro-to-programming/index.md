@@ -28,6 +28,8 @@ tags: "programming"
 
 <iframe src="https://docs.google.com/presentation/embed?id=1WMcwnDMkJyZe27dNQ06lMFrFHp9Q2tE3n4O63K-w-Uk&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="375" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<iframe src="https://docs.google.com/presentation/embed?id=1hofz6jE6XI9lZ65mIZxWBgu3CkQ-eEN6A-f8AIt2SoQ&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 <iframe src="https://docs.google.com/presentation/embed?id=1_vn2ZS7ZTyeTzECkRLe8t5gL1GVK5CP4M6EAh4-AE00&start=false&loop=false&delayms=3000" frameborder="0" width="410" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
