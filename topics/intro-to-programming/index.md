@@ -25,7 +25,10 @@ tags: "programming"
 
 
 ## 2012
+
 <iframe src="https://docs.google.com/presentation/embed?id=1WMcwnDMkJyZe27dNQ06lMFrFHp9Q2tE3n4O63K-w-Uk&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="375" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<iframe src="https://docs.google.com/presentation/embed?id=1_vn2ZS7ZTyeTzECkRLe8t5gL1GVK5CP4M6EAh4-AE00&start=false&loop=false&delayms=3000" frameborder="0" width="410" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## 2011
