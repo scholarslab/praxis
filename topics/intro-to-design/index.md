@@ -23,7 +23,7 @@ tags: "Design"
 ### Books
 
  * Dan Brown, _Communicating Design_
- * Frank Chimero, _The Shape of Design_
+ * Frank Chimero, [_The Shape of Design_][shape-of-design]
  * Jesse James Garrett, _The Elements of User Experience_
  * Kristina Halvorson and Melissa Rach, _Content Strategy for the Web_
  * Steve Krug, _Don't Make Me Think! A Common Sense Approach to Web Usability_
@@ -64,3 +64,4 @@ tags: "Design"
 [design-snips]: http://designsnips.com
 [media-queries]: http://mediaqueri.es
 [pattern-tap]: http://patterntap.com
+[shape-of-design]: http://shapeofdesignbook.com/
