@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem "anemone", "~>0.6.1"
 
