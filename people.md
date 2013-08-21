@@ -16,7 +16,7 @@ Additional Praxis Program advisors are drawn from the faculty and staff of the [
 * Zachary Stone, English
 * Francesca Tripodi, Sociology
 
-## Praxis Fellows, 2012-2013
+## Praxis Fellows, 2012–2013
 
 * Shane Lin, History
 * Claire Maiers, Sociology
@@ -25,7 +25,7 @@ Additional Praxis Program advisors are drawn from the faculty and staff of the [
 * Chris Peck, Computer Music
 * Brandon Walsh, English
 
-## Founding Praxis Team (2011-2012)
+## Founding Praxis Team (2011–2012)
 ### Jeremy Boggs
 Humanities Design Architect, UVa Library Scholars' Lab
 ### Alex Gil
