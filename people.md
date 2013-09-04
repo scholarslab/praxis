@@ -25,30 +25,24 @@ Additional Praxis Program advisors are drawn from the faculty and staff of the [
 * Chris Peck, Computer Music
 * Brandon Walsh, English
 
-## Founding Praxis Team (2011–2012)
-### Jeremy Boggs
-Humanities Design Architect, UVa Library Scholars' Lab
-### Alex Gil
-Praxis Fellow and UVa English Department doctoral candidate
-### Wayne Graham
-Head of Research & Development, UVa Library Scholars' Lab
-### Eric Johnson
-Head of Outreach & Consulting, UVa Library Scholars' Lab
-### Brooke Lestock
-Praxis Fellow and UVa English Department graduate student
-### David McClure
-Web Applications Specialist, UVa Library Scholars' Lab
-### Lindsay O'Connor
-Praxis Fellow and UVa English Department doctoral candidate
-### Dr. Bethany Nowviskie
-Director, Digital Research & Scholarship, UVa Library
-### Dr. Eric Rochester
-Senior Developer, UVa Library Scholars' Lab
-### Sarah Storti
-Praxis Fellow and UVa English Department doctoral candidate
-### Annie Swafford
-Praxis Fellow and UVa English Department doctoral candidate
-### Ed Triplett
-Praxis Fellow and doctoral candidate, UVa McIntire Department of Art
+## Praxis Fellows, 2011–2012
 
+* Alex Gil, English
+* Brooke Lestock, English
+* Lindsay O’Connor, English
+* Sarah Storti, English
+* Annie Swafford, English
+* Ed Triplett, Art
+
+## Scholars’ Lab Staff
+
+* Jeremy Boggs, Humanities Design Architect
+* Wayne Graham, Head of Research & Development
+* David McClure, Web Applications Specialist
+* Dr. Bethany Nowviskie, Director, Digital Research & Scholarship
+* Dr. Eric Rochester, Senior Developer
+
+### Former Staff
+
+* Eric Johnson, Head of Outreach and Consulting
 
