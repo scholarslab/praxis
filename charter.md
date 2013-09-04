@@ -6,6 +6,7 @@ tags: charter
 
 # 2012–13 Praxis Program Charter
 
+(See the original 2011-12 cohort charter [here](https://github.com/scholarslab/praxis/blob/3bf01121aff5e57172d9a2d998098a8c34b26bab/charter.md).)
 
 ## Shared Values
 
