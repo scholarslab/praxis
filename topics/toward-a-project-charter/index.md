@@ -14,8 +14,8 @@ tags: "charter"
 
 * past Praxis Program charters: [2011-12][5] and [2012-13][6]
 * Bethany Nowviskie, [Evaluating Collaborative Digital Scholarship (or, Where Credit is Due)][1]
-* Stan Ruecker and Milena Radzikowska, [The Iterative Design of a Project Charter for Interdisciplinary Research][2]
-* [INKE Administrative Structure, Omnibus Document][3]
+* Elijah Meeks, [How Collaboration Works and How It Can Fail][9]
+* Stan Ruecker and Milena Radzikowska, [The Iterative Design of a Project Charter for Interdisciplinary Research][2] (and see [INKE Administrative Structure, Omnibus Document][3])
 * [Collaborators' Bill of Rights][4]
 * the ACH [FairCite initiative][7]
 * Neatline project [credits page][8]
@@ -29,3 +29,4 @@ tags: "charter"
 [6]: http://praxis.scholarslab.org/charter.html "2012-13 charter"
 [7]: http://ach.org/faircite/ "FairCite"
 [8]: http://neatline.org/about/credits-and-history/ "Neatline credits page"
+[9]: https://dhs.stanford.edu/natural-law/how-collaboration-works-and-how-it-can-fail/ "How Collaboration Works and How It Can Fail"
