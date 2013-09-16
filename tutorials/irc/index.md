@@ -38,6 +38,13 @@ connect to the '**#slab**' channel.
     - **/join #slab**
 * Click **OK**
 
+## iOS
+1. Download and install [TurboIRC][turboirc].
+1. Tap on Connect
+1. Tap on Freenode
+1. After you are in the client, click "Join"
+1. Join the "#slab" room
+
 
 
 [1]: http://webchat.freenode.net/
@@ -45,3 +52,4 @@ connect to the '**#slab**' channel.
 [3]: http://adium.im/
 [4]: http://en.wikipedia.org/wiki/Internet_Relay_Chat
 [5]: http://freenode.net/
+[turboirc]: https://itunes.apple.com/us/app/turboirc/id583000012?ls=1&mt=8
