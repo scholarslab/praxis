@@ -57,5 +57,6 @@ Scholars’ Lab faculty and staff are equal members of the Praxis Program team, 
 
 The Scholars’ Lab will help to maintain our final project after the fellowship is over.  The team as a whole will work together to realize the level of preservation that we want for our project.
 
+*Ratified September 18, 2013*
 
 [praxis-wiki]: https://github.com/scholarslab/praxis/wiki
