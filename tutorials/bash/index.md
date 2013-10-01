@@ -21,24 +21,20 @@ do what you want, you order it. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
-This tutorial references a shell application called "bash," which is the default on
-Mac and ubiquitous on unix-based platforms. If you're on Mac, click on the magnifying glass
-at the top right of the screen, type "Terminal," and press Enter.
-Alternatively, you can secure shell into your blue.unix UVa webspace (if
-you're on Windows, you can do this with a program like [PuTTY][5]).
-Where "yourusername" is your eServices account name (like "dm4fn"), type
-<code>ssh yourusername@blue.unix.virginia.edu</code> , and enter your normal
-eServices password. If it prompts you to set a terminal font, just do as
-it suggests and type <code>vt100</code> and press Enter. Going forward,
-I'll assume that you're in your blue.unix account, but it should be easy
-to adjust the steps if you're working locally on a Mac.
+This tutorial references a shell application called "[bash][bash]," which is the default on
+OS X and ubiquitous on unix-based platforms. If you're using OS X, click on the magnifying glass
+at the top right of the screen, type "**Terminal**," and press Enter. If you
+are a Windows user, you can use *most* of the commands with PowerShell,
+just search for "**powershell** in the *Search programs and
+files* box.
 
 ## <code>pwd</code>
 
 First, type <code>pwd</code> . (Here and throughout the rest of the tutorial,
-always ignore trailing punctuation when commands are given inline - just type text in bold red). This stands for "present working directory."
+always ignore trailing punctuation when commands are given inline - just type text in bold red). This stands for "print working directory."
 This command just tells you where you are in the file path. When
-you hit enter, you should see "home/yourusername". This
+you hit enter, you should see something like "/Users/yourusername" (OS
+X) or "C:\Users\username" (Windows). This
 means that you've started out in the home directory for your user
 account. Think of <code>pwd</code> as a way to get your bearings. When I sit
 down at a terminal, this is usually the first thing I type.
@@ -51,8 +47,14 @@ files and folders that are accessible at this location on the system
 path? To see, type <code>ls</code> , which stands for "list". This
 just outputs the contents of the current directory.
 
-If your setup is like mine, you should see three folders - "myweb,"
-"private," and "public\_html."
+
+Depending on your setup (and how many files you have set up), you will
+see something like:
+
+If your setup is like mine, you should see three folders - "Desktop,"
+"projects," and "public\_html."
+
+
 
 ## <code>cd</code>
 
@@ -63,33 +65,38 @@ in a single directory, so a really important piece of the puzzle is the <code>cd
 Windows Explorer or Mac Finder to move around to different folders on
 your computer. Say we want to change into one of the directories that
 exists inside of your home user directory. You can do that by typing
-<code>cd</code> , space, and then the name of the directory. Go ahead and change into the
-"private" directory with <code>cd private</code> .
+<code>cd</code>, space, and then the name of the directory. Go ahead and change into the
+"Desktop" directory with <code>cd Desktop</code> .
 
 Now, type the <code>ls</code> command again to see the contents of the new
-directory. If changed directories successfully, you should see just one
-file called home.html. Now, let's go back to your user directory. To move
+directory. If changed directories successfully, you should see all the files and directories on your Desktop. Now, let's go back to your user directory. To move
 "upwards" on the filepath, type <code>cd ..</code> . The double period ".." stands
 for going up a single directory level. So, if you wanted to go up two levels,
-you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code> . Etc.
+you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code>. Etc.
 
-So, after typing <code>cd ..</code> , you should be back in your home user directory where you started.
+So, after typing <code>cd ..</code> , you should be back in your home user directory where you started. 
+
+{% blockquote %}
+<h3>Quiz time:</h3> 
+How do you know you're in the directory where you started?
+{% endblockquote %}
 
 ## <code>mkdir</code>
 
 Say you want to create a new directory ("folder" in Windows parlance). I
-put all of my work in a folder called "Projects." Go ahead and change into the "private" folder with the command <code>cd private</code> , and then create a new folder called Projects by typing <code>mkdir
-Projects</code> . "mkdir" stands for "make directory". It just creates a new
+put all of my work in a folder called "projects." Go ahead and create a new folder called *projects* by typing <code>mkdir
+projects</code> . "mkdir" stands for "make directory". It just creates a new
 folder with nothing inside of it.
 
-Once you type <code>mkdir Projects</code> , type <code>ls</code> again to confirm that the
-folder was created. Then change into the new folder with <code>cd Projects</code> .
+Once you type <code>mkdir projects</code> , type <code>ls</code> again to confirm that the
+folder was created. Then change into the new folder with <code>cd projects</code> .
 Once you're in the new folder, go ahead and create another subdirectory
 inside of projects called whatever you want - say, <code>mkdir
 testdir</code> . Then, change into the new testdir directory with <code>cd testdir</code> .
 
 ## <code>touch</code>
 
+### OS X
 <code>mkdir</code> creates directories, but directories are just buckets for actual
 data, which is contained in files. To create a new file in the current
 directory, use the <code>touch</code> command.
@@ -102,7 +109,24 @@ Now, create three more textfiles like this - <code>touch
 {textfile2.txt,textfile3.txt,textfile4.txt}</code> . You can add as many new
 files as you want to the comma-delimited list to create a bunch of files
 with one command. Now, there should be 4 blank text files in the
-directory "testdir", which sits inside of the "Projects" directory.
+directory "testdir", which sits inside of the "projects" directory.
+
+### Windows
+Windows does not have the *touch* command, but does have the
+<code>New-Item</code> command. To create a (created in the mkdir
+section) file from PowerShell, you'll
+need to type the following:
+
+<code>New-Item -ItemType file textfile.txt</code><br/>
+<code>New-Item -ItemType file textfile2.txt</code><br/>
+<code>New-Item -ItemType file textfile3.txt</code><br/>
+<code>New-Item -ItemType file textfile3.txt</code>. 
+
+
+{% blockquote %}
+<h3>Quiz time:</h3> 
+How many files are in the testdir?
+{% endblockquote %}
 
 ## <code>cp</code>
 
@@ -114,7 +138,7 @@ called "copiedfile.txt". Type <code>cp textfile4.txt copiedfile.txt</code> . The
 type <code>ls</code> , and check to make sure that the copied file is there.
 
 Often you want to copy entire directories. This is a little different.
-Type <code>cd ..</code> to change up to the Projects directory, and then type <code>ls</code>
+Type <code>cd ..</code> to change up to the projects directory, and then type <code>ls</code>
 to view the contents. There should just be the "testdir" directory.
 Imagine that you wanted to make a copy of that directory inside of
 another directory. Let's go ahead and create that second directory. Type
@@ -148,7 +172,7 @@ was deleted. Now, delete two files at once with <code>rm
 "textfile4.txt" file - confirm this with <code>ls</code> .
 
 Now, the scary part - deleting entire directories. Change back up into
-the Projects directory ( <code>cd ../..</code> ). Again, type <code>ls</code> just to make sure
+the projects directory ( <code>cd ../..</code> ). Again, type <code>ls</code> just to make sure
 that you are where you think you are - there should be the original
 "testdir" and the "anotherdir", which contains the (now mangled) copy of
 "testdir". Delete "anotherdir" with this command - <code>rm -rf anotherdir/</code> .
@@ -157,7 +181,15 @@ Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
 
+{% blockquote %}
+<h3>Quiz time:</h3> 
+What could go wrong if you pass the recursive flag in the wrong
+directory?
+{% endblockquote %}
+
 ## <code>vim</code>
+
+### OS X
 
 Vim is build directly into bash, which can be incredibly useful.
 Normally, if you're doing heavy-duty development work that involves
@@ -178,7 +210,12 @@ To save, use the standard <code>:w</code> . Once you're finished with
 the file, close it and return to the bash command prompt with
 <code>:x</code> .
 
+### Windows
+You'll need to use Notepad, or install from http://www.vim.org/download.php.
+
 ## <code>tar</code>
+
+### OS X
 
 Last, we'll cover a compression utility called <code>tar</code> . A .tar file is
 essentially the same as a .zip file - it's an archive that bundles
@@ -187,7 +224,7 @@ exercise, I won't spell out all of the traversal, listing, and
 add/removal commands that you'll need to use - see if you can figure
 them out.
 
-Make sure you're in the Projects directory, and do this:
+Make sure you're in the projects directory, and do this:
 
 1. Create a new directory.
 2. Change into the new directory.
@@ -263,8 +300,29 @@ Really, the best way to get comfy on the command line is just to bumble
 around on it for a month or so. Short of reckless use of
 <code>rm</code> , not a whole lot can go wrong.
 
+### Windows
+Nope, you get zip.
+
+## Quiz
+
+<blockquote>
+<ul>
+<li>List all the directories on the Desktop</li>
+<li>List all files and directories, 1 per line</li>
+<li>Create a directory named <code>demo</code></li>
+
+<li>Create the following directory structure using one command:
+  <code>demo/foo/bar/praxis</code></li>
+
+<li>Create a file named hello.txt in the demo directory</li>
+
+<li>Create a new tarball of the demo directory</li>
+<li>Brag to your friends that you can do this</li>
+</ul>
+</blockquote>
 
 ## Resources
+* [The Command Line Crash Course][cli]
 * [An A-Z Index of the Bash command line for Linux][1]
 * [Mac OS X Terminal Basics][2] (old, but still accurate)
 * [The Ultimate Tar Command Tutorial with 10 Practical Examples][3]
@@ -274,3 +332,5 @@ around on it for a month or so. Short of reckless use of
 [3]: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
 [4]: http://lenz.unl.edu/2011/04/09/life-on-the-command-line.html
 [5]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
+[bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[cli]: http://cli.learncodethehardway.org/book/
