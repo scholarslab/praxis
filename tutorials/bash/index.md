@@ -303,6 +303,32 @@ around on it for a month or so. Short of reckless use of
 ### Windows
 Nope, you get zip.
 
+## Getting Help
+
+All of the switches and order for all the different commands (see [all
+the different commands][1] is a lot to remember. Fortunately the shell
+ships with all the documentation you need with the <code>man</code>
+(short for manual) utility. For any command, you can read the manual
+for the utility by simply typing <code>man utility</code>. For the
+commands we covered here, you can read the manuals with the follwoing:
+
+<code>
+man pwd<br/>
+man ls<br/>
+man cd<br/>
+man mkdir<br/>
+man touch<br/>
+man cp<br/>
+man rm<br/>
+man vim<br/>
+man tar<br/>
+man man
+</code>
+
+If you forget any syntax, you can quickly read through the manual (hit
+the space bar to page down) to see what flags and options you can pass
+any utility.
+
 ## Quiz
 
 <blockquote>
