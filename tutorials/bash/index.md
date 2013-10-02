@@ -217,8 +217,8 @@ You'll need to use Notepad, or install from http://www.vim.org/download.php.
 
 ### OS X
 
-Last, we'll cover a compression utility called <code>tar</code> . A .tar file is
-essentially the same as a .zip file - it's an archive that bundles
+Last, we'll cover an archiving utility called <code>tar</code> . This is a really old utility that stands for Tape ARchive (this is from when computers saved to tape drives) A .tar file is
+like a .zip file - it's an archive that bundles
 together a lot of files or directories into a single unit. In this
 exercise, I won't spell out all of the traversal, listing, and
 add/removal commands that you'll need to use - see if you can figure
@@ -301,7 +301,11 @@ around on it for a month or so. Short of reckless use of
 <code>rm</code> , not a whole lot can go wrong.
 
 ### Windows
-Nope, you get zip.
+In Windows, you don't get the awesomeness that is the gzipped tarball. Ok, so that's not totally fair, the <code>zip</code> utility combines both archiving and compressing files in to a single program without needing to pass extra flags. Here is how you can create a zip file from PowerShell: 
+
+<code>
+Copy-ToZip -File "file" -Zipfile "anyname.zip" -Force
+</code>
 
 ## Getting Help
 
