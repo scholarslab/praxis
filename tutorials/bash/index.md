@@ -120,7 +120,7 @@ need to type the following:
 <code>New-Item -ItemType file textfile.txt</code><br/>
 <code>New-Item -ItemType file textfile2.txt</code><br/>
 <code>New-Item -ItemType file textfile3.txt</code><br/>
-<code>New-Item -ItemType file textfile3.txt</code>. 
+<code>New-Item -ItemType file textfile3.txt</code> 
 
 
 {% blockquote %}
