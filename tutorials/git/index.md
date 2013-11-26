@@ -8,10 +8,10 @@ title: 'Introducing Git'
 Much of the workflow for this project revolves around the use of a
 source code management (SCM) system called git. 
 
-{% blockquote %}
+<blockquote>
 "Git is a <strong>free & open source, distributed version control system</strong> designed
 to handle everything from small to very large projects with speed and efficiency."
-{% endblockquote %}
+</blockquote>
 
 We will be using git for the *Prism* project and you will be using it
 on a daily basis. These resources will help you get up to speed

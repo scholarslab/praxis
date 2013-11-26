@@ -12,11 +12,12 @@ These styles are adapted from the excellent work Bozhidar Batsov posted
 on his [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 project.
 
-{% blockquote "Jerry Coffin" %}
+<blockquote>
 Nearly everybody is convinced that every style but their own is
 ugly and unreadable. Leave out the "but their own" and they're
 probably right...
-{% endblockquote %}
+<br/><span class="by">Jeffy Coffin</span>
+</blockquote>
 
 ## Formatting
 
