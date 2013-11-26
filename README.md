@@ -4,25 +4,32 @@ Run bundler to install required gems; you'll also need Pygments
 
     bundle && easy_install Pygments
 
-## Optimization
-
-The rake tasks contain several tools that will drastically reduce the
-page size. HTMLCompressor and YUICompressor was included in the tools
-directory, but for optimizing image assets, you will need to install the
-*optipng* and *libjpeg* packages from brew.
-
-    brew install libjpeg optipng
-
 ## Development
 
 Open the code project and run it with `foreman`
 
 ```
-foreman start
+$ foreman start
 ```
+
+If you really want to be hard core, you can create an alias in for this
+in bash. In your `~/.bash_profile`, add this:
+
+```
+alias fs="foreman start"
+```
+
+Then, open a new terminal window (or run `source ~/.bash_profile`)
+
 
 ## Deployment
 
-     rake deploy
+Just push it to gh-pages branch on github.
 
+```
+$ git co gh-pages
+$ git merge my_awesome_branch
+$ git push
+```
+     
 
