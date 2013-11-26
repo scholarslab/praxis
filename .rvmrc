@@ -1,3 +1,0 @@
-rvm use 2.0.0@praxis --create
-
-git pull
