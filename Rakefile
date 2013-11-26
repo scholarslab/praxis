@@ -165,7 +165,7 @@ def cleanup
 end
 
 def jekyll(opts = '')
-  sh 'jekyll ' + opts
+  sh 'bundle exec jekyll ' + opts
 end
 
 def compass(opts = '')

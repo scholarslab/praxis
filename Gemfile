@@ -8,9 +8,9 @@ gem "chunky_png", "1.2.5"
 gem "compass", "0.11.5"
 gem "compass-susy-plugin", "0.9"
 
-gem "jekyll", "0.11.0"
+gem "jekyll", "~>0.11.0"
 
-gem "liquid", "2.2.2"
+gem "liquid", "~>2.2.2"
 
 gem "nokogiri", "~>1.5.0"
 

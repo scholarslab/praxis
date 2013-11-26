@@ -1,4 +1,3 @@
-rvm use 1.9.3@praxis
+rvm use 1.9.3@praxis --create
 
-bundle install
 git pull
