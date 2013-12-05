@@ -16,13 +16,8 @@ tags: "programming"
 * What is a `loop`?
 * What is `branching`?
 
-## Resources
-* [Learn to Program][1]
-* [Learn Ruby the Hard Way][2] (it's not really that hard)
-* [Try Ruby][4]
-* [Ruby Learning][5]
-* [Ruby Koans][3]
-
+## 2013
+<iframe src="https://docs.google.com/presentation/d/1R6XxGR9tioqK8ZjCm1AikQftQh7dfi5eqo6QLA78LcY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 2012
 
@@ -39,6 +34,14 @@ frameborder="0" width="410" height="342"></iframe>
 
 <iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_275hh88vhfr"
 frameborder="0" width="410" height="342"></iframe>
+
+## Resources
+* [Learn to Program][1]
+* [Learn Ruby the Hard Way][2] (it's not really that hard)
+* [Try Ruby][4]
+* [Ruby Learning][5]
+* [Ruby Koans][3]
+
 
 [1]: http://pine.fm/LearnToProgram/ 'Learn to Program'
 [2]: http://ruby.learncodethehardway.org/book/ 'Learn Ruby the Hard Way'
