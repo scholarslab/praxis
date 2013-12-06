@@ -1,4 +1,5 @@
 name: The Praxis Program
+baseurl: /praxis
 markdown: redcarpet
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
