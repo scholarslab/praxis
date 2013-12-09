@@ -39,7 +39,7 @@ positions and [alternative academic
 careers](http://mediacommons.futureofthebook.org/alt-ac) at a moment in which
 new questions can be asked and new systems built. We share our evolving
 curriculum and our staff and students alike are [blogging about their
-experience](http://www.scholarslab.org/category/praxisprogram/).
+experience](http://www.scholarslab.org/tag/praxis-program/).
 
 We invite you to follow our work in progress, and to cheer on this year's cohort of
 thoughtful digital scholars and scholar-practitioners, as they become comfortable designing effective user
