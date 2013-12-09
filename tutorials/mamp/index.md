@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 title: Local WordPress Development with MAMP and WampServer
 ---
 

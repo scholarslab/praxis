@@ -9,11 +9,12 @@ tags: rails
 ---
 # Intro to Rails
 
-{% blockquote "Tim OReilly" %}
+<blockquote>
 Ruby on Rails is a breakthrough in lowering the barriers of entry to programming.
 Powerful web applications that formerly might have taken weeks or months
 to develop can be produced in a matter of days.
-{% endblockquote %}
+<br /><span class="by">Tim OReilly</span>
+</blockquote>
 
 ## Slides
 

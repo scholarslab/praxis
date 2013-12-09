@@ -1,30 +1,14 @@
-# standard jekyll configuration
-
-permalink: date
+name: The Praxis Program
+#baseurl: /praxis
+markdown: redcarpet
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
-markdown: rdiscount
-plugins: 'plugins'
 
-# configuration required for some pages
-
-domain: praxis.scholarslab.org 
+domain: praxis.scholarslab.org
 title: The Praxis Program
 author: Scholars' Lab
 email: praxis@collab.itc.virginia.edu
 basefeed: http://www.scholarslab.org
-pages_dir: _pages/
-
-# configuration for ehancements, uncomment to enable
 gapi_key: 'ABQIAAAAioVG4cScdJ2Csnny8hxlzRQ0k7LmwNWN1KPzdPryee6GpBC_0hRQjOPG8jfV_sgUu5ehe3wi4vZkdA'
-
-# feedburner:
-# id: feedburnerid
-
 google_analytics:
-  account: UA-12081576-3
-# github:
-# username: ghusername
-
-# disqus:
-# id: disqusid
+  account: UA-12081576-3  

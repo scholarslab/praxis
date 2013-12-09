@@ -40,7 +40,7 @@ title: People
 * Dr. Bethany Nowviskie, Director, Digital Research & Scholarship, UVa Library
 * Dr. Eric Rochester, Senior Developer, Scholars' Lab
 
-Additional Praxis Program advisors are drawn from the faculty and staff of the [UVa Library](http://lib.virginia.edu/)'s [Scholars' Lab](http://www2.lib.virginia.edu/scholarslab/consultation/index.html) and collaborating schools, departments, and centers at the [University of Virginia](http://www.virginia.edu/). [Follow us](http://twitter.com/#!/praxisprogram) on Twitter and by subscribing to our [feed](http://www.scholarslab.org/category/praxis-program/feed/).
+Additional Praxis Program advisors are drawn from the faculty and staff of the [UVa Library](http://lib.virginia.edu/)'s [Scholars' Lab](http://www2.lib.virginia.edu/scholarslab/consultation/index.html) and collaborating schools, departments, and centers at the [University of Virginia](http://www.virginia.edu/). [Follow us](http://twitter.com/#!/praxisprogram) on Twitter and by subscribing to our [feed](http://www.scholarslab.org/tag/praxis-program/feed/).
 
 
 ### Faculty and Staff Alumni

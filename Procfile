@@ -1,2 +1,2 @@
-web: bundle exec jekyll --server 3000 --auto
-guard: bundle exec guard
+web: bundle exec jekyll serve --watch --baseurl ''
+compass: bundle exec compass watch

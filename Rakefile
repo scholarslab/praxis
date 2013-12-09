@@ -16,8 +16,9 @@ end
 
 desc 'Start server with --auto'
 task :server => :clean do
-  compass
-  jekyll('--server --auto')
+  puts "\nUse 'foreman start' to manage the server".red
+  #compass
+  #jekyll('--server --auto')
 end
 
 desc 'Run htmlcompressor on the HTML'
@@ -46,13 +47,21 @@ task :jsminify do
 end
 
 desc 'Build and deploy'
-task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
+task :deploy do
+  puts "\nUmmm....we're deploying through github pages now. If this is surprising to you, keep reading".red
+
+  puts "\nJust merge to the gh-pages branch, and push to github:".yellow
+  puts "\n$ git push".green
+
+  puts "\n\n Then just sit back and let our pals over at Github take care of the rest...".yellow
+
+#task :deploy => [:build, :htmlcompressor, :optipng, :optijpeg, :jsminify] do
 # task :deploy => [:build] do
 
-  data = YAML.load(File.read('_settings.yml'))
-  command = "rsync -rzh --perms -e 'ssh -p #{data['port']}' --group=slab --chmod=a+rwx,g+s --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
+  #data = YAML.load(File.read('_settings.yml'))
+  #command = "rsync -rzh --perms -e 'ssh -p #{data['port']}' --group=slab --chmod=a+rwx,g+s --progress --delete _site/ #{data['username']}@#{data['domain']}:#{data['directory']}"
 
-  sh "#{command.to_s}"
+  #sh "#{command.to_s}"
 end
 
 desc 'JSHint, "a fork of JSLint for the real world"'
@@ -216,4 +225,24 @@ def jsminify_wrapper(directory, opts = '')
 
 end
 
+class String
+  def red
+    colorize(self, 31)
+  end
 
+  def green
+    colorize(self, 32)
+  end
+
+  def yellow
+    colorize(self, 33)
+  end
+
+  def blue
+    colorize(self, 34)
+  end
+
+  def colorize(text, color_code)
+    "\033[#{color_code}m#{text}\033[0m"
+  end
+end

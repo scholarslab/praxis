@@ -76,10 +76,10 @@ you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code>. Etc.
 
 So, after typing <code>cd ..</code> , you should be back in your home user directory where you started. 
 
-{% blockquote %}
+<blockquote>
 <h3>Quiz time:</h3> 
 How do you know you're in the directory where you started?
-{% endblockquote %}
+<blockquote>
 
 ## <code>mkdir</code>
 
@@ -123,10 +123,10 @@ need to type the following:
 <code>New-Item -ItemType file textfile3.txt</code> 
 
 
-{% blockquote %}
+<blockquote>
 <h3>Quiz time:</h3> 
 How many files are in the testdir?
-{% endblockquote %}
+</blockquote>
 
 ## <code>cp</code>
 
@@ -181,11 +181,11 @@ Type <code>ls</code> - the directory should be gone. Here, the "-rf" flag is
 similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
 
-{% blockquote %}
+<blockquote>
 <h3>Quiz time:</h3> 
 What could go wrong if you pass the recursive flag in the wrong
 directory?
-{% endblockquote %}
+</blockquote>
 
 ## <code>vim</code>
 
