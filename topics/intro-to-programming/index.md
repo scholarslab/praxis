@@ -21,10 +21,7 @@ tags: "programming"
 
 <iframe src="https://docs.google.com/presentation/d/1EwyqRmu2kLvkJ-lwT2LmsxnbpBRDxPFZPp7BigG2xKo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## 2013
-<iframe src="https://docs.google.com/presentation/d/1R6XxGR9tioqK8ZjCm1AikQftQh7dfi5eqo6QLA78LcY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<iframe src="https://docs.google.com/presentation/d/1EwyqRmu2kLvkJ-lwT2LmsxnbpBRDxPFZPp7BigG2xKo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/12zgOjpkSIYFx3U5oUfWjhF0gD4tBDf77cd3dcG9dgSQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 2012
 
