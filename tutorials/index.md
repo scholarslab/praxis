@@ -18,5 +18,6 @@ title: Tutorials
 
 # Resources
 
+* [PHP Cheat Sheet](/tutorials/php-cheatsheet/)
 * [Ruby Cheat Sheet](/tutorials/ruby-cheatsheet/)
 * [Programming Style Guide](/tutorials/ruby-style-guide/)
