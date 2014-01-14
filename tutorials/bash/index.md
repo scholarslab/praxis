@@ -79,7 +79,7 @@ So, after typing <code>cd ..</code> , you should be back in your home user direc
 <blockquote>
 <h3>Quiz time:</h3> 
 How do you know you're in the directory where you started?
-<blockquote>
+</blockquote>
 
 ## <code>mkdir</code>
 
