@@ -23,6 +23,8 @@ tags: "programming"
 
 <iframe src="https://docs.google.com/presentation/d/12zgOjpkSIYFx3U5oUfWjhF0gD4tBDf77cd3dcG9dgSQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<iframe src="https://docs.google.com/presentation/d/1rILek4E2R_p9UCtDlHwfb5MIrt2ZKnLIMwphXTvDgtA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## 2012
 
 <iframe src="https://docs.google.com/presentation/embed?id=1WMcwnDMkJyZe27dNQ06lMFrFHp9Q2tE3n4O63K-w-Uk&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="375" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
