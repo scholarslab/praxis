@@ -19,6 +19,9 @@ Install vim (there are pre-built binaries on the [vim download page][2].
 Once you get through those tutorials, these visual cheatsheets ([from
 ViEmu][3]) will help you with your movements.
 
+## Vim Games
+* [vim-adventures](http://vim-adventures.com/)
+* [Vim Genius](http://www.vimgenius.com/)
 
 ## Vim Cheatsheets
 <a href="http://www.viemu.com/vi-vim-tutorial-1.gif">
