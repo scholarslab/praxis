@@ -1,39 +1,70 @@
-@mixin linklist {
-  list-style:none;
-  margin-left:0;
-  padding-left:0;
-  line-height:2em;
-  text-align:left;
-
-  li {
-      border-bottom: 1px dotted #ddd;
-  }
-  
-  li.nolink {
-      padding: 0 10px;
-      color: #777;
-  }
-  
-  li.nolink:before {
-      margin:0;
-      content: counter(li, square);
-      padding-right: 10px;
-      color: #ccc;
-  }
-  
-  a {
-      display:block;
-      text-decoration:none;
-  }
-
-  a:before {
-      margin:0;
-      content: counter(a, square);
-      padding-right: 5px;
-      color: #bde;
-  }
-
-  a:hover:before {
-      color: #8ab;
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display:table;
+    width:100%;
   }
 }
+
+@mixin fullbleed($columns: 1, $layout: 14) {
+    $context: $layout - ($columns * 2);
+    @include bleed-y(rhythm());
+    @include bleed-x(span($columns of $context wide));
+}
+
+@mixin fullbackground($image: 'images/background.jpg') {
+    @include background-size(cover);
+    background-repeat: no-repeat;
+    background-position:50% 0;
+    @include background-image(
+        linear-gradient(left, rgba(white, 0.8), rgba(white, 0.8)),
+        url($image)
+    );
+
+    color: #333;
+    color: rgba(black, 0.8);
+
+    a {
+        color: #333;
+        color: rgba(black, 0.8);
+    }
+
+}
+
+@mixin gridlist {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+    & > * {
+        @include gallery(4 of 12);
+        margin-bottom: rhythm(1);
+
+        &:nth-child(3n) {
+            @include gallery(last 4 of 12);
+        }
+
+    }
+
+
+    @include susy-breakpoint('940px', 18) {
+        @include bleed-x(span(2 of 12 wide));
+        padding:0;
+
+
+        & > * {
+            @include gallery(4 of 16);
+            &:nth-child(3n) {
+                @include gallery(4 of 16);
+            }
+
+            &:nth-child(4n) {
+                @include gallery(last 4 of 16);
+            }
+
+        }
+    }
+}
+

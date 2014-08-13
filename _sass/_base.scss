@@ -1,15 +1,52 @@
-// Imports -------------------------------------------------------------------
-
+// Imports
 @import "compass";
 @import "susy";
+@import "breakpoint";
+@import "mixins";
 
-// Settings ------------------------------------------------------------------
+// Compass
+$base-font-size: 18px;
+$base-line-height: 30px;
+$grid-background-baseline-color: rgba(black,0.2); // Background color for Compass's vertical rhythm.
+$grid-background-column-color: rgba(black,0.05); // Background color for grid columns
+$grid-background-baseline-height: $base-line-height;
+$default-transition-duration: .5s;
 
-$legacy-support-for-ie6         : false;
-$legacy-support-for-ie7         : false !default;
-$legacy-support-for-ie8         : false !default;
-$ie                             : false !default;
+// Susy
+$susy: (
+  columns: 14,
+  gutters: 30px/90px,
+  global-box-sizing: border-box
+);
 
-$show-column-grid-backgrounds   : false;
-$show-baseline-grid-backgrounds : false;
-$show-grid-backgrounds          : false;
+// Colors
+$base-color                     : rgb(90,90,90);
+
+$base-color-light               : lighten($base-color, 10%);
+$base-color-lighter             : lighten($base-color, 20%);
+$base-color-lightest            : lighten($base-color, 30%);
+
+$base-color-dark                : darken($base-color, 10%);
+$base-color-darker              : darken($base-color, 20%);
+$base-color-darkest             : darken($base-color, 30%);
+
+$complementary-color            : complement($base-color);
+$complementary-color            : darken($complementary-color, 20);
+
+$default-color                  : rgb(90,90,90);
+$default-color-light            : rgba($default-color, 0.75);
+$default-color-lighter          : rgba($default-color, 0.5);
+$default-color-lightest         : rgba($default-color, 0.1);
+
+$link-color                     : #900;
+$link-visited-color             : lighten($link-color, 10%);
+$link-hover-color               : darken($link-color, 10%);
+$link-focus-color               : $link-hover-color;
+$link-active-color              : $link-color;
+
+$code-color: $default-color-light;
+$ins-color: $code-color;
+
+// Fonts
+$default-font: "Source Sans Pro", sans-serif;
+$code-font: "Source Code Pro", monospace, monospace;
