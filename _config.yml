@@ -1,7 +1,7 @@
 name: The Praxis Program
 #baseurl: /praxis
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 exclude: ['Rakefile', 'README.md', 'config.rb', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
 
 domain: praxis.scholarslab.org
@@ -11,4 +11,4 @@ email: praxis@collab.itc.virginia.edu
 basefeed: http://www.scholarslab.org
 gapi_key: 'ABQIAAAAioVG4cScdJ2Csnny8hxlzRQ0k7LmwNWN1KPzdPryee6GpBC_0hRQjOPG8jfV_sgUu5ehe3wi4vZkdA'
 google_analytics:
-  account: UA-12081576-3  
+  account: UA-12081576-3
