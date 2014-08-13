@@ -5,6 +5,16 @@ title: People
 
 # People
 
+## Praxis Fellows, 2014-2015
+
+* Amy Boyd, English
+* Swati Chawla, History
+* Andrew Ferguson, English
+* Joris Gjata, Sociology
+* Jennifer Grayburn, Art and Archeology
+* Steven Lewis, Music
+
+
 ## Praxis Fellows, 2013–2014
 
 * Scott Bailey, Religious Studies
@@ -34,11 +44,13 @@ title: People
 
 ## Praxis Program Faculty and Staff
 
+* Scott Bailey, Humanities Developer, Scholars' Lab
 * Jeremy Boggs, Humanities Design Architect, Scholars' Lab
 * Wayne Graham, Head of Research & Development, Scholars' Lab
-* David McClure, Web Applications Specialist, Scholars' Lab
+* Purdom Lindblad, Head of Graduate Programs, Scholars' Lab
 * Dr. Bethany Nowviskie, Director, Digital Research & Scholarship, UVa Library
 * Dr. Eric Rochester, Senior Developer, Scholars' Lab
+* Ammon Sheppard, Humanities Developer, Scholars' Lab
 
 Additional Praxis Program advisors are drawn from the faculty and staff of the [UVa Library](http://lib.virginia.edu/)'s [Scholars' Lab](http://www2.lib.virginia.edu/scholarslab/consultation/index.html) and collaborating schools, departments, and centers at the [University of Virginia](http://www.virginia.edu/). [Follow us](http://twitter.com/#!/praxisprogram) on Twitter and by subscribing to our [feed](http://www.scholarslab.org/tag/praxis-program/feed/).
 
@@ -46,5 +58,6 @@ Additional Praxis Program advisors are drawn from the faculty and staff of the [
 ### Faculty and Staff Alumni
 
 * Eric Johnson, former Head of Outreach and Consulting, Scholars' Lab
+* David McClure, former Web Applications Specialist, Scholars' Lab
 * Katina Rogers, former Research Associate, SCI and the [Praxis Network](http://praxis-network.org/)
 
