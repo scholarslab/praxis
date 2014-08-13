@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~>1.3.0"
-#gem "susy", "~> 1.0.9"
-gem "compass-susy-plugin", "~> 0.9"
+gem "jekyll", "~>2.3.0"
+gem "susy", "~> 2.1.3"
+gem "compass", "~> 1.0.0.rc.1"
 gem "foreman", "~> 0.63.0"
 
