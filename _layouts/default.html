@@ -25,39 +25,54 @@
         }
       ]);
     </script>
+
+    <script src="/javascripts/responsive-nav.min.js"></script>
+
     {% for js in page.javascript %}
     <script src="{{ js }}"></script>
     {% endfor %}
   </head>
   <body>
-    <div id="container">
+  <a class="skip" href="#main"> Skip to Main Content </a>
       <header role="banner">
         <h1><a href="/"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a></h1>
-      </header>
         <nav id="nav-primary">
            <ul>
-            <li><a href="/about.html">About</a></li>
+             <li><a href="/about.html">About</a></li>
+             <li><a href="/scratchpad/">Scratchpad</a></li>
+             <li><a href="/people.html">People</a></li>
             <li><a href="/charter.html">Charter</a></li>
-            <li><a href="/people.html">People</a></li>
-            <li><a href="/scratchpad/">Scratchpad</a></li>
           </ul>
         </nav>
-      <div role="main">
-      {{ content }}
-      </div><!-- #content -->
-      <footer role="contentinfo">
-        <div id="slab-info">
-          <ul>
-            <li><a rel="license" class="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a></li>
-            <li><a href="http://www.scholarslab.org/tag/praxis-program/feed/" class="feed">Subscribe to our Feed</a></li>
-            <li><a class=email href="&#109;ailto:&#112;&#114;&#97;&#120;&#105;&#115;&#0064;&#99;&#111;&#108;&#108;&#97;&#98;.&#105;&#116;&#99;.&#118;&#105;&#114;&#103;&#105;&#110;&#105;&#97;.&#101;&#100;&#117;">&#112;&#114;&#97;&#120;&#105;&#115;&#0064;&#99;&#111;&#108;&#108;&#97;&#98;.&#105;&#116;&#99;.&#118;&#105;&#114;&#103;&#105;&#110;&#105;&#97;.&#101;&#100;&#117;</a></li>
-          </ul>
-          <a href="http://scholarslab.org" id="slab-logo"><img src="http://static.scholarslab.org/images/slab-logo-rgb-125px.png" title="Scholars' Lab" alt="Scholars' Lab" /></a>
-          <a href="http://lib.virginia.edu/" id="uva-lib-logo"><img src="http://static.scholarslab.org/images/uvalib.png" alt="University of Virginia Libraries" /></a>
-        </div>
-      </footer>
-    </div><!-- #container -->
+     </header>
 
+      <main role="main" id="main">
+      {{ content }}
+      </main>
+      <footer role="contentinfo">
+         <p><a id="scholarslab-link" href="http://scholarslab.org"><img src="//static.scholarslab.org/images/logos/slab/slab-logo-black-200px.png"></a></p>
+        <p><a id="uvalibrary-link" href="http://library.virginia.edu">
+      <img id="uvalibrary" src="//static.scholarslab.org/images/logos/uvalibrary/uvalibrary-logo-black-200px.png">
+    </a></p>
+
+    <address class="vcard">
+      <span class="org fn">
+        <a class="url organization-name" href="http://scholarslab.org">Scholars’ Lab</a>
+        <a class="organization-unit extended-address" href="http://lib.virginia.edu">University of Virginia Library</a>
+      </span>
+      <span class="street-address">P.O. Box 400129</span>,
+      <span class="locality">Charlottesville</span>, <abbr title="Virginia" class="region">VA</abbr> <span class="postal-code">22904-4129</span>
+      <span class="tel">434.243.8800 <abbr class="type" title="work">(T)</abbr></span>
+      <span class="tel">434.924.1431 <abbr class="type" title="fax">(F)</abbr></span>
+      <ul class="elsewhere">
+        <li><a class="url twitter" href="http://twitter.com/scholarslab">Twitter</a></li>
+        <li><a class="url facebook" href="https://www.facebook.com/scholarslab">Facebook</a></li>
+        <li><a class="url google" href="https://plus.google.com/114472010795641313811">Google</a></li>
+        <li><a class="url vimeo" href="https://vimeo.com/scholarslab">Vimeo</a></li>
+        <li><a class="url github" href="http://github.com/scholarslab/">Github</a></li>
+      </ul>
+    </address>
+  </footer>
     {% if site.google_analytics %}
     <!-- google analytics async -->
     <script type="text/javascript">
@@ -77,6 +92,10 @@
       <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
     <![endif]-->
     <script src="/javascripts/konami.js"></script>
+    
+    <script>
+  var nav = responsiveNav("#nav-primary");
+    </script>
   </body>
 </html>
 
