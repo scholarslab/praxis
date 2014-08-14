@@ -1,21 +1,42 @@
 ---
 layout: default
 description: The Praxis Program at the Scholar's Lab
+tags:
 javascript:
   - /javascripts/jquery.zrssfeed.js
-  - /javascripts/main-posts.js
 ---
+
 <div id="local-info">
   <div id="current-topic">
     <h2><a href="#">Topic Name</a></h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque augue at urna blandit, sed semper nisi congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas elit purus, semper et est in, ultrices faucibus lectus. Sed eu tristique leo.</p>
-
+        {{ page.tag}}
     <p>What's next...</p>
 
     <a href="#">See All Topics</a>
+  </div>
+
+  <div id="blog">
+    {% if page.tags %}
+<h2>Related Posts</h2>
+<div id="posts"></div>
+<script>
+  $(document).ready(function () {
+    $('#posts').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
+      limit: 3,
+      header: false,
+      titletag: 'span',
+      date: false,
+      content: false,
+      errormsg: 'There are currently no posts for this topic.',
+      snippet: false,
+      key: '{{ site.gapi_key }}'
+    });
+  }); 
+</script>
+{% endif %}
 
   </div>
-  <div id="blog"></div>
 
 </div>
 
