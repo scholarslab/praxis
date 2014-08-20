@@ -10,7 +10,7 @@ Lab](http://lib.virginia.edu/scholarslab) at the [University of Virginia
 Library](http://lib.virginia.edu/). In its first two pilot years
 (2011-2013), it was generously funded by a grant from the Andrew W.
 Mellon Foundation to the [Scholarly Communication
-Institute](http://uvasci.org). The third year of Praxis, now underway, is wholly supported by the University of Virginia Library.
+Institute](http://uvasci.org). Praxis is now fully supported by the University of Virginia Library.
 
 Praxis is a [radical re-imagining](http://chronicle.com/article/A-Digital-Boot-Camp-for-Grad/131665/) of the annual teaching and training we offer
 in the Scholars' Lab, and is meant to complement our work over the past seven years with Scholars' Lab [Graduate
@@ -20,7 +20,7 @@ Humanities](http://www2.lib.virginia.edu/scholarslab/about/fellowship.html).
 The Praxis Program funds a team of six University of Virginia graduate students from
 a variety of disciplines to apprentice with us each academic year. Under
 the guidance of Scholars' Lab faculty and staff, they design and create a full-fledged digital humanities project or software tool. The first two cohorts of Praxis worked on [*Prism*](http://prism.scholarslab.org), a platform for "crowd-sourcing" textual analysis,
-visualization, and humanities interpretation. The third Praxis cohort is re-imagining and re-creating a defunct University of Virginia SpecLab project, the Ivanhoe Game.
+visualization, and humanities interpretation. The third Praxis cohort re-imagined and re-created a defunct University of Virginia SpecLab project, the [*Ivanhoe Game*](http://ivanhoe.scholarslab.org).
 
 [Recognizing](http://chronicle.com/blogs/profhacker/it-starts-on-day-one/37893) that up-to-date methodological training is often absent or
 catch-as-catch-can for humanities graduate students, we see the early 
