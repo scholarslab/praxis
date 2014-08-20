@@ -1,4 +1,4 @@
-$grid: hide;
+$grid: show;
 
 @media screen {
 
@@ -939,6 +939,7 @@ article {
 // Media query for 720px. Sets layout to 16 columns.
 @include susy-breakpoint('720px', 16) {
 
+
 body {
     @include container($grid);
 }
@@ -1045,6 +1046,20 @@ nav {
     .commentlist blockquote {
         margin:0 0 0 rhythm(1) !important;
         padding: 0 !important;
+    }
+    
+    .topics {
+      overflow: hidden;
+      background: blue;
+    }
+    .topics > div {
+      background: rgba(white,.5);
+        @include span(4 of 12);
+
+        &:last-child {
+        @include span(last 4 of 12);
+  
+      }
     }
 
 }
