@@ -1047,22 +1047,37 @@ nav {
         margin:0 0 0 rhythm(1) !important;
         padding: 0 !important;
     }
-    
+  
     .topics {
       overflow: hidden;
       background: blue;
     }
+
     .topics > div {
       background: rgba(white,.5);
         @include span(4 of 12);
 
         &:last-child {
         @include span(last 4 of 12);
-  
+
       }
     }
 
-}
+    .projects {
+      overflow: hidden;
+      background: white;
+       }
+
+    .projects > div {
+      background: rgba(white,.5);
+        @include span(4 of 14);
+
+        &:last-child {
+        @include span(last 4 of 14);
+
+      }
+    }
+  }  
 
 .posts-list {
 
