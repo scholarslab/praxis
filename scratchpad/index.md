@@ -23,7 +23,6 @@ Scratchpad is our working notebook of topics, exercises, and resources.
 <li><a href="scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
 </ul>
 </div>
-
 <div class="building">
 <h2>Building</h2>
 <ul>
@@ -42,7 +41,6 @@ Scratchpad is our working notebook of topics, exercises, and resources.
 <li><a href="/scratchpad/tdd/">Testing Code</a></li>
 </ul>
 </div>
-
 <div class="sharing">
 <h2>Growing</h2>
 <ul>
@@ -53,8 +51,8 @@ Scratchpad is our working notebook of topics, exercises, and resources.
 </div>
 </div>
 
+<br style="clear:both;">
 <h1>Resources</h1>
-
 * [PHP Cheat Sheet](/tutorials/php-cheatsheet/)
 * [Ruby Cheat Sheet](/tutorials/ruby-cheatsheet/)
 * [Programming Style Guide](/tutorials/ruby-style-guide/)

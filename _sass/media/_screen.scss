@@ -613,6 +613,14 @@ nav {
 
 }
 
+.topics > div {
+    @include span(4 of 12);
+    background: rgba(white, .9);
+    &:last-child {
+        @include span(last 4 of 12);
+    }
+
+}
 
 .pagination {
     text-align:justify;
