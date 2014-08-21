@@ -7,27 +7,32 @@
   }
 }
 
-@mixin fullbleed($columns: 1, $layout: 14) {
+@mixin fullbleed($columns: 1, $layout: 14, $verticalPadding: true ) {
     $context: $layout - ($columns * 2);
-    @include bleed-y(rhythm());
+
+    @if $verticalPadding {
+        @include bleed-y(rhythm());
+    }
+
     @include bleed-x(span($columns of $context wide));
 }
 
 @mixin fullbackground($image: 'images/background.jpg') {
     @include background-size(cover);
     background-repeat: no-repeat;
-    background-position:50% 0;
+    background-position:top center;
+    background-attachment:fixed;
     @include background-image(
-        linear-gradient(left, rgba(white, 0.8), rgba(white, 0.8)),
+        linear-gradient(left, rgba($hero-color, .85), rgba($hero-color, .85)),
         url($image)
     );
 
-    color: #333;
-    color: rgba(black, 0.8);
+    color: white;
+    color: rgba(white, .9);
 
     a {
-        color: #333;
-        color: rgba(black, 0.8);
+        color: white;
+        color: rgba(white, .9);
     }
 
 }

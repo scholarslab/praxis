@@ -1,25 +1,31 @@
 $grid: show;
 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
 @media screen {
 
 @include establish-baseline;
 
-
-
 html {
-    background: #f0f0f0;
     margin:0;
     padding:0;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    background-image: url('http://i.imgur.com/oavv3DC.jpg');
+    @include box-shadow(0 0 20px rgba(black,.125));
+    background-attachment:fixed;
 }
 
 body {
-    background-color: white;
     @include container($grid);
+    position:relative;
     margin:0;
     padding:0;
     font-family: $default-font;
     color: $default-color;
     color: rgba($default-color, .9);
+
 }
 
 img,
@@ -58,6 +64,12 @@ a {
     img {
         @include single-transition(opacity);
     }
+
+    i,
+    input[type=submit] {
+        @include single-transition(background-color);
+    }
+
 }
 
 #{headings()} {
@@ -73,24 +85,54 @@ h1 {
     @include adjust-leading-to(2,40px);
     margin:0;
     @include trailer(1, 40px);
+    text-align:center;
 
-    .archive article &,
-    .blog article & {
-        @include adjust-font-size-to(40px);
-        @include adjust-leading-to(2,40px);
-        @include trailer(1, 40px);
+    .singular main header &,
+    main > header & {
+        @include padding-leader(1,40px);
+        @include padding-trailer(1,40px);
+
+        &:before,
+        &:after {
+            display:block;
+            content: " ";
+            height:rhythm(2, 56px);
+            width: 100px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            border-color: rgba(black, .1);
+        }
+
+        &:before {
+            border-width: 0 0 2px;
+            margin-bottom: rhythm(1, 56px);
+        }
+
+        &:after {
+            border-width: 2px 0 0;
+            margin-top: rhythm(1, 56px);
+        }
+
+        @include susy-breakpoint('480px', 16) {
+            @include adjust-font-size-to(56px);
+            @include adjust-leading-to(2,56px);
+            margin:0;
+            @include padding-leader(2,56px);
+            @include padding-trailer(2,56px);
+
+        }
     }
 
-    .singular & a {
-        background: white;
+    .archive main > header & {
+        padding: 0 !important;
     }
 
-    @include susy-breakpoint(600px, 8) {
-        @include adjust-font-size-to(60px);
-        @include adjust-leading-to(3,60px);
-        @include trailer(1, 60px);
-    }
+    .home article & {
+        @include adjust-font-size-to(25px);
+        @include adjust-leading-to(2,25px);
+        @include trailer(1, 25px);
 
+    }
 }
 
 h2 {
@@ -98,8 +140,9 @@ h2 {
     @include adjust-leading-to(1, 30px);
     @include leader(2, 30px);
     @include trailer(1, 30px);
-    font-weight:600;
+    font-weight:200;
 
+    header + &,
     h1 + &,
     h1 ~ * &:first-child {
         @include leader(1, 30px);
@@ -112,11 +155,8 @@ h3 {
     @include adjust-leading-to(2, 25px);
     color: $default-color-light;
     font-weight:200;
-    @include leader(2, 25px);
+    @include leader(1, 25px);
 
-    h2 + & {
-        @include leader(1, 25px);
-    }
 }
 
 h4 {
@@ -232,6 +272,38 @@ th {
   text-align:left;
 }
 
+input[type=text],
+input[type=email],
+textarea,
+input[type=submit] {
+    border: 1px solid #999;
+    border-color: rgba(black,.25);
+    font-family: $default-font !important;
+    @include adjust-font-size-to(16px);
+    padding-left: rhythm(.25, 16px);
+    padding-right: rhythm(.25, 16px);
+}
+
+input[type=submit] {
+    @include background-image(
+        linear-gradient(top, rgba(white,.25), transparent),
+        linear-gradient(bottom, rgba(black,.075), transparent)
+        );
+    background-color: #900;
+    color: #fff;
+
+    @include border-radius(5px);
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #b00;
+        cursor:pointer;
+    }
+
+}
+
+
 code {
   font-family: $code-font;
   @include adjust-font-size-to(16px);
@@ -337,132 +409,56 @@ i {
     @include adjust-leading-to(.75,16px);
 }
 
-.author_image {
-    display:block;
-    img {
-        @include border-radius(50%);
-        vertical-align:middle;
-    }
-}
-
-.alignnone {
-    margin: rhythm() 0;
-}
-
-.aligncenter,
-div.aligncenter {
-    display: block;
-    margin: rhythm() auto;
-}
-
-.alignright {
-    float: right;
-    margin: rhythm() 0 rhythm() gutter();
-}
-
-.alignleft {
-    float: left;
-    margin: rhythm() gutter() rhythm() 0;
-}
-
-.aligncenter {
-    display: block;
-    margin: rhythm() auto;
-}
-
-a {
-    img {
-        &.alignright {
-            float: right;
-            margin: rhythm() 0 rhythm() gutter();
-        }
-
-        &.alignnone {
-            margin: rhythm() auto;
-        }
-
-        &.alignleft {
-            float: left;
-            margin: rhythm() gutter() rhythm() 0;
-        }
-
-        &.aligncenter {
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-        }
-    }
-}
-
-
-.wp-caption {
-    max-width: 100%; /* Image does not overflow the content area */
-
-    img {
-        margin-bottom:0 !important;
-    }
-
-    p {
-        @include adjust-font-size-to(15px);
-        color: $default-color-light;
-        @include adjust-leading-to(1, 15px);
-        margin-top:0;
-    }
-}
-
 [role=banner],
 [role=main],
 [role=contentinfo] {
-    padding: rhythm() span(1 of 14 wide);
+    padding-left: span(1 of 14 wide);
+    padding-right: span(1 of 14 wide);
 }
 
 [role=banner] {
-    padding-top:0;
-    padding-bottom:0;
-    position:relative;
     text-align:center;
-    border-bottom:1px solid #ccc;
-    border-color: rgba(black, .1);
+    border-bottom:1px solid #999;
+    border-color: rgba(black, .25);
     @include clearfix;
+    background-color:white;
+    border-top: 10px solid #333;
 }
 
+.headroom {
+    @include single-transition('transform', 200ms, linear);
+}
+
+.headroom--pinned {
+    @include translateY(0);
+}
+
+.headroom--unpinned {
+    @include translateY(-100%);
+}
+
+.headroom--not-top {
+    position:fixed;
+    top:0;
+
+    .admin-bar & {
+        top:32px;
+    }
+
+    width: 100%;
+    @include box-sizing('border-box');
+    max-width: 1200px;
+}
 
 #homelink {
-    display:inline-block;
+    display:block;
     border:none;
     outline:none;
-    content: " ";
     width: 50%;
     max-width: 150px;
     margin-left: auto;
     margin-right:auto;
     position:relative;
-
-    svg {
-        max-width:100%;
-        height: auto;
-        width: auto;
-        vertical-align:middle;
-        padding:0;
-        margin:0;
-        max-height: $base-line-height;
-    }
-
-    &:link,
-    &:visited {
-        path {
-            fill: #b00;
-        }
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-        path {
-            fill: #900;
-        }
-    }
-
 }
 
 nav {
@@ -489,17 +485,10 @@ nav {
     a {
         text-decoration:none;
         display:block;
-
+        color:white;
+        color: rgba(#710, .8);
     }
 
-    &.local-nav {
-        margin-top: rhythm();
-        li + li:before {
-            content: " · ";
-            color: #ccc;
-            margin: 0 .25em;
-        }
-    }
 }
 
 /* CSS for responsive-nav.js by @viljamis */
@@ -544,19 +533,22 @@ nav {
     #homelink {
         float:left;
         display:block;
-        max-width: 120px;
+        max-width: 400px;
         @include adjust-font-size-to(16px);
         @include adjust-leading-to(2, 16px);
         vertical-align:middle;
     }
 
-    nav {
+    [role=banner] nav {
         float:none;
         clear:right;
         width:100%;
         text-align:left;
-        margin:0;
-        padding:0;
+        @include fullbleed;
+        margin-top:0;
+        margin-bottom:0;
+        padding-top:0;
+        padding-bottom:0;
 
         &.closed {
             clip: rect(0 0 0 0);
@@ -582,14 +574,14 @@ nav {
 
         a {
             display:block;
-            @include fullbleed;
-            padding-top:rhythm(.5, 16px);
-            padding-bottom: rhythm(.5, 16px);
-            margin-top:0;
-            margin-bottom:0;
             text-decoration:none;
             box-sizing: border-box;
             border-bottom: 1px solid rgba(black,.1);
+            @include fullbleed;
+            margin-top:0;
+            margin-bottom:0;
+            padding-top: rhythm(.25, 16px);
+            padding-bottom: rhythm(.25, 16px);
 
             &:focus {
                 outline:0;
@@ -598,19 +590,13 @@ nav {
             &:link,
             &:visited {
                 background-color: rgba(black,.05);
-                color: $link-color;
             }
 
             &:hover,
             &:focus,
             &:active {
                 background-color: rgba(black,.1);
-                color: $link-active-color;
             }
-        }
-
-        li:first-child a {
-            border-top: 1px solid rgba(black,.1);
         }
 
     }
@@ -621,70 +607,10 @@ nav {
 }
 
 [role=main] {
-    background-color: #f9f9f9;
-    background-color: rgba(black, .0175);
-
-    header {
-
-        .singular & {
-            @include fullbleed;
-            @include fullbackground;
-
-            p,ul {
-                font-weight:200;
-            }
-        }
-
-        .single-people & {
-            text-align:right;
-            padding-top: rhythm(8);
-        }
-    }
-
-}
-
-#homepage-blurb,
-#blog-archives {
-    @include fullbleed;
-}
-
-#homepage-blurb {
-    @include fullbackground;
+    background-color: white;
+    background-color: rgba(white, .5);
     padding-top: rhythm(1);
-    padding-bottom: rhythm(1);
-    margin-bottom:rhythm(2) !important; /* Ensure there is no negative margin across media queries. */
-}
 
-#blog-archives {
-    background-color: rgba(black, 0.025);
-    border-top:1px solid #ccc;
-    border-color: rgba(black, 0.05);
-    margin-top:0;
-    overflow:hidden;
-
-    @include susy-breakpoint('480px', 16) {
-
-    & > div {
-        @include span(6 of 12);
-
-        &:last-child {
-           @include span(last 6 of 12);
-        }
-
-        @include susy-breakpoint('940px', 18) {
-
-        div {
-            @include span(3 of 6);
-            &:last-child {
-                @include span(last 3 of 6);
-            }
-        }
-
-        }
-
-    }
-
-    }
 }
 
 
@@ -713,7 +639,6 @@ nav {
     }
 }
 
-.research,
 .people-list {
     @include gridlist;
 
@@ -728,223 +653,232 @@ nav {
     }
 
     h2 {
-        @include adjust-font-size-to($base-font-size);
-        @include adjust-leading-to(1, $base-font-size);
+        @include adjust-font-size-to(24px);
+        @include adjust-leading-to(1, 24px);
         margin:0;
     }
 
     p {
-        @include adjust-font-size-to(16px);
-        @include adjust-leading-to(.75, 16px);
         margin:0;
     }
 
-}
-
-article {
-
-    footer {
-        @include leader(2);
-        @include trailer(2);
-        @include padding-leader(1);
-        @include padding-trailer(1);
-        border:1px solid #ccc;
-        border-width: 1px 0;
-
-        .author_image_link {
-            float:left;
-            display:block;
-            width: 80px;
-            height: 80px;
-        }
-
-        .author-name,
-        .author-description {
-            margin-left: 90px !important;
-        }
-
-        p {
-            @include adjust-font-size-to(15px);
-            @include adjust-leading-to(0.75, 15px);
-            margin:0;
-
-            &.author-name {
-                font-weight:bold;
-
-                a {
-                    text-decoration:none;
-                }
-            }
-
-        }
-    }
-
-    & + article:before {
-        display:block;
-        content: " ";
-        height:rhythm(2);
-        width: 100px;
-        border-top: 2px solid #ccc;
-        border-top-color: rgba(black, .1);
-        margin: rhythm(2) auto 0;
-    }
-}
-
-.singular .entry-content {
-    margin-top: rhythm(2);
-}
-
-// Google Calendar Events generated list.
-.gce-list {
-    list-style:none;
-    li {
-        margin: 0;
-        padding: rhythm(1) 0;
-
-        & + li {
-            border-top: 1px dotted #ccc;
-        }
-
-        p.date {
-            margin:0;
-            font-weight:200;
-        }
-
-        h2 {
-            margin:0;
-        }
-
-        strong {
-            display:block;
-            @include trailer(2);
-            font-weight:200;
-            color: #666;
-        }
-    }
-
-}
-
-.post-meta {
-    @include adjust-font-size-to(14px);
-    @include adjust-leading-to(1, 14px);
-    font-weight:500;
-    color: $default-color-lighter;
-    margin-bottom:0;
-}
-
-.commentlist {
-    list-style:none;
-    padding-left:0;
-    margin-left:0;
-
-    > li {
-        margin-bottom: rhythm(1, 20px);
-    }
-
-    .comment-content {
-        :first-child {
-            margin-top:0;
-        }
-    }
-
-    .comment-meta {
-        list-style:none;
-        padding-left:0;
-        margin:0;
-        word-spacing:0;
-
-        a {
-            text-decoration:none;
-        }
-
-        li {
-            display:inline-block;
-
-            &.image {
-                display:block;
-                float:left;
-                margin-left: -35px;
-            }
-
-            .author_image {
-                width: 30px;
-                height: 30px;
-            }
-
-            &.fn {
-                font-weight: 600;
-            }
-
-            &.comment-date:before,
-            &.comment-date:after {
-                content: " · ";
-                color: $default-color-lighter;
-            }
-        }
-
-    }
-
-    li ul {
-        padding-left: rhythm(1);
-        list-style:none;
-    }
-}
-
-.posts-list {
-    list-style:none;
-
-    a {
-        text-decoration:none;
-    }
-
-    .post-meta {
-        display:block;
-    }
-}
-
-#areas-of-focus {
-    overflow:hidden;
-
-    section {
-        background: #eee;
-
-        h1 {
-            @include adjust-font-size-to($base-font-size);
-            @include adjust-leading-to(1,$base-font-size);
-            margin:0;
-            font-weight:700;
-        }
-
-        p {
-            margin:0;
-        }
-    }
 }
 
 [role=contentinfo] {
-    background-image: url('images/wild_oliva.png');
-    @include background-image(
-        linear-gradient(top, rgba(white, .5), rgba(white, .5)),
-        linear-gradient(top, rgba(white, .5), rgba(white, .5)),
-        url('images/wild_oliva.png')
-    );
-    color: #fff;
-    background-size: auto;
-    background-size: 1px 3px, 1px 6px, auto;
-    background-repeat:repeat;
-    background-repeat: repeat-x, repeat-x, repeat;
+    border-top:1px solid #ccc;
     clear:both;
+    background-color: #363636;
+    @include background-image(
+        url('http://i.imgur.com/oavv3DC.jpg')
+    );
+    background-attachment: fixed;
+    text-align:center;
+
+    @include susy-breakpoint('800px', 16) {
+        padding: 0 span(1 of 16 wide);
+    }
+
+    .menu ul {
+        margin-bottom:0;
+        list-style:none;
+
+        li {
+            display:inline-block;
+        }
+
+    }
+
+    a {
+        text-decoration:none;
+
+        &:link,
+        &:visited {
+            color: #bbb;
+            color: rgba(white, .5);
+
+            i {
+                background-color: #292929;
+                background-color: rgba(black,.25);
+            }
+
+            svg path {
+                fill: #bbb;
+                fill: rgba(white, .5);
+            }
+
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: #eee;
+            color: rgba(white, .9);
+
+            i {
+                background-color: #222;
+                background-color: rgba(black,.5);
+            }
+
+            svg path {
+                fill: #eee;
+                fill: rgba(white, .9);
+            }
+
+        }
+    }
+
 }
 
-// Media query for 720px. Sets layout to 16 columns.
-@include susy-breakpoint('720px', 16) {
+#slab-link,
+#uva-library-link {
+  content: " ";
+  display:inline-block;
+  vertical-align:middle;
+  max-width: 250px;
+  margin:0;
+  padding: 5px 10px;
 
+  svg {
+      vertical-align:middle;
+  }
+
+}
+
+#slab-link {
+    max-width:130px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    @include susy-breakpoint(580px, 16) {
+    display:inline-block;
+    border-right: 1px solid #777;
+    padding-right: 20px;
+
+    }
+}
+
+#newsletter {
+    @include fullbleed();
+    background-color: #ddd;
+    background-color: rgba(white,0.95);
+    background-image: url('images/squared_metal.png');
+    margin-top:0;
+    margin-bottom:rhythm(1);
+    color: #777;
+    color: rgba(black, 0.7);
+    border-bottom:1px solid #ccc;
+    text-align:center;
+    h2,p {
+        font-weight:200;
+        margin-top:0;
+        text-align:center;
+    }
+
+    h2, p, form {
+        max-width: 500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    label, input {
+        display:inline;
+    }
+
+    label {
+        @extend .visuallyhidden;
+    }
+
+    @include susy-breakpoint('800px', 16) {
+
+    @include fullbleed(1,16);
+    padding-top:rhythm(2);
+    padding-bottom: rhythm(2);
+    margin-top:0;
+    margin-bottom:rhythm(2);
+
+    }
+
+}
+
+.vcard {
+    @include adjust-font-size-to(16px);
+    @include adjust-leading-to(1,16px);
+    margin:0;
+    @include padding-leader(1,16px);
+    @include padding-trailer(1,16px);
+
+    @include susy-breakpoint('800px', 16) {
+
+    @include padding-trailer(2,16px);
+
+    }
+
+    .org {
+        @extend .visuallyhidden;
+    }
+
+    .street-address,
+    .tel {
+        display:block;
+    }
+
+    @include susy-breakpoint(600px, 16) {
+
+    .street-address,
+    .tel {
+        display:inline;
+    }
+
+    .street-address:after {
+        content: ",";
+    }
+
+    .tel {
+        &:before {
+            content: " · ";
+            color: #666;
+            margin: 0 .25em;
+        }
+    }
+
+    }
+}
+
+
+.social {
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-top: rhythm(1,16px);
+
+    li {
+        display:inline-block;
+    }
+
+    span {
+        @extend .visuallyhidden;
+    }
+
+    i {
+        @include adjust-font-size-to(28px);
+        @include adjust-leading-to(2,28px);
+        width:rhythm(2,28px);
+        height:rhythm(2,28px);
+        @include border-radius(50%);
+    }
+
+}
+
+
+// Media query for 800px. Sets layout to 16 columns.
+@include susy-breakpoint('800px', 16) {
 
 body {
     @include container($grid);
 }
 
-[role=banner] {
+[role=banner],
+.js [role=banner] {
     @include clearfix;
     @include pad(1);
 
@@ -955,16 +889,16 @@ body {
 
     nav {
         @include span(last 10 of 14);
-        text-align:right;
+
+        li {
+            display:inline-block;
+        }
 
         .current-menu-item a {
-            border-bottom: 5px solid $link-color;
+            border-bottom: 5px solid white;
         }
 
     }
-}
-
-.js {
 
     .nav-toggle {
         display:none;
@@ -975,7 +909,6 @@ body {
         float:right;
         clear:right;
         background: transparent !important;
-        width: inherit;
         text-align:right;
         position:inherit;
         max-height:none;
@@ -997,10 +930,8 @@ body {
 nav {
 
     background: transparent;
-
-    li {
-        display:inline-block !important;
-    }
+    margin:0;
+    padding:0;
 
     ul {
         @include adjust-leading-to(2,16px);
@@ -1012,27 +943,20 @@ nav {
 [role=main] {
     @include pad(2);
 
-    header {
-        .singular & {
+    padding-top: rhythm(2);
+    padding-bottom: rhythm(2);
+
+    .singular & {
+        padding-top: rhythm(1);
+
+        header {
             @include fullbleed(2,16);
         }
-
-        .single-people & {
-            padding-top: rhythm(10);
-        }
     }
 
-    #homepage-blurb,
-    #blog-archives {
+    #blog-archives,
+    #recent-activity {
         @include fullbleed(2,16);
-    }
-
-    #homepage-blurb {
-        padding-top: rhythm(2);
-        padding-bottom: rhythm(2);
-    }
-
-    #blog-archives {
         padding-left:span(1 wide of 12);
         padding-right:span(1 wide of 12);
     }
@@ -1047,37 +971,8 @@ nav {
         margin:0 0 0 rhythm(1) !important;
         padding: 0 !important;
     }
-  
-    .topics {
-      overflow: hidden;
-      background: blue;
-    }
 
-    .topics > div {
-      background: rgba(white,.5);
-        @include span(4 of 12);
-
-        &:last-child {
-        @include span(last 4 of 12);
-
-      }
-    }
-
-    .projects {
-      overflow: hidden;
-      background: white;
-       }
-
-    .projects > div {
-      background: rgba(white,.5);
-        @include span(4 of 14);
-
-        &:last-child {
-        @include span(last 4 of 14);
-
-      }
-    }
-  }  
+}
 
 .posts-list {
 
@@ -1087,12 +982,9 @@ nav {
     }
 }
 
-[role=contentinfo] {
-    padding: rhythm(2) span(1 of 16 wide) rhythm(1);
 }
 
 }
-
 
 // Media query for 940px. Sets layout to 18 columns.
 @include susy-breakpoint('940px', 18) {
@@ -1100,16 +992,6 @@ nav {
 body {
     @include container($grid);
 }
-
-/*[role=banner] {*/
-    /*@include pad(3);*/
-/*}*/
-
-/*#homelink,*/
-/*.js #homelink,*/
-/*nav a {*/
-    /*@include adjust-leading-to(4,16px);*/
-/*}*/
 
 [role=main] {
 
@@ -1121,59 +1003,19 @@ body {
         padding-right:0;
     }
 
-    header {
-        .singular & {
+    .singular & {
+
+        header {
             @include fullbleed(3,18);
         }
-
-        .single-people & {
-            padding-top: rhythm(16) !important;
-        }
     }
 
-    #homepage-blurb,
-    #blog-archives {
+    #blog-archives,
+    #recent-activity {
         @include fullbleed(3,18);
-    }
-
-    #homepage-blurb {
-        padding-top: rhythm(2);
-        padding-bottom: rhythm(2);
-    }
-
-    #blog-archives {
         padding-left:span(1 wide of 12);
         padding-right:span(1 wide of 12);
     }
-}
-
-}
-
-@include susy-breakpoint('1200px', 18) {
-
-body {
-    @include container($grid);
-}
-
-[role=contentinfo] {
-    padding-top: rhythm(3);
-}
-
-[role=main] {
-
-    header {
-        .single-people & {
-            padding-top: rhythm(20) !important;
-        }
-    }
-
-    #homepage-blurb {
-        padding-top: rhythm(3);
-        padding-bottom: rhythm(3);
-    }
-
-}
-
 }
 
 }

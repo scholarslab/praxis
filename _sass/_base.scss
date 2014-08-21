@@ -1,7 +1,7 @@
 // Imports
 @import "compass";
 @import "susy";
-@import "breakpoint"; 
+@import "breakpoint";
 @import "mixins";
 
 // Compass
@@ -38,14 +38,16 @@ $default-color-light            : rgba($default-color, 0.75);
 $default-color-lighter          : rgba($default-color, 0.5);
 $default-color-lightest         : rgba($default-color, 0.1);
 
-$link-color                     : #900;
-$link-visited-color             : lighten($link-color, 10%);
+$link-color                     : #710;
+$link-visited-color             : $link-color;
 $link-hover-color               : darken($link-color, 10%);
 $link-focus-color               : $link-hover-color;
 $link-active-color              : $link-color;
 
 $code-color: $default-color-light;
 $ins-color: $code-color;
+
+$hero-color                     : $link-color;
 
 // Fonts
 $default-font: "Source Sans Pro", sans-serif;
