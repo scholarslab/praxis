@@ -1,4 +1,4 @@
-$grid: show;
+$grid: hide;
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 
@@ -24,7 +24,7 @@ body {
     padding:0;
     font-family: $default-font;
     color: $default-color;
-    color: rgba($default-color, .9);
+    color: rgba($default-color, .5);
 
 }
 
@@ -608,9 +608,13 @@ nav {
 
 [role=main] {
     background-color: white;
-    background-color: rgba(white, .5);
-    padding-top: rhythm(1);
+     padding-top: 0;
+}
 
+#local-info {
+  background-color: #91B3E5;
+  @include fullbleed;
+  h1 {margin-top: 0;}
 }
 
 .topics > div {
@@ -619,10 +623,28 @@ nav {
     &:last-child {
         @include span(last 4 of 12);
     }
-
 }
 
-.pagination {
+#pitch {
+   padding-top: rhythm(1);
+ }
+
+    .projects {
+      overflow: hidden;
+      background: white;
+      border-top: 1px solid grey;
+       }
+
+    .projects > div {
+      background: rgba(white, .5);
+        @include span(6 of 12);
+
+        &:last-child {
+        @include span(last 6 of 12);
+      }
+    }
+
+    .pagination {
     text-align:justify;
     @include clearfix;
     @include leader(2);
@@ -962,8 +984,7 @@ nav {
         }
     }
 
-    #blog-archives,
-    #recent-activity {
+    #local-info{
         @include fullbleed(2,16);
         padding-left:span(1 wide of 12);
         padding-right:span(1 wide of 12);
@@ -1018,8 +1039,7 @@ body {
         }
     }
 
-    #blog-archives,
-    #recent-activity {
+    #local-info{
         @include fullbleed(3,18);
         padding-left:span(1 wide of 12);
         padding-right:span(1 wide of 12);

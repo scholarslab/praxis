@@ -5,20 +5,20 @@ tags:
 javascript:
   - /javascripts/jquery.zrssfeed.js
 ---
-
 <div id="local-info">
+  <h1>What We're Working On:</h1>
   <div id="current-topic">
-    <h2><a href="#">Topic Name</a></h2>
+    <h2><a href="/scratchpad/evaluating-digital-work">Evaluating Digital Work</a></h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque augue at urna blandit, sed semper nisi congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas elit purus, semper et est in, ultrices faucibus lectus. Sed eu tristique leo.</p>
         {{ page.tag}}
     <p>What's next...</p>
 
-    <a href="#">See All Topics</a>
+    <a href="/scratchpad/">See All Topics</a>
   </div>
 
   <div id="blog">
     {% if page.tags %}
-<h2>Related Posts</h2>
+<h2>Related Posts</h2><D-d>
 <div id="posts"></div>
 <script>
   $(document).ready(function () {
@@ -37,29 +37,25 @@ javascript:
 {% endif %}
 
   </div>
-
 </div>
 
-<div id="projects">
-
-  <div id="global-info">
-    <div id="pitch">
+<div id="pitch">
   <p>The Praxis Program realigns graduate methodological training with the demands of the humanities in the digital age.</p>
 
   <p>Our goal is to equip knowledge workers for faculty positions or alternative academic careers at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who are as comfortable writing code as they are managing teams and budgets.</p>
     </div>
-  </div>
-
+ 
+<div class="projects">
+  <h2>Projects</h2>
   <div id="ivanhoe">
-         <h2>Projects!</h2>
-         <a href="http://ivanhoe.scholarslab.org" id="ivanhoe">
+         <a href="http://ivanhoe.scholarslab.org">
            <img src="http://static.scholarslab.org/images/ivanhoelogo.png" alt="Ivanhoe">
            <p>A WordPress Theme enabling collaborative criticism through roleplay.</p>
          </a>
    </div>
       
    <div id="prism">
-        <a href="http://prism.scholarslab.org" id="prism">
+        <a href="http://prism.scholarslab.org">
           <img src="http://prism.scholarslab.org/assets/LOGO-6747d62e676eadfc92873f25fb82d6af.png" alt="Prism">
          <p>A tool for crowd-sourced interpretation of text.</p>
         </a>

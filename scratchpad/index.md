@@ -9,7 +9,7 @@ Scratchpad is our working notebook of topics, exercises, and resources.
 <h2>Preparing</h2>
 <ul>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
-<li><a href="scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
+<li><a href="evaluating-digital-work/">Evaluating Digital Work</a></li>
 <li><a href="/scratchpad/tutorials/irc/">IRC</a></li>
 <li><a href="scratchpad/tutorials/how-computers-work/">How Computers Work</a></li>
 <li><a href="/scratchpad/tutorials/bash/">Command Line Bootcamp!</a></li>

@@ -7,7 +7,7 @@
   }
 }
 
-@mixin fullbleed($columns: 1, $layout: 14, $verticalPadding: true ) {
+@mixin fullbleed($columns: 1, $layout: 14, $verticalPadding: true) {
     $context: $layout - ($columns * 2);
 
     @if $verticalPadding {
