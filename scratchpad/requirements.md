@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: requirements-gathering
-permalink: "/topics/requirements-gathering"
+permalink: "/scratchpad/requirements-gathering"
 ---
 # Requirements Gathering
 

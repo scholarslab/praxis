@@ -5,7 +5,7 @@ date: 2013-12-20 14:23
 comments: false
 sharing: true
 footer: true
-permalink: "topics/php-cheatsheet"
+permalink: "/scratchpad/php-cheatsheet"
 ---
 
 # PHP Cheatsheet

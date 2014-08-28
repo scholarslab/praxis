@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "wireframes"
-permalink: "/topics/wireframes"
+permalink: "/scratchpad/wireframes"
 ---
 
 # Wireframes

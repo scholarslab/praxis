@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: digital-work
-permalink: "/topics/evaluating-digital-work"
+permalink: "/scratchpad/evaluating-digital-work"
 ---
 
 # Evaluating Digital Work

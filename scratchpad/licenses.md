@@ -5,7 +5,7 @@ date: 2012-01-16 13:02
 comments: false
 sharing: true
 footer: true
-permalink: "topics/open-source-licenses"
+permalink: "/scratchpad/open-source-licenses"
 ---
 # Open Source Licenses
 

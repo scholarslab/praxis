@@ -3,14 +3,14 @@ layout: page
 title: scratchpad
 permalink: "/scratchpad"
 ---
-<h1>scratchpad</h1>
-scratchpad is our working notebook of scratchpad, scratchpad, and resources.
+<h1>Scratchpad</h1>
+scratchpad is our working notebook of tutorials, topics, and resources.
 <div class="scratchpad">
 <div class="preparing">
 <h2>Preparing</h2>
 <ul>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
-<li><a href="evaluating-digital-work/">Evaluating Digital Work</a></li>
+<li><a href="/scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
 <li><a href="/scratchpad/tutorials/irc/">IRC</a></li>
 <li><a href="scratchpad/tutorials/how-computers-work/">How Computers Work</a></li>
 <li><a href="/scratchpad/tutorials/bash/">Command Line Bootcamp!</a></li>
@@ -20,8 +20,6 @@ scratchpad is our working notebook of scratchpad, scratchpad, and resources.
 <li><a href="/scratchpad/tutorials/git/">Git</a></li>
 <li><a href="/scratchpadhttp://www.scholarslab.org/dh-developer/forking-fetching-pushing-pulling/">Forking, Fetching, Pushing, Pulling</a></li>
 </ul>
-<li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
-<li><a href="scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
 </ul>
 </div>
 <div class="building">

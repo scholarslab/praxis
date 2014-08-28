@@ -5,7 +5,7 @@ date: 2011-09-20 14:23
 comments: false
 sharing: true
 footer: true
-permalink: "/topics/ruby-style-guide"
+permalink: "/scratchpad/ruby-style-guide"
 ---
 # Ruby Style Guide
 

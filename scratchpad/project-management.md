@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: project-management
-permalink: "/topics/project-management"
+permalink: "/scratchpad/project-management"
 ---
 # Project Management
 

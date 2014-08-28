@@ -5,7 +5,7 @@ date: 2011-09-13 09:24
 comments: false
 sharing: true
 tags: "git"
-permalink: "topics/intro-to-version-control"
+permalink: "/scratchpad/intro-to-version-control"
 ---
 
 # Intro to Version Control
