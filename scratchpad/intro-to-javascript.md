@@ -5,7 +5,7 @@ date: 2011-09-13 09:24
 comments: false
 sharing: true
 tags: "javascript"
-permalink: "/scratchpad/intro-to-javascript"
+permalink: "/scratchpad/intro-to-javascript/"
 ---
 
 # Intro to JavaScript and CoffeeScript

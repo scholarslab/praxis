@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/scratchpad/vim-code-execution"
+permalink: "/scratchpad/vim-code-execution/"
 ---
 
 # Executing Ruby from Vim

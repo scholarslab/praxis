@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "testing"
-permalink: "/scratchpad/testing-code"
+permalink: "/scratchpad/testing-code/"
 ---
 
 # Introduction to Testing

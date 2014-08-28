@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "HTML and CSS"
-permalink: "/scratchpad/html-and-css"
+permalink: "/scratchpad/html-and-css/"
 ---
 # HTML and CSS
 

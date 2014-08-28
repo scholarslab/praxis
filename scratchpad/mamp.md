@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Local WordPress Development with MAMP and WampServer
-permalink: "/scratchpad/mamp-and-wamp"
+permalink: "/scratchpad/mamp-and-wamp/"
 ---
 
 # Local WordPress Development with MAMP and WampServer

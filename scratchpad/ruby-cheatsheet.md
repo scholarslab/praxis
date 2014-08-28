@@ -5,7 +5,7 @@ date: 2011-09-20 14:23
 comments: false
 sharing: true
 footer: true
-permalink: "/scratchpad/ruby-cheatsheet"
+permalink: "/scratchpad/ruby-cheatsheet/"
 ---
 # Ruby Cheatsheet
 

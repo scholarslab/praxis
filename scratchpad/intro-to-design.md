@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "Design"
-permalink: "/scratchpad/intro-to-design"
+permalink: "/scratchpad/intro-to-design/"
 ---
 # Intro to Design
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'How Computers Work'
-permalink: "/scratchpad/how-computers-work"
+permalink: "/scratchpad/how-computers-work/"
 ---
 
 # How Computers Work

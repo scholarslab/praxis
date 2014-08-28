@@ -1,7 +1,7 @@
 ---
 layout: page
 title: scratchpad
-permalink: "/scratchpad"
+permalink: "/scratchpad/"
 ---
 <h1>Scratchpad</h1>
 scratchpad is our working notebook of tutorials, topics, and resources.

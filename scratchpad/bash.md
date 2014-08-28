@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Command Line Bootcamp'
-permalink: "/scratchpad/bash"
+permalink: "/scratchpad/bash/"
 ---
 
 # The Command Line

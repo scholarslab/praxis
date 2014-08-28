@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/scratchpad/programming2"
+permalink: "/scratchpad/programming2/"
 javascript:
   - /javascripts/hints.js
 ---
