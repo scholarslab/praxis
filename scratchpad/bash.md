@@ -10,8 +10,8 @@ The transition to interacting with your computer on the command line can
 be a little jarring at first if you're accustomed to working in an
 environment dominated by windows, cursors, buttons, and other GUI
 pleasantries. Really, though, these graphical features are often just
-façades for functionality that can be achieved with more flexibility and
-speed by typing commands directly into the terminal.
+façades for functionality that can be achieved with more flexibility and speed
+by typing commands directly into the terminal.
 
 Getting comfy on the command line is a bit like learning to drive a
 stick shift. At first, it can seem sort of ridiculous and obtuse. If
@@ -22,8 +22,10 @@ do what you want, you order it. This is exhilarating, and
 you begin to realize that the stick shift solves a whole set of problems
 and annoyances that, in the past, you didn't even know you had.
 
-This tutorial references a shell application called "[bash][bash]," which is the default on
-OS X and ubiquitous on unix-based platforms. If you're using OS X, click on the magnifying glass
+This tutorial references a shell application called "[bash][bash]," which is
+the default on
+OS X and ubiquitous on unix-based platforms. If you're using OS X, click on the
+magnifying glass
 at the top right of the screen, type "**Terminal**," and press Enter. If you
 are a Windows user, you can use *most* of the commands with PowerShell,
 just search for "**powershell** in the *Search programs and

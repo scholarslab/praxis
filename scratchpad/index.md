@@ -9,6 +9,7 @@ scratchpad is our working notebook of tutorials, topics, and resources.
 <div class="preparing">
 <h2>Preparing</h2>
 <ul>
+<li><a href= "/scratchpad/intro-to-dh/">Introduction to Digital Humanities</a></li>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
 <li><a href="/scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
 <li><a href="/scratchpad/tutorials/irc/">IRC</a></li>
