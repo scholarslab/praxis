@@ -616,9 +616,9 @@ nav {
   h1 {margin-top: 0;}
 }
 
-.topics > div {
+.scratchpad > div {
     @include span(4 of 12);
-    background: rgba(white, .9);
+    background: rgba(white, 1);
     &:last-child {
         @include span(last 4 of 12);
     }
