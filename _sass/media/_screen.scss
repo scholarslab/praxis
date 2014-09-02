@@ -453,7 +453,7 @@ i {
     border:none;
     outline:none;
     width: 50%;
-    max-width: 150px;
+    max-width: 250px;
     margin-left: auto;
     margin-right:auto;
     position:relative;
@@ -701,9 +701,10 @@ nav {
     );
     background-attachment: fixed;
     text-align:center;
-
+    padding-top: rhythm(1);
+    padding-bottom: rhythm(1);
     @include susy-breakpoint('800px', 16) {
-        padding: 0 span(1 of 16 wide);
+        padding: rhythm(1) span(1 of 16 wide);
     }
 
     .menu ul {
@@ -911,22 +912,17 @@ body {
     @include pad(1);
 
     #homelink {
-        @include span(3 of 14);
+        @include span(5 of 14);
         text-align:left;
     }
 
     nav {
-        @include span(last 10 of 14);
+        @include span(last 8 of 14);
 
         li {
             display:inline-block;
         }
-
-        .current-menu-item a {
-            border-bottom: 5px solid white;
-        }
-
-    }
+      }
 
     .nav-toggle {
         display:none;
@@ -971,16 +967,8 @@ nav {
 [role=main] {
     @include pad(2);
 
-    padding-top: rhythm(2);
+    padding-top: rhythm(1);
     padding-bottom: rhythm(1);
-
-    .singular & {
-        padding-top: rhythm(1);
-
-        header {
-            @include fullbleed(2,16);
-        }
-    }
 
     #local-info{
         @include fullbleed(2,16);
