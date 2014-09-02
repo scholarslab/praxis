@@ -7,12 +7,12 @@ title: People
 
 ## Praxis Fellows, 2014-2015
 
-* [Amy Boyd](https:www.scholarslab.org/people/amy-boyd/), English
-* [Swati Chawla](https:www.scholarslab.org/people/swati-chawla/), History
-* [Andrew Ferguson](https:www.scholarslab.org/people/andrew-ferguson/), English
-* [Joris Gjata](https:www.scholarslab.org/people/joris-gjata/), Sociology
-* [Jennifer Grayburn](https:www.scholarslab.org/people/jennifer-grayburn/), Art and Archeology
-* [Steven Lewis](https:www.scholarslab.org/people/steven-lewis/), Music
+* [Amy Boyd](http://scholarslab.org/people/amy-boyd/), English
+* [Swati Chawla](http://scholarslab.org/people/swati-chawla/), History
+* [Andrew Ferguson](http://scholarslab.org/people/andrew-ferguson/), English
+* [Joris Gjata](http://scholarslab.org/people/joris-gjata/), Sociology
+* [Jennifer Grayburn](http://scholarslab.org/people/jennifer-grayburn/), Art and Archeology
+* [Steven Lewis](https://scholarslab.org/people/steven-lewis/), Music
 
 
 ## Praxis Fellows, 2013–2014
