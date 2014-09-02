@@ -974,7 +974,7 @@ nav {
     @include pad(2);
 
     padding-top: rhythm(2);
-    padding-bottom: rhythm(2);
+    padding-bottom: rhythm(1);
 
     .singular & {
         padding-top: rhythm(1);
