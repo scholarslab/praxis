@@ -26,6 +26,7 @@ scratchpad is our working notebook of tutorials, topics, and resources.
 <div class="building">
 <h2>Building</h2>
 <ul>
+<li><a href="/scratchpad/web-hosting">Web Hosting</a></li>
 <li><a href="/scratchpad/requirements-gathering/">Requirements Gathering</a></li>
 <li><a href="/scratchpad/html-and-css/">HTML and CSS</a></li>
 <li><a href="/scratchpad/intro-to-design/">Intro to Design</a></li>
