@@ -17,13 +17,13 @@
     @include bleed-x(span($columns of $context wide));
 }
 
-@mixin fullbackground($image: 'images/background.jpg') {
+@mixin fullbackground($image: '/images/background.jpg') {
     @include background-size(cover);
     background-repeat: no-repeat;
     background-position:top center;
     background-attachment:fixed;
     @include background-image(
-        linear-gradient(left, rgba($hero-color, .85), rgba($hero-color, .85)),
+        linear-gradient(left, rgba($hero-color, .95), rgba($hero-color, .95)),
         url($image)
     );
 

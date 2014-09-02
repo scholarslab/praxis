@@ -612,6 +612,7 @@ nav {
 #local-info {
   background-color: #91B3E5;
   @include fullbleed;
+  @include  fullbackground;
   h1 {margin-top: 0;}
 }
 
