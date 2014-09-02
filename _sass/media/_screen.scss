@@ -622,6 +622,22 @@ nav {
     &:last-child {
         @include span(last 4 of 12);
     }
+
+    & > ul {
+        list-style:none;
+
+       & > li {
+            border-bottom: 1px solid #ccc;
+        padding: rhythm(.25) 0;
+        }
+    }
+
+
+    a {
+        display:block;
+        text-decoration:none;
+    }
+
 }
 
 #pitch {
