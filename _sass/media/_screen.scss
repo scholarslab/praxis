@@ -12,7 +12,7 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f9f9f9;
-    background-image: url('http://i.imgur.com/oavv3DC.jpg');
+    background-image: url('/images/chalkboard.jpg');
     @include box-shadow(0 0 20px rgba(black,.125));
     background-attachment:fixed;
 }
@@ -704,7 +704,7 @@ nav {
     clear:both;
     background-color: #363636;
     @include background-image(
-        url('http://i.imgur.com/oavv3DC.jpg')
+        url('/images/chalkboard.jpg')
     );
     background-attachment: fixed;
     text-align:center;
