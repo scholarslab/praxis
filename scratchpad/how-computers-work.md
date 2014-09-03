@@ -7,30 +7,51 @@ permalink: "/scratchpad/how-computers-work/"
 # How Computers Work
 
 Computers are marvels of engineering, yet very few actually know how
-they work (this holds true among a lot of software developers). 
+they work (this holds true among a lot of software developers). This will help
+augment [How the Computer Works][andrea-laue] by Andrea Laueu.
 
 ## Transistors
 
-Developed in the 40s, single tube
+You may remember in Elementry School building a transistor radio, or if you're
+an audiophile, you may use transistors in a special sound system. A transistor
+is a semiconductor device with magical (well, it can seem that way) properties.
+They are capable fo amplifiying and switching electronic signals as well as
+amplifiying electronic power. These properties were discovered in the late
+1940s, and today are the basis for every electronic device.
 
-Current generation of Intel Haswell chips 1.4 billion on each chip
+![Replica of the first transistor](https://upload.wikimedia.org/wikipedia/commons/b/bf/Replica-of-first-transistor.jpg)
+
 
 ### What is a transistor?
 
-Semiconductor devices that allow us to amplify signals and switching.
-Different materials are used for these modes that have physical
-properties that make these work faster. Your car stereo, headsets, TV
-sets, etc., all use amplification transitors to help deliver sound to
-you. With computers, transistors that "switch" (on and off) to "do
-stuff" very quickly. Since a transitor doesn't have mechanical movement
-(no magents, springs, etc), you can pack transistors together very tightly.
+Semiconductor devices allow us to amplify and switch electronic signals.
+Different materials with unique physical properties that make this
+possible. For example, your car stereo, headsets, TV sets, etc., all use
+amplification transitors to reproduce sound. With computers, we use transistors that
+"switch" (on and off) to "do stuff" very quickly. Since a transitor doesn't
+have mechanical movement (no magents, springs, etc), you can pack transistors
+together very tightly.
+
+While the first transistors were quite large, they quickly shrank in size. In
+fact, the current generation of computer processors contain around 1.4 billion
+transistors.High-end servers can have up to 5.4 billion transistors per chip.
+This image of an the chip that runs an iPhone (the A7 ARM chip) contains about
+1 billion transistors that are each about 22 nm large.
+
+![n Chip](http://upload.wikimedia.org/wikipedia/commons/8/89/STM32F103VGT6-HD.jpg)
+
+## Processors
+
+The "brain" of a computer is what is called the **C**entral **P**rocessing
+**U**nit (CPU). This is where all the transistors are contained that can turn
+on-and-off, and controls your computer.
 
 ## What Does a Computer Do?
 
-A computer can only "do" four things:
+A computer only does **four** things:
 
 1. Basic mathematical and logical operations
-1. Store and read values from memory (RAM)
+1. Store and read values from its memory
 1. Control program execution
 1. Control and operate attached devices (your hard drive, video card,
    network card)
@@ -39,22 +60,27 @@ A computer can only "do" four things:
 
 This is the most basic thing a computer can do:
 
-* AND - if A is true, and B is true, then A and B are true. Otherwise,
+* **AND** - if A is true, and B is true, then A and B are true. Otherwise,
   false;
-* OR - if A or B is true, A OR B is true, otherwise, false;
-* NOT - the opposite of value
-* NOR - shorthandfor NOT OR (opposite value of an OR)
-* NAND - shothand for NOT AND
-* XOR - eXclusive OR: True if only one of the inputs is true; othewise
+* **OR** - if A or B is true, A OR B is true, otherwise, false;
+* **NOT** - the opposite of value
+* **NOR** - shorthandfor NOT OR (opposite value of an OR)
+* **NAND** - shothand for NOT AND
+* **XOR** - eXclusive OR: True if only one of the inputs is true; othewise
   false
 
-If we looked at this as an electrical engineer as a "logic gate", we
-can build these with a set of transistors in switching mode. 
-
-TODO: simple AND transistor
+In electrical engineering, these are referred to as **logic gates** which allow
+one or more inputs to produce a single logical output (true or false). By
+connecting a series of transistor states (on/off) through relays, we can
+represent these logical operations.
 
 ### Propogation Delay
-Logical operations don't happen instantly
+
+
+##TODO
+
+Logical operations don't happen instantly.
+
 A value is called 'stable' when its the final, correct value (there's
 aleays output, but not always stable)
 Each transistor has a delay where it responds to its inputs, which is
@@ -224,3 +250,8 @@ components together and provide power.
 https://www.youtube.com/watch?v=PN7aO81pktU
 
 https://www.youtube.com/watch?v=WIDzNyfVVg0
+
+
+[andrea-laue]: http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-3-1&toc.depth=1&toc.id=ss1-3-1&brand=default
+
+
