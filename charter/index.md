@@ -17,3 +17,5 @@ Our [Towards a Project Charter](/scratchpad/toward-a-project-charter/) provides 
 
 Original 2011-12 cohort charter
 [here](/charter/charter-2011-2012.html)
+
+Scholars' Lab 2014 charter [here](http://scholarslab.org/about/charter/)

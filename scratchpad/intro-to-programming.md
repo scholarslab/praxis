@@ -42,6 +42,17 @@ frameborder="0" width="410" height="342"></iframe>
 <iframe src="https://docs.google.com/present/embed?id=dhkn6xbc_275hh88vhfr"
 frameborder="0" width="410" height="342"></iframe>
 
+##Exercises
+* [Exercise 1](/scratchpad/programming1/)
+* [Exercise 2](/scratchpad/programming2/)
+
+##Related Topics and Guides:
+* [Intro to Rails](/scratchpad/intro-to-rails/)
+* [Intro to JavaScript](/scratchpad/intro-to-javascript/)
+* [PHP Cheat Sheet](/scratchpad/php-cheatsheet)
+* [Ruby Cheat Sheet](/scratchpad/ruby-cheatsheet)
+* [Programming Style Guide](/scratchpad/ruby-style-guide)
+
 ## Resources
 * [Learn to Program][1]
 * [Learn Ruby the Hard Way][2] (it's not really that hard)

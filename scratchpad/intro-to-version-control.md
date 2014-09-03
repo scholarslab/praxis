@@ -17,8 +17,11 @@ permalink: "/scratchpad/intro-to-version-control/"
 * How do I store programs in Git?
 * Github
 
-## Resources
+##Related Topics:
+* [Git}(/scratchpad/tutorials/git/)
+* [Forking, Fetching, Pushing, Pulling](/scratchpadhttp://www.scholarslab.org/dh-developer/forking-fetching-pushing-pulling/)
 
+## Resources
 * Git
   - [Git: The Fast Version Control System][1]
   - [Github: Social Coding][2]

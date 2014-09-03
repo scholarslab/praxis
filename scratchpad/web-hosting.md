@@ -22,7 +22,7 @@ them?(hint-Scholars' Lab, your librarian, web resources such as
 ## Hosting
 
 Once you have your content (and skills) in place, you'll need a place to put
-your awesome site. A few, (not complete!), are listed below:
+your awesome site. A few (not complete!) are listed below:
 
 * [Github Pages](https://pages.github.com)
 * [heroku](https://heroku.com)
