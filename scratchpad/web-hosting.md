@@ -21,6 +21,9 @@ them? (hint-Scholars' Lab, your librarian, web resources such as
 
 ## Hosting
 
+Once you have your content (and skills) in place, you'll need a place to put
+your awesome site. A few (not complete!) are listed below:
+
 There are a lot of options out there for web hosting, and the right one for you
 depends on what your needs are, and how much you're willing to invest in this
 endeavor. The following list are some options with various technologies that
