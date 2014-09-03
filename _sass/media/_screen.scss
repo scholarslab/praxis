@@ -619,8 +619,7 @@ nav {
 
 .scratchpad > div {
     @include span(4 of 12);
-    background: rgba(white, 1);
-    &:last-child {
+    &.growing{
         @include span(last 4 of 12);
     }
 
