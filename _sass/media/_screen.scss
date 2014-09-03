@@ -12,7 +12,7 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f9f9f9;
-    background-image: url('http://i.imgur.com/oavv3DC.jpg');
+    background-image: url('/images/chalkboard.jpg');
     @include box-shadow(0 0 20px rgba(black,.125));
     background-attachment:fixed;
 }
@@ -421,6 +421,7 @@ i {
     @include clearfix;
     background-color:white;
     border-top: 10px solid #333;
+    padding-top: rhythm(1);
 }
 
 .headroom {
@@ -622,6 +623,22 @@ nav {
     &:last-child {
         @include span(last 4 of 12);
     }
+
+    & > ul {
+        list-style:none;
+
+       & > li {
+            border-bottom: 1px solid #ccc;
+        padding: rhythm(.25) 0;
+        }
+    }
+
+
+    a {
+        display:block;
+        text-decoration:none;
+    }
+
 }
 
 #pitch {
@@ -704,7 +721,7 @@ nav {
     clear:both;
     background-color: #363636;
     @include background-image(
-        url('http://i.imgur.com/oavv3DC.jpg')
+        url('/images/chalkboard.jpg')
     );
     background-attachment: fixed;
     text-align:center;
