@@ -18,8 +18,8 @@ permalink: "/scratchpad/intro-to-version-control/"
 * Github
 
 ##Related Topics:
-* [Git}(/scratchpad/tutorials/git/)
-* [Forking, Fetching, Pushing, Pulling](/scratchpadhttp://www.scholarslab.org/dh-developer/forking-fetching-pushing-pulling/)
+* [Git](/scratchpad/intro-to-git/)
+* [Forking, Fetching, Pushing, Pulling](http://scholarslab.org/research-and-development/forking-fetching-pushing-pulling/)
 
 ## Resources
 * Git
