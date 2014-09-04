@@ -12,11 +12,11 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <ul>
 <li><a href= "/scratchpad/intro-to-dh/">Intro to Digital Humanities</a></li>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
-<li><a href="/scratchpad/tutorials/how-computers-work/">How Computers Work</a></li>
-<li><a href="/scratchpad/tutorials/irc/">IRC</a></li>
-<li><a href="/scratchpad/tutorials/bash/">Command Line Bootcamp!</a></li>
+<li><a href="/scratchpad/how-computers-work/">How Computers Work</a></li>
+<li><a href="/scratchpad/irc/">IRC</a></li>
+<li><a href="/scratchpad/bash/">Command Line Bootcamp!</a></li>
 <li><a href="/scratchpad/intro-to-git/">Intro to Version Control</a>
-<li><a href="/scratchpad/tutorials/vim/">Intro to Vim</a></li>
+<li><a href="/scratchpad/vim/">Intro to Vim</a></li>
 </ul>
 </div>
 
