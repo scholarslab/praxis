@@ -53,7 +53,7 @@ Choose one project from each group to review and discuss.
 [7]: http://omeka.org
 [8]: http://www.viseyes.org/
 [9]: http://portal.tapor.ca/portal/portal
-[10]: http://seasr.org/
+[10]: http://www.seasr.org/
 [11]: http://mith.umd.edu/tile/
 [12]: http://anthologize.org/
 [13]: http://zotero.org
