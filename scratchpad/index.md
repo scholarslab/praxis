@@ -26,6 +26,7 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <li><a href="/scratchpad/html-and-css/">HTML and CSS</a></li>
 <li><a href="/scratchpad/intro-to-design/">Intro to Design</a></li>
 <li><a href="/scratchpad/intro-to-wordpress/">Intro to WordPress</a></li>
+<li><a href="/scratchpad/mamp-and-wamp/">MAMP and WAMP</a>
 <li><a href="/scratchpad/intro-to-programming/">Intro to Programming</a></li>
 <li><a href="/scratchpad/requirements-gathering/">Requirements Gathering</a></li>
 <li><a href="/scratchpad/wireframes/">Wireframes</a></li>
