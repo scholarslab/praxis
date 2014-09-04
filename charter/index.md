@@ -7,7 +7,7 @@ tags: charter
 
 The Praxis Program Charter aims to outline core and shared values of the Praxis Fellows. It represents both a set of working practices and a way of navigating future outcomes based on the work of the fellowship.
 
-Our [Towards a Project Charter](/scratchpad/toward-a-project-charter/) provides resources that have grounded our discussions and creation of the Praxis Charter.
+Our [Towards a Project Charter](/scratchpad/toward-a-project-charter/) provides resources that have grounded our discussions and creation of the Praxis Charters.
 
 ## Previous Charters
 
