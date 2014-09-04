@@ -1,6 +1,13 @@
 require 'yaml'
 
+
 task :default => :server
+
+desc "Check the links"
+task :check_links do
+  require 'link_checker'
+  LinkChecker.new( :target => '_site' ).check_uris
+end
 
 desc "Clean up generated site"
 task :clean do
