@@ -50,7 +50,7 @@ title: People
 * [Purdom Lindblad](http://scholarslab.org/people/purdom-lindblad), Head of Graduate Programs, Scholars' Lab
 * Dr. [Bethany Nowviskie](http://scholarslab.org/people/bethany-nowviskie/), Director, Digital Research & Scholarship, UVa Library
 * Dr. [Eric Rochester](http://scholarslab.org/people/eric-rochester/), Senior Developer, Scholars' Lab
-* [Ammon Sheppard](http://scholarslab.org/people/ammon-sheppard/), Humanities Developer, Scholars' Lab
+* [Ammon Sheppard](http://scholarslab.org/people/ammon-shepherd/), Humanities Developer, Scholars' Lab
 
 Additional Praxis Program advisors are drawn from the faculty and staff of the [UVa Library](http://lib.virginia.edu/)'s [Scholars' Lab](http://www2.lib.virginia.edu/scholarslab/consultation/index.html) and collaborating schools, departments, and centers at the [University of Virginia](http://www.virginia.edu/). [Follow us](https://twitter.com/praxisprogram) on Twitter and by subscribing to our [feed](http://www.scholarslab.org/tag/praxis-program/feed/).
 

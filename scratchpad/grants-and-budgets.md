@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "money"
-permalink: "/scratchpad/budgets"
+permalink: "/scratchpad/grants-and-budgets/"
 ---
 
 # Grants and Budgets

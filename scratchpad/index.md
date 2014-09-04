@@ -39,7 +39,7 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <ul>
 <li><a href="/scratchpad/project-management/">Intro to Project Management</a></li>
 <li><a href="/scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
-<li><a href="/scratchpad/grants-budgets/">Grants, Budgets, and Sustainability</a></li>
+<li><a href="/scratchpad/grants-and-budgets/">Grants, Budgets, and Sustainability</a></li>
 <li><a href="/scratchpad/licenses/">Licenses</a></li>
 </ul>
 </div>
