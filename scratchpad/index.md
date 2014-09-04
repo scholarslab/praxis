@@ -4,7 +4,7 @@ title: scratchpad
 permalink: "/scratchpad/"
 ---
 <h1>Scratchpad</h1>
-Scratchpad is our working notebook of tutorials, topics, and resources.
+Scratchpad is our working notebook of tutorials, topics, and resources; more guides will be added as the Praxis year progresses.
 <div class="scratchpad">
 
 <div class="preparing">
@@ -12,7 +12,7 @@ Scratchpad is our working notebook of tutorials, topics, and resources.
 <ul>
 <li><a href= "/scratchpad/intro-to-dh/">Intro to Digital Humanities</a></li>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
-<li><a href="scratchpad/tutorials/how-computers-work/">How Computers Work</a></li>
+<li><a href="/scratchpad/tutorials/how-computers-work/">How Computers Work</a></li>
 <li><a href="/scratchpad/tutorials/irc/">IRC</a></li>
 <li><a href="/scratchpad/tutorials/bash/">Command Line Bootcamp!</a></li>
 <li><a href="/scratchpad/intro-to-git/">Intro to Version Control</a>
