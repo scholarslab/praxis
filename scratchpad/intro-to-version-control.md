@@ -17,12 +17,9 @@ permalink: "/scratchpad/intro-to-version-control/"
 * How do I store programs in Git?
 * Github
 
-##Related Topics:
-* [Git](/scratchpad/intro-to-git/)
-* [Forking, Fetching, Pushing, Pulling](http://scholarslab.org/research-and-development/forking-fetching-pushing-pulling/)
-
 ## Resources
 * Git
+  - [SLab's Git Tutorial](/scratchpad/intro-to-git/)
   - [Git: The Fast Version Control System][1]
   - [Github: Social Coding][2]
 * Learning Git
@@ -30,6 +27,8 @@ permalink: "/scratchpad/intro-to-version-control/"
   - [Git for Dummies][4]
   - [Git Reference][5]
   - [Git, the Simple Guide][6]
+  -  [Forking, Fetching, Pushing, Pulling](http://scholarslab.org/research-and-development/forking-fetching-pushing-pulling/)
+
 * Cheat Sheets (Check them all out and pick the one that works for you.)
   - [git cheat sheet](http://rogerdudler.github.com/git-guide/files/git_cheat_sheet.pdf):
     *This is the best cheat sheet.*
