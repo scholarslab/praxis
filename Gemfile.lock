@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    anemone (0.7.2)
+      nokogiri (>= 1.3.0)
+      robotex (>= 1.0.0)
     blankslate (2.1.2.4)
     breakpoint (2.4.6)
       sass (~> 3.3.0)
@@ -15,6 +18,7 @@ GEM
       execjs
     coffee-script-source (1.7.1)
     colorator (0.1)
+    colorize (0.5.8)
     compass (1.0.0.rc.1)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.0.rc.1)
@@ -60,6 +64,11 @@ GEM
     jekyll-watch (1.1.0)
       listen (~> 2.7)
     kramdown (1.4.1)
+    link-checker (0.7.2)
+      anemone (~> 0.7.2)
+      colorize (~> 0.5.8)
+      nokogiri (~> 1.5.5)
+      trollop (~> 2.0)
     liquid (2.6.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -67,6 +76,7 @@ GEM
       rb-inotify (>= 0.9)
     mercenary (0.3.4)
     multi_json (1.10.1)
+    nokogiri (1.5.11)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
@@ -77,6 +87,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    robotex (1.0.0)
     safe_yaml (1.0.3)
     sass (3.3.14)
     sassy-maps (0.4.0)
@@ -87,6 +98,7 @@ GEM
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
+    trollop (2.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -97,4 +109,5 @@ DEPENDENCIES
   compass (~> 1.0.0.rc.1)
   foreman (~> 0.63.0)
   jekyll (~> 2.3.0)
+  link-checker
   susy (~> 2.1.3)
