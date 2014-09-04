@@ -31,9 +31,15 @@
     color: rgba(white, .9);
 
     a {
-        color: white;
-        color: rgba(white, .9);
-    }
+        &:link, &:visited{
+           color: #ddd;
+           color: rgba(white, .7);
+       }
+
+        &:hover, &:focus, &:active{
+            color: white;
+          }
+           }
 
 }
 
