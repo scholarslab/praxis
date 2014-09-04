@@ -29,7 +29,7 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <li><a href="/scratchpad/intro-to-programming/">Intro to Programming</a></li>
 <li><a href="/scratchpad/requirements-gathering/">Requirements Gathering</a></li>
 <li><a href="/scratchpad/wireframes/">Wireframes</a></li>
-<li><a href="/scratchpad/tdd/">Testing Code</a></li>
+<li><a href="/scratchpad/testing-code/">Testing Code</a></li>
 <li><a href="/scratchpad/web-hosting">Web Hosting</a></li>
 </ul>
 </div>
