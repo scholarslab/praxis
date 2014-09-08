@@ -10,7 +10,7 @@ Humanities. The lists of resources and organizations below are not exhaustive; i
 #Resources
 <a href="http://scholarslab.org">The Scholars' Lab website</a> is a wonderful resource for local events, workshops, and speaker series.
 
-Miriam Posner's wonderful <a href=http://miriamposner.com/blog/how-did-they-make-that/">"How did they make that?"</a> is a great place to get oriented.
+Miriam Posner's wonderful <a href="http://miriamposner.com/blog/how-did-they-make-that/">"How did they make that?"</a> is a great place to get oriented. Additionally, her video <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">"How did they make that-the video</a> showcases several projects and the scholars behind them.
 
 The richly detailed and comprehensive, online coursebook based on Johanna Drucker and David Kim's Introduction to Digital Humanities course at UCLA,<a href="http://dh101.humanities.ucla.edu/"> dh101.humanities.ucla.edu</a>, is an excellent reference.
 
