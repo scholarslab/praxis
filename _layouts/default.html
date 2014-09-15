@@ -15,7 +15,8 @@
     <link href="http://www.scholarslab.org/tag/praxis-program/feed/" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    {% comment %}<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>{% endcomment %}
+    <script src="/javascripts/modernizr-custom.js"></script>
     <script>
       Modernizr.load([
         {
@@ -27,8 +28,6 @@
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/responsive-nav.js/1.0.32/responsive-nav.min.js"></script>
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.6.0/headroom.min.js"></script> -->
-
     {% for js in page.javascript %}
     <script src="{{ js }}"></script>
     {% endfor %}

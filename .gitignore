@@ -5,4 +5,5 @@ _settings.yml
 _site
 _sass/.sass-cache
 .sass-cache
-
+bower_components/
+node_modules/
