@@ -7,9 +7,9 @@ var nav = responsiveNav(
 );
 
 // Headroom.js
-var myElement = document.querySelector("#banner");
-var headroom  = new Headroom(myElement);
-headroom.init();
+//var myElement = document.querySelector("#banner");
+//var headroom  = new Headroom(myElement);
+//headroom.init();
 
 // Konami
 var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
