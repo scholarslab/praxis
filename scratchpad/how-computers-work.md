@@ -77,7 +77,7 @@ represent these logical operations.
 ### Propogation Delay
 
 
-##TODO
+<!--##TODO -->
 
 Logical operations don't happen instantly.
 
@@ -110,7 +110,7 @@ of which you may have run across:
 <ol>
 </blockquote>
 
-TODO: logic gate for adding
+<!--TODO: logic gate for adding-->
 
 Add two binary digits (0 or 1), a carry-in (do I need to carry over), comes out with a sum and a
 carry out.
@@ -202,7 +202,7 @@ is the seek time. Seek times are in milliseconds, which is much (MUCH)
 slower than RAM (which is in nanoseconds), but they have far more capacity and persist data from
 power interuptions. 
 
-TODO picture of a hard drive
+<!--TODO picture of a hard drive-->
 
 ## Computers run programs
 
