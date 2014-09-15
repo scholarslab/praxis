@@ -27,6 +27,7 @@
  **/
 
 (function($){
+  "use strict";
 
   $.fn.rssfeed = function(url, options, fn) {
 
@@ -135,8 +136,8 @@
       }
 
       // Add feed row
-      //html += '<li class="rssRow '+row+'">' + 
-        html += '<'+ options.titletag +'><a href="'+ entry.link +'" title="View this feed at '+ feeds.title +'" target="'+ options.linktarget +'">'+ entry.title +'</a></'+ options.titletag +'>'
+      //html += '<li class="rssRow '+row+'">' +
+      html += '<'+ options.titletag +'><a href="'+ entry.link +'" title="View this feed at '+ feeds.title +'" target="'+ options.linktarget +'">'+ entry.title +'</a></'+ options.titletag +'>';
       if (options.date && pubDate) html += '<div>'+ pubDate +'</div>'
       if (options.content) {
 
