@@ -2,7 +2,7 @@
 
 Run bundler to install required gems; you'll also need Pygments
 
-    bundle && easy_install Pygments
+    bundle && easy_install Pygments && npm install && bower install
 
 ## Development
 
