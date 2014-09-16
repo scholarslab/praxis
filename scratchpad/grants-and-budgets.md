@@ -5,7 +5,7 @@ date: 2011-08-23 12:42
 comments: false
 sharing: true
 footer: true
-tags: "money"
+tags: money
 permalink: "/scratchpad/grants-and-budgets/"
 ---
 

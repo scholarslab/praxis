@@ -17,13 +17,13 @@ javascript:
 
   <div id="blog">
     {% if page.tags %}
-<div id="posts"></div>
+      <div id="posts"><ul></ul></div>
 <script>
   $(document).ready(function () {
-    $('#posts').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
+    $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
       limit: 3,
       header: false,
-      titletag: 'p',
+      titletag: 'li',
       date: false,
       content: false,
       errormsg: 'There are currently no posts for this topic.',

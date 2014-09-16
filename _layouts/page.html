@@ -1,7 +1,7 @@
 ---
 layout: default
 javascript:
-  - /javascripts/jquery.zrssfeed.min.js
+  - /javascripts/jquery.zrssfeed.js
 ---
 
 <div class="post">
@@ -9,14 +9,14 @@ javascript:
 </div>
 
 {% if page.tags %}
-<h2>Related Posts</h2>
-<div id="posts"></div>
+  <div id="blog">
+      <div id="posts"><ul></ul></div>
 <script>
   $(document).ready(function () {
-    $('#posts').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
+    $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
       limit: 99,
       header: false,
-      titletag: 'span',
+      titletag: 'li',
       date: false,
       content: false,
       errormsg: 'There are currently no posts for this topic.',
@@ -26,6 +26,8 @@ javascript:
   }); 
 </script>
 {% endif %}
+
+  </div>
 
 {% if site.disqus %}
 <div id="comments">

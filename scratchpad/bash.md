@@ -2,6 +2,7 @@
 layout: page
 title: 'Command Line Bootcamp'
 permalink: "/scratchpad/bash/"
+tags: command-line
 ---
 
 # The Command Line
