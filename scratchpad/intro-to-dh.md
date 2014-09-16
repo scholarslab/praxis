@@ -2,6 +2,7 @@
 layout: default
 Title: "Brief Introduction to Digital Humanities"
 permalink: "/scratchpad/intro-to-dh/"
+tags: "intro-dh"
 ---
 #Intro to Digital Humanities
 There is an abundance of excellent resources introducing Digital

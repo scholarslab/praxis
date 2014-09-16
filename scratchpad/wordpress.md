@@ -5,7 +5,7 @@ date: 2013-11-26 11:00
 comments: false
 sharing: true
 footer: true
-tags: "Introduction to WordPress"
+tags: "WordPress"
 permalink: "/scratchpad/intro-to-wordpress/"
 ---
 # Introduction to WordPress

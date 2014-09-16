@@ -6,6 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/scratchpad/php-cheatsheet/"
+tags: "php"
 ---
 
 # PHP Cheatsheet

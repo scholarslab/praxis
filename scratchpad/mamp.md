@@ -2,6 +2,7 @@
 layout: default
 title: Local WordPress Development with MAMP and WampServer
 permalink: "/scratchpad/mamp-and-wamp/"
+tags: "mamp"
 ---
 
 # Local WordPress Development with MAMP and WampServer

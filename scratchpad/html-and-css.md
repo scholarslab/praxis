@@ -5,7 +5,7 @@ date: 2011-11-01 11:18
 comments: false
 sharing: true
 footer: true
-tags: HTML
+tags: "HTML"
 permalink: "/scratchpad/html-and-css/"
 ---
 # HTML and CSS

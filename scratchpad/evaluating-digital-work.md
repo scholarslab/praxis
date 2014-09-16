@@ -5,7 +5,7 @@ date: 2011-08-23 13:03
 comments: false
 sharing: true
 footer: true
-tags: digital-work
+tags: "digital-work"
 permalink: "/scratchpad/evaluating-digital-work/"
 ---
 

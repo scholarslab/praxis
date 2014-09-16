@@ -6,6 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/scratchpad/licenses/"
+tags: "licenses"
 ---
 # Open Source Licenses
 

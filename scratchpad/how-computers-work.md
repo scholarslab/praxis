@@ -2,6 +2,7 @@
 layout: page
 title: 'How Computers Work'
 permalink: "/scratchpad/how-computers-work/"
+tags: "computers-work"
 ---
 
 # How Computers Work
