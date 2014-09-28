@@ -12,9 +12,9 @@ permalink: "/scratchpad/toward-a-project-charter/"
 # Toward a Project Charter
 
 ## past Praxis Program charters:
-* [2013-14 cohort charter](/charter/charter-2013-2014.html)
-* [2012-13 cohort charter](/charter/charter-2012-2013.html)
-* [Original 2011-12 cohort charter](/charter/charter-2011-2012.html)
+* [2013-14 cohort charter](/charter/charter-2013-2014/)
+* [2012-13 cohort charter](/charter/charter-2012-2013/)
+* [Original 2011-12 cohort charter](/charter/charter-2011-2012/)
 * [Scholars' Lab 2014 charter](http://scholarslab.org/about/charter/)
 
 ## Resources
