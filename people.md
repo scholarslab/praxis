@@ -12,7 +12,7 @@ title: People
 * [Andrew Ferguson](http://scholarslab.org/people/andrew-ferguson/), English
 * [Joris Gjata](http://scholarslab.org/people/joris-gjata/), Sociology
 * [Jennifer Grayburn](http://scholarslab.org/people/jennifer-grayburn/), Art and Archeology
-* [Steven Lewis](https://scholarslab.org/people/steven-lewis/), Music
+* [Steven Lewis](http://scholarslab.org/people/steven-lewis/), Music
 
 
 ## Praxis Fellows, 2013–2014
