@@ -5,12 +5,12 @@ $grid: hide;
 @media screen {
 
 @include establish-baseline;
+@include border-box-sizing;
 
 html {
-    margin:0;
+    margin: 0 auto;
     padding:0;
     max-width: 1200px;
-    margin: 0 auto;
     background-color: #f9f9f9;
     background-image: url('/images/chalkboard.jpg');
     @include box-shadow(0 0 20px rgba(black,.125));
@@ -22,8 +22,6 @@ body {
     position:relative;
     margin:0;
     padding:0;
-    font-family: $default-font;
-    color: $default-color;
 }
 
 img,
@@ -33,417 +31,20 @@ svg {
     height:auto;
 }
 
-a {
-    @include link-colors(
-        $link-color,
-        $link-hover-color,
-        $link-active-color,
-        $link-visited-color,
-        $link-focus-color
-    );
-
-    @include link-colors(
-        rgba($link-color, .8),
-        rgba($link-hover-color, .8),
-        rgba($link-active-color, .8),
-        rgba($link-visited-color, .8),
-        rgba($link-focus-color, .8)
-    );
-
-    @include transition(
-        color $default-transition-duration,
-        background-color $default-transition-duration
-    );
-
-    &:before {
-        @include single-transition(color);
-    }
-
-    img {
-        @include single-transition(opacity);
-    }
-
-    i,
-    input[type=submit] {
-        @include single-transition(background-color);
-    }
-
-}
-
-#{headings()} {
-    margin:0;
-   }
-
-h1 {
-    font-weight: 200;
-    @include adjust-font-size-to(40px);
-    @include adjust-leading-to(2,40px);
-    margin:0;
-    @include trailer(1, 40px);
-    text-align:center;
-
-    .singular main header &,
-    main > header & {
-        @include padding-leader(1,40px);
-        @include padding-trailer(1,40px);
-
-        &:before,
-        &:after {
-            display:block;
-            content: " ";
-            height:rhythm(2, 56px);
-            width: 100px;
-            margin: 0 auto;
-            border: 2px solid #ccc;
-            border-color: rgba(black, .1);
-        }
-
-        &:before {
-            border-width: 0 0 2px;
-            margin-bottom: rhythm(1, 56px);
-        }
-
-        &:after {
-            border-width: 2px 0 0;
-            margin-top: rhythm(1, 56px);
-        }
-
-        @include susy-breakpoint('480px', 16) {
-            @include adjust-font-size-to(56px);
-            @include adjust-leading-to(2,56px);
-            margin:0;
-            @include padding-leader(2,56px);
-            @include padding-trailer(2,56px);
-
-        }
-    }
-
-    .archive main > header & {
-        padding: 0 !important;
-    }
-
-    .home article & {
-        @include adjust-font-size-to(25px);
-        @include adjust-leading-to(2,25px);
-        @include trailer(1, 25px);
-
-    }
-}
-
-h2 {
-    @include adjust-font-size-to(30px);
-    @include adjust-leading-to(1, 30px);
-    @include leader(2, 30px);
-    @include trailer(1, 30px);
-    font-weight:200;
-
-    header + &,
-    h1 + &,
-    h1 ~ * &:first-child {
-        @include leader(1, 30px);
-    }
-
-}
-
-h3 {
-    @include adjust-font-size-to(25px);
-    @include adjust-leading-to(2, 25px);
-    color: $default-color-light;
-    font-weight:200;
-    @include leader(1, 25px);
-
-}
-
-h4 {
-    @include adjust-font-size-to($base-font-size);
-    @include leader(2);
-    h3 + & {
-        @include leader(1);
-    }
-}
-
-h5 {
-    @include adjust-font-size-to($base-font-size);
-    color: $default-color-lighter;
-    @include leader(2);
-    h4 + & {
-        @include leader(1);
-    }
-}
-
-h6 {
-    @include adjust-font-size-to($base-font-size);
-    color: $default-color-light;
-    @include leader(2);
-    h5 + & {
-        @include leader(1);
-    }
-}
-
-#{headings(2,6)} {
-    + * {
-        margin-top:0 !important;
-    }
-}
-
-p {
-    margin: rhythm(1) 0;
-}
-
-blockquote {
-    @include adjust-font-size-to(20px);
-    @include adjust-leading-to(1,20px);
-    font-weight: 200;
-}
-
-ul {
-  list-style:disc;
-}
-
-ol {
-  list-style:decimal;
-}
-
-ul,ol {
-  padding:0;
-  margin: rhythm(1) 0;
-
-  nav & {
-    margin-left:0;
-  }
-
-  ul {
-    list-style: circle;
-  }
-
-  ol {
-    list-style: upper-alpha;
-  }
-
-  ul, ol {
-    margin: 0 0 0 rhythm(1);
-
-    ul {
-      list-style:square;
-    }
-
-    ol {
-      list-style:lower-alpha;
-    }
-  }
-}
-
-::-moz-list-bullet,
-::-moz-list-number {
-    color: $default-color-lighter;
-}
-
-dl {
-    margin: rhythm(1) 0;
-}
-
-dt {
-    font-weight:600;
-}
-
-dd {
-    margin-left: gutter();
-}
-
-table {
-  border-collapse:collapse;
-  border-spacing:0;
-}
-
-th,
-td {
-  padding: rhythm(1) rhythm(.5) 0;
-  @include trailing-border(1px);
-  border-color: rgba($default-color,.2);
-}
-
-th {
-  @include trailing-border(3px);
-  text-align:left;
-}
-
-input[type=text],
-input[type=email],
-textarea,
-input[type=submit] {
-    border: 1px solid #999;
-    border-color: rgba(black,.25);
-    font-family: $default-font !important;
-    @include adjust-font-size-to(16px);
-    padding-left: rhythm(.25, 16px);
-    padding-right: rhythm(.25, 16px);
-}
-
-input[type=submit] {
-    @include background-image(
-        linear-gradient(top, rgba(white,.25), transparent),
-        linear-gradient(bottom, rgba(black,.075), transparent)
-        );
-    background-color: #900;
-    color: #fff;
-
-    @include border-radius(5px);
-
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: #b00;
-        cursor:pointer;
-    }
-
-}
-
-
-code {
-  font-family: $code-font;
-  @include adjust-font-size-to(16px);
-  color: $code-color;
-}
-
-pre {
-    font-family: $code-font;
-    @include adjust-font-size-to(16px);
-    color: $code-color;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap !important;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -.5em;
-}
-
-sub {
-    bottom: -.25em;
-}
-
-del {
-  color: $default-color-lighter;
-}
-
-ins {
-  text-decoration:none;
-  background: $ins-color;
-}
-
-abbr,
-acronym {
-    border-bottom: 1px dotted $default-color-lighter;
-}
-
-address {
-  font-style:normal;
-  margin: rhythm(1) 0;
-}
-
-br {
-  margin:0;
-  line-height:0;
-}
-
-hr {
-  border:none;
-  text-align:center;
-  &:before {
-    display:block;
-    content: " · · · · · ";
-    color: rgba($default-color-light, .5);
-  }
-}
-
-textarea {
-    width: 100%;
-}
-
-strong,
-b {
-    font-weight: 600;
-}
-
-em,
-i {
-    font-style:italic;
-}
-
-/* Utility classes */
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.skip {
-    @extend .visuallyhidden;
-}
-
-#slab-vcard {
-    @include adjust-font-size-to(16px);
-    @include adjust-leading-to(.75,16px);
-}
-
-[role=banner],
-[role=main],
-[role=contentinfo] {
+#banner,
+#main,
+#contentinfo {
     padding-left: span(1 of 14 wide);
     padding-right: span(1 of 14 wide);
 }
 
-[role=banner] {
+#banner {
     text-align:center;
     border-bottom:1px solid #999;
     border-color: rgba(black, .25);
     @include clearfix;
     background-color:white;
     border-top: 10px solid #333;
-    padding-top: rhythm(1);
-}
-
-.headroom {
-    @include single-transition('transform', 200ms, linear);
-}
-
-.headroom--pinned {
-    @include translateY(0);
-}
-
-.headroom--unpinned {
-    @include translateY(-100%);
-}
-
-.headroom--not-top {
-    position:fixed;
-    top:0;
-
-    .admin-bar & {
-        top:32px;
-    }
-
-    width: 100%;
-    @include box-sizing('border-box');
-    max-width: 1200px;
 }
 
 #homelink {
@@ -455,9 +56,19 @@ i {
     margin-left: auto;
     margin-right:auto;
     position:relative;
+
+    .js & {
+        float:left;
+        display:block;
+        max-width: 400px;
+        @include adjust-font-size-to(16px);
+        @include adjust-leading-to(2, 16px);
+        vertical-align:middle;
+    }
+
 }
 
-nav {
+#primary-navigation {
     display:block;
 
     ul {
@@ -467,7 +78,7 @@ nav {
         text-transform:lowercase;
         letter-spacing:1px;
         @include adjust-font-size-to(16px);
-        @include adjust-leading-to(2,16px);
+        @include adjust-leading-to(1,16px);
     }
 
     li {
@@ -481,130 +92,134 @@ nav {
     a {
         text-decoration:none;
         display:block;
-        color:white;
-        color: rgba(#710, .8);
+        padding:0 rhythm(.2,16px);
     }
 
-}
+    @include susy-breakpoint(1px 800px, 16) {
 
-/* CSS for responsive-nav.js by @viljamis */
+        .js & {
+            li {
+                display:block !important;
 
-/**
- * Responsive-nav.js adds 'js' to the HTML class attribute.
- */
-.js {
+                a {
+                    border-top: 1px solid rgba(black,.1);
+                    @include fullbleed;
+                    margin-top:0;
+                    margin-bottom:0;
+                    padding-top: rhythm(.25, 16px);
+                    padding-bottom: rhythm(.25, 16px);
 
-    /* Button to activate the navigation */
-    .nav-toggle {
-        position:relative;
-        text-decoration:none;
-        float:right;
-        display:block;
-        @include adjust-font-size-to(16px);
-        @include adjust-leading-to(2,16px);
-        -webkit-tap-highlight-color: rgba(0,0,0,0);
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-        vertical-align:middle;
+                    &:focus {
+                        outline:0;
+                    }
+
+                    &:link,
+                    &:visited {
+                        background-color: rgba(black,.05);
+                    }
+
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        background-color: rgba(black,.1);
+                    }
+                }
+            }
+        }
+    }
+
+    @include susy-breakpoint(800px, 16) {
         background: transparent;
-
-        &:hover {
-            color: #333;
-            background: rgba(black,.0125);
-        }
-
-        /* Active state and class */
-        &:active,
-        &.active {
-            background: rgba(black,.025);
-        }
-
-    }
-
-    /* Link to home with SVG logo. */
-    #homelink {
-        float:left;
-        display:block;
-        max-width: 400px;
-        @include adjust-font-size-to(16px);
-        @include adjust-leading-to(2, 16px);
-        vertical-align:middle;
-    }
-
-    [role=banner] nav {
-        float:none;
+        margin:0;
+        padding:0;
+        @include span(last 10 of 14);
+        text-align:right;
         clear:right;
-        width:100%;
-        text-align:left;
-        @include fullbleed;
-        margin-top:0;
-        margin-bottom:0;
-        padding-top:0;
-        padding-bottom:0;
-
-        &.closed {
-            clip: rect(0 0 0 0);
-            max-height: 0;
-            display: block;
-            overflow: hidden;
-            zoom: 1;
-            clear:both;
-        }
-
-        /* Open the navigation element */
-        &.opened  {
-            max-height: 9999px;
-        }
 
         ul {
-            @include adjust-leading-to(1,16px);
+            @include adjust-leading-to(2,16px);
         }
 
         li {
-            display:block;
+            display:inline-block;
         }
 
         a {
-            display:block;
-            text-decoration:none;
-            box-sizing: border-box;
-            border-bottom: 1px solid rgba(black,.1);
-            @include fullbleed;
-            margin-top:0;
-            margin-bottom:0;
-            padding-top: rhythm(.25, 16px);
-            padding-bottom: rhythm(.25, 16px);
-
-            &:focus {
-                outline:0;
-            }
-
-            &:link,
-            &:visited {
-                background-color: rgba(black,.05);
-            }
-
-            &:hover,
-            &:focus,
-            &:active {
-                background-color: rgba(black,.1);
-            }
+            background: transparent !important;
+            border:none;
+            margin:0;
+            padding:0 rhythm(.2,16px);
         }
 
     }
+
 }
 
-.disable-pointer-events {
-    pointer-events: none !important;
-}
-
-[role=main] {
+#main {
     background-color: white;
-     padding-top: 0;
+    padding-top: rhythm(1);
+
+    .singular & {
+        padding-bottom: rhythm(1);
+    }
+
+    header {
+        .singular & {
+            position:relative;
+            @include fullbleed;
+            padding:0 !important;
+            margin-bottom:0;
+            .custom-background {
+                height: 200px;
+
+                @media (min-width: 800px) and (min-height: 600px) {
+                    height: 350px;
+                }
+                @media (min-width: 1200px) and (min-height: 600px) {
+                    height: 450px;
+                }
+
+            }
+
+        }
+
+        .singular.single-people & {
+            background-image: none !important;
+            @include background-size(cover !important);
+            background-position: top center !important;
+        }
+
+        p,ul,.post-meta, .title {
+            text-align:center;
+            font-weight:200;
+            @include adjust-font-size-to(20px);
+            @include adjust-leading-to(1,20px);
+            margin:0;
+        }
+
+        .post-meta {
+            margin-bottom: rhythm(1);
+        }
+
+        .contacts {
+            @include adjust-font-size-to(16px);
+            margin-top: rhythm(1,16px) !important;
+
+            a, span {
+                color: $base-color-light;
+                text-decoration:none;
+                padding-right: rhythm(.5);
+
+                &:last-child {
+                    margin-right:0;
+                }
+            }
+        }
+
+
+
+    }
+
 }
 
 #local-info {
@@ -687,44 +302,123 @@ nav {
     }
 }
 
-.people-list {
-    @include gridlist;
+.local-navigation {
+    border-top:1px solid #ccc;
 
-    img {
-        @include box-sizing(border-box);
-        border: 1px solid #e9e9e9;
-        padding: 3px;
+    ul {
+        list-style:none;
+        margin-top:0;
     }
 
     a {
+        display:block;
         text-decoration:none;
+        font-weight: 600;
+        border-bottom: 1px solid #ccc;
+        padding: rhythm(.25);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: #e0e0e0;
+            background-color: rgba(black, .05);
+        }
+
+    }
+}
+
+article {
+
+    footer {
+        @include leader(2);
+        @include trailer(2);
+        @include padding-leader(1);
+        @include padding-trailer(1);
+        border:1px solid #ccc;
+        border-width: 1px 0;
+
+        .author_image_link {
+            float:left;
+            display:block;
+            width: 80px;
+            height: 80px;
+        }
+
+        .author-name,
+        .author-description {
+            margin-left: 90px !important;
+        }
+
+        p {
+            @include adjust-font-size-to(15px);
+            @include adjust-leading-to(0.75, 15px);
+            margin:0;
+
+            &.author-name {
+                font-weight:bold;
+
+                a {
+                    text-decoration:none;
+                }
+            }
+
+        }
     }
 
-    h2 {
-        @include adjust-font-size-to(24px);
-        @include adjust-leading-to(1, 24px);
-        margin:0;
+    & + article:before {
+        display:block;
+        content: " ";
+        height:rhythm(2);
+        width: 100px;
+        border-top: 2px solid #ccc;
+        border-top-color: rgba(black, .1);
+        margin: rhythm(2) auto 0;
     }
 
-    p {
-        margin:0;
+    .home & + article:before {
+        margin: rhythm(1) auto 0;
+        height: rhythm(1);
     }
 
 }
 
-[role=contentinfo] {
+.singular .entry-content {
+    margin:0 0 rhythm(1);
+    > p {
+        &:first-of-type {
+            margin-top:0;
+        }
+    }
+
+}
+
+/* Home page specific styles */
+#homepage-blurb {
+    @include fullbleed;
+    @include fullbackground;
+
+    h1 {
+        text-align:center;
+        @include adjust-font-size-to(40px);
+        @include adjust-leading-to(1.5,40px);
+    }
+}
+
+/* Footer styles */
+#contentinfo {
     border-top:1px solid #ccc;
     clear:both;
     background-color: #363636;
+    color: #ccc;
+    letter-spacing: .05em;
     @include background-image(
-        url('/images/chalkboard.jpg')
+        url('images/chalkboard.jpg')
     );
     background-attachment: fixed;
     text-align:center;
-    padding-top: rhythm(1);
-    padding-bottom: rhythm(1);
+
     @include susy-breakpoint('800px', 16) {
-        padding: rhythm(1) span(1 of 16 wide);
+        padding: 0 span(1 of 16 wide);
     }
 
     .menu ul {
@@ -742,17 +436,18 @@ nav {
 
         &:link,
         &:visited {
-            color: #bbb;
-            color: rgba(white, .5);
+            color: #ccc;
+            color: rgba(white, .75);
 
             i {
                 background-color: #292929;
-                background-color: rgba(black,.25);
+                background-color: rgba(black,.35);
+                color: #999;
             }
 
             svg path {
-                fill: #bbb;
-                fill: rgba(white, .5);
+                fill: #ccc;
+                fill: rgba(white, .75);
             }
 
         }
@@ -760,17 +455,17 @@ nav {
         &:hover,
         &:focus,
         &:active {
-            color: #eee;
+            color: #f0f0f0;
             color: rgba(white, .9);
 
             i {
                 background-color: #222;
-                background-color: rgba(black,.5);
+                background-color: rgba(black,.75);
+                color: #fff;
             }
 
             svg path {
-                fill: #eee;
-                fill: rgba(white, .9);
+                fill: #fff;
             }
 
         }
@@ -789,6 +484,7 @@ nav {
 
   svg {
       vertical-align:middle;
+      max-height: $base-line-height;
   }
 
 }
@@ -804,50 +500,6 @@ nav {
     padding-right: 20px;
 
     }
-}
-
-#newsletter {
-    @include fullbleed();
-    background-color: #ddd;
-    background-color: #fff;
-    background-image: url('/images/squared_metal.png');
-    margin-top:0;
-    margin-bottom:rhythm(1);
-    color: #777;
-    color: rgba(black, 0.7);
-    border-bottom:1px solid #ccc;
-    border-top:1px solid #ccc;
-    text-align:center;
-    h2,p {
-        font-weight:200;
-        margin-top:0;
-        text-align:center;
-    }
-
-    h2, p, form {
-        max-width: 500px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    label, input {
-        display:inline;
-    }
-
-    label {
-        @extend .visuallyhidden;
-    }
-
-    @include susy-breakpoint('800px', 16) {
-
-    @include fullbleed(1,16);
-    padding-top:rhythm(2);
-    padding-bottom: rhythm(2);
-    margin-top:0;
-    margin-bottom:rhythm(2);
-
-    }
-
 }
 
 .vcard {
@@ -927,74 +579,26 @@ body {
     @include container($grid);
 }
 
-[role=banner],
-.js [role=banner] {
+#banner {
     @include clearfix;
     @include pad(1);
-
-    #homelink {
-        @include span(5 of 14);
-        text-align:left;
-    }
-
-    nav {
-        @include span(last 8 of 14);
-
-        li {
-            display:inline-block;
-        }
-      }
-
-    .nav-toggle {
-        display:none;
-    }
-
-    nav.closed,
-    nav.opened{
-        float:right;
-        clear:right;
-        background: transparent !important;
-        text-align:right;
-        position:inherit;
-        max-height:none;
-    }
-
-    nav a {
-        background: transparent !important;
-        border:none;
-        margin:0;
-        padding:0 rhythm(.2,16px);
-    }
-
-
 }
 
-
-.js nav.closed,
-.js nav.opened,
-nav {
-
-    background: transparent;
-    margin:0;
-    padding:0;
-
-    ul {
-        @include adjust-leading-to(2,16px);
-    }
-
+#homelink {
+    @include span(4 of 14);
+    text-align:left;
 }
 
-
-[role=main] {
+#main {
     @include pad(2);
 
-    padding-top: rhythm(1);
-    padding-bottom: rhythm(1);
+    .singular & {
+        padding-top: rhythm(1);
 
-    #local-info{
-        @include fullbleed(2,16);
-        padding-left:span(1 wide of 12);
-        padding-right:span(1 wide of 12);
+        header {
+            @include fullbleed(2,16);
+            margin-bottom:0;
+        }
     }
 
     blockquote {
@@ -1003,21 +607,12 @@ nav {
         padding-right:0;
     }
 
-    .commentlist blockquote {
-        margin:0 0 0 rhythm(1) !important;
-        padding: 0 !important;
-    }
-
 }
 
-.posts-list {
-
-    .post-meta {
-        @include span(last 4 of 10);
-        text-align:right;
-    }
-}
-
+#local-info {
+    @include fullbleed(2,16);
+    padding-left:span(2 wide of 12);
+    padding-right:span(2 wide of 12);
 }
 
 }
@@ -1029,8 +624,7 @@ body {
     @include container($grid);
 }
 
-[role=main] {
-
+#main {
     @include pad(3);
 
     blockquote {
@@ -1043,14 +637,26 @@ body {
 
         header {
             @include fullbleed(3,18);
+            margin-bottom:0;
         }
     }
 
-    #local-info{
-        @include fullbleed(3,18);
-        padding-left:span(1 wide of 12);
-        padding-right:span(1 wide of 12);
-    }
 }
+
+#local-info {
+    @include fullbleed(3,18);
+    padding-left:span(3 wide of 12);
+    padding-right:span(3 wide of 12);
+}
+
+}
+
+@import "../lib/links";
+@import "../lib/typography";
+@import "../lib/tables";
+@import "../lib/forms";
+@import "../lib/classes";
+@import "../vendor/headroom";
+@import "../vendor/responsive-nav";
 
 }

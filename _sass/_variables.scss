@@ -1,9 +1,3 @@
-// Imports
-@import "compass";
-@import "susy";
-@import "breakpoint";
-@import "mixins";
-
 // Compass
 $base-font-size: 18px;
 $base-line-height: 30px;
@@ -14,37 +8,27 @@ $default-transition-duration: .5s;
 
 // Susy
 $susy: (
+  global-box-sizing: border-box,
   columns: 14,
   gutters: 2/3,
-  global-box-sizing: border-box
 );
 
 // Colors
 $base-color                     : rgb(90,90,90);
-
 $base-color-light               : lighten($base-color, 10%);
 $base-color-lighter             : lighten($base-color, 20%);
 $base-color-lightest            : lighten($base-color, 30%);
-
 $base-color-dark                : darken($base-color, 10%);
 $base-color-darker              : darken($base-color, 20%);
 $base-color-darkest             : darken($base-color, 30%);
 
-$complementary-color            : complement($base-color);
-$complementary-color            : darken($complementary-color, 20);
-
-$default-color                  : rgb(90,90,90);
-$default-color-light            : rgba($default-color, 0.75);
-$default-color-lighter          : rgba($default-color, 0.5);
-$default-color-lightest         : rgba($default-color, 0.1);
-
-$link-color                     : #990400;
+$link-color                     : #38c;
 $link-visited-color             : $link-color;
 $link-hover-color               : darken($link-color, 10%);
 $link-focus-color               : $link-hover-color;
 $link-active-color              : $link-color;
 
-$code-color: $default-color-light;
+$code-color: $base-color-lighter;
 $ins-color: $code-color;
 
 $hero-color                     : #232F40;
