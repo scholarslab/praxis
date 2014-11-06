@@ -18,8 +18,8 @@ permalink: "/scratchpad/intro-to-programming/"
 * What is `branching`?
 
 ##Exercises
-* [Exercise 1](/scratchpad/programming1/)
-* [Exercise 2](/scratchpad/programming2/)
+* [Exercise 1](/scratchpad/programming1/) (Ruby)
+* [Exercise 2](/scratchpad/programming2/) (Ruby)
 
 ##Related Topics and Guides:
 * [Intro to Rails](/scratchpad/intro-to-rails/)
