@@ -7,3 +7,4 @@ gem "foreman", "~> 0.63.0"
 gem "breakpoint", "~>2.4.0"
 
 gem "link-checker"
+gem "jekyll-sitemap"
