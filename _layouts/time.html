@@ -1,0 +1,20 @@
+---
+layout: page
+title: Time
+---
+
+<h1>{{ page.title }}</h1>
+
+<h2><a href="/time/meeting_notes/">Meeting Notes</a></h2>
+
+<h2>Blog Posts on Time</h2>
+{% for post in site.categories.blog %}
+  <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+{% endfor %}
+
+<h2>Memos on Time</h2>
+{% for post in site.categories.memo %}
+  <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+{% endfor %}
+
+{{ content }}
