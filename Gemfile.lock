@@ -116,6 +116,3 @@ DEPENDENCIES
   jekyll-sitemap
   link-checker
   susy (~> 2.1.3)
-
-BUNDLED WITH
-   1.10.5
