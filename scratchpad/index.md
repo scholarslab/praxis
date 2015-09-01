@@ -12,6 +12,7 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <ul>
 <li><a href= "/scratchpad/intro-to-dh/">Intro to Digital Humanities</a></li>
 <li><a href="/scratchpad/toward-a-project-charter/">Toward a Project Charter</a></li>
+<li><a href="/scratchpad/project-management/">Intro to Project Management</a></li>
 <li><a href="/scratchpad/how-computers-work/">How Computers Work</a></li>
 <li><a href="/scratchpad/irc/">IRC</a></li>
 <li><a href="/scratchpad/bash/">Command Line Bootcamp!</a></li>
@@ -38,7 +39,6 @@ Scratchpad is our working notebook of tutorials, topics, and resources; more gui
 <div class="growing">
 <h2>Growing</h2>
 <ul>
-<li><a href="/scratchpad/project-management/">Intro to Project Management</a></li>
 <li><a href="/scratchpad/evaluating-digital-work/">Evaluating Digital Work</a></li>
 <li><a href="/scratchpad/grants-and-budgets/">Grants, Budgets, and Sustainability</a></li>
 <li><a href="/scratchpad/licenses/">Licenses</a></li>
