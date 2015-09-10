@@ -5,14 +5,23 @@ title: Time
 
 <h1>{{ page.title }}</h1>
 
-<h2><a href="/time/meeting_notes/">Meeting Notes</a></h2>
-<h2><a href="/time/bibliographies/">Annotated Bibliographies</a></h2>
+<div class="archives meeting-notes">
+  <h3><a href="/time/meeting_notes/">Meeting Notes</a></h3>
+</div>
 
-<h2>Praxis Posts</h2>
-{% for post in site.posts %}
-  {% if post.categories contains 'blog' or post.categories contains 'memo' %}
-    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-  {% endif %}
-{% endfor %}
+<div class="archives bibliographies">
+  <h3><a href="/time/bibliographies/">Annotated Bibliographies</a></h3>
+</div>
 
-{{ content }}
+<div class="main-text">
+  <h2>Praxis Posts</h2>
+  <div class="all-posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'blog' or post.categories contains 'memo' %}
+        <div class="post-info">
+          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
