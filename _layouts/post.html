@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post-info">
-  <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+  <a href="{{ post.url }}"><h2>{{ page.title }}</h2></a>
 </div>
 
 {% if page.date %}<div class="postdate">Posted on {{ page.date | date_to_string }}{% if page.last_updated %}, last updated on {{ page.last_updated | date_to_string }}{% endif %}</div>{% endif %}
