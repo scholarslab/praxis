@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: time
 title: Meeting Notes
 ---
-# Meeting Notes
-
 <div id="meeting-notes">
   {% for post in site.categories.meeting-notes %}
   <article>

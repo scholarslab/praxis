@@ -222,6 +222,31 @@ svg {
 
 }
 
+#time-navigation {
+
+    ul {
+        list-style:none;
+        padding-left:0;
+        text-align:center;
+    }
+
+    li {
+        display:inline;
+
+        & + li:before {
+            content: " · ";
+            color: #999;
+            display:inline;
+            margin: 0 5px;
+        }
+
+        a {
+            text-decoration:none;
+        }
+
+    }
+}
+
 #local-info {
   background-color: #91B3E5;
   @include fullbleed;
@@ -679,7 +704,6 @@ body {
 @import "../lib/tables";
 @import "../lib/forms";
 @import "../lib/classes";
-@import "../lib/time";
 @import "../vendor/headroom";
 @import "../vendor/responsive-nav";
 

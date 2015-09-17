@@ -1,27 +1,19 @@
 ---
 layout: page
-title: Time
 ---
+<nav class="contextual-navigation" role="navigation" id="time-navigation">
+  <ul>
+      <li id="time-all-posts"><a href="/time/">Posts on Time</a></li>
+      <li id="time-meeting-notes"><a href="/time/meeting-notes/">Meeting Notes</a></li>
+      <li id="time-annotated-bibliographies"><a href="/time/bibliographies/">Annotated Bibliographies</a></li>
+</ul>
+</nav>
 
+{% if page.title != 'Time' %}
+<p class="eyebrow">Time</p>
+{% endif %}
 <h1>{{ page.title }}</h1>
 
-<div class="archives meeting-notes">
-  <h3><a href="/time/meeting-notes/">Meeting Notes</a></h3>
-</div>
-
-<div class="archives bibliographies">
-  <h3><a href="/time/bibliographies/">Annotated Bibliographies</a></h3>
-</div>
-
-<div class="main-text">
-  <h2>Praxis Posts</h2>
-  <div class="all-posts">
-    {% for post in site.posts %}
-      {% if post.categories contains 'blog' or post.categories contains 'memo' %}
-        <div class="post-info">
-          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+<section>
+{{ content }}
+</section>
