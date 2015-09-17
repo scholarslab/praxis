@@ -262,7 +262,8 @@ svg {
 
     & > ul {
         list-style:none;
-
+        margin-left:0;
+        padding-left:0;
        & > li {
             border-bottom: 1px solid #ccc;
         padding: rhythm(.25) 0;
