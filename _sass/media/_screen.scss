@@ -256,24 +256,21 @@ svg {
    padding-top: rhythm(1);
  }
 
-    .projects {
-      overflow: hidden;
-      background: #fff;
-      border-top: 1px solid grey;
+    #projects {
+      background: #fafafa;
+      border-top: 1px solid #ddd;
+      @include fullbleed(1, 14, false);
+      padding-top: rhythm(2);
+      padding-bottom: rhythm(2);
+      > div:last-child {
+          margin-top: rhythm(1);
+      }
+      
       img {
         max-height: 150px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-      }
-       }
-
-    .projects > div {
-      background: #fff;
-        @include span(6 of 12);
-
-        &:last-child {
-        @include span(last 6 of 12);
       }
     }
 
@@ -589,6 +586,7 @@ body {
     text-align:left;
 }
 
+
 #main {
     @include pad(2);
 
@@ -611,8 +609,24 @@ body {
 
 #local-info {
     @include fullbleed(2,16);
+    @include clearfix;    
     padding-left:span(2 wide of 12);
     padding-right:span(2 wide of 12);
+}
+
+#projects {
+    @include fullbleed(2,16, false);
+    @include clearfix;    
+    padding-left:span(2 wide of 12);
+    padding-right:span(2 wide of 12);
+}
+
+#projects > div {
+    @include span(6 of 12);
+    &:last-child {
+        margin-top:0;
+        @include span(last 6 of 12);
+    }
 }
 
 }
@@ -644,7 +658,15 @@ body {
 }
 
 #local-info {
+    @include clearfix;
     @include fullbleed(3,18);
+    padding-left:span(3 wide of 12);
+    padding-right:span(3 wide of 12);
+}
+
+#projects {
+    @include clearfix;
+    @include fullbleed(3,18, false);
     padding-left:span(3 wide of 12);
     padding-right:span(3 wide of 12);
 }
