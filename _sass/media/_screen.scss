@@ -413,9 +413,10 @@ article {
     );
     background-attachment: fixed;
     text-align:center;
+    padding-top: rhythm(1);
 
     @include susy-breakpoint('800px', 16) {
-        padding: 0 span(1 of 16 wide);
+        padding-top: rhythm(2);
     }
 
     .menu ul {
