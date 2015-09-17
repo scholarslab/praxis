@@ -11,6 +11,10 @@ Our [Towards a Project Charter](/scratchpad/toward-a-project-charter/) provides 
 
 ## Previous Charters
 
+[2015-16 cohort charter](/charter/charter-2015-2016/)
+
+[2014-15 cohort charter](/charter/charter-2014-2015/)
+
 [2013-14 cohort charter](/charter/charter-2013-2014/)
 
 [2012-13 cohort charter](/charter/charter-2012-2013/)
