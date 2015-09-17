@@ -8,9 +8,8 @@ $grid: hide;
 @include border-box-sizing;
 
 html {
-    margin: 0 auto;
+    margin:0;
     padding:0;
-    max-width: 1200px;
     background-color: #f9f9f9;
     background-image: url('/images/chalkboard.jpg');
     @include box-shadow(0 0 20px rgba(black,.125));
@@ -20,8 +19,9 @@ html {
 body {
     @include container($grid);
     position:relative;
-    margin:0;
+    margin:0 auto;
     padding:0;
+    max-width: 1200px;
 }
 
 img,
@@ -412,7 +412,7 @@ article {
     color: #ccc;
     letter-spacing: .05em;
     @include background-image(
-        url('images/chalkboard.jpg')
+        url('/images/chalkboard.jpg')
     );
     background-attachment: fixed;
     text-align:center;
