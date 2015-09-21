@@ -247,11 +247,14 @@ svg {
     }
 }
 
-#local-info {
+#featured {
   background-color: #91B3E5;
   @include fullbleed;
   @include  fullbackground;
-  h1 {margin-top: 0;}
+  h1 {
+    margin-top: 0;
+    text-align:left;
+  }
 }
 
 .scratchpad > div {
@@ -413,18 +416,6 @@ article {
         }
     }
 
-}
-
-/* Home page specific styles */
-#homepage-blurb {
-    @include fullbleed;
-    @include fullbackground;
-
-    h1 {
-        text-align:center;
-        @include adjust-font-size-to(40px);
-        @include adjust-leading-to(1.5,40px);
-    }
 }
 
 /* Footer styles */
@@ -634,11 +625,38 @@ body {
 
 }
 
-#local-info {
+#featured {
     @include fullbleed(2,16);
     @include clearfix;    
-    padding-left:span(2 wide of 12);
-    padding-right:span(2 wide of 12);
+    padding-left:span(1 wide of 12);
+    padding-right:span(1 wide of 12);
+
+    #current-project {
+        @include span(6 of 12);
+    }
+    #local-info {
+        @include span(last 6 of 12);
+        margin-bottom: rhythm(1);
+    }
+
+}
+
+#blog {
+    clear:both;
+    border-top: 1px solid rgba(white, 0.2);
+    margin-top: rhythm(1);
+    padding-top:0;
+    ul {
+        list-style:none;
+    }
+
+    li {
+        @include span(4 of 12);
+        &:nth-child(3n) {
+            @include span(last 4 of 12);
+        }
+    }
+
 }
 
 #projects {
@@ -684,11 +702,11 @@ body {
 
 }
 
-#local-info {
+#featured {
     @include clearfix;
     @include fullbleed(3,18);
-    padding-left:span(3 wide of 12);
-    padding-right:span(3 wide of 12);
+    padding-left:span(1 wide of 12);
+    padding-right:span(1 wide of 12);
 }
 
 #projects {
