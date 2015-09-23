@@ -1,6 +1,5 @@
 ---
 layout: post
-category: memo
 title: First Memo
 ---
 
