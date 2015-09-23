@@ -5,58 +5,40 @@ tags: praxis-program
 javascript:
   - /javascripts/jquery.zrssfeed.js
 ---
-<div id="local-info">
-  <h1>What We're Working On:</h1>
-  <div id="current-topic">
-    <h2>The Fellows are here!</h2>
-    <p>Welcome to our new Praxis Fellows: James Ascher, Bremen Donovan, Ethan Reed, Gillet Rosenblith, Rachel Trapp, and Lydia Warren!</p>
-
-    <p>Day 1 and we've tossed them into drafting the Charter. A blog post with more information about the fellows and what we will be working on is coming soon!</p>
-
-    <a href="/scratchpad/">See All Topics</a>
-  </div>
-
-  <div id="blog">
-    {% if page.tags %}
-      <div id="posts"><ul></ul></div>
-<script>
-  $(document).ready(function () {
-    $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
-      limit: 3,
-      header: false,
-      titletag: 'li',
-      date: false,
-      content: false,
-      errormsg: 'There are currently no posts for this topic.',
-      snippet: false,
-      key: '{{ site.gapi_key }}'
-    });
-  }); 
-</script>
-{% endif %}
-
-  </div>
+<div id="featured">
+<div id="current-project">
+    <em class="eyebrow">Current Project</em>
+    <h1>Time</h1>
+    <p>Praxis is experimenting with time&mdash;rather, how to represent time physically and digitally. We are sharing blog posts, rough notes, and sketches.</p>
+    <p><a href="/time/">See our research on time</a></p>
 </div>
-
+<div id="local-info">
+    <em class="eyebrow">What We're Working On</em>
+    <h1>The Fellows are here!</h1>
+    <p>Right now, we are working on version control and the command line. Follow along with our <a href="http://praxis.scholarslab.org/scratchpad/intro-to-version-control/">Git Tutorials</a> and the <a href="http://praxis.scholarslab.org/scratchpad/bash/">Command Line Bootcamp.</a></p>
+        <a href="/scratchpad/">See All Topics</a>
+</div>
+{% if page.tags %}
+<div id="blog">
+    <div id="posts"><ul></ul></div>
+    <script>
+    $(document).ready(function () {
+        $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
+            limit: 3,
+            header: false,
+            titletag: 'li',
+            date: false,
+            content: false,
+            errormsg: 'There are currently no posts for this topic.',
+            snippet: true,
+            key: '{{ site.gapi_key }}'
+        });
+    });
+    </script>
+</div>
+{% endif %}
+</div>
 <div id="pitch">
-  <p>The Praxis Program reimagines graduate methodological training for the demands of the humanities in the digital age.</p>
-
-  <p>Our goal is to equip knowledge workers for positions within and beyond the academy at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who can reach new audiences and are as comfortable writing code as they are managing teams and budgets.</p>
-    </div>
- 
-<section class="projects">
-  <h1>Projects</h1>
-  <div id="ivanhoe">
-         <a href="http://ivanhoe.scholarslab.org">
-           <img src="http://static.scholarslab.org/images/ivanhoelogo.png" alt="Ivanhoe">
-           <p>A platform for collaborative criticism through roleplay.</p>
-         </a>
-   </div>
-      
-   <div id="prism">
-        <a href="http://prism.scholarslab.org">
-          <img src="/images/prism-logo.png" alt="Prism">
-         <p>A tool for crowd-sourced interpretation of text.</p>
-        </a>
-    </div>
- </section>
+    <p>The Praxis Program reimagines graduate methodological training for the demands of the humanities in the digital age.</p>
+    <p>Our goal is to equip knowledge workers for positions within and beyond the academy at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who can reach new audiences and are as comfortable writing code as they are managing teams and budgets.</p>
+</div>
