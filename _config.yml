@@ -1,7 +1,7 @@
 name: The Praxis Program
 #baseurl: /praxis
 markdown: redcarpet
-highlighter: rouge
+highlighter: pygments
 exclude: ['Rakefile', 'README.md', 'config.rb', '_config.yml', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
 
 domain: praxis.scholarslab.org
