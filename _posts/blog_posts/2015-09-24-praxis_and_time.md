@@ -2,6 +2,7 @@
 layout: post
 title: Time and Praxis 2015-2016
 category: blog
+author: Ethan Reed
 ---
 
 Time is a massive concept. If you were asked to think about it – how it works, feels, changes, what it looks like, how people go about talking about it, or representing it – where would you start?
