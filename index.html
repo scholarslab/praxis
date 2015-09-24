@@ -20,7 +20,7 @@ javascript:
 </div>
 {% if page.tags %}
 <div id="blog">
-    <div id="posts"><ul></ul></div>
+    <!-- <div id="posts"><ul></ul></div>
     <script>
     $(document).ready(function () {
         $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
@@ -34,7 +34,17 @@ javascript:
             key: '{{ site.gapi_key }}'
         });
     });
-    </script>
+    </script> -->
+    <div id="posts">
+      <ul class="rssFeed">
+        <h2>Recent Blog Posts</h2>
+        <article>
+          {% for post in site.categories.blog %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </article>
+      </ul>
+    </div>
 </div>
 {% endif %}
 </div>
