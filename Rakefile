@@ -1,6 +1,8 @@
 require 'yaml'
 require 'open3'
 
+EDITOR = ENV.fetch('EDITOR', 'atom')
+
 task :default => :help
 
 task :help do
@@ -29,6 +31,8 @@ task :new_post, [:title] do |t, args|
     post.puts "category: blog"
     post.puts "---"
   end
+
+  `#{EDITOR} #{filename}`
 end
 
 def make_filename(title)
