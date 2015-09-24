@@ -1,4 +1,5 @@
 require 'yaml'
+require 'open3'
 
 task :default => :help
 
