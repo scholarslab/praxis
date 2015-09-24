@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time and Praxis: 2015-2016
+title: Time and Praxis 2015-2016
 category: blog
 ---
 
