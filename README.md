@@ -1,49 +1,81 @@
 # Set up
 
-Use a terminal to do the following commands 
-  - Mac:
+Use a terminal to do the following commands
+  - **Mac**:
 
-    - Applications->Utilities->Terminal.app 
-    
+    - Applications->Utilities->Terminal.app
+
     - or use Spotlight: &#8984;-Space, and type in Terminal
+
+  - **Windows**:
+
+    - Use [git bash](https://git-for-windows.github.io/)
 
 1. Clone the repo
 
-    ` git clone https://github.com/scholarslab/praxis `
+    `$ git clone https://github.com/scholarslab/praxis `
 
-2. Install gems and other software
+2. Install gems and other software (OS X only; **Windows users find
+   us**)
 
   - Go into the praxis directory
 
-    `cd praxis`
+    `$ cd praxis`
 
   - And run bundle. This will install the Ruby gems needed, including Jekyll.
 
-    `bundle`
+    `$ bundle`
 
   - Install a syntax highlighter, the Python package Pygments
 
-    `easy_install Pygments`
+    `$ easy_install Pygments`
 
   - Install the Nodejs application, a web server for viewing changes on your
     machine.
 
-    `brew install node`
+    `$ brew install node`
 
     - and then
 
-    `npm install`
-    
+    `$ npm install`
+
     - and to install bower, a package manager for the web (basically, you run
       it to put together all of the files to make a website)
 
-    `npm install -g bower`
+    `npm install -g bower grunt-cli`
 
     - and then install the things bower needs
 
-    `bower install`
+    `$ bower install`
+
+# Add a New Post
+
+There's a tool to help generating what you need for new posts:
+
+```shell
+$ rake new_post["Title of your post"]
+Creating new post file _posts/blog_posts/2015-09-24-title-of--your-post.md
+```
+
+This will create a new post file in the correct location with the needed
+header information. You can check on what was generated with:
+
+```
+$ git status
+```
 
 # Run locally
+
+## New Way
+
+Let `grunt` do the heavy lifting:
+
+```
+$ grunt
+```
+
+
+## Old Way
 
 Foreman is a program that starts all of the other programs (web server,
 compilers, etc) that need to run for you to run the site locally.
@@ -52,7 +84,7 @@ In this case, it is starting Jekyll's built in web server and a program call
 compass that will watch for any changes in files, and update the Jekyll web
 server.
 
-  `foreman start`
+  `$ foreman start`
 
 # Development
 
