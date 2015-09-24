@@ -5,7 +5,6 @@ author: lydia warren
 category: blog
 
 ---
-# Lydia Warren
 
 
 
