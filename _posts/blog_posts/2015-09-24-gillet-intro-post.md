@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introductory blog
+title: gillet!
 author: gillet rosenblith
 category: blog
 ---
