@@ -8,16 +8,10 @@ category: blog
 ---
 
 
-<a href="http://www.youtube.com/watch?v=VdQY7BusJNU
-" target="_blank"><img src="http://img.youtube.com/vi/VdQY7BusJNU.jpg"
-alt="time" width="240" height="180" border="10" /></a>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/VdQY7BusJNU" frameborder="0" allowfullscreen='allowfullscreen'> </iframe>
 
 
-<a href="http://www.youtube.com/watch?v=rIE2GAqnFGw
-" target="_blank"><img src="http://img.youtube.com/vi/rIE2GAqnFGw.jpg"
-alt="time" width="240" height="180" border="10" /></a>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/rIE2GAqnFGw" frameborder="0" allowfullscreen='allowfullscreen'> </iframe>
 
 
-<a href="http://www.youtube.com/watch?v=oOj1qBtXWBc
-" target="_blank"><img src="http://img.youtube.com/vi/oOj1qBtXWBc.jpg"
-alt="time" width="240" height="180" border="10" /></a>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/oOj1qBtXWBc" frameborder="0" allowfullscreen='allowfullscreen'> </iframe>
