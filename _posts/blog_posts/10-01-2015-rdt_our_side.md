@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ... is on our side
+author: rachel trapp
+category: blog
 ---
 
 
