@@ -7,7 +7,7 @@ comments: true
 category: blog
 ---
 
-Wanted to put up a few time sketches for [Inktober](asdfasdf). I'm aiming for every other day or so, so here's three.
+Wanted to put up a few time sketches for our owm version of [Inktober](http://mrjakeparker.com/inktober). I'm aiming for every other day or so, so here's three.
 
 All three have to do with time and consumption.
 
