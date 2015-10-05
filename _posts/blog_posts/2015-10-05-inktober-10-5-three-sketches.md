@@ -17,7 +17,7 @@ I love going to the movies, and usually opt for the biggest popcorn possible (bu
 
 ![Pint by pint](/images/inktober/10.5pintbythehour.JPG)
 
-The second one is another thing some people do to pass time together - having a drink at a bar or restaurant, which can go slow or fast. Reminds me of [Slughorn's Hourglass](http://harrypotter.wikia.com/wiki/Slughorn's_Hourglass) in Harry Potter, which goes faster or slower depending on the quality of conversation.
+The second one is another thing some people do to pass time together - having a drink at a bar or restaurant, which can go slow or fast. Here I tried to draw the rings that beer leaves behind as a marker of how much time passed where for the beer in this particular glass. Beer time! Reminds me of [Slughorn's Hourglass](http://harrypotter.wikia.com/wiki/Slughorn's_Hourglass) in Harry Potter, which goes faster or slower depending on the quality of conversation.
 
 ![Cigarette break](/images/inktober/10.5cigarettebreak.JPG)
 
