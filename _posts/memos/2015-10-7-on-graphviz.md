@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Memos and Charters"
+title: "Graphviz, Swimlanes, Deep Chronology, and Stemmatics"
 author: "JamesPAscher"
 date: 2015-10-7 15:42
 comments: true
 category: memo
 ---
-
-#Graphviz, Swimlanes, Deep Chronology, and Stemmatics
 
 In his 2014 article for the *Papers of the Bibliographical Society of
 America*, Pervez Rizvi provides what his title promises "Stemmata for
