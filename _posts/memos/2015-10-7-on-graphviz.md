@@ -105,7 +105,7 @@ and `promptbook2`, as well as `jaggardexemplar1` and
 praticular order, but otherwise all the connections are connections in
 Rizvi's article. Upon compiling, Graphviz generates this:
 
-![swimlanestemma.dot](swimlanestemma.png)
+![swimlanestemma.dot](/images/memos/swimlanestemma.png)
 
 which you can see is quite different than Rizvi's swimlanes (if you
 can access the article, if not, it's fairly similar to the Wikipedia
@@ -150,7 +150,7 @@ of the `promptbook` and the two versions of `jaggardexemplar` which
 are now shown by being part of the same record. This generates the
 image:
 
-![swimlanerecords.dot](swimlanerecords.png)
+![swimlanerecords.dot](/images/memos/swimlanerecords.png)
 
 [Lydia Warren](http://scholarslab.org/people/lydia-warren/) thought
 this image was aesthetically better and I think it has much to
