@@ -60,7 +60,7 @@ Creating new post file _posts/post-type/2015-09-24-title-of--your-post.md
 This will create a new post file in the correct location with the needed
 header information.
 
-For example, to create a new memo:
+Examples:
 ```shell
 $ rake new_post[blog,"My Blog Post"]
 $ rake new_post[memo,"My Memo"]
