@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meeting Notes - 10/8
-category: meeting-notes
+category: meeting-note
 author: "James P. Ascher"
 date: 2015-10-8 15:01
 comments: true
