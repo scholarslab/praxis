@@ -11,13 +11,15 @@ task :help do
 end
 
 desc "Add a new post"
-task :new_post, [:title] do |t, args|
+task :new_post, [:type, :title] do |t, args|
+  args.with_defaults(:type => 'blog')
   args.with_defaults(:title => 'new-post')
 
   author = Open3.popen3("git config user.name") {|stdin, stdout| stdout.read.chomp }
 
   title = args[:title]
-  filename = make_filename(title)
+  category = args[:type]
+  filename = make_filename(category,title)
 
   puts "Creating new post file #{filename}".green
 
@@ -28,16 +30,16 @@ task :new_post, [:title] do |t, args|
     post.puts "author: \"#{author}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "comments: true"
-    post.puts "category: blog"
+    post.puts "category: #{category}"
     post.puts "---"
   end
 
   `#{EDITOR} #{filename}`
 end
 
-def make_filename(title)
+def make_filename(type, title)
   clean = clean_title(title)
-  "_posts/blog_posts/#{Time.now.strftime('%Y-%m-%d')}-#{clean}.md"
+  "_posts/#{type}/#{Time.now.strftime('%Y-%m-%d')}-#{clean}.md"
 end
 
 def clean_title(title)
