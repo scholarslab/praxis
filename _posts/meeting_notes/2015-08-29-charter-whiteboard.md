@@ -3,9 +3,11 @@ layout: post
 title: Meeting Notes - 8/27
 category: meeting-notes
 author: "James P. Ascher"
-date: 2015-8-29 13:19
+date: 2015-10-7 13:19
 comments: true
 ---
+
+(transcribed James P. Ascher, Aug 29, 2015, revised for the web Oct 7, 2015)
 
 These notes were taken at the first 2015 Praxis meeting (August 27
 from 9 AM till 10:30 pm) in blue dry-erase marker on three whiteboards
@@ -21,8 +23,6 @@ for the website, underlines indicating emphasis are replaced with
 **bold** word because Markdown does not support underline, longer
 dashes are `&mdash;` rather than two hyphens, and the sub-list under
 "How we present ourselves to others" is represented as quotes.
-
-(transcribed James P. Ascher, Aug 29, 2015, revised for the web Oct 7, 2015)
 
 ##Transcription
 
