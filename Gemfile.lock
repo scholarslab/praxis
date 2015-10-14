@@ -101,6 +101,3 @@ DEPENDENCIES
   redcarpet
   rouge (~> 1.9.1)
   susy (~> 2.2)
-
-BUNDLED WITH
-   1.10.6
