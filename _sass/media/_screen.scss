@@ -642,12 +642,16 @@ body {
 }
 
 #blog {
-    clear:both;
-    border-top: 1px solid rgba(white, 0.2);
-    margin-top: rhythm(1);
+    clear: both;
     padding-top:0;
+    h2 {
+        border-top: 1px solid rgba(white, 0.2);
+        padding-top: rhythm(0.5);
+    }
+
     ul {
         list-style:none;
+        padding-bottom:rhythm(0.5);
     }
 
     li {
@@ -656,7 +660,6 @@ body {
             @include span(last 4 of 12);
         }
     }
-
 }
 
 #projects {

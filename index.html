@@ -18,35 +18,21 @@ javascript:
     <p>We continue to push ourselves to participate in <a href="http://mrjakeparker.com/inktober">Jake Parker's Inktober</a> by making sketches that represent time in non-linear ways. We are also continuing to work on our case studies of time; we're starting to find common patterns and making demos. Stay tuned for examples! You should be able to see some of these sketches and demos <a href="http://praxis.scholarslab.org/time/">here.</a></p>
 
 </div>
-{% if page.tags %}
+
 <div id="blog">
-    <!-- <div id="posts"><ul></ul></div>
-    <script>
-    $(document).ready(function () {
-        $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
-            limit: 3,
-            header: false,
-            titletag: 'li',
-            date: false,
-            content: false,
-            errormsg: 'There are currently no posts for this topic.',
-            snippet: true,
-            key: '{{ site.gapi_key }}'
-        });
-    });
-    </script> -->
-    <div id="posts">
-      <ul class="rssFeed">
         <h2>Recent Blog Posts</h2>
-        <article>
+        <ul>
           {% for post in site.categories.blog limit:3 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
-        </article>
-      </ul>
-    </div>
+        </ul>
+        <h2>Recent Memo Posts</h2>
+        <ul>
+          {% for post in site.categories.memo limit:3 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
 </div>
-{% endif %}
 </div>
 <div id="pitch">
     <p>The Praxis Program reimagines graduate methodological training for the demands of the humanities in the digital age.</p>
