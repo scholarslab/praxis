@@ -12,7 +12,7 @@ The problems I had with my tools this week, believe it or not, fits thematically
 
 What does this have to do with time? Let's look at the first picture I'm sharing, a drawing of one of my shoes.
 
-![Right samba](/images/inktober/10.23samba.JPG)
+![Right samba](/images/inktober/10.23samba.jpg)
 
 You probably can't tell from my drawing, but this shoe is thrashed. The back heel has completely torn through the cloth and this bluish plastic is exposed. There's also a split starting on the outer-toe area through the leather but I couldn't really draw it that well. On a side note, looking so closely at my shoe for so long reminded me of [this scene from Don Delillo's *Underworld*](https://books.google.com/books?id=Ug3ArDMHLnQC&pg=PA540&lpg=PA540&dq=delillo+underworld+shoe+name+the+parts&source=bl&ots=fWnNKYyQUi&sig=KI5UxZA50WbPPs_DtATUDEeNygE&hl=en&sa=X&ved=0CCgQ6AEwAmoVChMI8N3n85_UyAIVRHY-Ch08OAK9#v=onepage&q=delillo%20underworld%20shoe%20name%20the%20parts&f=false) - from "Sometimes I think..." to the bottom of p. 543 - in which a boy is asked to name as many parts of a shoe as possible. I, in particular, had problems with [the vamp](http://www.shoeguide.org/shoe_anatomy/).
 
@@ -28,7 +28,7 @@ It's a kind of mythical image for me, one Tom Waits calls in his song ["Bad As M
 
 And one more: a pencil with a broken tip, and a pencil that has been sharpened for far far too long.
 
-![Broken pencil](/images/inktober/10.23pencil.JPG)
+![Broken pencil](/images/inktober/10.23pencil.jpg)
 
 Sometimes when things break, when they reach their *end*, they acquire a certain kind of urgency. They come to the fore. It's almost like they come back into existence from some kind of constantly humming background noise. All of the sudden you have to decide what to do with this thing - do you fix it? Replace it with something else? Replace it with a new version of itself? Leave it in the weeds?
 
