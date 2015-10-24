@@ -161,17 +161,18 @@ In our meetings, we've been talking about the concept of the
 a better version of "invisible corset" which described a series of
 invisible nodes and edges I was trying to use in my
 [Graphviz visualizations of time](/memo/2015/10/07/on-graphviz/) to
-force the graph into a particular layout; Ethan
-Reed has suggested that "invisible" might not even be the right word
-and he's undoubtedly posted on that by now) by which we mean both
-cultural and political constraints on how time functions. Our
-literature is girdled into centuries, nations, and languages; our
-parts of town are girdled into commercial, green space, car
-space, and bike space. Girdling is always suspect, though not always
-necessarily bad. There is a connection to Go-go dancing in Washington
-D.C., but I think someone else will post on that idea.
+force the graph into a particular layout; Ethan Reed has suggested
+that "invisible" might not even be the right word and he's undoubtedly
+posted on that by now) by which we mean both cultural and political
+constraints on how time functions. Our literature is girdled into
+centuries, nations, and languages; our parts of town are girdled into
+commercial, green space, car space, and bike space. Girdling is always
+suspect, though not always necessarily bad. There is a connection to
+Go-go dancing in Washington D.C. which
+[Gillet has recently written about](/memo/2015/10/21/building-time/)
+as well as [Lydia in a previous post.](/blog/2015/10/08/go-go-blog-post/)
 
-My interest in the invisible girdle is that it is also a good metaphor
+interest in the invisible girdle is that it is also a good metaphor
 for the process of layout and the history of body techniques. In the
 Inktober drawings above, my ruled lines form a sort of invisible
 girdle for unruled letters that extend to, and sometimes beyond, the
