@@ -77,4 +77,4 @@ Start to think about learning code, getting to a place where we can do D3:
 * We all do first three units and come in with prepared question
 
 
-PS Shout out to Ethan for fixing the formatting of this. 
+PS Shout out to Ethan for fixing the formatting of this. And to Lydia for moral support. 
