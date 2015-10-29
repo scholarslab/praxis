@@ -10,3 +10,5 @@ node_modules/
 .tmp/
 .jekyll/
 
+Gemfile.lock
+.people.md.swp
