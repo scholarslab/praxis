@@ -15,9 +15,9 @@ I tracked my music consumption and exposure for a day. As I kind of suspected (b
 * 2:50pm-3:15pm- Spotify "New Music Friday" (mainstream pop)
 * 4ish- Sara Bareilles at Cranberry's (another coffee shop)
 * 7-8:30ish- whatever Black Swan (book & record store) was playing before the Hypnagogia Film Collective show. Then the films had soundtracks (mostly glitchy, industrial compositions, and some noise art juxtaposed with the visual of a gospel album (!). So, this is where it gets tricky.
-* 9-11pm so much classic country you can't shake a stick at it, live at Marino's
-* 11pm whatever adult contemporary they were playing at Martin's (grocery store)
+* 9-11pm- so much classic country you can't shake a stick at it, live at Marino's
+* 11pm- whatever adult contemporary they were playing at Martin's (grocery store)
 
-Doing this was fun, and it's fun to see my day divided by music and genre and places, but it's hard to remember to do it, and it's weird or rude to make notes on my phone while I'm trying to talk to people or watch a film. Also, there just isn't the time to ask for every bit of music in a series of short films, or at a coffee shop playing an obscure record. And sometimes I totally forgot I was doing this (grocery store).
+It's fun to see my day divided by music and genre and places, but it's hard to remember to do it, and it's weird and rude at times to make notes on my phone while I'm trying to talk to people or watch a film. Also, there just isn't the time to ask about every bit of music in a series of short films, or at a coffee shop playing an obscure record. And sometimes I totally forgot I was doing this (grocery store).
 
-New week activity. Processing. 
+New week activity. Processing.
