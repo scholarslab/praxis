@@ -683,7 +683,7 @@ bike lock
 steps
 door
 backpack
-bananaas
+bananas
 six pack of beer
 wallet
 card
@@ -710,7 +710,7 @@ chair
 table
 pizza
 plate
-izza
+pizza
 couch
 table
 Carcassonne box
@@ -937,7 +937,7 @@ backpack
 bike
 street
 steps
-bikelock
+bike lock
 door
 wallet
 credit card
@@ -974,7 +974,7 @@ drying rack
 frying pan
 oil
 knife
-pandry
+pantry
 door
 onion
 stove top
@@ -1014,7 +1014,7 @@ bananas
 water bottle
 chocolate
 paper towel
-toilletry bag
+toiletry bag
 toothbrush
 toothpaste
 inhalers
@@ -1028,7 +1028,7 @@ contact fluid
 floss
 paper towel
 spacer
-ihaler
+inhaler
 singulair
 backpack
 clothes
@@ -1174,7 +1174,7 @@ stuffed animal
 toilet
 door
 iPhone
-toilettry bag
+toiletry bag
 inhaler
 spacer
 inhaler
@@ -1196,11 +1196,11 @@ sidewalk
 street
 door
 frosted mini wheats
-banaas
+bananas
 yogurt
 yogurt
 wallet
-credic card
+credit card
 bag
 iPhone
 door
