@@ -237,7 +237,7 @@ svg {
         display:inline;
 
         & + li:before {
-            content: " * ";
+            content: " · ";
             color: #999;
             display:inline;
             margin: 0 5px;
