@@ -5,7 +5,22 @@ author: "Ethan Reed"
 date: 2015-11-02 00:06
 comments: true
 category: memo
+css: /stylesheets/jquery-sakura.css
+javascript: /javascripts/jquery-sakura.js
 ---
+
+<script src="/js/jquery-sakura.min.js"></script>
+<script>
+    // domReady
+    $(function() {
+        $('body').sakura();
+    });
+
+    // windowLoad
+    $(window).load(function() {
+        $('body').sakura();
+    });
+</script>
 
 Here's my plan for this week.  Our goal is, generally speaking, to think about how we value and structure time experientially. We're all tracking, monitoring, altering, playing with, or experimenting with lived time in one way or another. In keeping with the kinds of things I've been posting about for a month now, I personally want to see time passing through the use of things.
 
