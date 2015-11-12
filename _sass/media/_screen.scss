@@ -22,6 +22,9 @@ body {
     margin:0 auto;
     padding:0;
     max-width: 1200px;
+    &.justified{
+      text-align: justify;
+    }
 }
 
 img,
@@ -294,7 +297,7 @@ svg {
       > div:last-child {
           margin-top: rhythm(1);
       }
-      
+
       img {
         max-height: 150px;
         display: block;
@@ -627,7 +630,7 @@ body {
 
 #featured {
     @include fullbleed(2,16);
-    @include clearfix;    
+    @include clearfix;
     padding-left:span(1 wide of 12);
     padding-right:span(1 wide of 12);
 
@@ -664,7 +667,7 @@ body {
 
 #projects {
     @include fullbleed(2,16, false);
-    @include clearfix;    
+    @include clearfix;
     padding-left:span(2 wide of 12);
     padding-right:span(2 wide of 12);
 }

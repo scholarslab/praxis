@@ -1,0 +1,17 @@
+var name = "Ethan";
+
+var number = "25";
+
+if (number===4) {
+  console.log(number);
+}
+else {
+  console.log("That's not your name dawg")
+}
+
+
+var addition = function ( x, y ) {
+    var product = x * y;
+    var product2 = product * x;
+    return product2 + y
+}
