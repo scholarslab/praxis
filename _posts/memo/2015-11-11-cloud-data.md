@@ -16,6 +16,8 @@ css: "/stylesheets/cloudmemos.css"
 <div class="cloud x4"></div>
 <div class="cloud x5"></div>
 
+[2015-11-1-cloud_data.org](/images/code/2015-11-1-cloud_data.org)
+
 <div id="content">
 <h1 class="title">Cloud Data: Nov 1-7, 2015</h1>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
