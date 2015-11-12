@@ -32,8 +32,7 @@
     <script src="{{ js }}"></script>
     {% endfor %}
     </head>
-
-  <body class="{{ page.bodyclass }}">
+  <body {% if page.bodyclass %} class="{{ page.bodyclass }}" {% endif %}>
   <a class="skip" href="#main"> Skip to Main Content </a>
       <header role="banner" id="banner">
         <a href="/" id="homelink"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a>
