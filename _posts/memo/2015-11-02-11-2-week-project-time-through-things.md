@@ -7,6 +7,7 @@ comments: true
 category: memo
 css: /stylesheets/jquery-sakura.css
 javascript: /javascripts/jquery-sakura.js
+excerpt: "I give my plan for our week-long mini project."
 ---
 
 <script src="/js/jquery-sakura.min.js"></script>
