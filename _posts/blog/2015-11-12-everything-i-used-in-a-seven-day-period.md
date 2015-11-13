@@ -4,7 +4,7 @@ title: "Everything I Used in a Seven Day Period"
 author: "Ethan Reed"
 date: 2015-11-12 13:37
 comments: true
-category: memo
+category: blog
 excerpt: "Literally everything I used in a seven day period"
 bodyclass: justified
 ---
@@ -274,7 +274,7 @@ iPhone
 door
 stairs
 sidewalk
-bke lock
+bike lock
 bike
 street
 keys
@@ -333,7 +333,7 @@ toothbrush
 toothpaste
 pants
 belt
-tshirt
+t-shirt
 jacket
 shoes
 granola bar
@@ -439,8 +439,8 @@ freezer
 chicken
 chair
 playstation 4
-cd case dido
-cd dido
+dido cd case
+dido cd
 frying pan
 onion
 cutting board
@@ -517,7 +517,7 @@ bike lock
 backpack
 iPhone
 keys
-dor
+door
 shoes
 sink
 hand soap
@@ -879,7 +879,7 @@ paper
 chair
 door
 chair
-tongue depresser
+tongue depressor
 scale
 heart rate monitor
 blood pressure monitor
