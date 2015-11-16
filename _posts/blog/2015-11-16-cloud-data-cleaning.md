@@ -24,4 +24,4 @@ However, if you don't want to bother installing Jupyter and the
 kernel, you should be able to see the file at this link, a rendering
 service hosted by Rackspace:
 
-[Link forthcoming]
+[http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-16-regularizing-cloud-data.ipynb](http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-16-regularizing-cloud-data.ipynb)
