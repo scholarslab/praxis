@@ -20,7 +20,7 @@ of the observation.
 
 Download notebook: [2015-11-17-force-directed-visualization.ipynb](/images/code/2015-11-17-force-directed-visualization.ipynb),
 
-View notebook: [http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-17-force-directed-visualization.ipynb](http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-16-regularizing-cloud-data.ipynb)
+View notebook: [http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-17-force-directed-visualization.ipynb](http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-17-force-directed-visualization.ipynb)
 
 ## SCROLL DOWN
 
