@@ -8,21 +8,19 @@ excerpt: "First effort at visualization"
 category: blog
 ---
 
+<div class="chart"></div>
+
 You can see the process of cleaning up the CSV and converting it to
 the nodes and edges in the attached Jupyter notebook, but that is
-stored in a JSON file and loaded into this page. Unfortunately, the
-graph shows up at the bottom (scroll down), but if you hover over
-nodes you can see it working.
+stored in a JSON file and loaded into this page. Hover over
+nodes you can see what each one corresponds to.
 
-The next steps would be to figure out how to make the graph show up on
-this page, rather than below, and to add nodes for all the other parts
-of the observation.
+The next steps would be to chart the rest of the features in the cloud
+data and then start altering the appearance to explore the data better.
 
 Download notebook: [2015-11-17-force-directed-visualization.ipynb](/images/code/2015-11-17-force-directed-visualization.ipynb),
 
 View notebook: [http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-17-force-directed-visualization.ipynb](http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pages/images/code/2015-11-17-force-directed-visualization.ipynb)
-
-## SCROLL DOWN
 
 <style>
 
@@ -51,7 +49,7 @@ var force = d3.layout.force()
     .linkDistance(30)
     .size([width, height]);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("div.chart").append("svg")
     .attr("width", width)
     .attr("height", height);
 
