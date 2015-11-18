@@ -74,23 +74,23 @@ and then to hotel 2:55-3
 To starbucks & back 3:15ish.
 I don’t really want to be outside but I also don’t like hanging around inside. Hard on days like today. Gotta figure out a plan for winter. In terms of time, it’s going pretty quickly, but that’s also because I woke up mad late.
 
-![Capitol Hill](/images/memos/Capitol_Hill_1.JPG)
+![Capitol Hill](/images/memos/Capitol_Hill_1.jpg)
 Capitol Hill
 
-![Capitol Hill 2](/projects/praxis/images/memos/Cap_Hill_2.JPG)
+![Capitol Hill 2](/images/memos/Cap_Hill_2.jpg)
 A later Capitol Hill day
 
-![DC Study Spot](/projects/praxis/images/memos/study_spot.JPG)
+![DC Study Spot](/images/memos/study_spot.jpg)
 DC Study Spot
 
-![Pantops](/projects/praxis/images/memos/Pantops_1.JPG)
+![Pantops](/images/memos/Pantops_1.jpg)
 Pantops
 
-![More Pantops](/projects/praxis/images/memos/Pantops_2.JPG)
+![More Pantops](/images/memos/Pantops_2.jpg)
 More Pantops
 
-![Pantopssss](/projects/praxis/images/memos/Pantops_3.JPG)
+![Pantopssss](/images/memos/Pantops_3.jpg)
 
-![Pantops again](/projects/praxis/images/memos/Pantops_4.JPG)
+![Pantops again](/images/memos/Pantops_4.jpg)
 
-![Okay more pantops](/projects/praxis/images/memos/Pantops_5.JPG)
+![Okay more pantops](/images/memos/Pantops_5.jpg)
