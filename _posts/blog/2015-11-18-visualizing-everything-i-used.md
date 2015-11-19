@@ -17,7 +17,7 @@ If you look at Davies' original visualization, it's of survivors of the Titanic 
 
 In a way, I actually find it kind of poetic. When you mouse over a line (which is almost impossible for many because it's all so tightly nested) the graph keeps trying to produce a wandering, garbled, but somehow fascinating narrative of objects. Maybe what gets me is that there's a logic at work here, but only the site and my computer can understand it.
 
-Instead I get pseudo-stories like
+Instead I get pseudo-stories like:
 
 *spoons -> mouse pad -> backpack -> chair -> yogurt -> metro card*
 
@@ -27,7 +27,7 @@ A combination that doesn't show up in my writing at all, and somehow has a perso
 
 And my personal favorite:
 
-*pillow -> sheets -> sheets -> sheets -> sheets -> sheets"*
+*pillow -> sheets -> sheets -> sheets -> sheets -> sheets*
 
 Whoever made this was so sleepy. Like something I would produce at the end of the day, mind drifting elsewhere, drowsy, hungry. Sheets, sheets, sheets!
 
