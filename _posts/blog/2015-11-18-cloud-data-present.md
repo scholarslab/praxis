@@ -27,6 +27,11 @@ View notebook: [http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pa
 .node {
   stroke: #fff;
   stroke-width: 1.5px;
+  }
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
 }
 
 .link {
@@ -39,14 +44,15 @@ View notebook: [http://nbviewer.ipython.org/github/scholarslab/praxis/blob/gh-pa
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var width = 960,
-    height = 500;
+var width = 700,
+    height = 700;
 
 var color = d3.scale.category20();
 
 var force = d3.layout.force()
-    .charge(-120)
-    .linkDistance(30)
+    .charge( function(d) {return -20*(d.weight^2)})
+    .linkDistance(80)
+    .linkStrength(0.2)
     .size([width, height]);
 
 var svg = d3.select("div.chart").append("svg")
@@ -75,8 +81,9 @@ d3.json("/images/code/2015-11-18-present-cloud-data.json", function(error, graph
       .style("fill", function(d) { return color(d.group); })
       .call(force.drag);
 
-  node.append("title")
-      .text(function(d) { return d.name; });
+    node.append("title")
+        .text(function(d) { return d.name; });
+
 
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
