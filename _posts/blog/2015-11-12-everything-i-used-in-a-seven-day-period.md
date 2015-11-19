@@ -1106,7 +1106,7 @@ pen
 book
 reading lamp
 banana
-bakcpack
+backpack
 steps
 street
 stairs
@@ -1129,7 +1129,7 @@ buzzer
 stairs
 door
 beer
-bakcpack
+backpack
 cup
 sink
 dish soap
