@@ -21,7 +21,7 @@ What are advantages of one larger project than smaller?
 ..* Smaller projects—have to do a little bit of everything
 
 Are there advantages to show the work that we’ve done to communities including Uva, DH, etc.?
-..* What reads as us having done something that we can show?..
+..*What reads as us having done something that we can show?*
 
 Need to discuss budget, dissemination, and sustainability
 
