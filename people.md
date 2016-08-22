@@ -5,6 +5,15 @@ title: People
 
 # People
 
+## Praxis Fellows, 2016-2017
+
+* Jordan Buysse, English
+* Alicia Caticha, Art
+* Alyssa Collins, English
+* Justin Greenlee, Art
+* Sarah McEleney, Slavic Languages and Literature
+* Joseph Thompson, History
+
 ## Praxis Fellows, 2015-2016
 
 * [James Ascher](http://scholarslab.org/people/james-p-ascher/), English
@@ -53,9 +62,9 @@ title: People
 
 ## Praxis Program Faculty and Staff
 
+* Dr. [Alison Booth](http://scholarslab.org/people/alison-booth/), Academic Director, Scholars' Lab
 * [Scott Bailey](http://scholarslab.org/people/scott-bailey/), Humanities Developer, Scholars' Lab
 * [Jeremy Boggs](http://scholarslab.org/people/jeremy-boggs/), Humanities Design Architect, Scholars' Lab
-* [Purdom Lindblad](http://scholarslab.org/people/purdom-lindblad), Head of Graduate Programs, Scholars' Lab
 * Dr. [Eric Rochester](http://scholarslab.org/people/eric-rochester/), Senior Developer, Scholars' Lab
 * [Ammon Shepherd](http://scholarslab.org/people/ammon-shepherd/), Humanities Developer, Scholars' Lab
 
@@ -66,6 +75,7 @@ Additional Praxis Program advisors are drawn from the faculty and staff of the [
 
 * Wayne Graham, former Head of Research & Development, Scholars' Lab
 * Eric Johnson, former Head of Outreach and Consulting, Scholars' Lab
+* Purdom Lindblad, former Head of Graduate Programs, Scholars' Lab
 * David McClure, former Web Applications Specialist, Scholars' Lab
 * Dr. Bethany Nowviskie, former Director, Digital Research & Scholarship, UVa Library
 * Katina Rogers, former Research Associate, SCI and the [Praxis Network](http://praxis-network.org/)
