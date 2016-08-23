@@ -9,12 +9,12 @@ javascript:
 </div>
 
 {% if page.tags %}
-  <div id="blog">
+  <!-- <div id="blog">
       <div id="posts"><ul></ul></div>
 <script>
   $(document).ready(function () {
     $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
-      limit: 99,
+      limit: 3,
       header: false,
       titletag: 'li',
       date: false,
@@ -23,11 +23,11 @@ javascript:
       snippet: false,
       key: '{{ site.gapi_key }}'
     });
-  }); 
+  });
 </script>
 {% endif %}
 
-  </div>
+  </div> -->
 
 {% if site.disqus %}
 <div id="comments">
@@ -45,6 +45,3 @@ javascript:
   <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 {% endif %}
-
-
-
