@@ -88,7 +88,6 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    wdm (0.1.1)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -96,15 +95,14 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  breakpoint (~> 2.5)
-  compass (~> 1.0)
-  foreman (~> 0.78)
-  jekyll (~> 2.5)
+  breakpoint
+  compass
+  foreman
+  jekyll
   jekyll-sitemap
   redcarpet
-  rouge (~> 1.9.1)
-  susy (~> 2.2)
-  wdm (~> 0.1.0)
+  rouge
+  susy
 
 BUNDLED WITH
-   1.10.6
+   1.13.5
