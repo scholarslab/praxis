@@ -8,11 +8,11 @@ title: People
 ## Praxis Fellows, 2016-2017
 
 * Jordan Buysse, English
-* Alicia Caticha, Art History
-* Alyssa Collins, English
-* Justin Greenlee, Art History
+* [Alicia Caticha](http://scholarslab.org/people/alicia-caticha/), Art History
+* [Alyssa Collins](http://scholarslab.org/people/alyssa-collins/), English
+* [Justin Greenlee](http://scholarslab.org/people/justin-greenlee/), Art History
 * Sarah McEleney, Slavic Languages and Literature
-* Joseph Thompson, History
+* [Joseph Thompson](http://scholarslab.org/people/joseph-thompson/), History
 
 ## Praxis Fellows, 2015-2016
 
