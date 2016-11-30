@@ -8,9 +8,9 @@ title: People
 ## Praxis Fellows, 2016-2017
 
 * Jordan Buysse, English
-* Alicia Caticha, Art
+* Alicia Caticha, Art History
 * Alyssa Collins, English
-* Justin Greenlee, Art
+* Justin Greenlee, Art History
 * Sarah McEleney, Slavic Languages and Literature
 * Joseph Thompson, History
 
