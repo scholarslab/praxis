@@ -79,7 +79,7 @@ many more tutorials on [Derek's blog][1].
 ### How to use the Help System
 <iframe src="http://player.vimeo.com/video/7035132?title=0&amp;byline=0&amp;portrait=0" width="400" height="293" frameborder="0"></iframe><p><a href="http://vimeo.com/7035132">Vim's Help System</a> from <a href="http://vimeo.com/user1690209">Derek Wyatt</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 
-[1]: http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/
+[1]: http://derekwyatt.org/vim/tutorials/index.html
 [2]: http://www.vim.org/download.php
 [3]: http://www.viemu.com/
 
