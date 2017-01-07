@@ -17,11 +17,13 @@ permalink: "/scratchpad/intro-to-programming/"
 * What is a `loop`?
 * What is `branching`?
 
-##Exercises
+## Exercises
+
 * [Exercise 1](/scratchpad/programming1/) (Ruby)
 * [Exercise 2](/scratchpad/programming2/) (Ruby)
 
-##Related Topics and Guides:
+## Related Topics and Guides:
+
 * [Intro to Rails](/scratchpad/intro-to-rails/)
 * [Intro to JavaScript](/scratchpad/intro-to-javascript/)
 * [PHP Cheat Sheet](/scratchpad/php-cheatsheet)
