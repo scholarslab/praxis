@@ -1,9 +1,18 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~>2.3.0"
-gem "susy", "~> 2.1.3"
-gem "compass", "~> 1.0.0.rc.1"
-gem "foreman", "~> 0.63.0"
-gem "breakpoint", "~>2.4.0"
+gem "jekyll"
 
-gem "link-checker"
+gem "rouge"
+gem "susy"
+gem "compass"
+gem "foreman"
+gem "breakpoint"
+
+#gem "link-checker"
+gem "jekyll-sitemap"
+
+gem "redcarpet"
+
+# for windows users
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+

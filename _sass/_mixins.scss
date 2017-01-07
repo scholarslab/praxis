@@ -18,8 +18,7 @@
     position:relative;
 }
 
-@mixin fullbackground($image: 'images/background.jpg', $overlay-color: $hero-color, $alpha: .85) {
-    @include background-size(cover);
+@mixin fullbackground($image: '/images/background.jpg', $overlay-color: $hero-color, $alpha: .85) {
     background-repeat: no-repeat;
     background-position:top center;
     background-attachment:fixed;
@@ -34,6 +33,7 @@
         linear-gradient(left, $gradient-color, $gradient-color),
         url($image)
     );
+    @include background-size(cover);
 
     color: white;
     color: rgba(white, .9);

@@ -1,0 +1,147 @@
+#+TITLE: Group Meeting with Praxis
+#+AUTHOR: James P. Ascher
+#+EMAIL: jpa4q@virginia.edu
+
+* Meeting started, without notes 2015-11-11T8:56-05
+  sorry, that's my fault, I just volunteered; present: Purdom, Jeremy,
+  Scott, Eric, Ethan, Lydia, Bremen, James (taking notes)
+
+* Notes start 9:18 AM
+** Administrative things
+   JPA wants talk about tracking
+*** JPA discusses project
+    PL mentions that people being around change how time happen;
+    clouds and traffic; cities change the speed; thinking about people
+    as heart-cells; it's like clocks; micro-expressions too;
+*** pausing to let people speak
+    an article, native American community in Canada: Euro-Canadians
+    (in scare quotes?); job interviews; didn't respond as quickly as
+    the Canadian administrators, so would never get the job; rude
+    northerners; article on New York Jewish conversation?
+*** TODO Lydia and Bremen: post two article, New York Jewish conversation, native Canadians
+*** on the interview
+    presumptions about that kind of space; meta-communicative frame;
+    not just about eliciting information, it's also about the setup;
+    setting up an interview is not a neutral way of getting
+    information; meaningfully generative ass;
+*** /Lipstick Traces/
+    if you want, read it to finish by Thanksgiving; a secret history:
+    alternate timeline; not the normal politics? all through the Sex
+    Pistols; popular and novelty- kid in the mall with the Mohawk
+    haircut; Sex Pistols still throws shade- Guy Debord; deep
+    chronology; Frankfurt School as mass culture
+*** Phillip K. Dick /Man in the High Castle/
+*** diaries written by student soldiers
+    1/3 were students from the most elite universities; exceptionally
+    well-read: understood the Japanese and Western canon; kept really
+    extensive diaries about time and meaning and purpose; how time
+    stretches out and constricts; lamenting immanent death; people who
+    could understand how the west and east works; ideas of honor,
+    enmeshed; if you're captured, you kill yourself; interesting
+    personal and meta-view; completely aware that the states is
+    deploying all this symbolism, they could understand but couldn't
+    get out of it; culture of resisting it is impossible; would bring
+    harm to their families
+*** TODO Purdom will post the titles and try to decide if it's worth doing more
+    Kamikaze, Cherry Blossom, and Nationalism; and diary translations
+*** sitting quietly, looking at kids in Yellowstone
+*** Lydia tracked music (active engagement)
+    the active engagement was a bust: there must have been music
+    playing in the grocery store, but didn't remember; looking for how
+    long she was sleeping and her heart-rate: active minutes per day
+    (automatically collected); doesn't *do* anything with it; pay $50
+    for fancy graphs; number of hours slept, average heart-rate, how
+    many miles walked; number of active minutes: heart rate above
+    normal for 10 minutes or longer; days that did yoga; no
+    relationship between anything that she could find; maybe do it
+    longer? look at a larger set of data? keeping a journal?
+    interested in relationships between physical, sleep, heart-rate;
+    average is 60; making a graph: using online things- some are in
+    hours, some are in others; searched Google, used whatever came up
+    first, but got frustrated; asked for support from friends over
+    Skype; want to do another one-week tracking thing; outcome based;
+    wasn't changing anything, behaving as normal; baseline
+*** Gillette did exposure to the sun? vitamin D?
+*** Old Faithful!
+*** Bremen amount of times changing activities, changing focus
+    sort of a nightmare in terms of tracking;
+    tick-tick-tick-tick-tick; every time reading something for
+    linguistics, thinking about something to alternatively do; a
+    micro-tracking exercise, spaces within a specific conversation;
+    paces that happen within a 10 minute interaction; want to track
+    *smaller* time; tracking film editing; ways of deciding how you
+    cut a particular piece of footage; if you watch an hour of
+    footage, and cut it different ways; what is the productive
+    potential of that kind of process, for material you know very
+    well; productive potential inherent in both; some kind of measure
+    of a normal ten minutes; compare them- police interrogation; how
+    those expand out; slow mode in writing: can take forever, this can
+    be done in writing; to slow down time you write more stuff;
+    segment of ten minutes; footing: when you're speaking to someone-
+    it's not about the words, but the codes in the posture; within a
+    ten minute interaction, who gets the word; posture, tone, style
+    cues; footing- it's about stage position; Irving Goffman talks
+    about footing; Genette, grandfather of narrative theory; LeBeouf:
+    interviewing young black children in Harlem- scariest moment in
+    your life: linguistic reason that these stories are compelling-
+    linguistic strategies; Frank Kermode; looking for when analyzing
+    music- words don't have value in the analysis typically (maybe a
+    joke?); there are micro-schools of thought;
+*** can we do a ten minute interaction
+    a lot was going on; capture: makerspace project- Becca posted to
+    FB, arduinos on people's feet; how are we in-sync or out-of-sync;
+    amazingly beautiful project where a director animated the staging
+    cues for choreography; recording things; painting the horse as
+    they see it;
+*** Ethan's tracking
+    cameras finally seeing things that humans can; prosthetics- two
+    eyes, five senses; more granularity of things, we can see things
+    that we couldn't previously see; trying to think about how our
+    sensory perceptions of time day-to-day, not how physicist think we
+    move through time; flat space-time, you're a line segment: in a
+    four dimensional space; flow through time- have no idea why we see
+    time that way; defamiliarize the sense of time, of one thing that
+    happens one after it, things happen in a different order, both can
+    be right; trying to think of time happening for things that aren't
+    humans; obsessed with stuff; think about as much stuff as he
+    could: how do the gym shorts experience time? listed every single
+    thing that he interacted with every single day; sidewalks and
+    streets; whatever seemed intuitive; wrote to thousand things down-
+    on your shoulders all day; such a relief to stop; more hours would
+    go by; had to remember everything that he touched; less human way
+    of thinking about time; a couple of animations that touch on this,
+    someone going through their day: explode it out to a graph of
+    where it comes from; less human? linked to English scholarship,
+    eco-crit; beyond human scale- construct representation;
+    hyperobjects; post-humanism; deconstruction too, critiques of
+    metaphysics; all of philosophy is anthropomorphic and
+    ethnocentric; dark mountain project- collective that is trying to
+    represent big time: clock that every hundred years it moves for a
+    second; general thrust; not perfect; unnatural defenses article;
+    thinking about the ways that objects are connected to climate
+    change: intentionality- global warming; coconut
+    oil->torture->global warming; last of inktober, when stuff breaks-
+    a second life of books when something breaks; lifespan for broken
+    shoes: batteries have different life spans; post-human scope- very
+    human; not how space time actually is, causality still exists;
+    things influence each other; Appalachian Junkumentary: Jacob Young
+    talks about junk-yards, no we are salvage yards, some take pride
+    in not crushing the cars; recycling centers- different laws that
+    regulate; salvage- new laws about recycling and toxic waste; new
+    laws about what you can do on your land; going there to get parts-
+    junkyards; how people position themselves- "you can buy a new car
+    here" but they can't keep up with regulations; leaking oil in a
+    corn field, lady can't get a carburetor; eminence- you are part of
+    something which is global warming or global capital
+*** time scale of observation
+    only in the aggregate that weather is the climate; moths have
+    changed colors, white to grey; trying to see something bigger:
+    China Miéville- three points at an explosion: ice bergs in the sky
+    in London, coral reef along Berlin wall;
+*** TODO post and assign the reading from CM, from Purdom
+*** citizen scientist projects
+    Cornell bird project; backyard bird count; all the people who are
+    interested in how many birds in the backyard; central database
+    about migratory patterns;
+
+* I left at 10:41 AM

@@ -11,3 +11,4 @@ output_style  = :compressed
 line_comments = false
 http_fonts_path = "http://static.scholarslab.org/fonts/MuseoSlab/"
 
+sourcemap = true

@@ -124,3 +124,11 @@ div.aligncenter {
     }
 }
 
+.eyebrow {
+    color: $base-color-lighter;
+    @include adjust-font-size-to(16px);
+    @include adjust-leading-to(.5, 16px);
+    margin:0;
+    text-align:center;
+    font-style:normal;
+}

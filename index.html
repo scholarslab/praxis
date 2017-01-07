@@ -5,56 +5,36 @@ tags: praxis-program
 javascript:
   - /javascripts/jquery.zrssfeed.js
 ---
+<div id="featured">
+<div id="current-project">
+    <em class="eyebrow">Current Project</em>
+    <h1>Time</h1>
+    <p>Praxis is experimenting with time&mdash;rather, how to represent time physically and digitally. We are in the process now of narrowing down our methodologies and case studies</p>
+    <p><a href="/time/">See our research on time</a></p>
+</div>
 <div id="local-info">
-  <h1>What We're Working On:</h1>
-  <div id="current-topic">
-    <h2>Intro to Programming</h2>
-    <p>The team is working on learning PHP.</p>
+    <em class="eyebrow">What We're Working On</em>
+    <h1>Time tracking and JavaScript</h1>
+    <p>What are we working on? This week we are continuing to work on JavaScript, learning on our own and also with the help of the folks at the SLab. We are also finishing our experiential time reflections, each of us running our own experiment on how we value and structure our time in our daily lives. You can check out our memos/posts for more details on what everyone is up to - we should have some final reflective thoughts on it up next week.
 
-    <a href="/scratchpad/">See All Topics</a>
-  </div>
-
-  <div id="blog">
-    {% if page.tags %}
-      <div id="posts"><ul></ul></div>
-<script>
-  $(document).ready(function () {
-    $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
-      limit: 3,
-      header: false,
-      titletag: 'li',
-      date: false,
-      content: false,
-      errormsg: 'There are currently no posts for this topic.',
-      snippet: false,
-      key: '{{ site.gapi_key }}'
-    });
-  }); 
-</script>
-{% endif %}
-
-  </div>
 </div>
 
+<div id="blog">
+        <h2>Recent Blog Posts</h2>
+        <ul>
+          {% for post in site.categories.blog limit:3 %}
+           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <h2>Recent Memo Posts</h2>
+        <ul>
+          {% for post in site.categories.memo limit:3 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+</div>
+</div>
 <div id="pitch">
-  <p>The Praxis Program reimagines graduate methodological training for the demands of the humanities in the digital age.</p>
-
-  <p>Our goal is to equip knowledge workers for positions within and beyond the academy at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who can reach new audiences and are as comfortable writing code as they are managing teams and budgets.</p>
-    </div>
- 
-<section class="projects">
-  <h1>Projects</h1>
-  <div id="ivanhoe">
-         <a href="http://ivanhoe.scholarslab.org">
-           <img src="http://static.scholarslab.org/images/ivanhoelogo.png" alt="Ivanhoe">
-           <p>A platform for collaborative criticism through roleplay.</p>
-         </a>
-   </div>
-      
-   <div id="prism">
-        <a href="http://prism.scholarslab.org">
-          <img src="http://prism.scholarslab.org/assets/LOGO-6747d62e676eadfc92873f25fb82d6af.png" alt="Prism">
-         <p>A tool for crowd-sourced interpretation of text.</p>
-        </a>
-    </div>
- </section>
+    <p>The Praxis Program reimagines graduate methodological training for the demands of the humanities in the digital age.</p>
+    <p>Our goal is to equip knowledge workers for positions within and beyond the academy at a moment in which new questions can be asked and new systems built. The Praxis Program produces humanities scholars who can reach new audiences and are as comfortable writing code as they are managing teams and budgets.</p>
+</div>
