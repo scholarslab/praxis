@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/scratchpad/web-hosting/"
+permalink: "/resources/web-hosting/"
 ---
 
 # So You Want A Website...

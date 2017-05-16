@@ -1,7 +1,7 @@
 ---
 layout: default
 Title: "Brief Introduction to Digital Humanities"
-permalink: "/scratchpad/intro-to-dh/"
+permalink: "/resources/intro-to-dh/"
 tags: "intro-dh"
 ---
 #Intro to Digital Humanities

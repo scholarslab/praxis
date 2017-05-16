@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "charter"
-permalink: "/scratchpad/toward-a-project-charter/"
+permalink: "/resources/toward-a-project-charter/"
 ---
 
 # Toward a Project Charter

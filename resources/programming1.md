@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: "/scratchpad/programming1/"
+permalink: "/resources/programming1/"
 javascript:
   - /javascripts/hints.js
 ---
 
-[Running your code in vim](/scratchpad/vim-code-execution/)
+[Running your code in vim](/resources/vim-code-execution/)
 
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or

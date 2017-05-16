@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "WordPress"
-permalink: "/scratchpad/intro-to-wordpress/"
+permalink: "/resources/intro-to-wordpress/"
 ---
 # Introduction to WordPress
 

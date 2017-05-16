@@ -2,7 +2,7 @@
 layout: page
 title: "Vim Tutorial"
 date: 2011-08-24 10:16
-permalink: "/scratchpad/vim/"
+permalink: "/resources/vim/"
 tags: "vim"
 ---
 

@@ -5,7 +5,7 @@ date: 2011-09-13 09:24
 comments: false
 sharing: true
 tags: "git"
-permalink: "/scratchpad/intro-to-version-control/"
+permalink: "/resources/intro-to-version-control/"
 ---
 
 # Intro to Version Control
@@ -19,7 +19,7 @@ permalink: "/scratchpad/intro-to-version-control/"
 
 ## Resources
 * Git
-  - [SLab's Git Tutorial](/scratchpad/intro-to-git/)
+  - [SLab's Git Tutorial](/resources/intro-to-git/)
   - [Git: The Fast Version Control System][1]
   - [Github: Social Coding][2]
 * Learning Git

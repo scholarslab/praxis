@@ -1,13 +1,13 @@
 ---
 layout: default
-permalink: "/scratchpad/programming2/"
+permalink: "/resources/programming2/"
 javascript:
   - /javascripts/hints.js
 ---
 
-* [Running your code in vim](/scratchpad/vim-code-execution/)
-* [Ruby Cheat Sheet](/scratchpad/ruby-cheatsheet/)
-* [Style Guide](/scratchpad/ruby-style-guide/)
+* [Running your code in vim](/resources/vim-code-execution/)
+* [Ruby Cheat Sheet](/resources/ruby-cheatsheet/)
+* [Style Guide](/resources/ruby-style-guide/)
 
 # Basic Methods
 

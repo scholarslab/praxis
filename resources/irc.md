@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Communicating on IRC'
-permalink: "/scratchpad/irc/"
+permalink: "/resources/irc/"
 ---
 
 # IRC

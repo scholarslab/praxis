@@ -261,7 +261,7 @@ svg {
   }
 }
 
-.scratchpad > div {
+.resources > div {
     @include span(4 of 12);
     &.growing{
         @include span(last 4 of 12);

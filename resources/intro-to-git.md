@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Introducing Git'
-permalink: "/scratchpad/intro-to-git/"
+permalink: "/resources/intro-to-git/"
 tags: "git"
 ---
 

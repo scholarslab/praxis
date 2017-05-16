@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: rails
-permalink: "/scratchpad/rails/"
+permalink: "/resources/rails/"
 ---
 # Intro to Rails
 

@@ -5,7 +5,7 @@ date: 2011-09-13 09:24
 comments: false
 sharing: true
 tags: "programming"
-permalink: "/scratchpad/intro-to-programming/"
+permalink: "/resources/intro-to-programming/"
 ---
 
 # Intro to Programming
@@ -19,16 +19,16 @@ permalink: "/scratchpad/intro-to-programming/"
 
 ## Exercises
 
-* [Exercise 1](/scratchpad/programming1/) (Ruby)
-* [Exercise 2](/scratchpad/programming2/) (Ruby)
+* [Exercise 1](/resources/programming1/) (Ruby)
+* [Exercise 2](/resources/programming2/) (Ruby)
 
 ## Related Topics and Guides:
 
-* [Intro to Rails](/scratchpad/rails/)
-* [Intro to JavaScript](/scratchpad/intro-to-javascript/)
-* [PHP Cheat Sheet](/scratchpad/php-cheatsheet)
-* [Ruby Cheat Sheet](/scratchpad/ruby-cheatsheet)
-* [Programming Style Guide](/scratchpad/ruby-style-guide)
+* [Intro to Rails](/resources/rails/)
+* [Intro to JavaScript](/resources/intro-to-javascript/)
+* [PHP Cheat Sheet](/resources/php-cheatsheet)
+* [Ruby Cheat Sheet](/resources/ruby-cheatsheet)
+* [Programming Style Guide](/resources/ruby-style-guide)
 
 ## 2013
 <iframe src="https://docs.google.com/presentation/d/1R6XxGR9tioqK8ZjCm1AikQftQh7dfi5eqo6QLA78LcY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
