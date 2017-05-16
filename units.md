@@ -1,3 +1,9 @@
+---
+layout: page
+title: Projects
+permalink: "/units/"
+---
+
 Standard Units - Presenter - Which Semester
 1. Evaluating digital work / Intro to DH - All Staff - Fall
 2. How computers work? - Ammon - Fall

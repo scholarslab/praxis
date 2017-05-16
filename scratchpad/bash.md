@@ -78,10 +78,10 @@ directory. If changed directories successfully, you should see all the files and
 for going up a single directory level. So, if you wanted to go up two levels,
 you'd type <code>cd ../..</code> . Three, <code>cd ../../..</code>. Etc.
 
-So, after typing <code>cd ..</code> , you should be back in your home user directory where you started. 
+So, after typing <code>cd ..</code> , you should be back in your home user directory where you started.
 
 <blockquote>
-<h3>Quiz time:</h3> 
+<h3>Quiz time:</h3>
 How do you know you're in the directory where you started?
 </blockquote>
 
@@ -124,11 +124,11 @@ need to type the following:
 <code>New-Item -ItemType file textfile.txt</code><br/>
 <code>New-Item -ItemType file textfile2.txt</code><br/>
 <code>New-Item -ItemType file textfile3.txt</code><br/>
-<code>New-Item -ItemType file textfile3.txt</code> 
+<code>New-Item -ItemType file textfile3.txt</code>
 
 
 <blockquote>
-<h3>Quiz time:</h3> 
+<h3>Quiz time:</h3>
 How many files are in the testdir?
 </blockquote>
 
@@ -186,7 +186,7 @@ similar to the "-r" flag that we used with "cp" - it stands for "remove
 files". In other words, wipe out everythin in sight.
 
 <blockquote>
-<h3>Quiz time:</h3> 
+<h3>Quiz time:</h3>
 What could go wrong if you pass the recursive flag in the wrong
 directory?
 </blockquote>
@@ -305,7 +305,7 @@ around on it for a month or so. Short of reckless use of
 <code>rm</code> , not a whole lot can go wrong.
 
 ### Windows
-In Windows, you don't get the awesomeness that is the gzipped tarball. Ok, so that's not totally fair, the <code>zip</code> utility combines both archiving and compressing files in to a single program without needing to pass extra flags. Here is how you can create a zip file from PowerShell: 
+In Windows, you don't get the awesomeness that is the gzipped tarball. Ok, so that's not totally fair, the <code>zip</code> utility combines both archiving and compressing files in to a single program without needing to pass extra flags. Here is how you can create a zip file from PowerShell:
 
 <code>
 Copy-ToZip -File "file" -Zipfile "anyname.zip" -Force

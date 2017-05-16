@@ -15,8 +15,8 @@ End - December 5
 2 - How computers work?
 3 - Intro to charters
 4 - HTML/CSS/Markdown
-5
-6
+5 - Git/GitHub
+6 - Command Line
 7
 8
 9
@@ -39,8 +39,8 @@ End - May 11
 20
 21
 22 - Grants and Budgets - Amanda and Laura
-23 - Git/GitHub
-24 - Command Line
+23 -
+24 -
 25 - Copyright and IP - Brandon Butler
 26 - Design Jam - All Staff
 27 - Project Management - Ronda

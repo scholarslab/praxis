@@ -1,0 +1,180 @@
+- name: Alex Gil
+  cohort: 1
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/alex-gil/
+- name: Brooke Lestock
+  cohort: 1
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/brooke-lestock/
+- name: Lindsay O'Connor
+  cohort: 1
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/lindsay-oconnor/
+- name: Sarah Storti
+  cohort: 1
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/sarah-storti/
+- name: Annie Swafford
+  cohort: 1
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/annie-swafford/
+- name: Ed Triplett
+  cohort: 1
+  twitter:
+  department: Art
+  page: http://scholarslab.org/people/ed-triplett/
+- name: Shane Lin
+  cohort: 2
+  twitter:
+  department: History
+  page: http://scholarslab.org/people/shane-lin/
+- name: Claire Maiers
+  cohort: 2
+  twitter:
+  department: Sociology
+  page: http://scholarslab.org/people/claire-maiers/
+- name: Cecilia Márquez
+  cohort: 2
+  twitter:
+  department: History
+  page: http://scholarslab.org/people/cecilia-marquez/
+- name: Gwen Nally
+  cohort: 2
+  twitter:
+  department: Philosophy
+  page: http://scholarslab.org/people/gwen-nally/
+- name: Chris Peck
+  cohort: 2
+  twitter:
+  department: Music
+  page: http://scholarslab.org/people/chris-peck/
+- name: Brandon Walsh
+  cohort: 2
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/brandon-walsh/
+- name: Scott Bailey
+  cohort: 3
+  twitter:
+  department: Religious Studies
+  page: http://scholarslab.org/people/scott-bailey/
+- name: Elizabeth Fox
+  cohort: 3
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/elizabeth-fox/
+- name: Veronica Ikeshoji-Orlati
+  cohort: 3
+  twitter:
+  department: Classical Art & Archaeology
+  page: http://scholarslab.org/people/veronica-ikeshoji-orlati/
+- name: Stephanie Kingsley
+  cohort: 3
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/stephanie-kingsley/
+- name: Zachary Stone
+  cohort: 3
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/zachary-stone/
+- name: Francesca Tripodi
+  cohort: 3
+  twitter:
+  department: Sociology
+  page: http://scholarslab.org/people/francesca-tripodi/
+- name: Amy Boyd
+  cohort: 4
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/amy-boyd/
+- name: Swati Chawla
+  cohort: 4
+  twitter:
+  department: History
+  page: http://scholarslab.org/people/swati-chawla/
+- name: Andrew Ferguson
+  cohort: 4
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/andrew-ferguson/
+- name: Joris Gjata
+  cohort: 4
+  twitter:
+  department: Sociology
+  page: http://scholarslab.org/people/joris-gjata/
+- name: Jennifer Grayburn
+  cohort: 4
+  twitter:
+  department: Art and Archaeology
+  page: http://scholarslab.org/people/jennifer-grayburn/
+- name: Steven Lewis
+  cohort: 4
+  twitter:
+  department: Music
+  page: http://scholarslab.org/people/steven-lewis/
+- name: James Ascher
+  cohort: 5
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/james-p-ascher/
+- name: Bremen Donovan
+  cohort: 5
+  twitter:
+  department: Anthropology
+  page: http://scholarslab.org/people/bremen-donovan/
+- name: Ethan Reed
+  cohort: 5
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/ethan-reed/
+- name: Gillet Rosenblith
+  cohort: 5
+  twitter:
+  department: History
+  page: http://scholarslab.org/people/gillet-rosenblith/
+- name: Rachel Devorah
+  cohort: 5
+  twitter:
+  department: Music - Composition
+  page: http://scholarslab.org/people/rachel-devorah-trapp/
+- name: Lydia Warren
+  cohort: 5
+  twitter:
+  department: Music - Critical and Comparative Studies
+  page: http://scholarslab.org/people/lydia-warren/
+- name: Jordan Buysse
+  cohort: 6
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/jordan-buysse/
+- name: Alicia Caticha
+  cohort: 6
+  twitter:
+  department: Art History
+  page: http://scholarslab.org/people/alicia-caticha/
+- name: Alyssa Collins
+  cohort: 6
+  twitter:
+  department: English
+  page: http://scholarslab.org/people/alyssa-collins/
+- name: Justin Greenlee
+  cohort: 6
+  twitter:
+  department: Art History
+  page: http://scholarslab.org/people/justin-greenlee/
+- name: Sarah McEleney
+  cohort: 6
+  twitter:
+  department: Slavic Languages and Literature
+  page:
+- name: Joseph Thompson
+  cohort: 6
+  twitter:
+  department: History
+  page: http://scholarslab.org/people/joseph-thompson/

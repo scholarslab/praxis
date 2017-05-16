@@ -89,7 +89,7 @@ Some that the staff at the Scholars' Lab has used for projects include:
 ### Shared Hosting
 
 Typically this is the most inexpensive solution, and a good option if you have
-very low computing needs. 
+very low computing needs.
 
 * [acuGIS](http://www.acugis.com/): Runs a full stack for running all of
 Nealtine (even the parts for georeferrenced maps) with one-click installers.
@@ -120,10 +120,3 @@ lets you point a URL (e.g. `scholarslab.org`) at a server address (e.g.
 [linode]: https://www.linode.com
 [appfog]: https://www.appfog.com
 [ec2]: https://aws.amazon.com/ec2/
-
-
-
-
-
-
-
