@@ -8,26 +8,6 @@ javascript:
 {{ content }}
 </div>
 
-{% if page.tags %}
-  <!-- <div id="blog">
-      <div id="posts"><ul></ul></div>
-<script>
-  $(document).ready(function () {
-    $('#posts ul').rssfeed('{{ site.basefeed }}/tag/{{ page.tags }}/feed', {
-      limit: 3,
-      header: false,
-      titletag: 'li',
-      date: false,
-      content: false,
-      errormsg: 'There are currently no posts for this topic.',
-      snippet: false,
-      key: '{{ site.gapi_key }}'
-    });
-  });
-</script>
-{% endif %}
-
-  </div> -->
 
 {% if site.disqus %}
 <div id="comments">
