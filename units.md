@@ -15,10 +15,10 @@ Standard Units - Presenter - Which Semester
 14. Work time
 
 Project-Specific Units
-1. TBD
-2. TBD
-3. TBD
-4. TBD
+1. Intro to makerspace
+2. Critical Making
+3. 3D Printing
+4. Circuits/Arduinos
 5. TBD
 6. TBD
 7. TBD
