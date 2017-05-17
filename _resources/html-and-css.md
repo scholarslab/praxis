@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 title: "HTML and CSS"
 date: 2011-11-01 11:18
 comments: false
@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "HTML"
 permalink: "/resources/html-and-css/"
+type: building
 ---
 # HTML and CSS
 

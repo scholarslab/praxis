@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/resources/web-hosting/"
+type: building
+title: "Web Hosting"
 ---
 
 # So You Want A Website...

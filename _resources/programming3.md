@@ -1,8 +1,10 @@
 ---
 layout: default
-permalink: "/resources/programming2/"
+permalink: "/resources/programming3/"
 javascript:
   - /javascripts/hints.js
+type: building
+title: Introduction to Ruby Programming 3
 ---
 
 * [Running your code in vim](/resources/vim-code-execution/)
@@ -43,7 +45,7 @@ following examples:
 
 {% highlight ruby %}
 def divide(x, y)
-  if(y == 0) 
+  if(y == 0)
     y = x
   end
   return x / y
@@ -212,7 +214,7 @@ puts tj # note, puts calls to_s if it is availabe
 <hr/>
 
 # Can't Get Enough?
-Can't get enough? Work through the 
+Can't get enough? Work through the
 [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/book/) exercises
 and/or implement [last week's programming exercises](/exercises/programming1/)
 as Objects.

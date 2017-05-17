@@ -3,12 +3,13 @@ layout: default
 title: 'Introducing Git'
 permalink: "/resources/intro-to-git/"
 tags: "git"
+type: building
 ---
 
 # Git
 
 Much of the workflow for this project revolves around the use of a
-source code management (SCM) system called git. 
+source code management (SCM) system called git.
 
 <blockquote>
 "Git is a <strong>free & open source, distributed version control system</strong> designed
@@ -17,7 +18,7 @@ to handle everything from small to very large projects with speed and efficiency
 
 We will be using git for the *Prism* project and you will be using it
 on a daily basis. These resources will help you get up to speed
-quickly, or if you "git" stuck. 
+quickly, or if you "git" stuck.
 
 ## Video Tutorials
 

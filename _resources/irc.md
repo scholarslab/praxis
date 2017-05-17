@@ -2,6 +2,7 @@
 layout: page
 title: 'Communicating on IRC'
 permalink: "/resources/irc/"
+type: preparing
 ---
 
 # IRC
@@ -14,10 +15,10 @@ a Windows, a Mac, and a web client.
 ## Web Client
 
 You can access [Freenode's Webclient][1] and get instant access without
-installing any software. Simply choose a nickname for yourself, and 
-connect to the '**#slab**' channel. 
+installing any software. Simply choose a nickname for yourself, and
+connect to the '**#slab**' channel.
 
-<iframe src="http://webchat.freenode.net?channels=slab&uio=d4" width="647" height="400"></iframe> 
+<iframe src="http://webchat.freenode.net?channels=slab&uio=d4" width="647" height="400"></iframe>
 
 ## Windows
 1. Download and install [Pidgin][2].
@@ -49,7 +50,7 @@ connect to the '**#slab**' channel.
 
 
 [1]: http://webchat.freenode.net/
-[2]: http://www.pidgin.im/ 
+[2]: http://www.pidgin.im/
 [3]: http://adium.im/
 [4]: http://en.wikipedia.org/wiki/Internet_Relay_Chat
 [5]: http://freenode.net/

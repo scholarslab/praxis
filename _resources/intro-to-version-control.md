@@ -6,6 +6,7 @@ comments: false
 sharing: true
 tags: "git"
 permalink: "/resources/intro-to-version-control/"
+type: preparing
 ---
 
 # Intro to Version Control
@@ -71,4 +72,3 @@ permalink: "/resources/intro-to-version-control/"
 [16]: http://help.github.com/win-set-up-git/ 'Set up Git on Windows'
 [17]: http://nathanj.github.com/gitguide/tour.html 'An Illustrated Guide to Git on Windows'
 [18]: https://github.com/erochest/ruby-file-exercises 'ruby-file-exercises'
-

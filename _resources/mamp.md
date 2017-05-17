@@ -3,6 +3,7 @@ layout: default
 title: Local WordPress Development with MAMP and WampServer
 permalink: "/resources/mamp-and-wamp/"
 tags: "mamp"
+type: building
 ---
 
 # Local WordPress Development with MAMP and WampServer
@@ -13,7 +14,7 @@ handy to have a server stack running locally. That way, you're not
 dependent on a separate development server or an internet connection. If
 you're adventurous, you can compile the required software from scratch,
 but thankfully some kind folks have made some applications to get a web
-server up and running fairly easily: 
+server up and running fairly easily:
 <abbr tite="Mac, Apache, MySQL, PHP"><a href="http://www.mamp.info/en/index.html">MAMP</a></abbr>
 for Mac and <a href="http://www.wampserver.com/">WampServer</a> for
 Windows. Each of these is a separate desktop application that, when
@@ -86,5 +87,3 @@ You're now ready to install WordPress and other software that runs on PHP and My
    WordPress's "<a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">Famous 5-minute Install</a>". <a href="http://localhost:8888/wordpress/">Visit to your local WordPress instance</a>, and if WordPress finds your database successfully, you'll be presented with a simple form to install WordPress. Fill out this form, including a site title and an admin user for WordPress (this is a different user from your MySQL user. This will be a user unique to this local installation of WordPress.) Submit the form, the click the login button to log in to your WordPress admin panel.
 
 ## WampServer Installation
-
-

@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: default
 title: About
 permalink: "/about/"
 ---
@@ -21,14 +21,14 @@ Humanities](http://www2.lib.virginia.edu/scholarslab/about/fellowship.html).
 The Praxis Program funds a team of six University of Virginia graduate students from
 a variety of disciplines to apprentice with us each academic year. Under
 the guidance of Scholars' Lab faculty and staff, they design and create a full-fledged digital humanities project or software tool. The first two cohorts of Praxis worked on [*Prism*](http://prism.scholarslab.org), a platform for "crowd-sourcing" textual analysis,
-visualization, and humanities interpretation. The third Praxis cohort re-imagined and re-created a defunct University of Virginia SpecLab project, the [*Ivanhoe Game*](http://ivanhoe.scholarslab.org).
+visualization, and humanities interpretation. The third and forth Praxis cohorts re-imagined and re-created a defunct University of Virginia SpecLab project, the [*Ivanhoe Game*](http://ivanhoe.scholarslab.org). The fifth Praxis cohort explored time by sonifying data, and their resultant work was called [ClockWork](http://clockwork.scholarslab.org). The sixth cohort developed text analysis methods for examining the social media ecologies of the Kardashian family, producing [Dash-Amerikan](http://dashamerikan.scholarslab.org). Follow our [projects page](/projects/) for more information about past and current projects.
 
 [Recognizing](http://chronicle.com/blogs/profhacker/it-starts-on-day-one/37893) that up-to-date methodological training is often absent or
-catch-as-catch-can for humanities graduate students, we see the early 
+catch-as-catch-can for humanities graduate students, we see the early
 years of the Praxis Program as an opportunity to experiment with an action-oriented curriculum
 *live and in public.*  We situate our program in a
 [larger conversation](http://uvasci.org/activities-2012-2013/) about the changing demands of the humanities in a digital
-age. 
+age.
 
 To that end, and with the support of the Scholarly Communication
 Institute, we have also forged an international [Praxis Network](http://praxis-network.org) of model

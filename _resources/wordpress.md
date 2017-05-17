@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 title: "Introduction to WordPress"
 date: 2013-11-26 11:00
 comments: false
@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "WordPress"
 permalink: "/resources/intro-to-wordpress/"
+type: building
 ---
 # Introduction to WordPress
 

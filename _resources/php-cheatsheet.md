@@ -7,6 +7,7 @@ sharing: true
 footer: true
 permalink: "/resources/php-cheatsheet/"
 tags: "php"
+type: building
 ---
 
 # PHP Cheatsheet
@@ -21,8 +22,8 @@ $number = 5;
 $scholars_lab = array(
   'bethany',
   'wayne',
-  'eric', 
-  'jeremy', 
+  'eric',
+  'jeremy',
   'david'
 );
 
@@ -158,5 +159,3 @@ foreach($states as $code => $state) {
 }
 
 {% endhighlight %}
-
-

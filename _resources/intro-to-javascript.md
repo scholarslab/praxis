@@ -6,6 +6,7 @@ comments: false
 sharing: true
 tags: "javascript"
 permalink: "/resources/intro-to-javascript/"
+type: building
 ---
 
 # Intro to JavaScript and CoffeeScript
@@ -60,4 +61,3 @@ here][slides].
 [thau]: http://www.webmonkey.com/2010/02/javascript_tutorial/ "Thau's JavaScript Tutorial"
 [jquery]: http://jquery.com/ 'jQuery'
 [slides]: http://scholarslab.github.com/intro-to-js/ 'Introduction to JavaScript/CoffeeScript'
-

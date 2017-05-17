@@ -1,12 +1,13 @@
 ---
 layout: default
-Title: "Brief Introduction to Digital Humanities"
+title: "Brief Introduction to Digital Humanities"
 permalink: "/resources/intro-to-dh/"
 tags: "intro-dh"
+type: preparing
 ---
 #Intro to Digital Humanities
 There is an abundance of excellent resources introducing Digital
-Humanities. The lists of resources and organizations below are not exhaustive; instead, we hope to get you started. 
+Humanities. The lists of resources and organizations below are not exhaustive; instead, we hope to get you started.
 
 #Resources
 <a href="http://scholarslab.org">The Scholars' Lab website</a> is a wonderful resource for local events, workshops, and speaker series.

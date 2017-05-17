@@ -3,6 +3,7 @@ layout: page
 title: 'How Computers Work'
 permalink: "/resources/how-computers-work/"
 tags: "computers-work"
+type: preparing
 ---
 
 # How Computers Work
@@ -94,7 +95,7 @@ gate delay.
 
 ### How computers do math
 
-Computers represent number in binary (0 or 1). 
+Computers represent number in binary (0 or 1).
 Basic math (+, -, \*, /) can be done with a series of logical operations
 on each digit
 
@@ -116,7 +117,7 @@ of which you may have run across:
 Add two binary digits (0 or 1), a carry-in (do I need to carry over), comes out with a sum and a
 carry out.
 
-Can chain for bigger adders 
+Can chain for bigger adders
 
 * Longest path for 1-bit operations
 
@@ -138,7 +139,7 @@ The bigger the number, the longer it takes.
 If you go faster than this, the result will be invalid because the gates
 haven't delayed.
 
-## The Clock 
+## The Clock
 
 How do you get different calculations running at different speeds
 together?
@@ -158,7 +159,7 @@ or CPU) is rated at a clock speed, like 2.3Ghz (e.g. 2.3 x
 ## Memory
 
 Your computer needs to retrieve values they are working on, or store
-results. 
+results.
 
 Two basic operations: read and write (store)
 
@@ -201,7 +202,7 @@ head moves from the outside to center of the disk. The time it takes to
 spin the disk to the correct location and move the head to read the data
 is the seek time. Seek times are in milliseconds, which is much (MUCH)
 slower than RAM (which is in nanoseconds), but they have far more capacity and persist data from
-power interuptions. 
+power interuptions.
 
 <!--TODO picture of a hard drive-->
 
@@ -254,5 +255,3 @@ https://www.youtube.com/watch?v=WIDzNyfVVg0
 
 
 [andrea-laue]: http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-3-1&toc.depth=1&toc.id=ss1-3-1&brand=default
-
-

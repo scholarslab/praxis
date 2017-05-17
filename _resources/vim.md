@@ -4,6 +4,7 @@ title: "Vim Tutorial"
 date: 2011-08-24 10:16
 permalink: "/resources/vim/"
 tags: "vim"
+type: preparing
 ---
 
 # Introducing Vim
@@ -82,4 +83,3 @@ many more tutorials on [Derek's blog][1].
 [1]: http://derekwyatt.org/vim/tutorials/index.html
 [2]: http://www.vim.org/download.php
 [3]: http://www.viemu.com/
-

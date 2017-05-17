@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "wireframes"
 permalink: "/resources/wireframes/"
+type: building
 ---
 
 # Wireframes
@@ -22,7 +23,7 @@ permalink: "/resources/wireframes/"
 
 ## Books
 
-* Dan Brown, _Communicating Design_ (2010) 
+* Dan Brown, _Communicating Design_ (2010)
 * Kelly Goto and Emily Colter, _Web ReDesign 2.0_ (2004)
 
 [1]: http://wireframes.linowski.ca/

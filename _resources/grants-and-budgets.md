@@ -6,12 +6,13 @@ comments: false
 sharing: true
 footer: true
 tags: "money"
+type: growing
 permalink: "/resources/grants-and-budgets/"
 ---
 
 # Grants and Budgets
 
-###activity: 
+###activity:
 Let's calculate how much our weekly, 2-hour Praxis meeting costs!
 
 ##Nowviskie's Unedited Talking Points
@@ -26,7 +27,7 @@ decide what your baseline is (staffing, equipment, communications, travel)
 build the cost of managing the money into having the money
 (also why we go for fewer grants than most)
 
-###keep an even keel! 
+###keep an even keel!
 
 there are some things you'd be scared away from if you really quantified them -- so don't. What are your goals, & are you resourced w/human energy & minimal ready cash (e.g. travel funds) to meet them?
 
@@ -34,7 +35,7 @@ and there are some things you want to quantify because numbers are rhetoric & a 
 
 ex: we had 27 Praxis applicants for 2013. Cost to run a program that would support the level of interest in the UVa grad community? Astronomical number, clarifies that supporting a program for 6 is a minor investment in the face of great demand.
 
-What does your budget look like in the larger system? Particularly DH problem: DH centers, library departments, multi-project projects don't operate in a vacuum.  Example: a few years ago, the Library took a 3% budget cut overall = 40% cut to my operating budget (after preserving collections and personnel). 
+What does your budget look like in the larger system? Particularly DH problem: DH centers, library departments, multi-project projects don't operate in a vacuum.  Example: a few years ago, the Library took a 3% budget cut overall = 40% cut to my operating budget (after preserving collections and personnel).
 
 ###perils of soft money
 
@@ -68,11 +69,11 @@ Read & emulate sample proposals provided.
 
 Structure your proposal to meet the (weary) reviewers' needs: use key phrases from the guidelines, ordered according to the published criteria reviewers were given.
 
-Try to answer (or indicate awareness of) every possible question peer reviewers might have. Don't try to second-guess or read tea leaves for the funding agency. 
+Try to answer (or indicate awareness of) every possible question peer reviewers might have. Don't try to second-guess or read tea leaves for the funding agency.
 
 ###do it anyway
 
-Ask for exactly what is needed to do your project. The most parsimonious budget just might win. 
+Ask for exactly what is needed to do your project. The most parsimonious budget just might win.
 
 Back to soft money and staffing: we seek grants not to keep good people employed, but because we believe in the project & the grant can fund things we can't (e.g. NEH institutes: funding participants' travel costs).
 

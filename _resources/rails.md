@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: rails
 permalink: "/resources/rails/"
+type: building
 ---
 # Intro to Rails
 
@@ -30,10 +31,10 @@ to develop can be produced in a matter of days.
 * [Rails for Zombies](http://railsforzombies.org/): Nice intro to basic Rails,
 and it has Zombies...
 * [Rails Guides](http://guides.rubyonrails.org/): Official guide for Rails, and
-a great place for documentation on the components that comprise the Rails 
+a great place for documentation on the components that comprise the Rails
 framework.
 * [Ruby on Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book):
-Great book to work through, getting very 
+Great book to work through, getting very
 * [Railscasts](http://railscasts.com/): Great screencasts that show off how to
 use specific libraries
 * [asciicasts](http://asciicasts.com/): Text versions of the Railscasts
@@ -48,4 +49,3 @@ app.
 rails`
 * ***nix**: [rvm](http://beginrescueend.com/rvm/install/) && `gem install
 rails`
-

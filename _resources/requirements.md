@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: requirements-gathering
 permalink: "/resources/requirements-gathering/"
+type: preparing
 ---
 # Requirements Gathering
 
@@ -20,5 +21,3 @@ We'll begin discussing the requirements and [scope](http://en.wikipedia.org/wiki
 
 * David McClure, [Public Poetics](http://publicpoetics.org).
 * Julie Meloni, N-Dimensional Archives [blog post](http://www.academicsandbox.com/blog/?p=430) and [podcast with commentary](http://www.scholarslab.org/podcasts/julie-meloni-n-dimensional-archives/)
-
-

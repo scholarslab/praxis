@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "Design"
 permalink: "/resources/intro-to-design/"
+type: building
 ---
 # Intro to Design
 
@@ -43,7 +44,7 @@ permalink: "/resources/intro-to-design/"
  * [Contents Magazine][contents-magazine]
  * [Smashing Magazine][smashing-magazine]
  * [Wireframes Magazine][wireframes-magazine]
- 
+
 #### Design Galleries
 
  * [CSS Mania][css-mania]

@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "charter"
 permalink: "/resources/toward-a-project-charter/"
+type: preparing
 ---
 
 # Toward a Project Charter

@@ -1,8 +1,10 @@
 ---
 layout: default
-permalink: "/resources/programming1/"
+title: "Introduction to Ruby Programming 2"
+permalink: "/resources/programming2/"
 javascript:
   - /javascripts/hints.js
+type: building
 ---
 
 [Running your code in vim](/resources/vim-code-execution/)
@@ -118,7 +120,7 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 * **Arrr! How are ye?**
 * **Hellow, friend.**
 
-**Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in 
+**Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in
 `string_variable` and otherwise equals `nil`.
 
 {% highlight ruby %}
@@ -139,7 +141,7 @@ end
 # Longest word (not too hard)
 Print out the longest word in "The quick brown fox jumped over the lazy dogs" and its length.
 
-##Hints 
+##Hints
 * `my_string.length` equals the length of a string.
 * `my_long_string.split(" ").each` will break the string up by spaces.
 
@@ -320,7 +322,7 @@ end
 
 puts 'sum of even numbered fibonacci numbers is ' + sum.to_s
 
-# Using more advanced syntax 
+# Using more advanced syntax
 
 x, y, sum = 1, 1, 0
 while sum < 1000000
@@ -354,10 +356,3 @@ puts "Sum is #{sum}."
 # Use this fact to build a solution
 
 {% endhighlight %}
-
-
-
-
-
-
-

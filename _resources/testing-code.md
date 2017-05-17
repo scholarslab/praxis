@@ -7,6 +7,7 @@ sharing: true
 footer: true
 tags: "testing"
 permalink: "/resources/testing-code/"
+type: building
 ---
 
 # Introduction to Testing
@@ -44,4 +45,3 @@ permalink: "/resources/testing-code/"
 [6]: http://clarkware.com/blog/2007/09/08/how-would-you-test-this 'How Would You Test This?'
 [8]: https://github.com/erochest/tokenapp/commits/master 'Token App commit log'
 [9]: http://rubykoans.com/ 'Ruby Koans'
-

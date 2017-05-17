@@ -7,6 +7,7 @@ sharing: true
 footer: true
 permalink: "/resources/licenses/"
 tags: "licenses"
+type: growing
 ---
 # Open Source Licenses
 
@@ -24,8 +25,8 @@ standard for orginality, you are granted these _exclusive_ rights:
 To allow others to use your work, you provide a license granting other
 specific rights to your original copyright. Typically there is a
 separation between the license for the intellectual work in the code and
-the artifacts (content) associated with the project including images, 
-articles, documentation, etc. 
+the artifacts (content) associated with the project including images,
+articles, documentation, etc.
 
 ## Content Licenses
 
@@ -35,12 +36,12 @@ The [Creative Commons copyright licenses and tools][11] forge a balance inside t
 You are free to copy and distribute this work, and adapt (change) it for your own purposes, as well as make commercial use of the work. The one caveat is that you must attribute the piece to the author (or licensor), but not in a manner that suggests they endorse you or your product.
 
 ### Creative Commons—BY—Share Alike (CC-BY-SA)
-This is very close to the Creative Commons BY license in that you are allowed to copy, distribute, and adapt the piece for commercial use with proper attribution. However, this license places an additional condition on the piece’s use that any derivative work also be distributed under the same (or similar) license. 
+This is very close to the Creative Commons BY license in that you are allowed to copy, distribute, and adapt the piece for commercial use with proper attribution. However, this license places an additional condition on the piece’s use that any derivative work also be distributed under the same (or similar) license.
 
 ### Creative Commons 0 (CC0)
-The Creative Commons 0 license places items in the public domain. Public domain works are those in which the intellectual property rights have expired, have been forfeited, or not covered at all. Creative Commons 0 waives all copyrights that you have with the work. Essentially you are allowed to use anything with Creative Commons with no restrictions placed on your derivative works. 
+The Creative Commons 0 license places items in the public domain. Public domain works are those in which the intellectual property rights have expired, have been forfeited, or not covered at all. Creative Commons 0 waives all copyrights that you have with the work. Essentially you are allowed to use anything with Creative Commons with no restrictions placed on your derivative works.
 
-## Code Licenses 
+## Code Licenses
 
 ### Gnu General Public License (GPL)
 

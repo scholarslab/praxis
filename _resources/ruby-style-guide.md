@@ -6,6 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/resources/ruby-style-guide/"
+type: building
 ---
 # Ruby Style Guide
 
@@ -153,7 +154,7 @@ end
 {% endhighlight %}
 
 * Use `&&` and `||` for boolean expressions. Use `and` and `or` for flow
-  control. 
+  control.
 
 {% highlight ruby %}
 # boolean expression
@@ -167,7 +168,7 @@ document.saved? or document.save!
 
 * Avoid multi-line ternary operations, use `if/unless` instead
 * Favor modifier `if/unless` usage when you have a single-line body.
- 
+
 {% highlight ruby %}
 # bad
 if some_condition
@@ -472,4 +473,3 @@ Foo.bar = 1
   possible, but no simpler than that. Poor initial design can lead to a lot
   of problems in the future.
 * Be consistent. In an ideal world, be consistent with these guidelines.
-

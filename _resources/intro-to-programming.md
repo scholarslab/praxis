@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Intro to Programming"
+title: "Introduction to Ruby Programming 1"
 date: 2011-09-13 09:24
 comments: false
 sharing: true
 tags: "programming"
 permalink: "/resources/intro-to-programming/"
+type: building
 ---
 
 # Intro to Programming

@@ -6,6 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/resources/ruby-cheatsheet/"
+type: building
 ---
 # Ruby Cheatsheet
 
@@ -21,7 +22,7 @@ my_number = 7
 local     # <= Accessible only to the current context
 CONSTANT  # <= Variable that once set, never changes
 $global   # <= Accessible just about anywhere
-@@class   # <= 
+@@class   # <=
 
 person1 = person2     # <= both reference same object
 person2 = person1.dup # <= shallow copy of person1
@@ -30,7 +31,7 @@ person1.freeze        # <= prevents changes to person1
 
 ## Conditional Tests (if)
 
-Place `if`, `elsif`, `else`, and `end` on separate lines. 
+Place `if`, `elsif`, `else`, and `end` on separate lines.
 
 {% highlight ruby %}
 if number == 5
@@ -51,7 +52,7 @@ end
 +    # addition
 -    # subtraction
 |    # pipe
-? :  # conditional expression (ternary) 
+? :  # conditional expression (ternary)
 ^    # carrot
 >    # greater than
 >=   # greater than or equal to
@@ -60,7 +61,7 @@ end
 &&   # boolean AND
 ||   # boolean OR
 ..   # inclusive range (3..10) includes 3 and 10
-...  # exclusive range (3...10) excludes 3 and 10 
+...  # exclusive range (3...10) excludes 3 and 10
 =    # assignment
 not  # logical NOT
 and  # logical AND
@@ -95,7 +96,7 @@ puts make_positive(-5)
 
 ## Hashes
 
-Hashes hold objects and are referenced by their `key` assignment. 
+Hashes hold objects and are referenced by their `key` assignment.
 
 {% highlight ruby %}
 hash = {}
@@ -144,5 +145,3 @@ end
 3.times { |i| puts "There's no place like home..." }
 
 {% endhighlight %}
-
-

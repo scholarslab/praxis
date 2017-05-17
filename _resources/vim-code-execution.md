@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/resources/vim-code-execution/"
+title: "Executing your Code with Vim"
+type: preparing
 ---
 
 # Executing Ruby from Vim
@@ -17,7 +19,7 @@ command-mode:
 {% endhighlight %}
 
 Sometimes you need to be able to see a bit more. Instead of switching
-back and forth to the terminal, you can use the Conque plugin to create 
+back and forth to the terminal, you can use the Conque plugin to create
 a buffer to run your programs:
 
 {% highlight vim %}
@@ -36,4 +38,3 @@ execute your program in the Conque buffer with:
 ruby [file_name].rb
 
 {% endhighlight %}
-
