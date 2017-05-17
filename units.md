@@ -15,7 +15,7 @@ Standard Units - Presenter - Which Semester
 8. Copyright and IP - Brandon Butler - Spring
 9. Design Jam - All Staff - Spring
 10. Project Management - Ronda - Fall
-11. Dissertations and Project Ideas - Amanda - Spring
+11. Dissertations to Project Ideas and Vice Versa - Amanda - Spring
 12. Literature/project survey
 13. Work time
 14. Work time
