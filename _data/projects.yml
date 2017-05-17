@@ -2,23 +2,27 @@
   url: http://prism.scholarslab.org
   image_path: /images/prism-logo-transparent.png
   description: Prism is a tool for collaborative interpretation of texts. Imagined as the digital instantiation of a vaporware game that was played in the Scholars' Lab and SpecLab, the site allows users to upload documents for a group to interpret along various interpretive axes. The tool has seen significant use in K-12 classrooms.
-  publications:
+  publications: ['Crowdsourcing Individual Interpretations: Between Microtasking and Macrotasking,” Brandon Walsh; Claire Maiers; Gwen Nally; Jeremy Boggs; Literary and Linguistic Computing 2014; doi: 10.1093/llc/fqu030']
+  awards:
   cohort: [1, 2]
 - name: Ivanhoe
   url: http://ivanhoe.scholarslab.org/
   image_path: /images/ivanhoe.png
   description: Expanding on an old piece of SpecLab activity, Ivanhoe offers a space to create gaming environments for collaborative interpretation. Built as a WordPress theme, the tool asks users to contibute a text, adopt different roles, and then collectively reinvent that document by writing alternative narratives. Think of it as collaborative fan fiction meets exegesis - by playing out the roles of characters in new ways, Ivanhoe asks users to make interventions.
   publications:
+  awards:
   cohort: [3, 4]
 - name: ClockWork
   url: http://clockwork.scholarslab.org/
   image_path: /images/clockwork.png
   description: This year's cohort was asked simply to think about time in some way, and the result is ClockWork, an experiment in how temporal data might be turned into sonic artifacts, or sonified. The site offers several different sonifications of its own, serves as a platform for teaching sonification to others, and focuses on the programming language SuperCollider.
   publications:
+  awards:
   cohort: [5]
 - name: Dash-Amerikan
   url: http://dashamerikan.scholarslab.org
   image_path: /images/dashamerikan.png
   description: Like the previous cohort, this year's group took the concept of time as their provocation, but they took it in a wildly different direction. Reflecting broadly on how the Kardashian family pervades our present moment, Dash-Amerikan uses variety of digital humanities methodologies to interrogate their social media ecologies. Assembling and topic modeling a vast archive of twitter data and episode transcripts, the cohort produced a lengthy digital essay that sits at the intersections of media studies, digital humanities, and public humanities.
   publications:
+  awards: ['First place, GSAS Huskey Research Exhibition, UVA, 2017']
   cohort: [6]
