@@ -2,7 +2,7 @@
   url: http://prism.scholarslab.org
   image_path: /images/prism-logo-transparent.png
   description: Prism is a tool for collaborative interpretation of texts. Imagined as the digital instantiation of a vaporware game that was played in the Scholars' Lab and SpecLab, the site allows users to upload documents for a group to interpret along various interpretive axes. The tool has seen significant use in K-12 classrooms.
-  publications: ['Crowdsourcing Individual Interpretations: Between Microtasking and Macrotasking,” Brandon Walsh; Claire Maiers; Gwen Nally; Jeremy Boggs; Literary and Linguistic Computing 2014; doi: 10.1093/llc/fqu030']
+  publications: ['<a href="https://academic.oup.com/dsh/article/29/3/379/986428/Crowdsourcing-individual-interpretations-Between">Crowdsourcing Individual Interpretations: Between Microtasking and Macrotasking</a>,” Brandon Walsh; Claire Maiers; Gwen Nally; Jeremy Boggs; Literary and Linguistic Computing 2014; doi: 10.1093/llc/fqu030.', '“Prism,” under the “<a href="https://digitalpedagogy.mla.hcommons.org/keywords/poetry/">Poetry</a>” keyword in Digital Pedagogy in the Humanities: Concepts, Models, and Experiments.', "Walsh, Brandon, 'Prism and Reading's Shape,' in Pataphysics Then & Now, (under submission, Penn State UP)."]
   awards:
   cohort: [1, 2]
 - name: Ivanhoe
@@ -16,7 +16,7 @@
   url: http://clockwork.scholarslab.org/
   image_path: /images/clockwork.png
   description: This year's cohort was asked simply to think about time in some way, and the result is ClockWork, an experiment in how temporal data might be turned into sonic artifacts, or sonified. The site offers several different sonifications of its own, serves as a platform for teaching sonification to others, and focuses on the programming language SuperCollider.
-  publications:
+  publications: ['This team experimented used the Praxis site as a blog and memo site. You can find their notes <a href="/time/">here</a>.']
   awards:
   cohort: [5]
 - name: Dash-Amerikan
