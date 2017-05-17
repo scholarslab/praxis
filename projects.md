@@ -38,7 +38,7 @@ border: #fff 0.5em solid;">
     {% endif %}
   {% endfor %}
   <ul style="float: left">
-    {% for person in site.data.people %}
+    {% for person in site.data.fellows %}
       {% if cohort == person.cohort %}
         <li>{{ person.name | remove: '<p>' | remove: '</p>' }}</li>
       {% endif %}
@@ -53,7 +53,7 @@ border: #fff 0.5em solid;">
   {% for award in project.awards %}
     <li>{{ award }}</li>
   {% endfor %}
-  </div>
+</div>
   {% endif %}
   {% if project.publications | size  > 1 %}
   <div class="project-publications" style="padding-left: 14px; padding-right: 14px;">

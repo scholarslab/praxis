@@ -1,0 +1,95 @@
+- name: Scott Bailey
+  title:
+  position: Humanities Developer, Scholars’ Lab
+  page: http://scholarslab.org/people/scott-bailey/
+  active: false
+- name: Arin Bennett
+  title:
+  position: 3D Visualization Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/arin-bennett/
+  active: true
+- name: Jeremy Boggs
+  title: "Dr. "
+  position: Humanities Design Architect, Scholars’ Lab
+  page: http://scholarslab.org/people/jeremy-boggs/
+  active: true
+- name: Alison Booth
+  title: "Dr. "
+  position: Academic Director, Scholars’ Lab
+  page: http://scholarslab.org/people/alison-booth/
+  active: true
+- name: Chris Gist
+  title:
+  position: GIS Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/chris-gist/
+  active: true
+- name: Wayne Graham
+  title:
+  position: Head of Research & Development, Scholars’ Lab
+  page: http://scholarslab.org/people/wayne-graham/
+  active: false
+- name: Ronda Grizzle
+  title:
+  position: Project Management & Training Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/ronda-grizzle/
+  active: true
+- name: Drew MacQueen
+  title:
+  position: GIS Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/drew-macqueen/
+  active: true
+- name: Laura Miller
+  title:
+  position: Head of Public Programs, Scholars’ Lab
+  page: http://scholarslab.org/people/laura-miller/
+  active: true
+- name: Eric Johnson
+  title:
+  position: Head of Outreach and Consulting, Scholars’ Lab
+  page: http://scholarslab.org/people/eric-johnson/
+  active: false
+- name: Purdom Lindblad
+  title:
+  position: Head of Graduate Programs, Scholars’ Lab
+  page: http://scholarslab.org/people/purdom-lindblad/
+  active: false
+- name: David McClure
+  title:
+  position: Web Applications Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/david-mcclure/
+  active: false
+- name: Bethany Nowviskie
+  title: "Dr. "
+  position: Director, Digital Research & Scholarship, UVa Library
+  page: http://scholarslab.org/people/bethany-nowviskie/
+  active: false
+- name: Eric Rochester
+  title: "Dr. "
+  position: Head of Research & Development, Scholars' Lab
+  page: http://scholarslab.org/people/eric-rochester/
+  active: false
+- name: Katina Rogers
+  title: "Dr. "
+  position: Research Associate, SCI and the Praxis Network
+  page: http://scholarslab.org/people/katina-rogers/
+  active: false
+- name: Will Rourk
+  title:
+  position: 3D Techologies and Architectural Specialist, Scholars’ Lab
+  page: http://scholarslab.org/people/will-rourk/
+  active: true
+- name: Ammon Shepherd
+  title:
+  position: Humanities Developer, Scholars’ Lab
+  page: http://scholarslab.org/people/ammon-shepherd/
+  active: true
+- name: Amanda Visconti
+  title: "Dr. "
+  position: Managing Director, Scholars' Lab
+  page: http://scholarslab.org/people/amanda-visconti/
+  active: true
+- name: Brandon Walsh
+  title: "Dr. "
+  position: Head of Graduate Programs, Scholars’ Lab
+  page: http://scholarslab.org/people/brandon-walsh/
+  active: true
