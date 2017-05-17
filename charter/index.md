@@ -9,18 +9,12 @@ The [Praxis Program Charter 2016-2017](/charter/charter-2016-2017/) aims to outl
 
 Our [Towards a Project Charter](/resources/toward-a-project-charter/) provides resources that have grounded our discussions and creation of the Praxis Charters.
 
+And the <a href="http://scholarslab.org/about/charter/">charter</a> put together by the Scholars' Lab itself in 2014 outlines many of our shared values and what we see as our mission.
+
 ## Previous Charters
 
-[2016-2017 cohort charter](/charter/charter-2016-2017/)
-
-[2015-16 cohort charter](/charter/charter-2015-2016/)
-
-[2014-15 cohort charter](/charter/charter-2014-2015/)
-
-[2013-14 cohort charter](/charter/charter-2013-2014/)
-
-[2012-13 cohort charter](/charter/charter-2012-2013/)
-
-[Original 2011-12 cohort charter](/charter/charter-2011-2012/)
-
-[Scholars' Lab 2014 charter](http://scholarslab.org/about/charter/)
+<ul>
+{% for cohort in site.data.cohorts %}
+<li><a href="{{ cohort.charter }}">{{ cohort.date }} cohort</a></li>
+{% endfor %}
+</ul>
