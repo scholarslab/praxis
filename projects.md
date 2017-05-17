@@ -8,20 +8,41 @@ Each year, the Praxis Program fellows take on a particular project to exercise w
 
 {% for project in site.data.projects %}
 ---
-<img src="{{ project.image_path }}" style="max-width:350px; float: right; margin-left:15px;">
+<img src="{{ project.image_path }}" style="max-width:350px; float: right; margin-left:15px;
+-webkit-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-ms-border-radius: 0.3em;
+-o-border-radius: 0.3em;
+border-radius: 0.3em;
+-webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+-moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: #fff 0.5em solid;">
 
 <h3> {{ project.name }} </h3>
 
 {{ project.description }} More information can be found at the <a href="{{ project.url }}">project's homepage</a>.
 <div style="clear:both;"/>
 
-People:
 {% for cohort in project.cohort %}
-<ul style="float: left">
-  {% for person in site.data.people %}
-  {% if cohort == person.cohort %}<li>{{ person.name }}</li>{% endif %}
+{% for cohort_data in site.data.cohorts %}
+{% if cohort_data.number == cohort %}
+<div class="cohort-list" style="float: left;">
+        <div id="cohort-date">{{ cohort_data.date }}</div>
+    {% endif %}
   {% endfor %}
+  <ul style="float: left">
+    {% for person in site.data.people %}
+      {% if cohort == person.cohort %}
+        <li>{{ person.name | remove: '<p>' | remove: '</p>' }}</li>
+      {% endif %}
+      {% endfor %}
   </ul>
+  </div>
   {% endfor %}
+
   <div style="clear:both;"></div>
 {% endfor %}
