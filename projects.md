@@ -11,19 +11,7 @@ Each year, the Praxis Program fellows take on a particular project to exercise w
 <div class="project-description" style="width:50%; padding-bottom:14px; float:left;">
 {{ project.description }} More information can be found at the <a href="{{ project.url }}">project's homepage</a>.
 </div>
-<div class="project-image" style="float: right; width:50%;"> <img src="{{ project.image_path }}" style="max-width:350px; margin-left:15px;
--webkit-border-radius: 0.3em;
--moz-border-radius: 0.3em;
--ms-border-radius: 0.3em;
--o-border-radius: 0.3em;
-border-radius: 0.3em;
--webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
--moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-border: #fff 0.5em solid;">
+<div class="project-image" style="float: right; width:50%;"> <img src="{{ project.image_path }}" style="">
 </div>
 
 <div style="clear:both;"/>

@@ -686,42 +686,42 @@ body {
 // Media query for 940px. Sets layout to 18 columns.
 @include susy-breakpoint('940px', 18) {
 
-body {
-    @include container($grid);
-}
+  body {
+      @include container($grid);
+  }
 
-#main {
-    @include pad(3);
+  #main {
+      @include pad(3);
 
-    blockquote {
-        @include bleed(2);
-        padding-left:0;
-        padding-right:0;
-    }
+      blockquote {
+          @include bleed(2);
+          padding-left:0;
+          padding-right:0;
+      }
 
-    .singular & {
+      .singular & {
 
-        header {
-            @include fullbleed(3,18);
-            margin-bottom:0;
-        }
-    }
+          header {
+              @include fullbleed(3,18);
+              margin-bottom:0;
+          }
+      }
 
-}
+  }
 
-#featured {
-    @include clearfix;
-    @include fullbleed(3,18);
-    padding-left:span(1 wide of 12);
-    padding-right:span(1 wide of 12);
-}
+  #featured {
+      @include clearfix;
+      @include fullbleed(3,18);
+      padding-left:span(1 wide of 12);
+      padding-right:span(1 wide of 12);
+  }
 
-#projects {
-    @include clearfix;
-    @include fullbleed(3,18, false);
-    padding-left:span(3 wide of 12);
-    padding-right:span(3 wide of 12);
-}
+  #projects {
+      @include clearfix;
+      @include fullbleed(3,18, false);
+      padding-left:span(3 wide of 12);
+      padding-right:span(3 wide of 12);
+  }
 
 }
 
@@ -733,4 +733,21 @@ body {
 @import "../vendor/headroom";
 @import "../vendor/responsive-nav";
 
+}
+
+.project-image{
+  max-width:350px;
+  margin-left:15px;
+-webkit-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-ms-border-radius: 0.3em;
+-o-border-radius: 0.3em;
+border-radius: 0.3em;
+-webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+-moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: #fff 0.5em solid;
 }
