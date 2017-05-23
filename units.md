@@ -22,14 +22,14 @@ Standard Units - Presenter - Which Semester
 
 Project-Specific Units
 1. Intro to makerspace
-2. Critical Making
-3. 3D Printing
-4. Circuits/Arduinos
-5. TBD
-6. TBD
-7. TBD
-8. TBD
-9. Work time
+2. Critical Making pt. 1
+3. 3D Printing (two sessions) - Pt 1.
+4. 3D Printing (two sessions). - Pt 2.
+5. Critical Making pt. 2.
+6. Wearables - (two sessions). - Pt 1
+7. Wearables - pt. 2
+8. Circuits/Arduinos (two sessions - probably have them work in pairs) - working through the SIK Guide
+9. Circuits/Arduinos (two sessions) - programming concepts.
 10. Work time
 11. Work time
 12. Work time
