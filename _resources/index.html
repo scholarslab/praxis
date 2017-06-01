@@ -7,36 +7,42 @@ permalink: "/resources/"
 <h1>Resources</h1>
 The resources below represent our working notebook of tutorials, topics, and resources; more guides will be added as the Praxis year progresses. Note also that some resources may be particular to certain cohort years and reference ongoing conversations.
 <div class="resources">
-<div class="preparing">
-<h2>Preparing</h2>
-<ul>
-{% assign resources = (site.resources | sort: 'title') %}
-{% for resource in resources %}
-{% if resource.type == 'preparing'%}
-<li><a href="{{ resource.permalink }}">{{ resource.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
-<div class="building">
-<h2>Building</h2>
-<ul>
-{% for resource in resources %}
-{% if resource.type == 'building'%}
-<li><a href="{{ resource.permalink }}">{{ resource.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
-<div class="growing">
-<h2>Growing</h2>
-<ul>
-{% for resource in resources %}
-{% if resource.type == 'growing'%}
-<li><a href="{{ resource.permalink }}">{{ resource.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
+  <div class="preparing">
+    <h2>Preparing</h2>
+    <ul>
+      {% assign resources = (site.resources | sort: 'title') %}
+      {% for resource in resources %}
+        {% if resource.type == 'preparing'%}
+        <li>
+          <a href="{{ resource.permalink }}">{{ resource.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="building">
+    <h2>Building</h2>
+    <ul>
+      {% for resource in resources %}
+        {% if resource.type == 'building'%}
+          <li>
+            <a href="{{ resource.permalink }}">{{ resource.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="growing">
+    <h2>Growing</h2>
+      <ul>
+      {% for resource in resources %}
+        {% if resource.type == 'growing'%}
+          <li>
+            <a href="{{ resource.permalink }}">{{ resource.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 <br class="clear">

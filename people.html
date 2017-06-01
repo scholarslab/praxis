@@ -1,0 +1,44 @@
+---
+layout: default
+title: People
+---
+
+<h1> People</h1>
+{% assign reversed_cohorts = (site.data.cohorts | reverse )%}
+{% for cohort in reversed_cohorts %}
+  <h2>Praxis Fellows, {{ cohort.date }}</h2>
+  <ul>
+    {% for person in site.data.fellows %}
+      {% if cohort.number == person.cohort %}
+        <li>
+          <a href="{{ person.page }}">{{ person.name }}</a>, {{ person.department }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+<h2>Praxis Program Faculty and Staff</h2>
+  <ul>
+    {% for person in site.data.slab %}
+      {% if person.active == true %}
+      <li>
+        {{ person.title }}<a href="{{ person.page }}">{{ person.name }}</a>, {{ person.position }}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+Additional Praxis Program advisors are drawn from the faculty and staff of the <a href="http://lib.virginia.edu/">UVa Library</a>'s <a href="http://www2.lib.virginia.edu/scholarslab/consultation/index.html">Scholars' Lab</a> and collaborating schools, departments, and centers at the <a href="http://www.virginia.edu/">University of Virginia</a>. <a href="https://twitter.com/praxisprogram">Follow us</a> on Twitter and by subscribing to our <a href="http://www.scholarslab.org/tag/praxis-program/feed/">feed</a>.
+
+
+<h2> Faculty and Staff Alumni</h2>
+
+<ul>
+  {% for person in site.data.slab %}
+    {% if person.active != true %}
+      <li>{{ person.title }}
+        <a href="{{ person.page }}">{{ person.name }}</a>, former {{ person.position }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
