@@ -683,6 +683,10 @@ body {
 
 }
 
+#main{
+  padding-bottom: 30px;
+}
+
 // Media query for 940px. Sets layout to 18 columns.
 @include susy-breakpoint('940px', 18) {
 
@@ -750,4 +754,48 @@ box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 border: #fff 0.5em solid;
+}
+
+#bumper{
+  padding-bottom: 120px;
+}
+
+.project-publications ul, .project-awards ul, .cohort-list ul{
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0px;
+}
+
+.project-awards, .project-publications{
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.clear{
+  clear:both;
+}
+
+.cohort-list{
+  float: left;
+  margin-right: 14px;
+}
+
+.project-description{
+  width: 50%;
+  padding-bottom: 14px;
+  float: left;
+}
+
+.project-image{
+  float: right;
+  width: 50%;
+}
+
+#404{
+  min-height: 400px;
+}
+
+main{
+  padding-bottom: 30px;
 }
