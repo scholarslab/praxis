@@ -8,7 +8,7 @@
 - name: Ivanhoe
   url: http://ivanhoe.scholarslab.org/
   image_path: /images/ivanhoe.png
-  description: Expanding on an old piece of SpecLab activity, Ivanhoe offers a space to create gaming environments for collaborative interpretation. Built as a WordPress theme, the tool asks users to contibute a text, adopt different roles, and then collectively reinvent that document by writing alternative narratives. Think of it as collaborative fan fiction meets exegesis - by playing out the roles of characters in new ways, Ivanhoe asks users to make interventions.
+  description: Expanding on an old SpecLab activity, Ivanhoe offers a space to create gaming environments for collaborative interpretation. Built as a WordPress theme, the tool asks users to contibute a text, adopt different roles, and then collectively reinvent that document by writing alternative narratives. Think of it as collaborative fan fiction meets exegesis - by playing out the roles of characters in new ways, Ivanhoe asks users to make interventions.
   publications:
   awards:
   cohort: [3, 4]
