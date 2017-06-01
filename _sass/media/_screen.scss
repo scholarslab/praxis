@@ -740,8 +740,9 @@ body {
 }
 
 .project-image{
-  max-width:350px;
-  margin-left:15px;
+  max-width: 350px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 -webkit-border-radius: 0.3em;
 -moz-border-radius: 0.3em;
 -ms-border-radius: 0.3em;
@@ -754,6 +755,9 @@ box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 border: #fff 0.5em solid;
+  @media (max-width: 1120px){
+      display: none;
+  }
 }
 
 #bumper{
@@ -785,11 +789,21 @@ border: #fff 0.5em solid;
   width: 50%;
   padding-bottom: 14px;
   float: left;
+  @media (max-width: 1120px){
+      width: 100%;
+  }
 }
 
 .project-image{
   float: right;
   width: 50%;
+}
+
+.mobile-clear{
+  clear: both;
+  @media (min-width: 1120px){
+      display: none;
+  }
 }
 
 #404{
@@ -798,4 +812,8 @@ border: #fff 0.5em solid;
 
 main{
   padding-bottom: 30px;
+}
+
+div#pitch{
+  margin-top: 30px;
 }

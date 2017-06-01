@@ -8,7 +8,7 @@ Each year, the Praxis Program fellows take on a particular project to exercise w
 {% for project in site.data.projects %}
 <hr>
 <div class="project">
-<h3> {{ project.name }} </h3>
+<h2> {{ project.name }} </h2>
 <div class="project-description">
 {{ project.description }} More information can be found at the <a href="{{ project.url }}">project's homepage</a>.
 </div>
@@ -34,6 +34,7 @@ Each year, the Praxis Program fellows take on a particular project to exercise w
   </ul>
 </div>
 {% endfor %}
+<div class="mobile-clear"/></div>
   {% if project.awards %}
   <div class="project-awards">
   <div class="heading">Awards</div>
