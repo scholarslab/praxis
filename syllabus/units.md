@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: "/units/"
+title: Units
+permalink: "/syllabus/units/"
 ---
 
 Standard Units - Presenter - Which Semester
