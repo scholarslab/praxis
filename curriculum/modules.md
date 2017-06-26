@@ -6,7 +6,7 @@ permalink: "/curriculum/modules/"
 
 # Recurring Praxis Modules
 
-The follow modules tend to recur each year, regardless of the cohort's particular project.
+The following modules tend to recur each year, regardless of the cohort's particular project. Each year, we combine these units with specific choices meant to reflect the needs of the cohort. An example of this in action can be found by looking at the [2017-2018](/curriculum/2017-2018/) cohort schedule.
 
 Unit - Potential Presenter - Which Semester
 
@@ -17,7 +17,7 @@ Unit - Potential Presenter - Which Semester
 5. Grants and Budgets - Amanda and Laura - Late Spring
 6. Git/GitHub - Senior Developer- Fall
 7. Command Line - Senior Developer - Fall
-8. Copyright and IP - Brandon Butler, if available - Mid Spring
+8. Copyright and IP - Mid Spring
 9. Design Jam - All Staff - Spring
 10. Project Management - Ronda - Early Spring
 11. Dissertations to Project Ideas and Vice Versa - Amanda - Late Spring
