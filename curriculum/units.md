@@ -4,6 +4,8 @@ title: Praxis Modules
 permalink: "/curriculum/modules/"
 ---
 
+# Praxis Modules
+
 The following modules are split into two types: recurring units and those that are specific to a particular project.
 
 ## Recurring Units
