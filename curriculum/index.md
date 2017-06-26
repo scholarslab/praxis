@@ -10,8 +10,8 @@ Praxis fellows actively participate in the program for a single academic year. G
 
 Each year of the program requires different lessons, workshops, and experiences dependent on the nature of the group's collective project. At the same time, certain lessons are useful for any digital project. For this reason, we have begun to conceive of the curriculum as a series of interlocking modules, some consistent year to year and others particular to the needs of a specific cohort. More information can be found below.
 
-* [Recurring Modules](/curriculum/modules) - catalog of recurring modules
-* [Resources](/resources/) - resources produced by the Praxis Program to support the curriculum
+* [Recurring Modules](/curriculum/modules)
+* [Program Resources](/resources/)
 
 ## Cohort-Specific Schedules
 
