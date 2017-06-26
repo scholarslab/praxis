@@ -1,0 +1,15 @@
+---
+layout: page
+title: Curriculum
+permalink: "/curriculum/"
+---
+
+# Curriculum
+
+Praxis fellows actively participate in the program for a single academic year. Generally, the fall semester is taken up by a series of workshops that introduce digital humanities methodologies and skills the students will use during their fellowship. The group also has plenty of conversations during this time about digital humanities and theories as they begin to look towards a collaborative project, the development of which will take up the bulk of the spring semester. This rhythm - seminar in the fall shifting to group workshop in the spring - is the most consistent hallmark of the Praxis Program. To varying degrees each year, the projects are selected by the entire program, students and Scholars' Lab faculty and staff, working together.
+
+Each year of the program requires different lessons, workshops, and experiences dependent on the nature of the group's collective project. At the same time, certain lessons are useful for any digital project. For this reason, we have begun to conceive of the curriculum as a series of interlocking modules, some consistent year to year and others particular to the needs of a specific cohort. More information can be found below.
+
+* [2017-2018 Plan](/curriculum/2017-2018/) - the syllabus for a project year working in our Makerspace
+* [Modules](/curriculum/modules) - catalog of project-specific modules as well as recurring units
+* [Program Resources](/resources/) - previous cohort years resulted in the accumulation of a variety of resources throughout each year
