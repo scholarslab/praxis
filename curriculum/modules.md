@@ -13,7 +13,7 @@ Unit - Potential Presenter - Which Semester
 1. Evaluating Digital Work / Intro to DH - All Staff - Early Fall
 2. How Computers Work - Ammon - Early Fall
 3. Intro to Charters - Ronda - Early Fall
-4. HTML/CSS/Markdown - Jeremy - Fall
+4. Document Representation on the Web - Jeremy - Fall
 5. Grants and Budgets - Amanda and Laura - Late Spring
 6. Git/GitHub - Senior Developer- Fall
 7. Command Line - Senior Developer - Fall
