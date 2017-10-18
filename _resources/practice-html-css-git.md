@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Activities for practicing Markdown, HTML, CSS and Git'
-permalink: "/resources/intro-to-git/"
+permalink: "/resources/markdown-html-css-git-practice/"
 tags: "git"
 type: building
 ---
