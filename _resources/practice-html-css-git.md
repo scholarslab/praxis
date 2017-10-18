@@ -1,3 +1,11 @@
+---
+layout: default
+title: 'Activities for practicing Markdown, HTML, CSS and Git'
+permalink: "/resources/intro-to-git/"
+tags: "git"
+type: building
+---
+
 # Purpose
 - Introduce Markdown, practice HTML, CSS, Git and GitHub skills, build a rudimentary site, learn the need for a site generator (CMS or static site generator like Jekyll).
 
@@ -68,3 +76,29 @@
 - Add styles to the HTML file you are working on to make it look so awesome!
 - The team now editing the about.html file should add your profile info and images.
 - Add, commit and push changes.
+
+# Instructors Note
+
+- This lesson should be taught after the students already know the basics
+of HTML, CSS and GIT. This lesson should be a refresher for all of
+these skills, and a practical way to implement and build on the skills.
+
+- This lesson also introduces Markdown as a much more simple and intuitive
+way to mark up text (a streamlined mark up language as an alternative to
+HTML). The instructor should introduce Markdown at the beginning of this
+activity, and pump it as a easier alternative to HTML.
+
+- During Step 2, the instructor should note the difference between HTML
+and Markdown, and ask which they would rather use for marking up their
+content. At the end of this lesson students should see the benefit of
+Markdown as a much easier mark-up language than HTML.
+
+- After Step 3, the instructor should talk about the difficulty of
+maintaining a large website (many pages) in the way that they just have.
+Point out that Content Management Systems (CMS) and Static Site
+Generators were created to solve these problems (and in part scripting
+languages like PHP, Perl, Python). Students should see the need for some
+kind of content manager or site manager when scaling page generation for
+a website. The instructor can introduce Jekyll at this point as a way to
+use the ease of Markdown with the benefit of a page generator to make
+static sites more manageable.
