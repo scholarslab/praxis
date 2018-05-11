@@ -15,4 +15,4 @@ Each year of the program requires different lessons, workshops, and experiences 
 
 ## Cohort-Specific Schedules
 
-* [2017-2018](/curriculum/2017-2018/) - Makerspace project
+* [2017-2018](/curriculum/2017-2018/) - <strike>Makerspace project</strike> Augmented Reality Project
