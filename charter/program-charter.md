@@ -8,9 +8,24 @@ tags: charter
 
 While each cohort of students will assemble their own document that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. It represents a contract between us and our students.
 
-### Trust and care 
+### Trust
 
-We trust in students. We believe students can make intellectual contributions at a professional level given the chance. We believe teaching encompasses the whole person, that the personal difficulties and successes of a student can not be separated from their professional development. 
+We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance.
+
+### Care 
+
+We teach the whole person, that the personal difficulties and successes of a student can not be separated from their professional development. 
+
+### With
+
+Our students get their hands dirty. We do the work with you - not for you. Our ideal classroom is one in which the students
+
+### Hacking / Yacking / Stacking
+Doing is inseparable from thinking. Technical decisions are intellectual ones and vice versa. And all of our conversations and actions are informed by institutional structures that inform the work we do. Our students will engage in all three areas.
+
+### Ownership
+
+We want our students to own their work intellectually and technically. They should understand the technical decisions made during their work with us. 
 
 ### This is not a course
 
@@ -24,9 +39,11 @@ While we might meet around a seminar table and talk, this is fundamentally not a
 
 We typically work with humanists who have a wide variety of technical and personal experiences, some more or less than others. We believe this work should be available based on interest-not background. Our success is measured by our ability to bring along the person struggling the most. 
 
-### We are working on it
+### We are working on it and talk actively about that work.
 
-We talk openly about the process
+We talk openly about our pedagogical process. When possible, we write about it as well. If something is not working, we will change it and adapt based on the needs of the students and our colleagues. Accordingly, we expect our students to talk and write about the learning process for them, to engage in the experience, and help us shape a pedagogical experience that works for them.
+
+We fully endorse the values expressed in the Collaborator's Bill of Rights and, in particular, the [Student Collaborator's Bill of Rights](http://cdh.ucla.edu/news/a-student-collaborators-bill-of-rights/).
 
 ### The ways we interact with each other matter.
 
@@ -84,5 +101,3 @@ The program aims to put students out in the world acting as professional scholar
 
 As stewards of the Praxis program, the Scholars' Lab takes responsibility for the pedagogical experience of all of its students. We are committed to providing a safe space in which our students can learn and grow. To this end, we will constantly re-evaluate the curriculum with an eye to building the best experience for the students. On a more interpersonal level: collaboration can be difficult, and sometimes things go wrong. In these cases the Scholars' Lab will intervene, either privately or with the group at large. While we will keep an eye out for such a need, students are free to request such intervention at anytime. Such interventions might include but are not limited to: renegotiating roles, private discussions of behavior and team responsibilities, or removal from the team.
 
-Doing is inseparable from thinking
-Technical decisions are intellectual ones and vice versa
