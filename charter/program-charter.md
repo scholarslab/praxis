@@ -1,3 +1,13 @@
+---
+layout: page
+title: Praxis Program Charter
+tags: charter
+---
+
+# Praxis Program Charter
+
+While each cohort of students will assemble their own document that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. It represents a contract between us and our students.
+
 ### Trust and care 
 We trust in students. We believe students can make intellectual contributions at a professional level given the chance. We believe teaching encompasses the whole person, that the personal difficulties and successes of a student can not be separated from their professional development. 
 
