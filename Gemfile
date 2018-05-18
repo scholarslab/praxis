@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", '3.0.3'
 
 gem "rouge"
 gem "susy"
@@ -15,4 +15,4 @@ gem "redcarpet"
 
 # for windows users
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-
+gem 'yajl-ruby', '~> 1.3.1'
