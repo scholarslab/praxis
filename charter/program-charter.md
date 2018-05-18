@@ -101,3 +101,6 @@ The program aims to put students out in the world acting as professional scholar
 
 As stewards of the Praxis program, the Scholars' Lab takes responsibility for the pedagogical experience of all of its students. We are committed to providing a safe space in which our students can learn and grow. To this end, we will constantly re-evaluate the curriculum with an eye to building the best experience for the students. On a more interpersonal level: collaboration can be difficult, and sometimes things go wrong. In these cases the Scholars' Lab will intervene, either privately or with the group at large. While we will keep an eye out for such a need, students are free to request such intervention at anytime. Such interventions might include but are not limited to: renegotiating roles, private discussions of behavior and team responsibilities, or removal from the team.
 
+Gain experience working together
+
+What does all this mean on a day-to-day level? Well, it changes every year depending on how things have been going, the staff involved, and the particular cohort of students for that year. Check out the [curriculum page](/curriculum)
