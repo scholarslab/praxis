@@ -8,7 +8,7 @@ tags: charter
 
 ## Praxis Program Specifically
 
-While each cohort of students will assemble their own document that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. It represents a contract between us and our students.
+While each cohort of students will assemble their own document that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. It represents a contract between us and our students. 
 
 ### Professionalization
 
