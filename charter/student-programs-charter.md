@@ -1,3 +1,8 @@
+---
+layout: page
+title: Scholars' Lab Student Programs Charter
+tags: charter
+---
 
 ## Scholars' Lab Student Programs Charter
 
