@@ -46,12 +46,14 @@ While we might meet around a seminar table and talk, this is fundamentally not a
 
 See themselves differently
 See others differently
+
 * Public engagement 
 * Personal development
 
 
 ### Success
 Failure is a virtue. Mistakes are the portals for discovery. Learning from failure is more important than succeeding uncritically. So long as they are reflecting and learning, we will be pleased with our students.
+
 * Students will be more familiar with technology and the intellectual stakes of working with it.
 
 
