@@ -19,11 +19,11 @@ Doing is inseparable from thinking. Technical decisions are intellectual ones an
 
 ### Trust
 
-We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance.
+We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance. 
 
 ### Care 
 
-We teach the whole person, that the personal difficulties and successes of a student can not be separated from their professional development. 
+We teach the whole person and believe that the personal difficulties and successes of a student can not be separated from their professional development. To that end……
 
 ### With
 

@@ -63,4 +63,3 @@ Students are teachers
 
 The students are the project
 Do more with less. 
-
