@@ -33,7 +33,7 @@ The program aims to put students out in the world acting as professional scholar
 
 ## The Personal
 
-To collaborate well we must first re-examine ourselves, the work we do and how we do it. The Praxis Program, at its best, empowers students to explore new interests that they might have previously thought themselves unable to try. This is a space to stretch and fail, to grow and discover. We all bring something to the table, and our year together is an invitation to our students themselves differently.
+To collaborate well we must first re-examine ourselves, the work we do and how we do it. The Praxis Program, at its best, empowers students to explore new interests that they might have previously thought themselves unable to try. This is a space to stretch and fail, to grow and discover. We all bring something to the table, and our year together is an invitation to our students to see themselves differently.
 
 ## Frustration is a Feature
 
