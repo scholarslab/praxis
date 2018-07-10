@@ -56,3 +56,10 @@ Failure is a virtue. Mistakes are the portals for discovery. Learning from failu
 * Students will be empowered to act as professionals;
 * Students will know where to go for help in the future;
 * and that students will be prepared to help others.
+
+### Frustration is to be expected, but we care
+
+Students are teachers
+
+The students are the project
+Do more with less. 
