@@ -96,22 +96,19 @@ In addition, we will endeavour, within reason, to act as stewards of the digital
 
 What does all this mean on a day-to-day level? Well, it changes every year depending on how things have been going, the staff involved, and the particular cohort of students for that year. Check out the [curriculum page](/curriculum) and the [projects page](/projects) to learn more about any particular iteration of the program.
 
-<<<<<<< HEAD
-<div id="modified-date">Date here</div>
+
+<div id="modified-date"></div>
 
 <script>
 (function() {
   var githubAPI = "https://api.github.com/repos/scholarslab/praxis/commits";
   $.getJSON( githubAPI, {
-    path: "/charter/praxis-program-charter/"
+    path: "/charter/praxis-program-charter.md"
   })
     .done(function( data ) {
       var date = new Date(data[0].commit.author.date);
       var formatted_date = new Intl.DateTimeFormat('sv').format(date)
-      $("#modified-date").text(formatted_date);
+      $("#modified-date").text('Last updated: ' + formatted_date);
     });
 })();
 </script>
-=======
-
->>>>>>> 9f6372800ae5003c997adaa832d575434c024a43
