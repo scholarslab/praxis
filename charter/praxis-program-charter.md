@@ -7,7 +7,7 @@ permalink: /praxis-program-charter
 
 # Praxis Program Charter
 
-While each cohort of students will assemble their own charter that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. This document represents a contract between our students and the Scholars' Lab, an expression of our core values, pedagogy, and goals for the program. Cohort-specific charters written by the students themselves can be found on our [charter archive](/charter). This charter draws upon the [general lab charter](http://scholarslab.org/about/charter) and the [Scholars' Lab Charter for Student Programs](/student-programs-charter).
+While each cohort of students will assemble their own charter that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. This document represents a contract between our students and the Scholars' Lab, an expression of our core values, pedagogy, and goals for the program. Cohort-specific charters written by the students themselves can be found on our [charter archive](/charter). This charter draws upon the [general lab charter](http://scholarslab.org/about/charter) and the [Scholars' Lab Charter for Student Programs](http://scholarslab.org/student-programs-charter).
 
 ## Success
 
@@ -37,11 +37,11 @@ To collaborate well we must first re-examine ourselves, the work we do and how w
 
 ## Frustration is a Feature
 
-This is difficult work, and we expect our students to be frustrated. We regularly engage in the work of processing the difficult emotions that come from trying to stretch and grow. We're here to help, and we care.
+This is difficult work, and we expect our students to be frustrated. We regularly engage in the work of processing the difficult emotions that come from trying to stretch and grow. We’re here to help, and we care.
 
 ## Trust
 
-We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance. 
+We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance.
 
 ## Care 
 
