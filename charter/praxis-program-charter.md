@@ -96,6 +96,7 @@ In addition, we will endeavour, within reason, to act as stewards of the digital
 
 What does all this mean on a day-to-day level? Well, it changes every year depending on how things have been going, the staff involved, and the particular cohort of students for that year. Check out the [curriculum page](/curriculum) and the [projects page](/projects) to learn more about any particular iteration of the program.
 
+<<<<<<< HEAD
 <div id="modified-date">Date here</div>
 
 <script>
@@ -111,3 +112,6 @@ What does all this mean on a day-to-day level? Well, it changes every year depen
     });
 })();
 </script>
+=======
+
+>>>>>>> 9f6372800ae5003c997adaa832d575434c024a43
