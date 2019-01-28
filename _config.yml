@@ -15,6 +15,7 @@ google_analytics:
   account: UA-12081576-3
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 collections:
   resources:
     output: true

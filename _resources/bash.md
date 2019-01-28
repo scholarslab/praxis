@@ -2,6 +2,7 @@
 layout: page
 title: 'Command Line Bootcamp'
 permalink: "/resources/bash/"
+redirect_from: "/tutorials/bash/"
 type: building
 tags: "command-line"
 ---

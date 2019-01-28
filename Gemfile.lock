@@ -32,6 +32,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-redirect-from (0.11.0)
+      jekyll (>= 2.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (0.11.0)
@@ -68,6 +70,7 @@ DEPENDENCIES
   compass
   foreman
   jekyll (= 3.0.3)
+  jekyll-redirect-from
   jekyll-sitemap
   redcarpet
   rouge

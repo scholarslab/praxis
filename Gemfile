@@ -10,6 +10,7 @@ gem "breakpoint"
 
 #gem "link-checker"
 gem "jekyll-sitemap"
+gem "jekyll-redirect-from"
 
 gem "redcarpet"
 
