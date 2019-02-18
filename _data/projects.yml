@@ -36,7 +36,7 @@
 - name: D&ecirc;mos
   url: http://scholarslab.org/
   image_path: /images/demos.jpg
-  description: 'In observation of the <a href="https://copyright.library.virginia.edu/public-domain/">expansion of the public domain in 2019</a>, our project examines how U.S. copyright law interacts with digital research and pedagogy. Working with Robert Frost’s <i>New Hampshire</i> (1923), we will present a series of tutorials that demonstrate how to use a public-domain work in order to empower our audience to understand, transform, and intervene in the range of material now available online.'
+  description: 'In observation of the <a href="https://copyright.library.virginia.edu/public-domain/">expansion of the public domain in 2019</a>, our project examines how U.S. copyright law interacts with digital research and pedagogy. Working with Robert Frost’s <i>New Hampshire</i> (1923), we will present a series of tutorials that demonstrate how to use a public domain work in order to empower our audience to understand, transform, and intervene in the range of material now available online.'
   publications:
   awards: 
   cohort: [8]
