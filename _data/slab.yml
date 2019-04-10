@@ -48,6 +48,16 @@
   position: Head of Outreach and Consulting, Scholars’ Lab
   page: http://scholarslab.org/people/eric-johnson/
   active: false
+- name: Zoe LeBlanc
+  title:
+  position: Digital Humanities Developer
+  page: https://scholarslab.lib.virginia.edu/people/zoe-leblanc/
+  active: true
+- name: Shane Lin
+  title:
+  position: Senior Developer
+  page: https://scholarslab.lib.virginia.edu/people/shane-lin/
+  active: true
 - name: Purdom Lindblad
   title:
   position: Head of Graduate Programs, Scholars’ Lab
@@ -90,6 +100,6 @@
   active: true
 - name: Brandon Walsh
   title: "Dr. "
-  position: Head of Graduate Programs, Scholars’ Lab
+  position: Head of Student Programs, Scholars’ Lab
   page: http://scholarslab.org/people/brandon-walsh/
   active: true
