@@ -2,7 +2,7 @@
 layout: page
 title: Praxis Program Charter
 tags: charter
-permalink: /praxis-program-charter
+permalink: /praxis-program-charter/
 ---
 
 # Praxis Program Charter
