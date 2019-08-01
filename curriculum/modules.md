@@ -22,5 +22,5 @@ Unit - Potential Presenter - Which Semester
 10. Project Management - Ronda - Early Spring
 11. Dissertations to Project Ideas and Vice Versa - Amanda - Late Spring
 12. Literature / Project Survey - Early Spring
-13. Work time
-14. Work time
+13. DH Lightning Rounds
+14. Digital Pedagogy Units
