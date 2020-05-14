@@ -40,3 +40,10 @@
   publications:
   awards: ['Accepted to present at at the Decolonizing Digital Humanities Symposium at UVA, 2019']
   cohort: [8]
+- name: Land and Legacy
+  url: https://landandlegacy.scholarslab.org/index.html
+  image_path: /images/land-and-legacy.png
+  description: "Land and Legacy investigates the University of Virginia’s and UVA Foundation’s land development and expansion throughout Charlottesville and Albemarle County since the 1980s. In light of UVA’s 2030 plan to be \"<a href=\"https://strategicplan.virginia.edu/\">Great and Good</a>,\" Land and Legacy examines how these developments have affected local communities, and place these impacts in dialogue with UVA’s public narratives."
+  publications:
+  awards: 
+  cohort: [9]
