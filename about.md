@@ -7,7 +7,7 @@ permalink: "/about/"
 # About Praxis
 
 The Praxis Program is a project of the [Scholars'
-Lab](http://lib.virginia.edu/scholarslab) at the [University of Virginia
+Lab](https://scholarslab.lib.virginia.edu/) at the [University of Virginia
 Library](http://lib.virginia.edu/). In its first two pilot years
 (2011-2013), it was generously funded by a grant from the Andrew W.
 Mellon Foundation to the [Scholarly Communication
@@ -15,8 +15,7 @@ Institute](http://uvasci.org). Praxis is now fully supported by the University o
 
 Praxis is a [radical re-imagining](http://chronicle.com/article/A-Digital-Boot-Camp-for-Grad/131665/) of the annual teaching and training we offer
 in the Scholars' Lab, and is meant to complement our work over the past seven years with Scholars' Lab [Graduate
-Fellows in Digital
-Humanities](http://www2.lib.virginia.edu/scholarslab/about/fellowship.html).
+Fellows in Digital Humanities](https://scholarslab.lib.virginia.edu/for-students/).
 
 The Praxis Program funds a team of six University of Virginia graduate students from
 a variety of disciplines to apprentice with us each academic year. Under
@@ -40,7 +39,7 @@ positions and [alternative academic
 careers](http://mediacommons.futureofthebook.org/alt-ac) at a moment in which
 new questions can be asked and new systems built. We share our evolving
 curriculum and our staff and students alike are [blogging about their
-experience](http://www.scholarslab.org/tag/praxis-program/).
+experience](https://scholarslab.lib.virginia.edu/blog/).
 
 We invite you to follow our work in progress, and to cheer on this year's cohort of
 thoughtful digital scholars and scholar-practitioners, as they become comfortable designing effective user
