@@ -1,4 +1,5 @@
 # import textblob library, made by someone else, so we can use their code.
+# note that you'll need to install textblob to run it on your own computer
 from textblob import TextBlob
 
 # store a passage we want to test in a 'text' variable
