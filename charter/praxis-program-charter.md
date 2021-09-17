@@ -43,7 +43,7 @@ This is difficult work, and we expect our students to be frustrated. We regularl
 
 We trust in students, in their ability to excel, to master material, and to make intellectual contributions early, often, and at a professional level when given the chance.
 
-## Care 
+## Care
 
 We teach the whole person and believe that the personal difficulties and successes of a student can not be separated from their professional development.
 
@@ -90,7 +90,7 @@ The Scholars' Lab is committed to advancing more equitable, ethical, and just pe
 
 ## Stewardship
 
-As stewards of the Praxis Program, the Scholars' Lab takes responsibility for the pedagogical experience of all of its students. We are committed to providing a safe space in which our students can learn and grow. To this end, we will constantly re-evaluate the curriculum with an eye to building the best experience for the students. On a more interpersonal level: collaboration can be difficult, and sometimes things go wrong. In these cases the Scholars' Lab will intervene, either privately or with the group at large. While we will keep an eye out for such a need, students are free to request such intervention at anytime. Such interventions might include but are not limited to: renegotiating roles, private discussions of behavior and team responsibilities, or removal from the team. 
+As stewards of the Praxis Program, the Scholars' Lab takes responsibility for the pedagogical experience of all of its students. We are committed to providing a safe space in which our students can learn and grow. To this end, we will constantly re-evaluate the curriculum with an eye to building the best experience for the students. On a more interpersonal level: collaboration can be difficult, and sometimes things go wrong. In these cases the Scholars' Lab will intervene, either privately or with the group at large. While we will keep an eye out for such a need, students are free to request such intervention at anytime. Such interventions might include but are not limited to: renegotiating roles, private discussions of behavior and team responsibilities, or removal from the team. In short, the Scholars’ Lab staff are here to facilitate good collaboration during your year. While Brandon and Shane might be your most immediate points of contact, many Scholars’ Lab staff would be happy to help with issues (technical or collaborative). Please reach out! Accordingly, Brandon or Shane might pull in other staff to help depending on the topic.
 
 In addition, we will endeavour, within reason, to act as stewards of the digital projects produced by our students. Technologies change, however, and this might mean different things for different projects: minimal support in some cases, migration to new technologies or platforms in others, or, most likely, retiring projects whose technologies have grown unsupportable. In cases when a technology is no longer maintainable and it becomes necessary to retire a project, we will do our best to maintain an archival representation of the project that offers legible evidence of the scope, process, and intervention made by it.
 
