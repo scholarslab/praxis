@@ -54,3 +54,10 @@
   publications:
   awards: 
   cohort: [10]
+- name: Your Name Here
+  url: https://yournamehere.scholarslab.org
+  image_path: /images/your-name-here.png
+  description: "{Your Name Here} empowers graduate students and humanities academics with the coding skills and the confidence to create a personal website that reflects who they are and what they value to the public."
+  publications:
+  awards:
+  cohort [11]
