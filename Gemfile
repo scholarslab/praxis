@@ -18,4 +18,4 @@ gem "redcarpet"
 
 # for windows users
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-gem 'yajl-ruby', '~> 1.3.1'
+gem 'yajl-ruby', '~> 1.4.3'
