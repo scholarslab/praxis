@@ -16,7 +16,8 @@ Each year of the program requires different lessons, workshops, and experiences 
 ## Cohort-Specific Schedules
 
 * [2017-2018](/curriculum/2017-2018/) - <strike>Makerspace project</strike> Augmented Reality Project
-* [2018-2019](/curriculum/2018-2019) - Public Domain Toolkit
-* [2019-2020](/curriculum/2019-2020) - Equity Atlas
-* [2020-2021](/curriculum/2020-2021) - DH Education during the Pandemic
-* [2021-2022](/curriculum/2021-2022) - Code Lab
+* [2018-2019](/curriculum/2018-2019) - Public Domain Toolkit - Unclosure
+* [2019-2020](/curriculum/2019-2020) - Equity Atlas - Land and Legacy
+* [2020-2021](/curriculum/2020-2021) - DH Education during the Pandemic - Connection Established
+* [2021-2022](/curriculum/2021-2022) - Code Lab - Your Name Here
+* [2022-2023](/curriculum/2022-2023) - TBD
