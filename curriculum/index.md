@@ -20,4 +20,4 @@ Each year of the program requires different lessons, workshops, and experiences 
 * [2019-2020](/curriculum/2019-2020) - Equity Atlas - Land and Legacy
 * [2020-2021](/curriculum/2020-2021) - DH Education during the Pandemic - Connection Established
 * [2021-2022](/curriculum/2021-2022) - Code Lab - Your Name Here
-* [2022-2023](/curriculum/2022-2023) - TBD
+* [2022-2023](/curriculum/2022-2023)
