@@ -12,7 +12,7 @@ type: preparing
 
 # Toward a Project Charter
 
-## past Praxis Program charters:
+## Past Praxis Program charters:
 * [2013-14 cohort charter](/charter/charter-2013-2014/)
 * [2012-13 cohort charter](/charter/charter-2012-2013/)
 * [Original 2011-12 cohort charter](/charter/charter-2011-2012/)
