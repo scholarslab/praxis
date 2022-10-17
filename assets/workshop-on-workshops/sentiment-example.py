@@ -9,4 +9,11 @@ One morning, when Gregor Samsa woke from troubled dreams, he found himself trans
 # turn our basic text string into a TextBlob, which allows us to do many TextBlob like things to it. Sort of like…putting keys in our car ignition so that we can drive it and do car-like things.
 blob = TextBlob(text)
 # get the sentiment score of the text and print it out. the ".sentiment" piece is something from text blob's documentation - https://textblob.readthedocs.io/en/dev/quickstart.html - that gives us the sentiment score we want
+for sentence in blob.sentences:
+    print('=======')
+    print(sentence)
+    print(sentence.sentiment_assessments)
+    print(sentence.sentiment)
+print('=====')
+print('Total sentiment')
 print(blob.sentiment)
