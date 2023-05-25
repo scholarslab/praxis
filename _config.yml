@@ -2,17 +2,13 @@ name: The Praxis Program
 #baseurl: /praxis
 # markdown: redcarpet
 highlighter: rouge
-exclude: ['_sass', 'bower_components', 'node_modules', 'Rakefile', 'README.md', 'config.rb', '_config.yml', 'Gemfile', 'Gemfile.lock', '_settings.yml', 'plugins']
+exclude: ['_config.yml', 'Gemfile', 'Gemfile.lock']
 
 domain: praxis.scholarslab.org
 title: The Praxis Program
 author: Scholars' Lab
 email: praxis@collab.itc.virginia.edu
-basefeed: http://www.scholarslab.org
 permalink: pretty
-gapi_key: 'ABQIAAAAioVG4cScdJ2Csnny8hxlzRQ0k7LmwNWN1KPzdPryee6GpBC_0hRQjOPG8jfV_sgUu5ehe3wi4vZkdA'
-google_analytics:
-  account: UA-12081576-3
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
