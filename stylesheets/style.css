@@ -1,4 +1,6 @@
-﻿* {
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Cabin:wght@500&display=swap');
+
+* {
     box-sizing: border-box;
 }
 
@@ -7,3 +9,18 @@ body {
     margin:0;
     padding:0;
 }
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4em;
+}
+
+a:link {color: red;}
+a:visited {color: pink}
+a:hover {color: orange;}
+a:focus {color: orange;}
+a:active {color: blueviolet;}
