@@ -13,21 +13,7 @@
       <link rel="stylesheet" href="{{ css }}" type="text/css" />
     {% endfor %}
     <link href="http://www.scholarslab.org/tag/praxis-program/feed/" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
-    {% comment %}<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>{% endcomment %}
-    <script src="/javascripts/modernizr-custom.js"></script>
-    <script>
-      Modernizr.load([
-        {
-          test: Modernizr.mq(),
-          nope: ['//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js',
-          '//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js']
-        }
-      ]);
-    </script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/responsive-nav.js/1.0.32/responsive-nav.min.js"></script>
+    {% comment %}
     {% for js in page.javascript %}
     <script src="{{ js }}"></script>
     {% endfor %}
@@ -109,24 +95,6 @@
 
 </address>
 </footer>
-    {% if site.google_analytics %}
-    <!-- google analytics async -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    {% endif %}
-    <!--[if lt IE 7 ]>
-      <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-      <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-    <![endif]-->
     <script src="/javascripts/scripts.js"></script>
   </body>
 </html>
