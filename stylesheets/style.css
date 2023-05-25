@@ -12,10 +12,10 @@ body {
 
 body {
     font-family: 'Cabin', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 h1 {
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 4em;
 }
 
@@ -24,3 +24,4 @@ a:visited {color: pink}
 a:hover {color: orange;}
 a:focus {color: orange;}
 a:active {color: blueviolet;}
+
