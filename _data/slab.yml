@@ -10,7 +10,7 @@
   active: true
 - name: Jeremy Boggs
   title: 
-  position: Humanities Design Architect, Scholars’ Lab
+  position: Head of Research and Development, Scholars’ Lab
   page: http://scholarslab.org/people/jeremy-boggs/
   active: true
 - name: Alison Booth
@@ -40,7 +40,7 @@
   active: true
 - name: Laura Miller
   title:
-  position: Head of Public Programs, Scholars’ Lab
+  position: Assistant Director for Scholars' Lab Public Services
   page: http://scholarslab.org/people/laura-miller/
   active: true
 - name: Eric Johnson
@@ -52,7 +52,7 @@
   title:
   position: Digital Humanities Developer
   page: https://scholarslab.lib.virginia.edu/people/zoe-leblanc/
-  active: true
+  active: false
 - name: Shane Lin
   title:
   position: Senior Developer
@@ -90,7 +90,7 @@
   active: true
 - name: Ammon Shepherd
   title:
-  position: Humanities Developer, Scholars’ Lab
+  position: Makerspace Manager and Lead Research Technologist, Scholars’ Lab
   page: http://scholarslab.org/people/ammon-shepherd/
   active: true
 - name: Amanda Visconti
