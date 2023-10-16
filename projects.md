@@ -26,28 +26,28 @@ One of the first activities each cohort undertakes is to define the nature of th
 As a part of our unit on digital pedagogy, Praxis design (and sometimes deliver) their own lightweight introductions to digital humanities methods. The result is a teach-to-learn activity where they develop creative new ways to deliver digital humanities instruction while reflecting on the pedagogies they employ. The following blog posts represent a sampling of the teaching done by students during the unit.
 
 <ul>
-  <li><a href="/blog/mapping-alone-together/">Mapping Alone, Together</a> by <a href="/people/crystal-luo/">Crystal Luo</a>
+  <li><a href="https://scholarslab.org/blog/mapping-alone-together/">Mapping Alone, Together</a> by <a href="https://scholarslab.org/people/crystal-luo/">Crystal Luo</a>
   </li>
-  <li><a href="/blog/intro-dh-and-sound-workshop/">Working on a Workshop (aka outlining a possible workshop about DH and Sound)</a> by <a href="/people/connor-kenaston/">Connor Kenaston</a>
+  <li><a href="https://scholarslab.org/blog/intro-dh-and-sound-workshop/">Working on a Workshop (aka outlining a possible workshop about DH and Sound)</a> by <a href="https://scholarslab.org/people/connor-kenaston/">Connor Kenaston</a>
   </li>
   
-  
-  <li><a href="/blog/in-the-world/">To be out in the world, to be free!</a> by <a href="/people/janet-s-dunkelbarger/">Janet S. Dunkelbarger</a>
+
+  <li><a href="https://scholarslab.org/blog/in-the-world/">To be out in the world, to be free!</a> by <a href="https://scholarslab.org/people/janet-s-dunkelbarger/">Janet S. Dunkelbarger</a>
   </li>
-  <li><a href="/blog/art-collections-as-data/">Thinking About [Art] Collections As Data</a> by <a href="/people/chloe-downe-wells/">Chloe Downe Wells</a>
+  <li><a href="https://scholarslab.org/blog/art-collections-as-data/">Thinking About [Art] Collections As Data</a> by <a href="https://scholarslab.org/people/chloe-downe-wells/">Chloe Downe Wells</a>
   </li>  
-  <li><a href="/blog/playacting-and-virtual-reality/">Exploring Power through Playacting &amp; Virtual Reality</a> by <a href="/people/lauren-van-nest/">Lauren Van Nest</a>
+  <li><a href="https://scholarslab.org/blog/playacting-and-virtual-reality/">Exploring Power through Playacting &amp; Virtual Reality</a> by <a href="https://scholarslab.org/people/lauren-van-nest/">Lauren Van Nest</a>
   </li>
-  <li><a href="/blog/unmaking-remaking-archive/">Unmaking and Remaking the Archive</a> by <a href="/people/natasha-roth-rowland/">Natasha Roth-Rowland</a></li>
-  <li><a href="/blog/dh-pedagogy-roadshow/">DH Pedagogy Roadshow</a> by Mackenzie Brooks and <a href="/people/brandon-walsh/">Brandon Walsh</a>
+  <li><a href="https://scholarslab.org/blog/unmaking-remaking-archive/">Unmaking and Remaking the Archive</a> by <a href="https://scholarslab.org/people/natasha-roth-rowland/">Natasha Roth-Rowland</a></li>
+  <li><a href="https://scholarslab.org/blog/dh-pedagogy-roadshow/">DH Pedagogy Roadshow</a> by Mackenzie Brooks and <a href="https://scholarslab.org/people/brandon-walsh/">Brandon Walsh</a>
   </li>  
-  <li><a href="/blog/sounding-scholarship-a-workshop-on-making-your-research-sing/">Sounding Scholarship: A Workshop on Making Your Research Sing</a> by <a href="/people/emily-mellen/">Emily Mellen</a>
+  <li><a href="https://scholarslab.org/blog/sounding-scholarship-a-workshop-on-making-your-research-sing/">Sounding Scholarship: A Workshop on Making Your Research Sing</a> by <a href="https://scholarslab.org/people/emily-mellen/">Emily Mellen</a>
   </li> 
-  <li><a href="/blog/string-theory-or-lets-explore-social-networks-with-string/">String Theory, or: Let's Explore Social Networks with String!</a> by   
-  <a href="/people/chris-whitehead/">Chris Whitehead</a>
+  <li><a href="https://scholarslab.org/blog/string-theory-or-lets-explore-social-networks-with-string/">String Theory, or: Let's Explore Social Networks with String!</a> by   
+  <a href="https://scholarslab.org/people/chris-whitehead/">Chris Whitehead</a>
   </li> 
-  <li><a href="/blog/teaching-transcription-and-secretly-metaphysics/">Teaching Transcription (and Secretly Metaphysics)</a> by   
-  <a href="/people/catherine-addington/">Catherine Addington</a>
+  <li><a href="https://scholarslab.org/blog/teaching-transcription-and-secretly-metaphysics/">Teaching Transcription (and Secretly Metaphysics)</a> by   
+  <a href="https://scholarslab.org/people/catherine-addington/">Catherine Addington</a>
   </li>
 </ul>
 <h2> Named Projects</h2>
