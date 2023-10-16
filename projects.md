@@ -21,7 +21,7 @@ One of the first activities each cohort undertakes is to define the nature of th
 {% endfor %}
 </ul>
 
-<h2> DH Workshops</h2>
+<h2 id="dh-workshops"> DH Workshops</h2>
 
 As a part of our unit on digital pedagogy, Praxis design (and sometimes deliver) their own lightweight introductions to digital humanities methods. The result is a teach-to-learn activity where they develop creative new ways to deliver digital humanities instruction while reflecting on the pedagogies they employ. The following blog posts represent a sampling of the teaching done by students during the unit.
 
