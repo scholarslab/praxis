@@ -23,7 +23,7 @@ One of the first activities each cohort undertakes is to define the nature of th
 
 <h2 id="dh-workshops"> DH Workshops</h2>
 
-As a part of our unit on digital pedagogy, Praxis design (and sometimes deliver) their own lightweight introductions to digital humanities methods. The result is a teach-to-learn activity where they develop creative new ways to deliver digital humanities instruction while reflecting on the pedagogies they employ. The following blog posts represent a sampling of the teaching done by students during the unit.
+As a part of our unit on digital pedagogy, Praxis design (and sometimes deliver) their own lightweight introductions to digital humanities methods. The result is a teach-to-learn activity where they develop creative new ways to deliver digital humanities instruction while reflecting on the pedagogies they employ. The following blog posts represent a sampling of the teaching done by students during the unit. Brandon co-authored a piece with a recent cohort on the pedagogy unit that was published on the Journal of Interactive Technology and Pedagogy entitled "[A Way In: Digital Pedagogy Training with Speculative, Low-Tech Workshops](https://cuny.manifoldapp.org/read/a-way-in-digital-pedagogy-training-with-speculative-low-tech-workshops/section/d26fab6f-c473-489a-9516-a6e6f0c747a7)."
 
 <ul>
   <li><a href="https://scholarslab.org/blog/mapping-alone-together/">Mapping Alone, Together</a> by <a href="https://scholarslab.org/people/crystal-luo/">Crystal Luo</a>
