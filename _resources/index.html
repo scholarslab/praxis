@@ -11,7 +11,7 @@ The resources below represent a working notebook of tutorials, topics, and resou
   <div class="preparing">
     <h2>Preparing</h2>
     <ul>
-      {% assign resources = (site.resources | sort: 'title') %}
+      {% assign resources = site.resources | sort: 'title' %}
       {% for resource in resources %}
         {% if resource.type == 'preparing'%}
         <li>

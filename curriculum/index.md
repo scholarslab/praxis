@@ -50,3 +50,4 @@ By the end of the year, students will have a portfolio of experiences and work d
 * [2021-2022](/curriculum/2021-2022) {% comment %} - Code Lab - Your Name Here {% endcomment %}
 * [2022-2023](/curriculum/2022-2023) 
 * [2023-2024](/curriculum/2023-2024)
+* [2024-2025](/curriculum/2024-2025)
