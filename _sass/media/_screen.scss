@@ -267,6 +267,7 @@ svg {
     &.growing{
         @include span(last 4 of 12);
     }
+    margin-right: 0;
 
     & > ul {
         list-style:none;
