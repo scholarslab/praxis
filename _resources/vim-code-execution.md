@@ -2,7 +2,7 @@
 layout: default
 permalink: "/resources/vim-code-execution/"
 title: "Executing your Code with Vim"
-type: preparing
+type: legacy
 ---
 
 # Executing Ruby from Vim

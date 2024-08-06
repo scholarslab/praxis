@@ -3,7 +3,7 @@ layout: default
 title: "Brief Introduction to Digital Humanities"
 permalink: "/resources/intro-to-dh/"
 tags: "intro-dh"
-type: preparing
+type: legacy
 ---
 #Intro to Digital Humanities
 There is an abundance of excellent resources introducing Digital

@@ -3,7 +3,7 @@ layout: default
 title: 'Introducing Git'
 permalink: "/resources/intro-to-git/"
 tags: "git"
-type: building
+type: legacy
 ---
 
 # Git

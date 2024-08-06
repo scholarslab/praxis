@@ -3,7 +3,7 @@ layout: default
 title: 'Activities for practicing Markdown, HTML, CSS and Git'
 permalink: "/resources/markdown-html-css-git-practice/"
 tags: "git"
-type: building
+type: legacy
 ---
 
 # Purpose

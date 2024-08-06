@@ -7,7 +7,7 @@ sharing: true
 footer: true
 permalink: "/resources/licenses/"
 tags: "licenses"
-type: growing
+type: legacy
 ---
 # Open Source Licenses
 

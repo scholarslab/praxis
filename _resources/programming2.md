@@ -4,7 +4,7 @@ title: "Introduction to Ruby Programming 2"
 permalink: "/resources/programming2/"
 javascript:
   - /javascripts/hints.js
-type: building
+type: legacy
 ---
 
 [Running your code in vim](/resources/vim-code-execution/)

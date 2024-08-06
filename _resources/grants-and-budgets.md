@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 tags: "money"
-type: growing
+type: legacy
 permalink: "/resources/grants-and-budgets/"
 ---
 

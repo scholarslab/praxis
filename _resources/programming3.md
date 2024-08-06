@@ -3,7 +3,7 @@ layout: default
 permalink: "/resources/programming3/"
 javascript:
   - /javascripts/hints.js
-type: building
+type: legacy
 title: Introduction to Ruby Programming 3
 ---
 

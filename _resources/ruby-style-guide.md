@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/resources/ruby-style-guide/"
-type: building
+type: legacy
 ---
 # Ruby Style Guide
 

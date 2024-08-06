@@ -7,7 +7,7 @@ sharing: true
 footer: true
 permalink: "/resources/php-cheatsheet/"
 tags: "php"
-type: building
+type: legacy
 ---
 
 # PHP Cheatsheet

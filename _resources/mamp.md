@@ -3,7 +3,7 @@ layout: default
 title: Local WordPress Development with MAMP and WampServer
 permalink: "/resources/mamp-and-wamp/"
 tags: "mamp"
-type: building
+type: legacy
 ---
 
 # Local WordPress Development with MAMP and WampServer

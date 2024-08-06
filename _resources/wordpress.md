@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "WordPress"
 permalink: "/resources/intro-to-wordpress/"
-type: building
+type: legacy
 ---
 # Introduction to WordPress
 

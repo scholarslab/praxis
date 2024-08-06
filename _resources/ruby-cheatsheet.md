@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 permalink: "/resources/ruby-cheatsheet/"
-type: building
+type: legacy
 ---
 # Ruby Cheatsheet
 

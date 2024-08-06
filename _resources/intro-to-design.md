@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "Design"
 permalink: "/resources/intro-to-design/"
-type: building
+type: legacy
 ---
 # Intro to Design
 

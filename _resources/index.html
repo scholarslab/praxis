@@ -8,12 +8,12 @@ redirect_from: "/scratchpad/"
 <h1>Resources</h1>
 The resources below represent a working notebook of tutorials, topics, and resources. More guides are added if and when they are produced. Note also that some resources may be particular to certain cohort years and reference ongoing conversations.
 <div class="resources">
-  <div class="preparing">
-    <h2>Preparing</h2>
+  <div class="general">
+    <h2>General</h2>
     <ul>
       {% assign resources = site.resources | sort: 'title' %}
       {% for resource in resources %}
-        {% if resource.type == 'preparing'%}
+        {% if resource.type == 'general'%}
         <li>
           <a href="{{ resource.permalink }}">{{ resource.title }}</a>
         </li>
@@ -21,11 +21,11 @@ The resources below represent a working notebook of tutorials, topics, and resou
       {% endfor %}
     </ul>
   </div>
-  <div class="building">
-    <h2>Building</h2>
+  <div class="codelab">
+    <h2>CodeLab</h2>
     <ul>
       {% for resource in resources %}
-        {% if resource.type == 'building'%}
+        {% if resource.type == 'codelab'%}
           <li>
             <a href="{{ resource.permalink }}">{{ resource.title }}</a>
           </li>
@@ -33,11 +33,11 @@ The resources below represent a working notebook of tutorials, topics, and resou
       {% endfor %}
     </ul>
   </div>
-  <div class="growing">
-    <h2>Growing</h2>
+  <div class="designlab">
+    <h2>DesignLab</h2>
       <ul>
       {% for resource in resources %}
-        {% if resource.type == 'growing'%}
+        {% if resource.type == 'designlab'%}
           <li>
             <a href="{{ resource.permalink }}">{{ resource.title }}</a>
           </li>
@@ -46,4 +46,19 @@ The resources below represent a working notebook of tutorials, topics, and resou
     </ul>
   </div>
 </div>
+
 <br class="clear">
+
+<div class="legacy">
+    <h2>Legacy</h2>
+  These legacy resources represent early teaching materials used in the Praxis program. While they're no longer actively taught or maintained, we share them here as they represent an important history of the program.
+    <ul>
+      {% assign resources = site.resources | sort: 'title' %}
+      {% for resource in resources %}
+        {% if resource.type == 'legacy'%}
+        <li>
+          <a href="{{ resource.permalink }}">{{ resource.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>

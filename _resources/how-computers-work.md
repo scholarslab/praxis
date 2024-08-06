@@ -3,7 +3,7 @@ layout: page
 title: 'How Computers Work'
 permalink: "/resources/how-computers-work/"
 tags: "computers-work"
-type: preparing
+type: legacy
 ---
 
 # How Computers Work

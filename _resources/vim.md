@@ -4,7 +4,7 @@ title: "Vim Tutorial"
 date: 2011-08-24 10:16
 permalink: "/resources/vim/"
 tags: "vim"
-type: preparing
+type: legacy
 ---
 
 # Introducing Vim

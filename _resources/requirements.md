@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: requirements-gathering
 permalink: "/resources/requirements-gathering/"
-type: preparing
+type: legacy
 ---
 # Requirements Gathering
 

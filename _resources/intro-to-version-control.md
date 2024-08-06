@@ -6,7 +6,7 @@ comments: false
 sharing: true
 tags: "git"
 permalink: "/resources/intro-to-version-control/"
-type: preparing
+type: legacy
 ---
 
 # Intro to Version Control
