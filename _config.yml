@@ -12,7 +12,6 @@ basefeed: http://www.scholarslab.org
 permalink: pretty
 plugins:
   - jekyll-sitemap
-  - jekyll-redirect-from
 collections:
   resources:
     output: true
