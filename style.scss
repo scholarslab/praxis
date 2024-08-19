@@ -69,3 +69,80 @@ html,body {
     margin:0;
     padding:0;
 }
+html {
+	background-image: url('/assets/tiles/hip-square.png');
+	border-top: 10px solid var(--uvalib-main-rotunda-orange);
+}
+body {
+
+}
+
+#banner {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+#banner {
+	padding: 1rem 2rem;
+	a {
+		text-decoration:none;
+	}
+	h1 {
+		font-weight: 900;
+		margin:0;
+		font-size: 5rem;
+		a {
+			color: var(--blue-alt-dark);
+		}
+	}
+}
+
+#scholars-lab-logotype {
+	display: block;
+	width: 300px;
+	text-decoration:none;
+}
+
+#primary-navigation {
+	ul {
+		display: flex;
+		gap: 1rem;
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+
+	li:after {
+		content: '';
+		display: block;
+		margin: auto;
+		height: 3px;
+		width: 0px;
+		background: transparent;
+		transition: width .5s ease, background-color .5s ease;
+	  }
+	  li:hover:after {
+		width: 100%;
+		background: var(--blue-alt);
+	  }
+	a {
+		text-decoration:none;
+		&:link,
+		&:visited {}
+		&:hover,
+		&:focus {}
+		&:active {}
+	}
+}
+
+main {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2rem;
+
+	h1 {
+		margin:0;
+	}
+}
