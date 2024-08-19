@@ -6,7 +6,7 @@ comments: false
 sharing: true
 tags: "programming"
 permalink: "/resources/intro-to-programming/"
-type: building
+type: legacy
 ---
 
 # Intro to Programming

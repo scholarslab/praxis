@@ -26,26 +26,26 @@
       {% endif %}
     {% endfor %}
   {% endfor %}
-  <div class="mobile-clear"/></div>
-  {% if project.awards %}
-    <div class="project-awards">
-      <div class="heading">Awards</div>
-      <ul>
-        {% for award in project.awards %}
-          <li>{{ award }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+<div class="mobile-clear"/></div>
+{% if project.awards %}
+  <div class="project-awards">
+    <div class="heading">Awards</div>
+    <ul>
+      {% for award in project.awards %}
+        <li>{{ award }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
   {% if project.publications | size  > 1 %}
-    <div class="project-publications">
-      <div class="heading">Publications</div>
-        <ul>
-          {% for publication in project.publications %}
-            <li>{{ publication }}</li>
-          {% endfor %}
-        </ul>
-    </div>
-  {% endif %}
-  <div class="clear"></div>
+<div class="project-publications">
+  <div class="heading">Publications</div>
+    <ul>
+      {% for publication in project.publications %}
+        <li>{{ publication }}</li>
+      {% endfor %}
+    </ul>
 </div>
+{% endif %}
+<div class="clear"></div>
+

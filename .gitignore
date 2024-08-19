@@ -12,3 +12,4 @@ node_modules/
 .jekyll-metadata
 Gemfile.lock
 .people.md.swp
+.jekyll-cache/

@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "digital-work"
 permalink: "/resources/evaluating-digital-work/"
-type: growing
+type: legacy
 ---
 
 # Evaluating Digital Work

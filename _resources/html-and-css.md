@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "HTML"
 permalink: "/resources/html-and-css/"
-type: building
+type: legacy
 ---
 # HTML and CSS
 

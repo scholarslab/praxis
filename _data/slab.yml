@@ -9,8 +9,8 @@
   page: http://scholarslab.org/people/arin-bennett/
   active: true
 - name: Jeremy Boggs
-  title: "Dr. "
-  position: Humanities Design Architect, Scholars’ Lab
+  title: 
+  position: Head of Research and Development, Scholars’ Lab
   page: http://scholarslab.org/people/jeremy-boggs/
   active: true
 - name: Alison Booth
@@ -40,7 +40,7 @@
   active: true
 - name: Laura Miller
   title:
-  position: Head of Public Programs, Scholars’ Lab
+  position: Assistant Director for Scholars' Lab Public Services
   page: http://scholarslab.org/people/laura-miller/
   active: true
 - name: Eric Johnson
@@ -48,6 +48,16 @@
   position: Head of Outreach and Consulting, Scholars’ Lab
   page: http://scholarslab.org/people/eric-johnson/
   active: false
+- name: Zoe LeBlanc
+  title:
+  position: Digital Humanities Developer
+  page: https://scholarslab.lib.virginia.edu/people/zoe-leblanc/
+  active: false
+- name: Shane Lin
+  title:
+  position: Senior Developer
+  page: https://scholarslab.lib.virginia.edu/people/shane-lin/
+  active: true
 - name: Purdom Lindblad
   title:
   position: Head of Graduate Programs, Scholars’ Lab
@@ -80,7 +90,7 @@
   active: true
 - name: Ammon Shepherd
   title:
-  position: Humanities Developer, Scholars’ Lab
+  position: Makerspace Manager and Lead Research Technologist, Scholars’ Lab
   page: http://scholarslab.org/people/ammon-shepherd/
   active: true
 - name: Amanda Visconti
@@ -90,6 +100,6 @@
   active: true
 - name: Brandon Walsh
   title: "Dr. "
-  position: Head of Graduate Programs, Scholars’ Lab
+  position: Head of Student Programs, Scholars’ Lab
   page: http://scholarslab.org/people/brandon-walsh/
   active: true

@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: project-management
 permalink: "/resources/project-management/"
-type: preparing
+type: legacy
 ---
 # Project Management
 

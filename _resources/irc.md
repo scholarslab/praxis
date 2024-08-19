@@ -2,7 +2,7 @@
 layout: page
 title: 'Communicating on IRC'
 permalink: "/resources/irc/"
-type: preparing
+type: legacy
 ---
 
 # IRC

@@ -7,21 +7,18 @@ permalink: "/about/"
 # About Praxis
 
 The Praxis Program is a project of the [Scholars'
-Lab](http://lib.virginia.edu/scholarslab) at the [University of Virginia
+Lab](https://scholarslab.lib.virginia.edu/) at the [University of Virginia
 Library](http://lib.virginia.edu/). In its first two pilot years
 (2011-2013), it was generously funded by a grant from the Andrew W.
 Mellon Foundation to the [Scholarly Communication
 Institute](http://uvasci.org). Praxis is now fully supported by the University of Virginia Library.
 
 Praxis is a [radical re-imagining](http://chronicle.com/article/A-Digital-Boot-Camp-for-Grad/131665/) of the annual teaching and training we offer
-in the Scholars' Lab, and is meant to complement our work over the past seven years with Scholars' Lab [Graduate
-Fellows in Digital
-Humanities](http://www2.lib.virginia.edu/scholarslab/about/fellowship.html).
+in the Scholars' Lab, and is meant to complement our work with the Scholars' Lab [Graduate
+Fellows in Digital Humanities](https://scholarslab.lib.virginia.edu/for-students/).
 
-The Praxis Program funds a team of six University of Virginia graduate students from
-a variety of disciplines to apprentice with us each academic year. Under
-the guidance of Scholars' Lab faculty and staff, they design and create a full-fledged digital humanities project or software tool. The first two cohorts of Praxis worked on [*Prism*](http://prism.scholarslab.org), a platform for "crowd-sourcing" textual analysis,
-visualization, and humanities interpretation. The third and forth Praxis cohorts re-imagined and re-created a defunct University of Virginia SpecLab project, the [*Ivanhoe Game*](http://ivanhoe.scholarslab.org). The fifth Praxis cohort explored time by sonifying data, and their resultant work was called [ClockWork](http://clockwork.scholarslab.org). The sixth cohort developed text analysis methods for examining the social media ecologies of the Kardashian family, producing [Dash-Amerikan](http://dashamerikan.scholarslab.org). Follow our [projects page](/projects/) for more information about past and current projects.
+The Praxis Program funds a team of University of Virginia graduate students from
+a variety of disciplines to apprentice with us each academic year. Praxis training takes a variety of shapes meant to reflect the full-range of DH work.  As a part of their training with us, student cohorts regularly publish a range of [values statements](https://praxis.scholarslab.org/charter/) describing the intentional communities they want to build together. They also design and teach [digital humanities workshops](https://scholarslab.lib.virginia.edu/visiting-workshops-at-washington-and-lee-university/) based on their own interests as a means to exercise minimalist pedagogical approaches to DH. Students design speculative projects and events that might go on to be implemented by the Lab. They also participate in a range of technical and design activities meant to reflect the range of digital practices they will encounter in their research. At times, Praxis teams have developed and launched specific, named [projects](https://praxis.scholarslab.org/projects/).
 
 [Recognizing](http://chronicle.com/blogs/profhacker/it-starts-on-day-one/37893) that up-to-date methodological training is often absent or
 catch-as-catch-can for humanities graduate students, we see the early
@@ -40,7 +37,7 @@ positions and [alternative academic
 careers](http://mediacommons.futureofthebook.org/alt-ac) at a moment in which
 new questions can be asked and new systems built. We share our evolving
 curriculum and our staff and students alike are [blogging about their
-experience](http://www.scholarslab.org/tag/praxis-program/).
+experience](https://scholarslab.lib.virginia.edu/blog/).
 
 We invite you to follow our work in progress, and to cheer on this year's cohort of
 thoughtful digital scholars and scholar-practitioners, as they become comfortable designing effective user

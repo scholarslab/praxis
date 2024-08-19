@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: rails
 permalink: "/resources/rails/"
-type: building
+type: legacy
 ---
 # Intro to Rails
 

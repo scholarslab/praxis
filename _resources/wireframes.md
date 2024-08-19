@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "wireframes"
 permalink: "/resources/wireframes/"
-type: building
+type: legacy
 ---
 
 # Wireframes

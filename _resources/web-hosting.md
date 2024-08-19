@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: "/resources/web-hosting/"
-type: building
+type: legacy
 title: "Web Hosting"
 ---
 

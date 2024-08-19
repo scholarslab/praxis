@@ -6,7 +6,7 @@ comments: false
 sharing: true
 tags: "javascript"
 permalink: "/resources/intro-to-javascript/"
-type: building
+type: legacy
 ---
 
 # Intro to JavaScript and CoffeeScript

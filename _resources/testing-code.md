@@ -7,7 +7,7 @@ sharing: true
 footer: true
 tags: "testing"
 permalink: "/resources/testing-code/"
-type: building
+type: legacy
 ---
 
 # Introduction to Testing
