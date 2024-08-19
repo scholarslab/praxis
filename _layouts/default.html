@@ -7,26 +7,28 @@
     {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/tca4szh.css">
+    <link rel="stylesheet" href="https://scholarslab.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css" />
     <link rel="author" type="text/plain" href="/humans.txt" />
     <link href="http://www.scholarslab.org/tag/praxis-program/feed/" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     </head>
   <body {% if page.bodyclass %} class="{{ page.bodyclass }}" {% endif %}>
   <a class="skip" href="#main"> Skip to Main Content </a>
-      <header role="banner" id="banner">
-        <a href="/" id="homelink"><img src="http://static.scholarslab.org/images/praxis-program-logo.png" alt="{{ site.title }}" /></a>
-        <nav id="primary-navigation" role="navigation">
-           <ul>
-             <li><a href="/about/">About</a></li>
-             <li><a href="/people/">People</a></li>
-             <li><a href="/resources/">Resources</a></li>
-             <li><a href="/curriculum/">Curriculum</a></li>
-            <li><a href="/charter/">Charter</a></li>
-            <li><a href="/projects/">Projects</a></li>
-          </ul>
-        </nav>
-     </header>
-      <main role="main" id="main">
-        {{ content }}
-      </main>
+  <header role="banner" id="banner">
+    <nav id="primary-navigation" role="navigation">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/people/">People</a></li>
+          <li><a href="/resources/">Resources</a></li>
+          <li><a href="/curriculum/">Curriculum</a></li>
+        <li><a href="/charter/">Charter</a></li>
+        <li><a href="/projects/">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main" id="main">
+    {{ content }}
+  </main>
 </body>
 </html>
