@@ -4,8 +4,6 @@ title: Praxis Modules
 permalink: "/curriculum/modules/"
 ---
 
-# Recurring Praxis Modules
-
 The following modules tend to recur each year, regardless of the cohort's particular project. Each year, we combine these units with specific choices meant to reflect the needs of the cohort. An example of this in action can be found by looking at the [2017-2018](/curriculum/2017-2018/) cohort schedule.
 
 Unit - Potential Presenter - Which Semester
