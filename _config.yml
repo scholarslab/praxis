@@ -10,10 +10,7 @@ author: Scholars' Lab
 email: praxis@collab.itc.virginia.edu
 basefeed: http://www.scholarslab.org
 permalink: pretty
-gapi_key: 'ABQIAAAAioVG4cScdJ2Csnny8hxlzRQ0k7LmwNWN1KPzdPryee6GpBC_0hRQjOPG8jfV_sgUu5ehe3wi4vZkdA'
-google_analytics:
-  account: UA-12081576-3
-gems:
+plugins:
   - jekyll-sitemap
 collections:
   resources:

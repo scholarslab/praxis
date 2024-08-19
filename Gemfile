@@ -1,18 +1,13 @@
 source "https://rubygems.org"
+ruby '3.2.2'
 
-gem "jekyll"
-
-gem "rouge"
-gem "susy"
-gem "compass"
-gem "foreman"
-gem "breakpoint"
-
-#gem "link-checker"
-gem "jekyll-sitemap"
-
-gem "redcarpet"
-
-# for windows users
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-
+gem "jekyll", "~>3.7"
+gem "jekyll-paginate-v2", "~>1.9"
+gem "webrick"
+gem 'kramdown'
+gem 'kramdown-parser-gfm'
+# Jekyll Plugins
+group :jekyll_plugins do
+   gem "jekyll-feed", "~> 0.9"
+   gem "jekyll-sitemap","~>1.1"
+end
