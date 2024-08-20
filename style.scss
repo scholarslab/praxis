@@ -74,24 +74,38 @@ html {
 	border-top: 10px solid var(--uvalib-main-rotunda-orange);
 }
 body {
-
 }
 
 #banner {
-	max-width: 900px;
-	margin: 0 auto;
+	width: 100%;
+}
+
+#primary-navigation {
+flex: 1;
+}
+main {
+	flex: 3;
 }
 
 
 #banner {
-	padding: 1rem 2rem;
+	padding: 1rem;
+
+	@media screen and (min-width: 800px) {
+		padding: 1rem 2rem;
+	}
+
 	a {
 		text-decoration:none;
 	}
 	h1 {
 		font-weight: 900;
 		margin:0;
-		font-size: 5rem;
+		font-size: 3rem;
+		@media screen and (min-width: 800px) {
+			font-size: 5rem;
+		}
+
 		a {
 			color: var(--blue-alt-dark);
 		}
@@ -105,6 +119,11 @@ body {
 }
 
 #primary-navigation {
+	padding: 0 1rem;
+	@media screen and (min-width: 800px) {
+		padding: 0 2rem;
+	}
+
 	ul {
 		display: flex;
 		gap: 1rem;
@@ -116,9 +135,9 @@ body {
 	li:after {
 		content: '';
 		display: block;
-		margin: auto;
 		height: 3px;
 		width: 0px;
+		margin: auto;
 		background: transparent;
 		transition: width .5s ease, background-color .5s ease;
 	  }
@@ -137,10 +156,11 @@ body {
 }
 
 main {
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 2rem;
+	padding: 1rem;
+	@media screen and (min-width: 800px) {
+		padding: 1rem 2rem;
+	}
+
 
 	h1 {
 		margin:0;
