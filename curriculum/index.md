@@ -4,6 +4,8 @@ title: Curriculum
 permalink: "/curriculum/"
 ---
 
+[Syllabus for 2024–2025](/curriculum/2024-2025/)
+
 Praxis fellows actively participate in the program for a single academic year. Each year of the program requires different lessons, workshops, and experiences dependent on the nature of the group's collective activities and as the staff responds to lessons from the previous year. The current arc of the year contains two parallel tracks:
 
 1. PraxisGeneral contains three units: Communities of DH, DH Teaching and Learning, and DH Research and Administration.
