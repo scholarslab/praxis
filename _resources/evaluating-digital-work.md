@@ -10,8 +10,6 @@ permalink: "/resources/evaluating-digital-work/"
 type: legacy
 ---
 
-# Evaluating Digital Work
-
 Goal is to look at a variety of projects, and discuss methods for evaluating and critiquing work in the digital humanities.
 
 ## Projects

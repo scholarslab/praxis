@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: "/about/"
 ---
-
-# About Praxis
 
 The Praxis Program is a project of the [Scholars'
 Lab](https://scholarslab.lib.virginia.edu/) at the [University of Virginia

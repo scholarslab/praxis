@@ -10,8 +10,6 @@ permalink: "/resources/toward-a-project-charter/"
 type: legacy
 ---
 
-# Toward a Project Charter
-
 ## Past Praxis Program charters:
 * [2013-14 cohort charter](/charter/charter-2013-2014/)
 * [2012-13 cohort charter](/charter/charter-2012-2013/)

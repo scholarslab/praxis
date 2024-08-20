@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: Colophon
 permalink: "/about/colophon/"
 ---
-
-#Colophon
 
 The Praxis Program site is collaboratively written and maintained by our
 staff, graduate fellows, and visiting scholars. While the site does not

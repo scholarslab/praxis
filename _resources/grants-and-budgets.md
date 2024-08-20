@@ -10,8 +10,6 @@ type: legacy
 permalink: "/resources/grants-and-budgets/"
 ---
 
-# Grants and Budgets
-
 ### activity:
 Let's calculate how much our weekly, 2-hour Praxis meeting costs!
 

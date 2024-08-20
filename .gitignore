@@ -9,7 +9,7 @@ bower_components/
 node_modules/
 .tmp/
 .jekyll/
-
+.jekyll-metadata
 Gemfile.lock
 .people.md.swp
 .jekyll-cache/

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Testing"
+title: "Introduction to Testing"
 date: 2011-11-15 16:58
 comments: false
 sharing: true
@@ -9,8 +9,6 @@ tags: "testing"
 permalink: "/resources/testing-code/"
 type: legacy
 ---
-
-# Introduction to Testing
 
 * What is *test-driven development*?
 * What is *behavior-driven development*?
