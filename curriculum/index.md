@@ -4,8 +4,6 @@ title: Curriculum
 permalink: "/curriculum/"
 ---
 
-[Schedule for 2024-2025](/curriculum/2024-2025)
-
 Praxis fellows actively participate in the program for a single academic year. Each year of the program requires different lessons, workshops, and experiences dependent on the nature of the group's collective activities and as the staff responds to lessons from the previous year. The current arc of the year contains two parallel tracks:
 
 1. PraxisGeneral contains three units: Communities of DH, DH Teaching and Learning, and DH Research and Administration.
@@ -41,7 +39,7 @@ By the end of the year, students will have a portfolio of experiences and work d
 
 {% comment %} old description - Generally, the fall semester is taken up by a series of workshops that introduce digital humanities methodologies and skills the students will use during their fellowship. The group also has plenty of conversations during this time about digital humanities and theories as they begin to look towards a collaborative project, the development of which will take up the bulk of the spring semester. This rhythm - seminar in the fall shifting to group workshop in the spring - is the most consistent hallmark of the Praxis Program. To varying degrees each year, the projects are selected by the entire program, students and Scholars' Lab faculty and staff, working together.{% endcomment %}
 
-## Past Cohort-Specific Schedules
+## Cohort-Specific Schedules
 
 * [2017-2018](/curriculum/2017-2018/) {% comment %} - Makerspace prompt - UVA Reveal {% endcomment %}
 * [2018-2019](/curriculum/2018-2019) {% comment %} - Public Domain Toolkit - Unclosure {% endcomment %}
@@ -50,3 +48,4 @@ By the end of the year, students will have a portfolio of experiences and work d
 * [2021-2022](/curriculum/2021-2022) {% comment %} - Code Lab - Your Name Here {% endcomment %}
 * [2022-2023](/curriculum/2022-2023)
 * [2023-2024](/curriculum/2023-2024)
+* [2024-2025](/curriculum/2024-2025)
