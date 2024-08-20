@@ -16,3 +16,6 @@ collections:
   resources:
     output: true
     permalink: /:collection/:name/
+  sessions:
+    output: true
+    permalink: /:collection/:name/
