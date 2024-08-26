@@ -85,7 +85,6 @@ body {
 }
 
 #banner {
-	padding: 1rem;
 	width: 100%;
 	flex: 1;
 	background-image: url('/assets/tiles/hip-square.png');
@@ -98,16 +97,20 @@ body {
 	h1 {
 		font-weight: 900;
 		font-size: 3rem;
-		margin:1rem 0 0;
+		margin:1rem 1rem 0;
 		@media screen and (min-width: 800px) {
 			font-size: 5rem;
-			margin:2rem 0 0 2rem;
+			margin:2rem 3rem 0;
 		}
 
 		a {
 			color: var(--blue-alt-dark);
 		}
 	}
+}
+
+#scholarslab-header {
+	background: white;
 }
 
 #scholars-lab-logotype {
@@ -117,7 +120,7 @@ body {
 }
 
 #primary-navigation {
-	padding: 1rem;
+	padding: 1rem 1rem 3rem;
 	flex:1;
 	width: 100%;
 	background-image:
@@ -128,7 +131,7 @@ body {
 	background-repeat: no-repeat, repeat;
 	background-position: 50% bottom, top left;
 	@media screen and (min-width: 800px) {
-		padding: 0 3rem 1rem;
+		padding: 0 3rem 3rem;
 	}
 
 	ul {
@@ -169,6 +172,7 @@ main {
 	background: transparent;
 	@media screen and (min-width: 800px) {
 		padding: 1rem 3rem 200px;
+		margin-right: 200px;
 	}
 
 
