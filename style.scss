@@ -190,4 +190,35 @@ main {
 			margin-top: 0;
 		}
 	}
+	h4 {
+		margin-bottom:0;
+		color: #696969;
+		& + p,
+		& + ul {
+			margin-top: 0;
+		}
+	}
+}
+
+
+.project + .project {
+	border-top: 2px dotted var(--blue-alt-lighter);
+	padding-top: 1rem;
+	margin-top: 2rem;
+}
+
+
+.project-image {
+	@media screen and (min-width:800px) {
+		width: 300px;
+		float: right;
+		margin: 0 0 1rem 1rem;
+	}
+
+	img {
+		box-shadow: 0.5rem 0.5rem 0 var(--blue-alt-light);
+		border: 1px solid rgba(0,0,0,0.2);
+		padding: 1rem;
+		margin:0;
+	}
 }

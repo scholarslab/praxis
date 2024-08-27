@@ -1,51 +1,46 @@
-<hr>
 <div class="project">
-  <h2> {{ project.name }} </h2>
-  <div class="project-description">
-  {{ project.description }} More information can be found at the <a href="{{ project.url }}">project's homepage</a>.
-  </div>
+  <h3> {{ project.name }}</h3>
   <div class="project-image">
     <img src="{{ project.image_path }}">
   </div>
-
-  <div class="clear"></div>
-  {% for cohort in project.cohort %}
-
-    {% for cohort_data in site.data.cohorts %}
-      {% if cohort_data.number == cohort %}
-        <div class="cohort-list">
-          <div id="cohort-date">{{ cohort_data.date }}</div>
-          <ul>
-            {% for person in site.data.fellows %}
-              {% if cohort == person.cohort %}
-                <li>{{ person.name | remove: '<p>' | remove: '</p>' }}</li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-<div class="mobile-clear"/></div>
-{% if project.awards %}
-  <div class="project-awards">
-    <div class="heading">Awards</div>
+  <div class="project-description">
+  {{ project.description }} More information can be found at the <a href="{{ project.url }}">project's homepage</a>.
+  </div>
+{% for cohort in project.cohort %}
+{% for cohort_data in site.data.cohorts %}
+{% if cohort_data.number == cohort %}
+  <div class="cohort-list">
+    <h4 id="cohort-date">{{ cohort_data.date }}</h4>
     <ul>
-      {% for award in project.awards %}
-        <li>{{ award }}</li>
-      {% endfor %}
+  {% for person in site.data.fellows %}
+  {% if cohort == person.cohort %}
+      <li>{{ person.name | remove: '<p>' | remove: '</p>' }}</li>
+  {% endif %}
+  {% endfor %}
     </ul>
   </div>
 {% endif %}
-  {% if project.publications | size  > 1 %}
-<div class="project-publications">
-  <div class="heading">Publications</div>
+{% endfor %}
+{% endfor %}
+{% if project.awards %}
+  <div class="project-awards">
+    <h4 class="heading">Awards</h4>
     <ul>
-      {% for publication in project.publications %}
-        <li>{{ publication }}</li>
-      {% endfor %}
+    {% for award in project.awards %}
+      <li>{{ award }}</li>
+    {% endfor %}
     </ul>
+  </div>
+{% endif %}
+{% if project.publications | size  > 1 %}
+<div class="project-publications">
+<h4 class="heading">Publications</h4>
+<ul>
+{% for publication in project.publications %}
+<li>{{ publication }}</li>
+{% endfor %}
+</ul>
 </div>
 {% endif %}
-<div class="clear"></div>
 
+</div>
