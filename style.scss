@@ -200,8 +200,8 @@ main {
 	}
 }
 
-
-.project + .project {
+.project + .project,
+.session + .session {
 	border-top: 2px dotted var(--blue-alt-lighter);
 	padding-top: 1rem;
 	margin-top: 3rem;
