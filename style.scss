@@ -200,6 +200,38 @@ main {
 	}
 }
 
+.home main {
+	display:flex;
+	gap: 1rem;
+
+	#pitch,#upcoming {
+		flex:3;
+	}
+
+	#upcoming {
+		margin-top: 1em;
+		flex:1;
+		background: var(--blue-alt-lightest);
+		padding: 2rem;
+		height:fit-content;
+		box-shadow: 0.5rem 0.5rem 0 var(--blue-alt);
+		span,em,a {
+			display:block;
+		}
+
+		.date {
+			font-style:normal;
+			color: #9099090;
+			font-size: 0.9rem;
+		}
+	}
+}
+
+.eyebrow {
+	font-size: 0.9rem;
+	font-weight: 900;
+}
+
 .project + .project,
 .session + .session {
 	border-top: 2px dotted var(--blue-alt-lighter);

@@ -1,7 +1,27 @@
 ---
 layout: default
 description: The Praxis Program at the Scholar's Lab
+bodyclass: home
 ---
 <div id="pitch">
     <p>The Praxis Program is a unique and well-known training program in the international digital humanities, offered by the UVa Library's Scholars' Lab. This fellowship supports a team of University of Virginia PhD students each year as they explore various aspects of digital humanities together. Under the guidance of Scholars' Lab faculty and staff, Praxis fellows conceive, develop, and share a range of digital humanities activities over the course of the year. Our fellows blog about their experiences and develop increased facility with project management, collaboration, and the public humanities, even as they tackle (most for the first time, and with the mentorship of our faculty and staff) new programming languages, tools, and digital methods. Praxis aims to equip fellows with the skills necessary for future research, teaching, and administration careers within digital humanities.
+</div>
+<div id="upcoming">
+    <span class="eyebrow">Upcoming Session</span>
+
+{% assign today = site.time | date: '%Y%m%d' | plus: 0 %}
+{% assign i = 0 %}
+{% assign sessions = site.sessions | where_exp: "session", "session.path contains
+'2024-2025'" %}
+{% for session in sessions %}
+{% assign session_date = session.path | split:"/" | last | split:"." | first %}
+{% assign eventdate = session_date | date: '%Y%m%d' | plus:0 %}
+{% if eventdate >= today %}
+{% assign i = i | plus:1 %}
+{% if i < 2 %}
+<em class="date">{{ session_date | date: "%B %d, %Y" }}</em>
+<a href="/curriculum/2024-2025/#{{ session.title | slugify }}-{{ session_date }}">{{ session.title }}</a>
+{% endif %}
+{% endif %}
+{% endfor %}
 </div>
