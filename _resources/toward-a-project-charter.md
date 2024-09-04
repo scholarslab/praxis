@@ -28,7 +28,7 @@ type: legacy
 [1]: http://journalofdigitalhumanities.org/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/ "Evaluating Collaborative Digital Scholarship (or, Where Credit is Due)"
 [2]: http://mtroyal.academia.edu/MilenaRadzikowska/Papers/326958/The_Iterative_Design_of_a_Project_Charter_for_Interdisciplinary_Research "The Iterative Design of a Project Charter for Interdisciplinary Research"
 [3]: http://journals.uvic.ca/index.php/INKE/article/view/546/245 "INKE Administrative Structure, Omnibus Document"
-[4]: http://mith.umd.edu/collaborators-bill-of-rights-from-recent-off-the-tracks-workshop/ "Collaborators Bill of Rights"
+[4]: https://hcommons.org/deposits/item/hc:31187/ "Collaborators Bill of Rights"
 
 [7]: http://ach.org/faircite/ "FairCite"
 [8]: http://neatline.org/about/credits-and-history/ "Neatline credits page"
