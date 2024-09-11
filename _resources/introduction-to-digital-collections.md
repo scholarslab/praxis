@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Introduction to Digital Collections"
+type: general
 ---
 
 Digital archives + collections are a _curated_ set of items pertaining to a specific topic, often _described with some form of standardized metadata_, that are shared for use with a public user base. These kinds of projects are among the earliest examples of Digital Humanities work, and generally tend to make public otherwise unavailable material, especially in projects focused on marginalized or silenced voices. In addition to gathering historical materials, digital collections can also actively request first-person accounts and materials in response to specific events.
