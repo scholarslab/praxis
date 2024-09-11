@@ -12,7 +12,7 @@ Digital archives + collections are a _curated_ set of items pertaining to a spec
 - [Collective Biographies of Women](https://cbw.iath.virginia.edu)
 - [Black in Appalachia](https://blackinappalachia.omeka.net/)
 - [Take Back the Archive](https://takeback.scholarslab.org)
-- [Documenting Ferguson](https://digital.wustl.edu/ferguson/)
+- [Documenting Ferguson](https://digitalexhibits.library.wustl.edu/s/ferguson/page/home)
 - [August 12 Archive](https://august2017.lib.virginia.edu)
 - [DocNow Tweet Catalog](https://catalog.docnow.io/)
 - [UVA Police Reports](https://github.com/jeremyboggs/uvapolicereports)
