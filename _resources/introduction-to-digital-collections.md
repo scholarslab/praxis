@@ -44,7 +44,7 @@ Digital archives + collections are a _curated_ set of items pertaining to a spec
 - ["It's All About the Stuff: Collections, Interfaces, Power, and People,"](http://journalofdigitalhumanities.org/1-1/its-all-about-the-stuff-by-tim-sherratt/) by Tim Sherratt.
 - ["Generous Interfaces"](http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html) by Mitchell Whitelaw.
 
-## Resources
+## Tools, Methods, and Other Resources
 
 - [CollectionBuilder](https://collectionbuilder.github.io/gh/)
 - [Murkutu](https://mukurtu.org/)
