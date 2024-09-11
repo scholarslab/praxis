@@ -34,9 +34,9 @@ Digital archives + collections are a _curated_ set of items pertaining to a spec
   by Marisa Elena Duarte and Miranda Belarde-Lewis.
 - ["Critical Directions for Archival Approaches to Social Justice,"](https://www.journals.uchicago.edu/doi/epdf/10.1086/684145) by Ricardo L.
   Punzalan and Michelle Caswell.
-- "Citizen Archivists at Play: Game Design for Gathering Metadata for Cultural
-  Heritage Institutions," by Mary Flanagain, et. al.
-- From Human Rights to Feminist Ethics: Radical Empathy in the Archives," by
+- ["Citizen Archivists at Play: Game Design for Gathering Metadata for Cultural
+  Heritage Institutions,"](https://tiltfactor.org/wp-content/uploads2/tiltfactor_citizenArchivistsAtPlay_digra2013.pdf) by Mary Flanagain, et. al.
+- ["From Human Rights to Feminist Ethics: Radical Empathy in the Archives,"](https://archivaria.ca/index.php/archivaria/article/view/13557) by
   Michelle Caswell and Marika Cifor.
 - ["How We Construct Subjects: A Feminist Analysis"](https://muse.jhu.edu/article/231609) by Hope Olsen.
 - ["Feminism and the Future of Library Discovery"](https://journal.code4lib.org/articles/10425) by Bess Sadler and Chris Bourg.
