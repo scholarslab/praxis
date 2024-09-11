@@ -7,6 +7,7 @@ Digital archives + collections are a _curated_ set of items pertaining to a spec
 
 ## Examples
 
+- [Rossetti Archive](https://www.rossettiarchive.org/)
 - [Geography of Slavery](https://geographyofslavery.org)
 - [September 11 Digital Archive](https://911digitalarchive.org/)
 - [Collective Biographies of Women](https://cbw.iath.virginia.edu)
