@@ -29,6 +29,9 @@ Digital archives + collections are a _curated_ set of items pertaining to a spec
 
 ## Essays
 
+- ["Imagining: Creating Spaces for Indigenous
+  Ontologies,"](https://www.tandfonline.com/doi/epdf/10.1080/01639374.2015.1018396?needAccess=true)
+  by Marisa Elena Duarte and Miranda Belarde-Lewis.
 - ["Critical Directions for Archival Approaches to Social Justice,"](https://www.journals.uchicago.edu/doi/epdf/10.1086/684145) by Ricardo L.
   Punzalan and Michelle Caswell.
 - "Citizen Archivists at Play: Game Design for Gathering Metadata for Cultural
