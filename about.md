@@ -19,26 +19,14 @@ The Praxis Program funds a team of University of Virginia graduate students from
 a variety of disciplines to apprentice with us each academic year. Praxis training takes a variety of shapes meant to reflect the full-range of DH work.  As a part of their training with us, student cohorts regularly publish a range of [values statements](https://praxis.scholarslab.org/charter/) describing the intentional communities they want to build together. They also design and teach [digital humanities workshops](https://scholarslab.lib.virginia.edu/visiting-workshops-at-washington-and-lee-university/) based on their own interests as a means to exercise minimalist pedagogical approaches to DH. Students design speculative projects and events that might go on to be implemented by the Lab. They also participate in a range of technical and design activities meant to reflect the range of digital practices they will encounter in their research. At times, Praxis teams have developed and launched specific, named [projects](https://praxis.scholarslab.org/projects/).
 
 [Recognizing](http://chronicle.com/blogs/profhacker/it-starts-on-day-one/37893) that up-to-date methodological training is often absent or
-catch-as-catch-can for humanities graduate students, we see the early
-years of the Praxis Program as an opportunity to experiment with an action-oriented curriculum
-*live and in public.*  We situate our program in a
-[larger conversation](http://uvasci.org/activities-2012-2013/) about the changing demands of the humanities in a digital
-age.
+catch-as-catch-can for humanities graduate students, we see the Praxis Program as an opportunity to experiment with an action-oriented curriculum
+*live and in public.* We invite you to follow our work in progress, and to cheer on this year's cohort of thoughtful digital scholars and scholar-practitioners, as they become comfortable designing effective user experiences; writing and working with open source code; engaging broad audiences; managing teams and budgets; and theorizing their work within the rich tradition of humanities computing. We share our evolving curriculum and our staff and students alike are [blogging about their experience](https://scholarslab.lib.virginia.edu/blog/).
 
-To that end, and with the support of the Scholarly Communication
-Institute, we have also forged an international [Praxis Network](http://praxis-network.org) of model
-programs taking different approaches to the problem of methodological
-training in the humanities.
+We situate our program in a [larger conversation](http://uvasci.org/activities-2012-2013/) about the changing demands of the humanities in a digital age. The Praxis Program aims to equip knowledge workers for emerging faculty
+positions and [alternative academic careers](http://mediacommons.futureofthebook.org/alt-ac) at a moment in which new questions can be asked and new systems built. To that end, and with the support of the Scholarly Communication Institute, we have also brought together information about model programs taking different approaches to the problem of methodological training in the humanities. Called the [Praxis Network](http://praxis-network.org), this associated website offers a snapshot of the intersections among various policies, people, and practices that make this work possible.
 
-The Praxis Program aims to equip knowledge workers for emerging faculty
-positions and [alternative academic
-careers](http://mediacommons.futureofthebook.org/alt-ac) at a moment in which
-new questions can be asked and new systems built. We share our evolving
-curriculum and our staff and students alike are [blogging about their
-experience](https://scholarslab.lib.virginia.edu/blog/).
+{% comment %}
 
-We invite you to follow our work in progress, and to cheer on this year's cohort of
-thoughtful digital scholars and scholar-practitioners, as they become comfortable designing effective user
-experiences; writing and working with open source code; engaging broad
-audiences; managing teams and budgets; and theorizing their work within the
-rich tradition of humanities computing.
+## History of the Program
+
+{% endcomment %}

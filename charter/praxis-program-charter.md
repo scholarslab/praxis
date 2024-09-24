@@ -5,8 +5,6 @@ tags: charter
 permalink: /praxis-program-charter/
 ---
 
-# Praxis Program Charter
-
 While each cohort of students will assemble their own charter that expresses their particular goals and values, we intend this document to serve as a foundation for all their work. This document represents a contract between our students and the Scholars' Lab, an expression of our core values, pedagogy, and goals for the program. Cohort-specific charters written by the students themselves can be found on our [charter archive](/charter). This charter draws upon the [general lab charter](http://scholarslab.org/about/charter) and the [Scholars' Lab Charter for Student Programs](http://scholarslab.org/student-programs-charter).
 
 ## Success
