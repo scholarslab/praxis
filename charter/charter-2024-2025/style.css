@@ -68,11 +68,19 @@ nav a {
     width: 70px;
     height: 70px;
     position: absolute;
-    transition: transform .25s ease-in-out;
+    transition: background-image .5s ease-in;
 }
 
-nav a:hover {
-    transform: rotate(8deg);
+nav a.fellow:hover,
+nav a.fellow:focus,
+nav a.fellow:active {
+    background-image: url('assets/flower-purple.png');
+}
+
+nav a.staff:hover,
+nav a.staff:focus,
+nav a.staff:active {
+    background-image: url('assets/flower-orange.png');
 }
 
 nav a span {
