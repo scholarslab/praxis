@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+{
+    box-sizing: border-box;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-image: url('assets/watercolor-border.png'), url('assets/paper.png');
+    background-size: contain, auto;
+    background-position: top center, center center;
+    background-repeat: no-repeat, repeat;
+
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font: 18px/1.75 Verdana, sans-serif;
+    color: #303030;
+    padding-top: 10rem;
+}
+
+#banner {
+    display:none;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+::-moz-selection {
+    background: #b9e84a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b9e84a;
+    text-shadow: none;
+}
+
+nav {
+    background-image: url('assets/tree.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 900px;
+    margin: 0 auto 100px;
+    position: relative;
+}
+
+nav a {
+    background-image: url('assets/flower.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    transition: background-image .5s ease-in;
+}
+
+nav a.fellow:hover,
+nav a.fellow:focus,
+nav a.fellow:active {
+    background-image: url('assets/flower-purple.png');
+}
+
+nav a.staff:hover,
+nav a.staff:focus,
+nav a.staff:active {
+    background-image: url('assets/flower-orange.png');
+}
+
+nav a span {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+}
+
+nav a:nth-child(1) {
+    top: 50px;
+    left: 230px;
+    width: 85px;
+    height:85px;
+}
+
+nav a:nth-child(2) {
+    top: 100px;
+    left: 500px;
+}
+
+nav a:nth-child(3) {
+    top: 204px;
+    left: 313px;
+    width: 75px;
+    height: 75px;
+}
+nav a:nth-child(4) {
+    top: 175px;
+    right: 200px;
+    width: 90px;
+    height: 90px;
+}
+
+nav a:nth-child(5) {
+    top: 300px;
+    left: 200px;
+}
+
+nav a:nth-child(6) {
+    top: 400px;
+    right: 100px;
+}
+
+nav a:nth-child(7) {
+    bottom: 300px;
+    right: 300px;
+}
+
+nav a:nth-child(8) {
+    bottom: 300px;
+    left: 300px;
+}
+
+nav a:nth-child(9) {
+    bottom: 300px;
+    right: 0px;
+}
+
+nav a:nth-child(10) {
+    bottom: 400px;
+    left: 35px;
+}
+
+h1,h2 {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+    margin:0;
+}
+
+body {
+    font-family: "Josefin Slab";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 800px;
+}
+
+#preamble {
+    margin-bottom: 100px;
+}
+
+#preamble-button {
+    position: absolute;
+    left: 100px;
+
+}
+
+#preamble-button .material-symbols-outlined {
+    font size: 5rem;
+    font-size: 60px;
+    color: #3a933c;
+    text-decoration:none;
+}
+
+#enter-button {
+    text-decoration:none;
+    font-family: "Chelsea Market";
+    background: #3a933c;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 60px auto;
+    display: block;
+}
+
+#enter-button:hover,
+#enter-button:focus {
+    background: #333;
+}

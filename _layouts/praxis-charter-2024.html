@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    {% endif %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/tca4szh.css">
+    <link rel="author" type="text/plain" href="/humans.txt" />
+    <link href="http://www.scholarslab.org/tag/praxis-program/feed/" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=west" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/charter/charter-2024-2025/style.css">
+  </head>
+  <body {% if page.bodyclass %}class="{{ page.bodyclass }}" {% endif %}>
+  <header role="banner" id="banner">
+    <div id="scholarslab-header">
+    <a id="scholars-lab-logotype" href="https://scholarslab.lib.virginia.edu"><img
+    src="https://scholarslab.lib.virginia.edu/assets/img/logos/slab-logos/Library_SLab_Color.png"
+    alt="Scholars' Lab, University of Virginia Library"></a>
+    </div>
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  </header>
+  <main role="main" id="main">
+    {{ content }}
+  </main>
+
+<script>
+
+    var sections = document.querySelectorAll('section');
+
+    sections.forEach(function(s) {
+        console.log(s.id);
+    });
+
+    window.addEventListener('load', function() {
+        hash = window.location.hash;
+        hash = hash.substring(1);
+        if (hash) {
+            sections.forEach(function(i) {
+                i.style.display = 'none';
+            });
+
+            var currentSection = document.getElementById(hash);
+            currentSection.style.display = 'block';
+        }
+    });
+
+    var preamble = document.querySelector('#preamble');
+    var charter = document.querySelector('#charter');
+    charter.style.display = 'none';
+
+    var enterButton = document.querySelector('#enter-button');
+    enterButton.addEventListener("click", function (e) {
+        preamble.style.display = 'none';
+        charter.style.display = 'block';
+    });
+
+    var preambleButton = document.querySelector('#preamble-button');
+    preambleButton.addEventListener("click", function (e) {
+        preamble.style.display = 'block';
+        charter.style.display = 'none';
+    });
+</script>
+</body>
+</html>
