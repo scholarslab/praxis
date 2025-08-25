@@ -1,0 +1,3 @@
+[submodule "CodeLab"]
+	path = codelab
+	url = http://github.com/scholarslab/CodeLab.git
