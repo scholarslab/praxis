@@ -83,7 +83,7 @@ body {
 	flex: 1;
 	background-image: url('/assets/tiles/hip-square.png');
 	background-attachment:fixed;
-
+	position: unset !important;
 	a {
 		text-decoration:none;
 	}
