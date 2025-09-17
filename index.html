@@ -12,7 +12,7 @@ bodyclass: home
 {% assign today = site.time | date: '%Y%m%d' | plus: 0 %}
 {% assign i = 0 %}
 {% assign sessions = site.sessions | where_exp: "session", "session.path contains
-'2024-2025'" %}
+'2025-2026'" %}
 {% for session in sessions %}
 {% assign session_date = session.path | split:"/" | last | split:"." | first %}
 {% assign eventdate = session_date | date: '%Y%m%d' | plus:0 %}
@@ -20,7 +20,7 @@ bodyclass: home
 {% assign i = i | plus:1 %}
 {% if i < 2 %}
 <em class="date">{{ session_date | date: "%B %d, %Y" }}</em>
-<a href="/curriculum/2024-2025/#{{ session.title | slugify }}-{{ session_date }}">{{ session.title }}</a>
+<a href="/curriculum/2025-2026/#{{ session.title | slugify }}-{{ session_date }}">{{ session.title }}</a>
 {% endif %}
 {% endif %}
 {% endfor %}
