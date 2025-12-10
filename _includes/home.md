@@ -1,14 +1,10 @@
----
-layout: page
-title: About
-permalink: "/about/"
----
+The Praxis Program is a project-based training program of the [Scholars'
+Lab](https://scholarslab.lib.virginia.edu/) at the [University of Virginia
+Library](http://lib.virginia.edu/). This fellowship supports a team of University of Virginia PhD students each year as they explore various aspects of digital humanities together. Under the guidance of Scholars' Lab faculty and staff, Praxis fellows conceive, develop, and share a range of digital humanities activities over the course of the year. Our fellows blog about their experiences and develop increased facility with project management, collaboration, and the public humanities, even as they tackle (most for the first time, and with the mentorship of our faculty and staff) new programming languages, tools, and digital methods. Praxis aims to equip fellows with the skills necessary for future research, teaching, and administration careers within digital humanities.
+
 
 ## The Program Today
-
-The Praxis Program is a project of the [Scholars'
-Lab](https://scholarslab.lib.virginia.edu/) at the [University of Virginia
-Library](http://lib.virginia.edu/). In its first two pilot years
+In its first two pilot years
 (2011-2013), it was generously funded by a grant from the Andrew W.
 Mellon Foundation to the [Scholarly Communication
 Institute](http://uvasci.org). Praxis is now fully supported by the University of Virginia Library.
