@@ -16,7 +16,7 @@ Main assignment for this unit will be a two-page single-spaced proposal for a pr
 * Sustainability and Copyright
 * Budget
 
-You might, instead, try to follow the format of the [DH Fellows](https://scholarslab.lib.virginia.edu/digital-humanities-fellows/) applications. The goal is for this to be useful to you, so you can also opt to produce something more specific to your particular interests and career goals (like a proposal for a digital exhibition, symposium, etc.). If you go down one of these alternate routes chat with me first about the genre and how we can help. We will have in-session consults about each of your proposals, so they will be due by 9am on the Monday of the week you'll be on deck. A fuller description of the assignment is available [here](https://docs.google.com/document/d/11LWYsSyRfa9Ftq_U_urTpYJFQCNa-EpEZmeceEkoYJg/edit?usp=sharing).
+You might, instead, try to follow the format of the [DH Fellows](https://scholarslab.lib.virginia.edu/digital-humanities-fellows/) applications. The goal is for this to be useful to you, so you can also opt to produce something more specific to your particular interests and career goals (like a proposal for a digital exhibition, symposium, etc.). If you go down one of these alternate routes chat with me first about the genre and how we can help. We will have in-session consults about each of your proposals, so they will be due by 9am on the Monday of the week you'll be on deck. 
 
 Logistical guidance for students:
 
