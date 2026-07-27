@@ -9,7 +9,7 @@
   page: http://scholarslab.org/people/arin-bennett/
   active: true
 - name: Jeremy Boggs
-  title: 
+  title:
   position: Head of Research and Development, Scholars’ Lab
   page: http://scholarslab.org/people/jeremy-boggs/
   active: true
@@ -17,7 +17,7 @@
   title: "Dr. "
   position: Faculty Director, DHC
   page: http://scholarslab.org/people/alison-booth/
-  active: true
+  active: false
 - name: Chris Gist
   title:
   position: GIS Specialist, Scholars’ Lab
