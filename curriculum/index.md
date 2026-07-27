@@ -4,7 +4,7 @@ title: Curriculum
 permalink: "/curriculum/"
 ---
 
-[Syllabus for 2025–2026](/curriculum/2025-2026/)
+[Syllabus for 2026–2027](/curriculum/2026-2027/)
 
 Praxis fellows actively participate in the program for a single academic year. Each year of the program requires different lessons, workshops, and experiences dependent on the nature of the group's collective activities and as the staff responds to lessons from the previous year. The current arc of the year contains two parallel tracks:
 
@@ -52,3 +52,4 @@ By the end of the year, students will have a portfolio of experiences and work d
 * [2023-2024](/curriculum/2023-2024)
 * [2024-2025](/curriculum/2024-2025)
 * [2025-2026](/curriculum/2025-2026)
+* [2026–2027](/curriculum/2026-2027)
