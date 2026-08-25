@@ -5,6 +5,7 @@ title: People
 
 {% assign reversed_cohorts = site.data.cohorts | reverse %}
 {% for cohort in reversed_cohorts %}
+<div id="cohort-{{cohort.date}}">
   <h2>Praxis Fellows, {{ cohort.date }}</h2>
   <ul>
     {% for person in site.data.fellows %}
@@ -15,6 +16,7 @@ title: People
       {% endif %}
     {% endfor %}
   </ul>
+</div>
 {% endfor %}
 <h2>Praxis Program Faculty and Staff</h2>
   <ul>
