@@ -4,9 +4,11 @@ title: People
 ---
 
 {% assign reversed_cohorts = site.data.cohorts | reverse %}
+<h2>Fellows</h2>
+<div id="fellows-by-cohort">
 {% for cohort in reversed_cohorts %}
 <div id="cohort-{{cohort.date}}">
-  <h2>Praxis Fellows, {{ cohort.date }}</h2>
+  <h3>{{ cohort.date }}</h3>
   <ul>
     {% for person in site.data.fellows %}
       {% if cohort.number == person.cohort %}
@@ -18,28 +20,32 @@ title: People
   </ul>
 </div>
 {% endfor %}
-<h2>Praxis Program Faculty and Staff</h2>
+</div>
+
+<div id="faculty-staff">
+  <div id="current-faculty-staff">
+    <h2>Program Faculty and Staff</h2>
+    <ul>
+      {% for person in site.data.slab %}
+        {% if person.active == true %}
+        <li>
+          {{ person.title }}<a href="{{ person.page }}">{{ person.name }}</a>, {{ person.position }}
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  <p>Additional Praxis Program advisors are drawn from the faculty and staff of the <a href="http://lib.virginia.edu/">UVa Library</a>'s <a href="http://www2.lib.virginia.edu/scholarslab/consultation/index.html">Scholars' Lab</a> and collaborating schools, departments, and centers at the <a href="http://www.virginia.edu/">University of Virginia</a>. <a href="https://twitter.com/praxisprogram">Follow us</a> on Twitter for future updates.</p>
+  </div>
+  <div id="faculty-staff-alumni">
+  <h2> Faculty and Staff Alumni</h2>
   <ul>
     {% for person in site.data.slab %}
-      {% if person.active == true %}
-      <li>
-        {{ person.title }}<a href="{{ person.page }}">{{ person.name }}</a>, {{ person.position }}
-      </li>
+      {% if person.active != true %}
+        <li>{{ person.title }}
+          <a href="{{ person.page }}">{{ person.name }}</a>, former {{ person.position }}
+        </li>
       {% endif %}
     {% endfor %}
   </ul>
-
-Additional Praxis Program advisors are drawn from the faculty and staff of the <a href="http://lib.virginia.edu/">UVa Library</a>'s <a href="http://www2.lib.virginia.edu/scholarslab/consultation/index.html">Scholars' Lab</a> and collaborating schools, departments, and centers at the <a href="http://www.virginia.edu/">University of Virginia</a>. <a href="https://twitter.com/praxisprogram">Follow us</a> on Twitter for future updates.
-
-
-<h2> Faculty and Staff Alumni</h2>
-
-<ul>
-  {% for person in site.data.slab %}
-    {% if person.active != true %}
-      <li>{{ person.title }}
-        <a href="{{ person.page }}">{{ person.name }}</a>, former {{ person.position }}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  </div>
+</div>
