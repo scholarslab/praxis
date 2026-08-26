@@ -161,7 +161,7 @@ main {
 	padding: 1rem;
 	background: white;
 	@media screen and (min-width: 800px) {
-		padding: 3rem 20vw 3rem 3rem;
+		padding: 3rem;
 	}
 
 
@@ -252,5 +252,23 @@ main {
 		border: 1px solid rgba(0,0,0,0.2);
 		padding: 1rem;
 		margin:0;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#fellows-by-cohort {
+		display:grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 1rem;
+		row-gap: 1rem;
+		border-bottom: 1px solid var(--blue-alt-light);
+		padding-bottom: 1rem;
+	}
+
+	#faculty-staff {
+		display:grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 1rem;
+		row-gap: 1rem;
 	}
 }
