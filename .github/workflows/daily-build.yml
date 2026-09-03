@@ -26,9 +26,6 @@ jobs:
           fetch-depth: 0
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
